@@ -1,0 +1,19 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\_root.v4p" systemname="_root" filename="C:\dev\DCQB-Spline\_root.v4p" scrollx="21" scrolly="0">
+   <BOUNDS type="Window" left="511" top="686" width="6867" height="7672">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE systemname="Output" filename="Output.v4p" componentmode="InAWindow" id="1" nodename="Output.v4p">
+   <BOUNDS type="Node" left="2352" top="1841" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2352" top="1841" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="511" top="686" width="6867" height="7672">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Main (DCQB)" filename="vl\VVVV.Main.Game.vl" nodename="Main (Main)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="2870" top="1127" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   </PATCH>
