@@ -107,39 +107,39 @@
    <LINK srcnodeid="42" srcpinname="Device" dstnodeid="66" dstpinname="Mouse">
    </LINK>
    <NODE systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p" componentmode="Hidden" id="115">
-   <BOUNDS type="Node" left="349" top="3051" width="0" height="0">
+   <BOUNDS type="Node" left="334" top="3051" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="66" width="7885" height="5970">
    </BOUNDS>
-   <BOUNDS type="Window" left="-1350" top="795" width="11055" height="9360">
+   <BOUNDS type="Window" left="2040" top="2280" width="11055" height="9360">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="115" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
    </LINK>
-   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" id="120">
+   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" id="137">
    <BOUNDS type="Node" left="345" top="2520" width="1365" height="270">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="120" dstpinname="Keyboard Device">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="137" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="120" dstpinname="View">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="137" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="120" dstpinname="Camera Zoom">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="137" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="120" dstpinname="Camera Idle">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="137" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="120" dstpinname="Reset Points">
+   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="137" dstpinname="Reset Points">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="120" dstpinname="Camera State">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="137" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="120" dstpinname="Mouse Device">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="137" dstpinname="Mouse Device">
    </LINK>
-   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="120" dstpinname="Add Point">
+   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="137" dstpinname="Add Point">
    </LINK>
-   <LINK srcnodeid="120" srcpinname="GizmoState" dstnodeid="115" dstpinname="Gizmo State">
+   <LINK srcnodeid="137" srcpinname="GizmoState" dstnodeid="115" dstpinname="Gizmo State">
    </LINK>
-   <LINK srcnodeid="120" srcpinname="Editing" dstnodeid="115" dstpinname="Input 1">
+   <LINK srcnodeid="137" srcpinname="Editing" dstnodeid="115" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="120" srcpinname="State" dstnodeid="115" dstpinname="Input">
+   <LINK srcnodeid="137" srcpinname="State" dstnodeid="115" dstpinname="Input">
    </LINK>
    </PATCH>

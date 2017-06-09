@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="1995" scrolly="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2910" top="6450" width="2340" height="270">
    </BOUNDS>
@@ -48,12 +48,12 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="5">
+   <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="InAWindow" id="5">
    <BOUNDS type="Node" left="8595" top="4800" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="8595" top="4800" width="6255" height="6970">
    </BOUNDS>
-   <BOUNDS type="Window" left="525" top="825" width="10815" height="10800">
+   <BOUNDS type="Window" left="16335" top="3975" width="10815" height="10800">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -84,7 +84,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="-1350" top="795" width="11055" height="9360">
+   <BOUNDS type="Window" left="2040" top="2280" width="11055" height="9360">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -199,7 +199,7 @@
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1">
+   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -225,7 +225,7 @@
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="26">
    <BOUNDS type="Node" left="3195" top="3165" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="EditablePoint" visible="1">
+   <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Selected" visible="1">
    </PIN>
@@ -237,7 +237,7 @@
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1">
+   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -273,9 +273,9 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4500" top="4245" width="3000" height="3000">
    </BOUNDS>
-   <PIN pinname="Input 1XY" visible="1">
+   <PIN pinname="Input 1XY" visible="1" slicecount="2" values="0,0">
    </PIN>
-   <PIN pinname="Input 2XY" visible="1">
+   <PIN pinname="Input 2XY" visible="1" slicecount="2" values="0,0">
    </PIN>
    <PIN pinname="OutputXY" visible="1">
    </PIN>

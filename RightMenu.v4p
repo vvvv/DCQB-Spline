@@ -11,9 +11,9 @@
    </PIN>
    </NODE>
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="1">
-   <BOUNDS type="Node" left="3180" top="2265" width="100" height="100">
+   <BOUNDS type="Node" left="3165" top="3540" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Switch" visible="1" slicecount="2" values="0,1">
+   <PIN pinname="Switch" visible="1">
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -23,9 +23,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="3" systemname="IOBox (Color)">
-   <BOUNDS type="Box" left="3420" top="450" width="630" height="390">
+   <BOUNDS type="Box" left="4020" top="480" width="630" height="390">
    </BOUNDS>
-   <BOUNDS type="Node" left="3420" top="450" width="0" height="0">
+   <BOUNDS type="Node" left="4020" top="480" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,0.56131,0.56131,1.00000|">
    </PIN>
@@ -33,9 +33,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="4" systemname="IOBox (Color)">
-   <BOUNDS type="Box" left="4410" top="450" width="540" height="405">
+   <BOUNDS type="Box" left="5025" top="450" width="540" height="405">
    </BOUNDS>
-   <BOUNDS type="Node" left="4410" top="450" width="0" height="0">
+   <BOUNDS type="Node" left="5025" top="450" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.44096,0.43805,0.99666,1.00000|">
    </PIN>
@@ -43,7 +43,7 @@
    </PIN>
    </NODE>
    <NODE systemname="SetAlpha (Color)" nodename="SetAlpha (Color)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="3180" top="3810" width="100" height="100">
+   <BOUNDS type="Node" left="3150" top="4695" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Alpha" visible="1">
    </PIN>
@@ -53,9 +53,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="7" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="3810" top="2955" width="795" height="240">
+   <BOUNDS type="Box" left="3780" top="3840" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="3810" top="2955" width="0" height="0">
+   <BOUNDS type="Node" left="3780" top="3840" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.8">
    </PIN>
@@ -67,7 +67,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Switch (Value Input)" nodename="Switch (Value Input)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="3840" top="3420" width="100" height="100">
+   <BOUNDS type="Node" left="3810" top="4305" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -75,13 +75,13 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1" slicecount="2" values="0,0">
+   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="9" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="4755" top="2985" width="795" height="240">
+   <BOUNDS type="Box" left="4725" top="3870" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4755" top="2985" width="0" height="0">
+   <BOUNDS type="Node" left="4725" top="3870" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -92,8 +92,8 @@
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="UIRadioButton (Game Split)" filename="vl\VLGameProject.vl" nodename="UIRadioButton (Game Split)" componentmode="Hidden" id="10">
-   <BOUNDS type="Node" left="1500" top="1500" width="100" height="100">
+   <NODE systemname="RadioButton (Game)" filename="vl\VLGameProject.vl" nodename="UIRadioButton (Game Split)" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="1470" top="1500" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -105,13 +105,21 @@
    </PIN>
    <PIN pinname="UIBUtton Type" visible="1">
    </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   <PIN pinname="Hovered" visible="1">
+   </PIN>
+   <PIN pinname="Active" visible="1">
+   </PIN>
+   <PIN pinname="Kind Id" visible="1">
+   </PIN>
    </NODE>
    <NODE id="11" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="1500" top="500" width="750" height="240">
+   <BOUNDS type="Box" left="1455" top="515" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="1500" top="500" width="750" height="240">
+   <BOUNDS type="Node" left="1455" top="515" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="11" srcpinname="Output Node" dstnodeid="10" dstpinname="Input">
@@ -126,8 +134,6 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="UIBUtton Type" dstnodeid="1" dstpinname="Switch">
-   </LINK>
    <LINK srcnodeid="3" srcpinname="Color Output" dstnodeid="1" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="4" srcpinname="Color Output" dstnodeid="1" dstpinname="Input 2">
@@ -136,13 +142,11 @@
    </LINK>
    <LINK srcnodeid="8" srcpinname="Output" dstnodeid="6" dstpinname="Alpha">
    </LINK>
-   <LINK srcnodeid="10" srcpinname="UIButton Hovered" dstnodeid="8" dstpinname="Switch">
-   </LINK>
    <LINK srcnodeid="7" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="525" top="825" width="10815" height="10800">
+   <BOUNDS type="Window" left="16335" top="3975" width="10815" height="10800">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -191,7 +195,7 @@
    </PIN>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="XYZ" slicecount="1" values="1.68" visible="1">
+   <PIN pinname="XYZ" slicecount="1" visible="1" values="1.68">
    </PIN>
    </NODE>
    <LINK srcnodeid="15" srcpinname="Transform Out" dstnodeid="16" dstpinname="Transform In">
@@ -203,17 +207,13 @@
    </BOUNDS>
    <BOUNDS type="Box" left="6600" top="3240" width="3000" height="3000">
    </BOUNDS>
-   <PIN pinname="Input" visible="1">
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Select" visible="1">
+   <PIN pinname="Select" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="UIButton Transform" dstnodeid="17" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="10" srcpinname="UIButton Active" dstnodeid="17" dstpinname="Select">
-   </LINK>
    <LINK srcnodeid="6" srcpinname="Output" dstnodeid="0" dstpinname="Color">
    </LINK>
    <NODE systemname="Multiply (Transform)" nodename="Multiply (Transform)" componentmode="Hidden" id="19">
@@ -231,17 +231,15 @@
    <LINK srcnodeid="19" srcpinname="Transform Out" dstnodeid="15" dstpinname="Transform In">
    </LINK>
    <NODE systemname="Multiply (Transform)" nodename="Multiply (Transform)" componentmode="Hidden" id="20">
-   <BOUNDS type="Node" left="1500" top="3720" width="100" height="100">
+   <BOUNDS type="Node" left="1455" top="4530" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Transform In 1" visible="1">
+   <PIN pinname="Transform In 1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Transform In 2" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="UIButton Transform" dstnodeid="20" dstpinname="Transform In 1">
-   </LINK>
    <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="0" dstpinname="Transform">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="21">
@@ -267,5 +265,45 @@
    <LINK srcnodeid="18" srcpinname="Transform Out" dstnodeid="19" dstpinname="Transform In 2">
    </LINK>
    <LINK srcnodeid="18" srcpinname="Transform Out" dstnodeid="20" dstpinname="Transform In 2">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Transform" dstnodeid="20" dstpinname="Transform In 1">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Transform" dstnodeid="17" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Active" dstnodeid="17" dstpinname="Select">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Hovered" dstnodeid="8" dstpinname="Switch">
+   </LINK>
+   <NODE systemname="ObjectKind (Game Split)" filename="vl\VLGameProject.vl" nodename="ObjectKind (Game Split)" componentmode="Hidden" id="23">
+   <BOUNDS type="Node" left="2460" top="2385" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Circle" visible="1">
+   </PIN>
+   <PIN pinname="Quad" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Kind Id" dstnodeid="23" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="23" srcpinname="Quad" dstnodeid="1" dstpinname="Switch">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="25">
+   <BOUNDS type="Box" left="705" top="3135" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="705" top="3135" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Hovered" dstnodeid="25" dstpinname="Y Input Value">
    </LINK>
    </PATCH>
