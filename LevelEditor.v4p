@@ -1,0 +1,125 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditor.v4p" systemname="LevelEditor" filename="C:\Work\VL Game Project\DCQB-Spline\LevelEditor.v4p">
+   <NODE systemname="Mouse (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="2070" top="1080" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2070" top="1080" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Device" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Keyboard (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Keyboard (Devices Window)" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="2835" top="2145" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2835" top="2145" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Device" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="5" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Reset Points|">
+   </PIN>
+   <BOUNDS type="Box" left="4380" top="1220" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4380" top="1220" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="6" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Camera">
+   </PIN>
+   <BOUNDS type="Box" left="5730" top="1190" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5730" top="1190" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="State">
+   </PIN>
+   <BOUNDS type="Box" left="1080" top="4910" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1080" top="4910" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   </NODE>
+   <BOUNDS type="Window" left="2580" top="7920" width="7290" height="6570">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="8">
+   <BOUNDS type="Box" left="1095" top="600" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1095" top="600" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|File Path|">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="LevelEditor (Value)" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="1065" top="4170" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="LevelEditorControls" visible="1">
+   </PIN>
+   <PIN pinname="File Path" visible="1">
+   </PIN>
+   <PIN pinname="State" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="LevelEditorControls (Game)" filename="vl\VLGameProject.vl" nodename="LevelEditorControls (Game)" componentmode="Hidden" id="12">
+   <BOUNDS type="Node" left="2055" top="2985" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Keyboard" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Add Point" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Reset Points" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Camera" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Mouse" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="9" dstpinname="LevelEditorControls">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Device" dstnodeid="12" dstpinname="Keyboard">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Output String" dstnodeid="9" dstpinname="File Path">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Reset Points">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="12" dstpinname="Camera">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Device" dstnodeid="12" dstpinname="Mouse">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="State" dstnodeid="7" dstpinname="Input Node">
+   </LINK>
+   <NODE systemname="MouseMatch (Mouse)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="MouseMatch (Mouse)" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="2460" top="1710" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2460" top="1710" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Click Count" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Device" dstnodeid="13" dstpinname="Mouse">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Detected" dstnodeid="12" dstpinname="Add Point">
+   </LINK>
+   </PATCH>

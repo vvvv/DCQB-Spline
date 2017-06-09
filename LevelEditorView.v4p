@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="1995" scrolly="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2910" top="6450" width="2340" height="270">
    </BOUNDS>
@@ -21,27 +21,27 @@
    </PIN>
    </NODE>
    <NODE systemname="Cursor (DX9)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="10140" top="4785" width="100" height="100">
+   <BOUNDS type="Node" left="11025" top="4845" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    <PIN pinname="Selection" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="10140" top="4785">
+   <BOUNDS type="Box" left="11025" top="4845">
    </BOUNDS>
    </NODE>
    <NODE systemname="GizmoView (DX9 3d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\DX9\GizmoView (DX9 3d).v4p" nodename="GizmoView (DX9 3d)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="7005" top="4800" width="100" height="100">
+   <BOUNDS type="Node" left="6135" top="4830" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Gizmo State" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="7005" top="4800">
+   <BOUNDS type="Box" left="6135" top="4830">
    </BOUNDS>
    </NODE>
    <NODE systemname="NOT (Boolean)" nodename="NOT (Boolean)" componentmode="Hidden" id="4">
-   <BOUNDS type="Node" left="10695" top="4275" width="100" height="100">
+   <BOUNDS type="Node" left="11580" top="4335" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
@@ -49,11 +49,11 @@
    </PIN>
    </NODE>
    <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="5">
-   <BOUNDS type="Node" left="8595" top="4800" width="0" height="0">
+   <BOUNDS type="Node" left="9465" top="4890" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="8595" top="4800" width="6255" height="6970">
+   <BOUNDS type="Box" left="9465" top="4890" width="6255" height="6970">
    </BOUNDS>
-   <BOUNDS type="Window" left="525" top="825" width="10815" height="10800">
+   <BOUNDS type="Window" left="4785" top="6810" width="10815" height="10800">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -67,9 +67,9 @@
    <NODE id="8" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="2055" top="500" width="750" height="240">
+   <BOUNDS type="Box" left="2115" top="515" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2055" top="500" width="750" height="240">
+   <BOUNDS type="Node" left="2115" top="515" width="750" height="240">
    </BOUNDS>
    </NODE>
    <NODE id="9" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
@@ -84,24 +84,14 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="-1350" top="795" width="11055" height="9360">
+   <BOUNDS type="Window" left="-510" top="5940" width="17820" height="10605">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
-   <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="615" top="2460" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Editable Point" visible="1">
-   </PIN>
-   </NODE>
    <NODE systemname="GridSegment (DX9)" nodename="GridSegment (DX9)" componentmode="Hidden" id="13">
    <BOUNDS type="Node" left="450" top="4860" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Transform" visible="1">
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -110,20 +100,8 @@
    <PIN pinname="Color" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="13" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
    </LINK>
-   <NODE systemname="Quad (Game Split)" filename="vl\VLGameProject.vl" nodename="Quad (Game Split)" componentmode="Hidden" id="14">
-   <BOUNDS type="Node" left="2565" top="2430" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Editable Point" visible="1">
-   </PIN>
-   </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="15">
    <BOUNDS type="Node" left="2400" top="4860" width="100" height="100">
    </BOUNDS>
@@ -134,34 +112,12 @@
    <PIN pinname="Color" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="14" srcpinname="Output" dstnodeid="15" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
    </LINK>
-   <NODE systemname="LevelEditorState (Game Split)" filename="vl\VLGameProject.vl" nodename="LevelEditorState (Game Split)" componentmode="Hidden" id="16">
-   <BOUNDS type="Node" left="2055" top="1500" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="GizmoState" visible="1">
-   </PIN>
-   <PIN pinname="Editing" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="8" srcpinname="Output Node" dstnodeid="16" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Buttons" dstnodeid="5" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Circles" dstnodeid="12" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Quads" dstnodeid="14" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="GizmoState" dstnodeid="3" dstpinname="Gizmo State">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Editing" dstnodeid="4" dstpinname="Input">
-   </LINK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="21">
-   <BOUNDS type="Box" left="9075" top="2790" width="435" height="375">
+   <BOUNDS type="Box" left="9960" top="2850" width="435" height="375">
    </BOUNDS>
-   <BOUNDS type="Node" left="9075" top="2790" width="0" height="0">
+   <BOUNDS type="Node" left="9960" top="2850" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.86429,0.72182,0.48536,1.00000|">
    </PIN>
@@ -169,9 +125,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="20">
-   <BOUNDS type="Box" left="9570" top="2790" width="390" height="345">
+   <BOUNDS type="Box" left="10455" top="2850" width="390" height="345">
    </BOUNDS>
-   <BOUNDS type="Node" left="9570" top="2790" width="0" height="0">
+   <BOUNDS type="Node" left="10455" top="2850" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.43837,0.69096,0.99739,1.00000|">
    </PIN>
@@ -185,21 +141,19 @@
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="22">
    <BOUNDS type="Node" left="1260" top="3240" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="EditablePoint" visible="1">
+   <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Selected" visible="1">
    </PIN>
    <PIN pinname="PositionXY" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="12" srcpinname="Editable Point" dstnodeid="22" dstpinname="EditablePoint">
-   </LINK>
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="23">
    <BOUNDS type="Node" left="1380" top="4170" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1">
+   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -211,9 +165,9 @@
    <LINK srcnodeid="22" srcpinname="Selected" dstnodeid="23" dstpinname="Switch">
    </LINK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="24">
-   <BOUNDS type="Box" left="10065" top="2790" width="375" height="420">
+   <BOUNDS type="Box" left="10950" top="2850" width="375" height="420">
    </BOUNDS>
-   <BOUNDS type="Node" left="10065" top="2790" width="0" height="0">
+   <BOUNDS type="Node" left="10950" top="2850" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
@@ -225,7 +179,7 @@
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="26">
    <BOUNDS type="Node" left="3195" top="3165" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="EditablePoint" visible="1">
+   <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Selected" visible="1">
    </PIN>
@@ -237,7 +191,7 @@
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1">
+   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -247,8 +201,6 @@
    <LINK srcnodeid="26" srcpinname="Selected" dstnodeid="25" dstpinname="Switch">
    </LINK>
    <LINK srcnodeid="24" srcpinname="Color Output" dstnodeid="25" dstpinname="Input 2">
-   </LINK>
-   <LINK srcnodeid="14" srcpinname="Editable Point" dstnodeid="26" dstpinname="EditablePoint">
    </LINK>
    <LINK srcnodeid="25" srcpinname="Output" dstnodeid="15" dstpinname="Color">
    </LINK>
@@ -273,9 +225,9 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4500" top="4245" width="3000" height="3000">
    </BOUNDS>
-   <PIN pinname="Input 1XY" visible="1">
+   <PIN pinname="Input 1XY" visible="1" slicecount="2" values="0,0">
    </PIN>
-   <PIN pinname="Input 2XY" visible="1">
+   <PIN pinname="Input 2XY" visible="1" slicecount="2" values="0,0">
    </PIN>
    <PIN pinname="OutputXY" visible="1">
    </PIN>
@@ -425,5 +377,83 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="38" srcpinname="Transform Out" dstnodeid="30" dstpinname="Transform In">
+   </LINK>
+   <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="12">
+   <BOUNDS type="Node" left="615" top="2460" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Editable Point" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="12" srcpinname="Output" dstnodeid="13" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Editable Point" dstnodeid="22" dstpinname="EditablePoint">
+   </LINK>
+   <NODE systemname="Quad (Game Split)" filename="vl\VLGameProject.vl" nodename="Quad (Game Split)" componentmode="Hidden" id="14">
+   <BOUNDS type="Node" left="2565" top="2430" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Editable Point" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="14" srcpinname="Output" dstnodeid="15" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="14" srcpinname="Editable Point" dstnodeid="26" dstpinname="EditablePoint">
+   </LINK>
+   <NODE systemname="LeftMenu (Game Split)" filename="vl\VLGameProject.vl" nodename="LeftMenu (Game Split)" componentmode="Hidden" id="42">
+   <BOUNDS type="Node" left="7710" top="4830" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" id="39">
+   <BOUNDS type="Node" left="8625" top="4155" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Left Menu" visible="1">
+   </PIN>
+   <PIN pinname="Right Menu" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="39" srcpinname="Right Menu" dstnodeid="5" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="39" srcpinname="Left Menu" dstnodeid="42" dstpinname="Input">
+   </LINK>
+   <NODE systemname="Level (Game Split)" filename="vl\VLGameProject.vl" nodename="Level (Game Split)" componentmode="Hidden" id="44">
+   <BOUNDS type="Node" left="2100" top="1770" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Circles" visible="1">
+   </PIN>
+   <PIN pinname="Quads" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="LevelEditorState (Game Split)" filename="vl\VLGameProject.vl" nodename="LevelEditorState (Game Split)" componentmode="Hidden" id="45">
+   <BOUNDS type="Node" left="2100" top="1005" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Level" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Output Node" dstnodeid="45" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="GizmoState" dstnodeid="3" dstpinname="Gizmo State">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Editing" dstnodeid="4" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="UI" dstnodeid="39" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="45" srcpinname="Level" dstnodeid="44" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="44" srcpinname="Circles" dstnodeid="12" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="44" srcpinname="Quads" dstnodeid="14" dstpinname="Input">
    </LINK>
    </PATCH>
