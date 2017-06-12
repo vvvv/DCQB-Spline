@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="15" scrolly="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="15" scrolly="0" locked="0">
    <BOUNDS type="Window" left="495" top="645" width="6510" height="5625">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -25,15 +25,15 @@
    </BOUNDS>
    <BOUNDS type="Box" left="330" top="4080" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="11220" top="165" width="7395" height="6555">
+   <BOUNDS type="Window" left="16155" top="615" width="11625" height="10065">
    </BOUNDS>
-   <PIN pinname="Layers" visible="1">
+   <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Actual Backbuffer Width" visible="1">
    </PIN>
    <PIN pinname="Actual Backbuffer Height" visible="1">
    </PIN>
-   <PIN pinname="Aspect Ratio" visible="1">
+   <PIN pinname="Aspect Ratio" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="View" visible="1">
    </PIN>
@@ -42,22 +42,6 @@
    <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24X8">
    </PIN>
    </NODE>
-   <NODE systemname="AspectRatio (Transform)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="51">
-   <BOUNDS type="Node" left="2055" top="4080" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Aspect Width" visible="1">
-   </PIN>
-   <PIN pinname="Aspect Height" visible="1">
-   </PIN>
-   <PIN pinname="Transform Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Width" dstnodeid="51" dstpinname="Aspect Width">
-   </LINK>
-   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Height" dstnodeid="51" dstpinname="Aspect Height">
-   </LINK>
-   <LINK srcnodeid="51" srcpinname="Transform Out" dstnodeid="46" dstpinname="Aspect Ratio">
-   </LINK>
    <NODE systemname="Camera (Transform 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\Camera (Transform 2d).v4p" nodename="Camera (Transform 2d)" componentmode="Hidden" id="56">
    <BOUNDS type="Node" left="4410" top="1575" width="100" height="100">
    </BOUNDS>
@@ -108,16 +92,6 @@
    </NODE>
    <LINK srcnodeid="42" srcpinname="Device" dstnodeid="66" dstpinname="Mouse">
    </LINK>
-   <NODE systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p" componentmode="Hidden" id="115">
-   <BOUNDS type="Node" left="334" top="3051" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="0" top="66" width="7885" height="5970">
-   </BOUNDS>
-   <BOUNDS type="Window" left="2040" top="2280" width="11055" height="9360">
-   </BOUNDS>
-   </NODE>
-   <LINK srcnodeid="115" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
-   </LINK>
    <NODE systemname="LevelEditorControls (Game)" filename="vl\VLGameProject.vl" nodename="LevelEditorControls (Game)" componentmode="Hidden" id="138">
    <BOUNDS type="Node" left="1635" top="2085" width="100" height="100">
    </BOUNDS>
@@ -145,9 +119,9 @@
    <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="138" dstpinname="Camera">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="144">
-   <BOUNDS type="Box" left="270" top="1140" width="795" height="240">
+   <BOUNDS type="Box" left="330" top="1410" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="270" top="1140" width="0" height="0">
+   <BOUNDS type="Node" left="330" top="1410" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="Level1.txt">
    </PIN>
@@ -159,35 +133,99 @@
    </PIN>
    <PIN pinname="String Type" slicecount="1" values="Filename">
    </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
    </NODE>
-   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" id="177">
+   <NODE systemname="AspectRatio (Transform)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="196">
+   <BOUNDS type="Node" left="2100" top="4110" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Aspect Width" visible="1">
+   </PIN>
+   <PIN pinname="Aspect Height" visible="1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Width" dstnodeid="196" dstpinname="Aspect Width">
+   </LINK>
+   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Height" dstnodeid="196" dstpinname="Aspect Height">
+   </LINK>
+   <LINK srcnodeid="196" srcpinname="Transform Out" dstnodeid="46" dstpinname="Aspect Ratio">
+   </LINK>
+   <NODE nodename="S (Node)" id="211">
+   <BOUNDS type="Node" left="2085" top="4560" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Aspect Ratio|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="196" srcpinname="Transform Out" dstnodeid="211" dstpinname="Input Value">
+   </LINK>
+   <NODE systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p" componentmode="Hidden" id="115">
+   <BOUNDS type="Node" left="334" top="3051" width="1335" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="66" width="7885" height="5970">
+   </BOUNDS>
+   <BOUNDS type="Window" left="3645" top="3660" width="22365" height="12195">
+   </BOUNDS>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Show Points" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="115" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
+   </LINK>
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="115" dstpinname="View">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="212">
+   <BOUNDS type="Box" left="1920" top="2745" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1920" top="2745" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="212" srcpinname="Y Output Value" dstnodeid="115" dstpinname="Show Points">
+   </LINK>
+   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" id="214">
    <BOUNDS type="Node" left="345" top="2550" width="1365" height="270">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="177" dstpinname="Keyboard Device">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="214" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="177" dstpinname="View">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="214" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="177" dstpinname="Camera Zoom">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="214" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="177" dstpinname="Camera Idle">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="214" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="177" dstpinname="Reset Points">
+   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="214" dstpinname="Reset Points">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="177" dstpinname="Camera State">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="214" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="177" dstpinname="Mouse Device">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="214" dstpinname="Mouse Device">
    </LINK>
-   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="177" dstpinname="Add Point">
+   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="214" dstpinname="Add Point">
    </LINK>
-   <LINK srcnodeid="177" srcpinname="GizmoState" dstnodeid="115" dstpinname="Gizmo State">
+   <LINK srcnodeid="138" srcpinname="Output" dstnodeid="214" dstpinname="LevelEditorControls">
    </LINK>
-   <LINK srcnodeid="177" srcpinname="Editing" dstnodeid="115" dstpinname="Input 1">
+   <LINK srcnodeid="144" srcpinname="Output String" dstnodeid="214" dstpinname="File Path">
    </LINK>
-   <LINK srcnodeid="177" srcpinname="State" dstnodeid="115" dstpinname="Input">
+   <LINK srcnodeid="214" srcpinname="GizmoState" dstnodeid="115" dstpinname="Gizmo State">
    </LINK>
-   <LINK srcnodeid="138" srcpinname="Output" dstnodeid="177" dstpinname="LevelEditorControls">
+   <LINK srcnodeid="214" srcpinname="Editing" dstnodeid="115" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="144" srcpinname="Output String" dstnodeid="177" dstpinname="File Path">
+   <LINK srcnodeid="214" srcpinname="State" dstnodeid="115" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="144" srcpinname="Output String" dstnodeid="214" dstpinname="Level Filenames">
    </LINK>
    </PATCH>

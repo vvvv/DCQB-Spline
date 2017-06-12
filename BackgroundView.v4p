@@ -1,0 +1,147 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p" systemname="BackgroundView" filename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p">
+   <NODE systemname="FullscreenQuad (DX9)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\FullscreenQuad (DX9).v4p" nodename="FullscreenQuad (DX9)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="1500" top="3240" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Color" slicecount="1" visible="1" values="|0.44954,0.44954,0.44954,1.00000|">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Blend Mode" slicecount="1" values="Blend">
+   </PIN>
+   </NODE>
+   <NODE systemname="AsColor (String Hex)" nodename="AsColor (String Hex)" componentmode="Hidden" id="3">
+   <BOUNDS type="Node" left="5475" top="2580" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="4" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="5475" top="2070" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5475" top="2070" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="#2b3239">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="4170" top="2550" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" slicecount="1" visible="1" values="0.25">
+   </PIN>
+   </NODE>
+   <NODE systemname="Grid (EX9.Geometry)" nodename="Grid (EX9.Geometry)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="4035" top="2100" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Resolution X" slicecount="1" visible="1" values="2">
+   </PIN>
+   <PIN pinname="Resolution Y" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Constant (EX9.Effect)" filename="%VVVV%\lib\nodes\effects\Constant.fx" nodename="Constant (EX9.Effect)" componentmode="Hidden" id="7">
+   <BOUNDS type="Node" left="3870" top="3195" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Color" visible="1">
+   </PIN>
+   <PIN pinname="Render State" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE systemname="Fill (EX9.RenderState)" nodename="Fill (EX9.RenderState)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="3570" top="2655" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Render State Out" visible="1">
+   </PIN>
+   <PIN pinname="Fill Mode" slicecount="1" values="WireFrame">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="9" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="4035" top="1500" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4035" top="1500" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="100">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="10" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   <BOUNDS type="Box" left="3105" top="4455" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3105" top="4455" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Render State Out" dstnodeid="7" dstpinname="Render State">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Mesh" dstnodeid="7" dstpinname="Mesh">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="7" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="7" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Resolution X">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Resolution Y">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="5" dstpinname="XYZ">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Output String" dstnodeid="3" dstpinname="Input">
+   </LINK>
+   <BOUNDS type="Window" left="5040" top="7215" width="7785" height="8475">
+   </BOUNDS>
+   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="12">
+   <BOUNDS type="Node" left="3105" top="3945" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="12" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="12" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="10" dstpinname="Input Node">
+   </LINK>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="1650" top="2640" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="|Background Color|">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="13" srcpinname="Input Value" dstnodeid="0" dstpinname="Color">
+   </LINK>
+   </PATCH>

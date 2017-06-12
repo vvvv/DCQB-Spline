@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\RightMenu.v4p" systemname="RightMenu" filename="C:\Work\VL Game Project\RightMenu.v4p" scrollx="0" scrolly="1815">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\RightMenu.v4p" systemname="RightMenu" filename="C:\Work\VL Game Project\RightMenu.v4p" scrollx="0" scrolly="1455">
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1275" top="7770" width="100" height="100">
    </BOUNDS>
@@ -13,7 +13,7 @@
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="3225" top="5535" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Switch" visible="1" slicecount="2" values="1,0">
+   <PIN pinname="Switch" visible="1" slicecount="2" values="0,0">
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -114,7 +114,7 @@
    </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="16335" top="3975" width="10815" height="10800">
+   <BOUNDS type="Window" left="14100" top="5040" width="10815" height="10800">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -128,6 +128,8 @@
    <PIN pinname="Transform" visible="1">
    </PIN>
    <PIN pinname="Inner Radius" slicecount="1" values="1.11">
+   </PIN>
+   <PIN pinname="Color" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="14">
@@ -224,16 +226,6 @@
    </NODE>
    <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="16" dstpinname="XYZ">
    </LINK>
-   <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="18">
-   <BOUNDS type="Node" left="6885" top="3825" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Transform Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="18" srcpinname="Transform Out" dstnodeid="19" dstpinname="Transform In 2">
-   </LINK>
-   <LINK srcnodeid="18" srcpinname="Transform Out" dstnodeid="20" dstpinname="Transform In 2">
-   </LINK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="23">
    <BOUNDS type="Box" left="1515" top="2595" width="795" height="240">
    </BOUNDS>
@@ -293,5 +285,33 @@
    <LINK srcnodeid="10" srcpinname="Kind" dstnodeid="24" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="24" srcpinname="Quad" dstnodeid="1" dstpinname="Switch">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="25">
+   <BOUNDS type="Box" left="6870" top="2445" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6870" top="2445" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Transform">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="25" srcpinname="Output Node" dstnodeid="20" dstpinname="Transform In 2">
+   </LINK>
+   <LINK srcnodeid="25" srcpinname="Output Node" dstnodeid="19" dstpinname="Transform In 2">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="26">
+   <BOUNDS type="Box" left="8250" top="2400" width="555" height="300">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8250" top="2400" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Hightlight Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="26" srcpinname="Color Output" dstnodeid="13" dstpinname="Color">
    </LINK>
    </PATCH>

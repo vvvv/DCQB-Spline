@@ -1,7 +1,119 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\Constants.v4p">
-   <BOUNDS type="Window" left="8400" top="1515" width="9000" height="6000">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p">
+   <BOUNDS type="Window" left="15585" top="5430" width="9000" height="6000">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="3">
+   <BOUNDS type="Box" left="645" top="675" width="435" height="375">
+   </BOUNDS>
+   <BOUNDS type="Node" left="645" top="675" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.86429,0.72182,0.48536,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="2">
+   <BOUNDS type="Box" left="2175" top="615" width="390" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2175" top="615" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.43837,0.69096,0.99739,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="1">
+   <BOUNDS type="Box" left="4080" top="570" width="375" height="420">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4080" top="570" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="0">
+   <BOUNDS type="Box" left="6555" top="660" width="570" height="390">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6555" top="660" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00165,0.88363,0.97997,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="S (Color)" id="4">
+   <BOUNDS type="Node" left="630" top="1770" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Circle Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Color Output" dstnodeid="4" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="S (Color)" id="5">
+   <BOUNDS type="Node" left="2160" top="1755" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Quad Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Color Output" dstnodeid="5" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="S (Color)" id="6">
+   <BOUNDS type="Node" left="4080" top="1740" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Object Highlight Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="1" srcpinname="Color Output" dstnodeid="6" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="S (Color)" id="7">
+   <BOUNDS type="Node" left="6555" top="1725" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Menu Highlight Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Color Output" dstnodeid="7" dstpinname="Input Value">
+   </LINK>
+   <NODE systemname="AsColor (String Hex)" nodename="AsColor (String Hex)" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="645" top="2865" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="8" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="645" top="2355" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="645" top="2355" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="#3c444c">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Output String" dstnodeid="9" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="10">
+   <BOUNDS type="Box" left="900" top="3315" width="645" height="300">
+   </BOUNDS>
+   <BOUNDS type="Node" left="900" top="3315" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="10" dstpinname="Color Input">
+   </LINK>
+   <NODE nodename="S (Color)" id="11">
+   <BOUNDS type="Node" left="630" top="3945" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Send String" slicecount="1" values="|Background Color|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="11" dstpinname="Input Value">
+   </LINK>
    </PATCH>
