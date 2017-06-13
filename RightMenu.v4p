@@ -137,14 +137,12 @@
    </BOUNDS>
    <PIN pinname="Layer 2" visible="1">
    </PIN>
-   <PIN pinname="Layer 1" visible="1">
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="14" dstpinname="Layer 2">
-   </LINK>
-   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="14" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="14" srcpinname="Layer" dstnodeid="12" dstpinname="Input Node">
    </LINK>
@@ -238,7 +236,7 @@
    <PIN pinname="Output Node" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="RadioButton (Game Split)" filename="vl\VLGameProject.vl" nodename="UIRadioButton (Game Split)" componentmode="Hidden" id="10">
+   <NODE systemname="RadioButton (Game Split ObjectKind)" filename="vl\VLGameProject.vl" nodename="UIRadioButton (Game Split)" componentmode="Hidden" id="10">
    <BOUNDS type="Node" left="1485" top="3375" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
@@ -261,6 +259,8 @@
    </PIN>
    <PIN pinname="Kind" visible="1">
    </PIN>
+   <PIN pinname="Id" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="23" srcpinname="Output Node" dstnodeid="10" dstpinname="Input">
    </LINK>
@@ -272,18 +272,16 @@
    </LINK>
    <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="17" dstpinname="Input">
    </LINK>
-   <NODE systemname="Kind (Game Split)" filename="vl\VLGameProject.vl" nodename="ObjectKind (Game Split)" componentmode="Hidden" id="24">
-   <BOUNDS type="Node" left="3225" top="4590" width="100" height="100">
+   <NODE systemname="Id (Game Split ObjectKind)" filename="vl\VLGameProject.vl" nodename="ObjectKind (Game Split)" componentmode="Hidden" id="24">
+   <BOUNDS type="Node" left="2685" top="4500" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input" visible="1">
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Circle" visible="1">
    </PIN>
    <PIN pinname="Quad" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="Kind" dstnodeid="24" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="24" srcpinname="Quad" dstnodeid="1" dstpinname="Switch">
    </LINK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="25">
@@ -313,5 +311,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="26" srcpinname="Color Output" dstnodeid="13" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="14" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Id" dstnodeid="24" dstpinname="Input">
    </LINK>
    </PATCH>

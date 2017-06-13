@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="6735" scrolly="2700">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="4470" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2880" top="9735" width="2340" height="270">
    </BOUNDS>
@@ -68,7 +68,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="-1590" top="3480" width="10740" height="10950">
+   <BOUNDS type="Window" left="5325" top="2550" width="10740" height="10950">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -567,5 +567,29 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="102" srcpinname="Y Output Value" dstnodeid="27" dstpinname="Enabled">
+   </LINK>
+   <NODE systemname="UIView" filename="UIView.v4p" nodename="UIView.v4p" componentmode="InAWindow" id="103">
+   <BOUNDS type="Node" left="8610" top="4830" width="3375" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Circles" visible="1">
+   </PIN>
+   <PIN pinname="Quads" visible="1">
+   </PIN>
+   <PIN pinname="Highlight Color" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="103" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
+   </LINK>
+   <LINK srcnodeid="16" srcpinname="UI" dstnodeid="103" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="21" srcpinname="Color Output" dstnodeid="103" dstpinname="Circles">
+   </LINK>
+   <LINK srcnodeid="20" srcpinname="Color Output" dstnodeid="103" dstpinname="Quads">
+   </LINK>
+   <LINK srcnodeid="82" srcpinname="Color Output" dstnodeid="103" dstpinname="Highlight Color">
    </LINK>
    </PATCH>

@@ -1,21 +1,21 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="30" scrolly="0" locked="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="135" scrolly="75" locked="0">
    <BOUNDS type="Window" left="495" top="645" width="6510" height="5625">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="Mouse (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="42">
-   <BOUNDS type="Node" left="1650" top="480" width="100" height="100">
+   <BOUNDS type="Node" left="1665" top="540" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1650" top="480" width="3000" height="3000">
+   <BOUNDS type="Box" left="1665" top="540" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Device" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Keyboard (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Keyboard (Devices Window)" componentmode="Hidden" id="43">
-   <BOUNDS type="Node" left="2415" top="1650" width="100" height="100">
+   <BOUNDS type="Node" left="3225" top="1245" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2415" top="1650" width="3000" height="3000">
+   <BOUNDS type="Box" left="3225" top="1245" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Device" visible="1">
    </PIN>
@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="330" top="4080" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="8850" top="855" width="11640" height="10065">
+   <BOUNDS type="Window" left="13260" top="285" width="7005" height="6210">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -79,9 +79,9 @@
    </PIN>
    </NODE>
    <NODE systemname="MouseMatch (Mouse)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="MouseMatch (Mouse)" componentmode="Hidden" id="66">
-   <BOUNDS type="Node" left="2025" top="1245" width="100" height="100">
+   <BOUNDS type="Node" left="2055" top="1260" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2025" top="1245" width="3000" height="3000">
+   <BOUNDS type="Box" left="2055" top="1260" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Mouse" visible="1">
    </PIN>
@@ -92,50 +92,6 @@
    </NODE>
    <LINK srcnodeid="42" srcpinname="Device" dstnodeid="66" dstpinname="Mouse">
    </LINK>
-   <NODE systemname="LevelEditorControls (Game)" filename="vl\VLGameProject.vl" nodename="LevelEditorControls (Game)" componentmode="Hidden" id="138">
-   <BOUNDS type="Node" left="1635" top="2085" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Add Point" visible="1">
-   </PIN>
-   <PIN pinname="Mouse" visible="1">
-   </PIN>
-   <PIN pinname="Keyboard" visible="1">
-   </PIN>
-   <PIN pinname="Reset Points" visible="1">
-   </PIN>
-   <PIN pinname="Camera" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="138" dstpinname="Add Point">
-   </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="138" dstpinname="Mouse">
-   </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="138" dstpinname="Keyboard">
-   </LINK>
-   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="138" dstpinname="Reset Points">
-   </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="138" dstpinname="Camera">
-   </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="144">
-   <BOUNDS type="Box" left="330" top="1410" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="330" top="1410" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="Level1.txt">
-   </PIN>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="Filename">
-   </PIN>
-   <PIN pinname="Output String" visible="1">
-   </PIN>
-   </NODE>
    <NODE systemname="AspectRatio (Transform)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="196">
    <BOUNDS type="Node" left="2100" top="4110" width="100" height="100">
    </BOUNDS>
@@ -160,22 +116,6 @@
    </NODE>
    <LINK srcnodeid="196" srcpinname="Transform Out" dstnodeid="211" dstpinname="Input Value">
    </LINK>
-   <NODE systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p" componentmode="InAWindow" id="115">
-   <BOUNDS type="Node" left="349" top="3336" width="1335" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="15" top="351" width="7885" height="5970">
-   </BOUNDS>
-   <BOUNDS type="Window" left="-1590" top="3480" width="10740" height="10950">
-   </BOUNDS>
-   <PIN pinname="View" visible="1">
-   </PIN>
-   <PIN pinname="Show Points" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="115" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
-   </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="115" dstpinname="View">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="212">
    <BOUNDS type="Box" left="1920" top="2745" width="480" height="480">
    </BOUNDS>
@@ -194,38 +134,66 @@
    <PIN pinname="X Input Value" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="212" srcpinname="Y Output Value" dstnodeid="115" dstpinname="Show Points">
+   <NODE systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p" componentmode="Hidden" id="300">
+   <BOUNDS type="Node" left="334" top="3546" width="1335" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="561" width="7885" height="5970">
+   </BOUNDS>
+   <BOUNDS type="Window" left="5325" top="2550" width="10740" height="10950">
+   </BOUNDS>
+   <PIN pinname="Input" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="300" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
    </LINK>
-   <NODE systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" id="273">
-   <BOUNDS type="Node" left="345" top="2550" width="1365" height="270">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="300" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="212" srcpinname="Y Output Value" dstnodeid="300" dstpinname="Show Points">
+   </LINK>
+   <NODE systemname="LevelEditorControls (Game)" filename="vl\VLGameProject.vl" nodename="LevelEditorControls (Game)" componentmode="Hidden" id="329">
+   <BOUNDS type="Node" left="1665" top="1935" width="100" height="100">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="273" dstpinname="Keyboard Device">
+   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="329" dstpinname="Add Point">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="273" dstpinname="View">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="329" dstpinname="Mouse">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="273" dstpinname="Camera Zoom">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="329" dstpinname="Keyboard">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="273" dstpinname="Camera Idle">
+   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="329" dstpinname="Reset Points">
    </LINK>
-   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="273" dstpinname="Reset Points">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="329" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="273" dstpinname="Camera State">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="337" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="273" dstpinname="Mouse Device">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="337" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="273" dstpinname="Add Point">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="337" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="138" srcpinname="Output" dstnodeid="273" dstpinname="LevelEditorControls">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="337" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="144" srcpinname="Output String" dstnodeid="273" dstpinname="File Path">
+   <LINK srcnodeid="58" srcpinname="Y Output Value" dstnodeid="337" dstpinname="Reset Points">
    </LINK>
-   <LINK srcnodeid="273" srcpinname="GizmoState" dstnodeid="115" dstpinname="Gizmo State">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="337" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="273" srcpinname="Editing" dstnodeid="115" dstpinname="Input 1">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="337" dstpinname="Mouse Device">
    </LINK>
-   <LINK srcnodeid="273" srcpinname="State" dstnodeid="115" dstpinname="Input">
+   <LINK srcnodeid="66" srcpinname="Detected" dstnodeid="337" dstpinname="Add Point">
    </LINK>
-   <LINK srcnodeid="144" srcpinname="Output String" dstnodeid="273" dstpinname="Level Filenames">
+   <LINK srcnodeid="337" srcpinname="GizmoState" dstnodeid="300" dstpinname="Gizmo State">
    </LINK>
+   <LINK srcnodeid="337" srcpinname="Editing" dstnodeid="300" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="337" srcpinname="State" dstnodeid="300" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="329" srcpinname="Output" dstnodeid="337" dstpinname="LevelEditorControls">
+   </LINK>
+   <NODE id="337" systemname="LevelEditor (Value)" filename="vl\VLGameProject.vl" nodename="GameSate (Value)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="345" top="2460" width="1365" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="0" width="2400" height="1800">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
+   </BOUNDS>
+   </NODE>
    </PATCH>
