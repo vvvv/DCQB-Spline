@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="-432">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="6735" scrolly="2700">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2880" top="9735" width="2340" height="270">
    </BOUNDS>
@@ -15,7 +15,7 @@
    </PIN>
    <PIN pinname="Layer 4" visible="1">
    </PIN>
-   <PIN pinname="Layer 5" visible="1">
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 6" visible="1">
    </PIN>
@@ -31,13 +31,13 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="GizmoView (DX9 3d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\DX9\GizmoView (DX9 3d).v4p" nodename="GizmoView (DX9 3d)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="6015" top="4755" width="100" height="100">
+   <BOUNDS type="Node" left="6045" top="4905" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Gizmo State" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="6015" top="4755">
+   <BOUNDS type="Box" left="6045" top="4905">
    </BOUNDS>
    </NODE>
    <NODE systemname="NOT (Boolean)" nodename="NOT (Boolean)" componentmode="Hidden" id="4">
@@ -68,7 +68,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="3645" top="3660" width="22365" height="12195">
+   <BOUNDS type="Window" left="-1590" top="3480" width="10740" height="10950">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -400,24 +400,6 @@
    </LINK>
    <LINK srcnodeid="39" srcpinname="Quads" dstnodeid="14" dstpinname="Input">
    </LINK>
-   <NODE systemname="UIView" filename="UIView.v4p" nodename="UIView.v4p" componentmode="Hidden" id="43">
-   <BOUNDS type="Node" left="11812" top="4785" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="10125" top="2970" width="3375" height="3630">
-   </BOUNDS>
-   <BOUNDS type="Window" left="4830" top="4425" width="12465" height="10140">
-   </BOUNDS>
-   <PIN pinname="Highlight Color" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="21" srcpinname="Color Output" dstnodeid="43" dstpinname="Circles">
-   </LINK>
-   <LINK srcnodeid="20" srcpinname="Color Output" dstnodeid="43" dstpinname="Quads">
-   </LINK>
-   <LINK srcnodeid="43" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="UI" dstnodeid="43" dstpinname="Input">
-   </LINK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="44">
    <BOUNDS type="Node" left="2700" top="14280" width="100" height="100">
    </BOUNDS>
@@ -460,8 +442,6 @@
    <PIN pinname="Color Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="82" srcpinname="Color Output" dstnodeid="43" dstpinname="Highlight Color">
-   </LINK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="83">
    <BOUNDS type="Node" left="1485" top="5385" width="100" height="100">
    </BOUNDS>

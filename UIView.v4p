@@ -1,11 +1,11 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="5400" top="3195" width="0" height="0">
+   <BOUNDS type="Node" left="6900" top="3150" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="5400" top="3195" width="6255" height="6970">
+   <BOUNDS type="Box" left="6900" top="3150" width="6255" height="6970">
    </BOUNDS>
-   <BOUNDS type="Window" left="14100" top="5040" width="10815" height="10800">
+   <BOUNDS type="Window" left="2115" top="2205" width="10815" height="10800">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -20,30 +20,20 @@
    <PIN pinname="Hightlight Color" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" id="1">
-   <BOUNDS type="Node" left="1500" top="1500" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Top Menu" visible="1">
-   </PIN>
-   </NODE>
    <NODE id="2" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="1500" top="500" width="750" height="240">
+   <BOUNDS type="Box" left="3825" top="530" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="1500" top="500" width="750" height="240">
+   <BOUNDS type="Node" left="3825" top="530" width="750" height="240">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="2" srcpinname="Output Node" dstnodeid="1" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="1" srcpinname="Right Menu" dstnodeid="0" dstpinname="Input">
-   </LINK>
    <NODE id="3" systemname="IOBox (Color)" componentmode="InABox" nodename="IOBox (Color)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Circles">
    </PIN>
-   <BOUNDS type="Box" left="5880" top="890" width="750" height="240">
+   <BOUNDS type="Box" left="7125" top="1220" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="5880" top="890" width="750" height="240">
+   <BOUNDS type="Node" left="7125" top="1220" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="3" srcpinname="Color Output" dstnodeid="0" dstpinname="Circles">
@@ -51,9 +41,9 @@
    <NODE id="4" systemname="IOBox (Color)" componentmode="InABox" nodename="IOBox (Color)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Quads">
    </PIN>
-   <BOUNDS type="Box" left="6780" top="890" width="750" height="240">
+   <BOUNDS type="Box" left="8025" top="1220" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="6780" top="890" width="750" height="240">
+   <BOUNDS type="Node" left="8025" top="1220" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="4" srcpinname="Color Output" dstnodeid="0" dstpinname="Quads">
@@ -61,39 +51,21 @@
    <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="2235" top="4820" width="750" height="240">
+   <BOUNDS type="Box" left="3840" top="5480" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2235" top="4820" width="750" height="240">
+   <BOUNDS type="Node" left="3840" top="5480" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="4830" top="4425" width="12465" height="10140">
+   <BOUNDS type="Window" left="360" top="1410" width="12300" height="7860">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
-   <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="6" nodename="TopMenu.v4p">
-   <BOUNDS type="Node" left="1485" top="2970" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1485" top="2970" width="4800" height="3600">
-   </BOUNDS>
-   <BOUNDS type="Window" left="3750" top="4095" width="12840" height="14100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Highlight Color" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="1" srcpinname="Top Menu" dstnodeid="6" dstpinname="Input">
-   </LINK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="2235" top="4185" width="100" height="100">
+   <BOUNDS type="Node" left="3840" top="4845" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Layer 2" visible="1">
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
@@ -109,35 +81,29 @@
    <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="5" dstpinname="Input Node">
    </LINK>
    <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="3120" top="1080" width="100" height="100">
+   <BOUNDS type="Node" left="5640" top="1320" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="0" dstpinname="Transform">
    </LINK>
    <NODE systemname="UIBackground" filename="UIBackground.v4p" nodename="UIBackground.v4p" componentmode="Hidden" id="34">
-   <BOUNDS type="Node" left="105" top="2979" width="0" height="0">
+   <BOUNDS type="Node" left="945" top="3189" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="0" top="0" width="9450" height="6295">
+   <BOUNDS type="Box" left="840" top="210" width="9450" height="6295">
    </BOUNDS>
    <BOUNDS type="Window" left="10275" top="5490" width="9450" height="10215">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="34" srcpinname="Layer 1" dstnodeid="7" dstpinname="Layer 4">
-   </LINK>
-   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 2">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 3">
    </LINK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="35">
-   <BOUNDS type="Box" left="7680" top="870" width="600" height="360">
+   <BOUNDS type="Box" left="8925" top="1200" width="600" height="360">
    </BOUNDS>
-   <BOUNDS type="Node" left="7680" top="870" width="0" height="0">
+   <BOUNDS type="Node" left="8925" top="1200" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00165,0.88363,0.97997,1.00000|">
    </PIN>
@@ -146,10 +112,58 @@
    <PIN pinname="Color Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="6" dstpinname="Highlight Color">
-   </LINK>
    <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="0" dstpinname="Hightlight Color">
    </LINK>
    <LINK srcnodeid="34" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
+   </LINK>
+   <NODE systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" id="36">
+   <BOUNDS type="Node" left="3825" top="1530" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Modal Window" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Output Node" dstnodeid="36" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="36" srcpinname="Right Menu" dstnodeid="0" dstpinname="Input">
+   </LINK>
+   <NODE systemname="ModalWindowsView" filename="ModalWindowsView.v4p" componentmode="Hidden" id="37" nodename="ModalWindowsView.v4p">
+   <BOUNDS type="Node" left="9330" top="3135" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9330" top="3135" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="2955" top="2400" width="9000" height="7860">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="37" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 4">
+   </LINK>
+   <LINK srcnodeid="36" srcpinname="Modal Window" dstnodeid="37" dstpinname="Input">
+   </LINK>
+   <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="6" nodename="TopMenu.v4p">
+   <BOUNDS type="Node" left="4005" top="3210" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4005" top="3210" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Highlight Color" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="6" dstpinname="Highlight Color">
+   </LINK>
+   <LINK srcnodeid="36" srcpinname="Top Menu" dstnodeid="6" dstpinname="Input">
    </LINK>
    </PATCH>
