@@ -58,7 +58,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="1410" top="4800" width="20325" height="10950">
+   <BOUNDS type="Window" left="1575" top="1665" width="20325" height="10950">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -241,11 +241,11 @@
    <LINK srcnodeid="44" srcpinname="Layer" dstnodeid="9" dstpinname="Input Node">
    </LINK>
    <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="702" top="5547" width="0" height="0">
+   <BOUNDS type="Node" left="297" top="4707" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="570" top="3127" width="7075" height="4840">
+   <BOUNDS type="Box" left="165" top="2287" width="7075" height="4840">
    </BOUNDS>
-   <BOUNDS type="Window" left="5040" top="7215" width="7785" height="8475">
+   <BOUNDS type="Window" left="4260" top="3825" width="9525" height="8475">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1635" top="4470" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="18405" top="1095" width="8625" height="6720">
+   <BOUNDS type="Window" left="13815" top="2130" width="9885" height="8580">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -141,7 +141,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1305" top="951" width="7885" height="5970">
    </BOUNDS>
-   <BOUNDS type="Window" left="1410" top="4800" width="20325" height="10950">
+   <BOUNDS type="Window" left="1575" top="1665" width="20325" height="10950">
    </BOUNDS>
    <PIN pinname="Input" slicecount="1" values="||">
    </PIN>
