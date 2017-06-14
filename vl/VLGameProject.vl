@@ -2231,22 +2231,22 @@
               <Pin Id="QNX6wcQgxMfPs1wgUMBwCr" Name="Offset" Kind="OutputPin" />
               <Pin Id="Eeb90nilIndN4gidB4xIIS" Name="GizmoState" Kind="OutputPin" />
             </Node>
-            <Node Name="ForEach2" Bounds="404,148,167,143" Id="ItMM7fGBLYUPiTNtQafilx">
+            <Node Name="ForEach2" Bounds="404,163,167,145" Id="ItMM7fGBLYUPiTNtQafilx">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
                 <Choice Kind="ForEachLoop" Name="ForEach" />
               </p:NodeReference>
               <Pin Id="RmdSMWo2ZkVO4C4BWN6egF" Name="Break" Kind="OutputPin" />
-              <ControlPoint Id="GkXmqKPed4DLhV47B7AN44" Bounds="545,382" Alignment="Bottom" />
-              <ControlPoint Id="HrWm7wTxypnNPbn4bCztrz" Bounds="419,382" Alignment="Bottom" />
+              <ControlPoint Id="GkXmqKPed4DLhV47B7AN44" Bounds="545,302" Alignment="Bottom" />
+              <ControlPoint Id="HrWm7wTxypnNPbn4bCztrz" Bounds="421,302" Alignment="Bottom" />
               <ControlPoint Id="IHSDghHQDxNM6B94mm1zs2" Bounds="419,251" Alignment="Top" />
-              <ControlPoint Id="DtzNCDBvSkQMElu2x9Njqx" Bounds="486,382" Alignment="Bottom" />
+              <ControlPoint Id="DtzNCDBvSkQMElu2x9Njqx" Bounds="486,302" Alignment="Bottom" />
               <Patch Id="SBx3xoMqODnLAHNNqxZOE3" ManuallySortedPins="true">
                 <Patch Id="R93vPbF8mzIPGZSddl8O3f" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="U6JlQ3DNBUCOeOpdDUnHbV" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="Kh7zsK9PoAJPMBMzIpRegy" Name="Destroy" ManuallySortedPins="true" />
-                <Node Bounds="416,186,72,13" Id="VL9pCrMRHR2OltK7Qd8JyJ">
+                <Node Bounds="416,186,72,22" Id="VL9pCrMRHR2OltK7Qd8JyJ">
                   <p:NodeReference LastCategoryFullName="Game.Circle" LastSymbolSource="VLGameProject.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetCenter" />
@@ -2258,7 +2258,7 @@
                   <Pin Id="Ce467n4Z3ofO4kCIxUBvkv" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="JhUUnYHc8AFLGxGRe1eHfD" Name="Center" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="483,241,65,13" Id="TxYAQWPt4nnMwUqG10Ugvw">
+                <Node Bounds="483,241,65,22" Id="TxYAQWPt4nnMwUqG10Ugvw">
                   <p:NodeReference LastCategoryFullName="Game.MyPoint" LastSymbolSource="VLGameProject.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPoint" />
@@ -2270,15 +2270,15 @@
                 </Node>
               </Patch>
             </Node>
-            <Node Name="ForEach2" Bounds="473,597,100,157" Id="VVQl733Gy9VNQ3b0rKeqFs">
+            <Node Name="ForEach2" Bounds="473,597,100,86" Id="VVQl733Gy9VNQ3b0rKeqFs">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
                 <Choice Kind="ForEachLoop" Name="ForEach" />
               </p:NodeReference>
               <Pin Id="Hu8bXGPFIgbLAbONc3ywV3" Name="Break" Kind="OutputPin" />
-              <ControlPoint Id="P5QYPQSFyoUN41gG6Tu3xc" Bounds="548,539" Alignment="Top" />
-              <ControlPoint Id="P7bQCaIpeeWPugFuFMbtL2" Bounds="488,539" Alignment="Top" />
+              <ControlPoint Id="P5QYPQSFyoUN41gG6Tu3xc" Bounds="548,603" Alignment="Top" />
+              <ControlPoint Id="P7bQCaIpeeWPugFuFMbtL2" Bounds="488,603" Alignment="Top" />
               <Patch Id="MgIXN8kRkscMdPdz0sq3gp" ManuallySortedPins="true">
                 <Patch Id="RP4IHuuPSGhNuVzXyVje74" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="ItAddMvNfhALjTQoWQfyeR" Name="Update" ManuallySortedPins="true" />
@@ -2333,22 +2333,22 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Name="ForEach2" Bounds="629,146,168,131" Id="LuZfcqwHbgZO9EDt7SyHCU">
+            <Node Name="ForEach2" Bounds="629,161,168,138" Id="LuZfcqwHbgZO9EDt7SyHCU">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
                 <Choice Kind="ForEachLoop" Name="ForEach" />
               </p:NodeReference>
               <Pin Id="SHpREkuKXJtLgRlwE9OoXB" Name="Break" Kind="OutputPin" />
-              <ControlPoint Id="MshNuVcZWnjLMfiMdw01yT" Bounds="771,368" Alignment="Bottom" />
-              <ControlPoint Id="SzuFlH0ztMjPU0fLJSQjbv" Bounds="644,368" Alignment="Bottom" />
+              <ControlPoint Id="MshNuVcZWnjLMfiMdw01yT" Bounds="771,293" Alignment="Bottom" />
+              <ControlPoint Id="SzuFlH0ztMjPU0fLJSQjbv" Bounds="644,293" Alignment="Bottom" />
               <ControlPoint Id="UdGTZam84STPxibEa0w8a8" Bounds="644,249" Alignment="Top" />
-              <ControlPoint Id="Qtguc1JDr40NEPcexC21Gg" Bounds="712,368" Alignment="Bottom" />
+              <ControlPoint Id="Qtguc1JDr40NEPcexC21Gg" Bounds="712,293" Alignment="Bottom" />
               <Patch Id="OvYYEotdHqaPAFA9BYdGGC" ManuallySortedPins="true">
                 <Patch Id="Ni52ML0LNGVMQhHtw3z33f" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="MsRqjTUY77wNzhIvIS8drI" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="P2zhmmuez28L3waj7QyeZK" Name="Destroy" ManuallySortedPins="true" />
-                <Node Bounds="641,184,72,13" Id="PWJm6qK6BJCMAp9CeLia1z">
+                <Node Bounds="641,184,72,22" Id="PWJm6qK6BJCMAp9CeLia1z">
                   <p:NodeReference LastCategoryFullName="Game.Quad" LastSymbolSource="VLGameProject.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetCenter" />
@@ -2358,7 +2358,7 @@
                   <Pin Id="HlT9mG9YCUSLEeaX60D2ep" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="VcDxUbWcKzlOzzuwoqb0I9" Name="Center" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="708,235,65,13" Id="VgYMmYdFLYiPoLbw6qulyK">
+                <Node Bounds="708,235,65,22" Id="VgYMmYdFLYiPoLbw6qulyK">
                   <p:NodeReference LastCategoryFullName="Game.MyPoint" LastSymbolSource="VLGameProject.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPoint" />
@@ -2405,7 +2405,7 @@
             </Node>
             <ControlPoint Id="DLxzMsHCKHOPHyBiypPF1l" Bounds="724,755" />
             <ControlPoint Id="JY640HOhi9AO0yeEVQ8TNM" Bounds="591,754" />
-            <Node Bounds="509,88,45,13" Id="GQ2fEdoQyTJNZcGHO8CMeP">
+            <Node Bounds="509,88,46,22" Id="GQ2fEdoQyTJNZcGHO8CMeP">
               <p:NodeReference LastCategoryFullName="Game.Level" LastSymbolSource="VLGameProject.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="Level" />
@@ -6993,5 +6993,6 @@
       </Node>
     </Canvas>
   </Patch>
-  <NugetDependency Id="G4pFBgjpEjQM6nRvs4gwTG" Location="VL.EditingFramework" Version="0.53.79-g568ab93961" />
+  <DocumentDependency Id="FdB1HtRSy7aLyWPzHYTNlT" Location="./VL.3DGizmo.vl" />
+  <DocumentDependency Id="GOFr3Br3c41NWzW7cMtI72" Location="./VL.EditingFramework.vl" />
 </Document>
