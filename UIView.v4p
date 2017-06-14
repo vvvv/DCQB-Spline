@@ -91,9 +91,9 @@
    <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="0" dstpinname="Transform">
    </LINK>
    <NODE systemname="UIBackground" filename="UIBackground.v4p" nodename="UIBackground.v4p" componentmode="Hidden" id="34">
-   <BOUNDS type="Node" left="870" top="3399" width="0" height="0">
+   <BOUNDS type="Node" left="870" top="3285" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="765" top="420" width="9450" height="6295">
+   <BOUNDS type="Box" left="870" top="3285" width="9450" height="6295">
    </BOUNDS>
    <BOUNDS type="Window" left="10275" top="5490" width="9450" height="10215">
    </BOUNDS>
@@ -115,9 +115,9 @@
    <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="0" dstpinname="Hightlight Color">
    </LINK>
    <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="6" nodename="TopMenu.v4p">
-   <BOUNDS type="Node" left="4470" top="3225" width="100" height="100">
+   <BOUNDS type="Node" left="4470" top="3285" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="4470" top="3225" width="4800" height="3600">
+   <BOUNDS type="Box" left="4470" top="3285" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
    </BOUNDS>
@@ -135,9 +135,9 @@
    <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="6" dstpinname="Highlight Color">
    </LINK>
    <NODE systemname="ModalWindowsView" filename="ModalWindowsView.v4p" componentmode="Hidden" id="37" nodename="ModalWindowsView.v4p">
-   <BOUNDS type="Node" left="8790" top="3255" width="100" height="100">
+   <BOUNDS type="Node" left="8790" top="3285" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="8790" top="3255" width="4800" height="3600">
+   <BOUNDS type="Box" left="8790" top="3285" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
    </BOUNDS>
@@ -163,11 +163,11 @@
    <LINK srcnodeid="39" srcpinname="Modal Window" dstnodeid="37" dstpinname="Input">
    </LINK>
    <NODE systemname="LeftMenu" filename="LeftMenu.v4p" componentmode="Hidden" id="40" nodename="LeftMenu.v4p">
-   <BOUNDS type="Node" left="2985" top="3285" width="100" height="100">
+   <BOUNDS type="Node" left="2940" top="3285" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2985" top="3285" width="4800" height="3600">
+   <BOUNDS type="Box" left="2940" top="3285" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="360" top="2070" width="12270" height="9210">
+   <BOUNDS type="Window" left="5475" top="6540" width="12270" height="9210">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
