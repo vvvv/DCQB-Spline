@@ -1,0 +1,133 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
+   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="2621" top="3825" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="1" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2441" top="2355" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2441" top="2355" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p">
+   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1170" top="2991" width="1335" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="836" top="6" width="7885" height="5970">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="3" systemname="MainState (Game Split)" filename="vl\VLGameProject.vl" nodename="MainState (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Input" slicecount="1" visible="1" pintype="Input" values="||">
+   </PIN>
+   <BOUNDS type="Node" left="2216" top="1500" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="MainMenu" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="LevelEditor" visible="1" pintype="Output">
+   </PIN>
+   <BOUNDS type="Box" left="371" top="-2175" width="2400" height="1800">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="3521" top="2865" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3521" top="2865" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="4020" top="7380" width="7125" height="6765">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="View">
+   </PIN>
+   <BOUNDS type="Box" left="4980" top="620" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4980" top="620" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Show Points">
+   </LINK>
+   <NODE id="6" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Input">
+   </PIN>
+   <BOUNDS type="Box" left="2220" top="485" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2220" top="485" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="3" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
+   </LINK>
+   <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   <BOUNDS type="Box" left="2621" top="4425" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2621" top="4425" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="7" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
+   </LINK>
+   <BOUNDS type="Window" left="1845" top="5925" width="7380" height="6105">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   </PATCH>

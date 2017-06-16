@@ -58,7 +58,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="1575" top="1665" width="20325" height="10950">
+   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -241,9 +241,9 @@
    <LINK srcnodeid="44" srcpinname="Layer" dstnodeid="9" dstpinname="Input Node">
    </LINK>
    <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="297" top="4707" width="0" height="0">
+   <BOUNDS type="Node" left="282" top="4797" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="165" top="2287" width="7075" height="4840">
+   <BOUNDS type="Box" left="150" top="2377" width="7075" height="4840">
    </BOUNDS>
    <BOUNDS type="Window" left="4260" top="3825" width="9525" height="8475">
    </BOUNDS>
@@ -349,6 +349,8 @@
    </PIN>
    <BOUNDS type="Box" left="6450" top="4770">
    </BOUNDS>
+   <BOUNDS type="Window" left="7410" top="6615" width="12300" height="7860">
+   </BOUNDS>
    </NODE>
    <LINK srcnodeid="103" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
    </LINK>
@@ -383,6 +385,8 @@
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Enable FX" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <LINK srcnodeid="21" srcpinname="Color Output" dstnodeid="105" dstpinname="Circle" hiddenwhenlocked="1">
    </LINK>
@@ -405,5 +409,21 @@
    <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="36" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 2">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="106">
+   <BOUNDS type="Box" left="9570" top="3420" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="9570" top="3420" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Editing" dstnodeid="106" dstpinname="Y Input Value">
    </LINK>
    </PATCH>
