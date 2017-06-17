@@ -1,0 +1,49 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p">
+   <BOUNDS type="Window" left="16149" top="7686" width="8995" height="5999">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE systemname="LevelView" filename="LevelView.v4p" nodename="LevelView.v4p" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="1953" top="2667" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="5">
+   <BOUNDS type="Box" left="1540" top="707" width="693" height="210">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1540" top="707" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="6">
+   <BOUNDS type="Box" left="1652" top="3409" width="693" height="210">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1652" top="3409" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="6" dstpinname="Input Node">
+   </LINK>
+   <NODE systemname="Playing (Game Split)" filename="vl\VLGameProject.vl" nodename="Playing (Game Split)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="1484" top="1421" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Level" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="8" dstpinname="Input">
+   </LINK>
+   </PATCH>
