@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Tbxvcw7pDmdQapVBYd69Lt" Version="0.53">
+<Document xmlns:p="property" Id="Tbxvcw7pDmdQapVBYd69Lt" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
@@ -14,6 +14,6 @@
   <DocumentDependency Id="Q8TwgFK1TjuO145lq00fet" Location="./VL.Cameras.vl" IsForward="true" />
   <DocumentDependency Id="SjViMM6yB8oNIcgvPR9D4R" Location="./VL.Editors.vl" IsForward="true" />
   <Patch Id="TXTeyIxA843Mbps5qLbsQh">
-    <Canvas Id="FHBcRnBWchcMslNlH4RwFh" />
+    <Canvas Id="FHBcRnBWchcMslNlH4RwFh" BordersChecked="false" />
   </Patch>
 </Document>

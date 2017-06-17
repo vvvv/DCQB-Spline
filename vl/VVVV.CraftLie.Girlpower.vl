@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="MZmd92n0x8tLLBfKYOnxOx" Version="0.53">
+<Document xmlns:p="property" Id="MZmd92n0x8tLLBfKYOnxOx" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
   <NugetDependency Id="HbAhAevw0FVN9sGbXw9dz9" Location="VL.CoreLib" Version="0.38.1043" />
   <NugetDependency Id="Q8t0r8GegU6LxRf2wXWopD" Location="VL.Core" Version="0.38.1043" />
   <Patch Id="AXcrkz7wtuiLTLQMfXYFvQ">
-    <Canvas Id="UNxfqzqFZ0sNZX8LT3rUat" DefaultCategory="VVVV.CraftLie">
+    <Canvas Id="UNxfqzqFZ0sNZX8LT3rUat" DefaultCategory="VVVV.CraftLie" BordersChecked="false">
       <!--
 
     ************************ Overview ************************
@@ -17,7 +17,7 @@
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <Patch Id="B3wjDiKSnnuOM7ooOPvX4a">
-          <Canvas Id="Rv5w8hzE9JuO8rcuQWuBmO">
+          <Canvas Id="Rv5w8hzE9JuO8rcuQWuBmO" BordersChecked="false">
             <Pad Id="UScLZTPmDIwNWSl023R7dp" Comment="Texture Path" Bounds="325,210,-5,-16" ShowValueBox="true" isIOBox="true" Value="&quot;lib\\assets\\images\\ring thin.bmp&quot;">
               <p:ValueBoxSettings>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">String</p:stringtype>
@@ -107,8 +107,8 @@
             </Pad>
             <Pad Id="JxvLAPmoMmgLSHx89KnQ6d" Bounds="542,487" ShowValueBox="true" isIOBox="true" Value="&quot;you can transform a layer&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -117,8 +117,8 @@
             </Pad>
             <Pad Id="D3qsKz9lTuWOKyksgxbOtv" Bounds="464,517" ShowValueBox="true" isIOBox="true" Value="&quot;this is like connecting the transformation to all objects&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -140,8 +140,8 @@
             </Node>
             <Pad Id="Mh205ANPv1XQYe4UsHV3Zy" Bounds="438,633" ShowValueBox="true" isIOBox="true" Value="&quot;this node collects all objects to draw into a buffer&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -150,8 +150,8 @@
             </Pad>
             <Pad Id="FQFkws24nroQAhR527zJCl" Bounds="438,652" ShowValueBox="true" isIOBox="true" Value="&quot;to pass it on to vvvv&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -160,8 +160,8 @@
             </Pad>
             <Pad Id="ABTnKaCgg1RO4XFh1WSZbl" Bounds="341,324" ShowValueBox="true" isIOBox="true" Value="&quot;&lt;- look inside -&gt;&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -184,8 +184,8 @@
             </Pad>
             <Pad Id="ANk2ZEemIj7OeM7ARaaufT" Bounds="607,342" ShowValueBox="true" isIOBox="true" Value="&quot;the within node can change the space&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -194,8 +194,8 @@
             </Pad>
             <Pad Id="JrgsNejmgRiOwf5GcnuAG6" Bounds="606,358,-20,2" ShowValueBox="true" isIOBox="true" Value="&quot;in which the objects are placed, i.e. for making UIs&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -241,7 +241,7 @@
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <Patch Id="E2E5gZzVt8cLomsREPVLhm">
-          <Canvas Id="CkNnWV2H1xQLEDgFaZFtFS">
+          <Canvas Id="CkNnWV2H1xQLEDgFaZFtFS" BordersChecked="false">
             <Node Bounds="250,531,67,13" Id="J9fFocCvE8LO9STXs2xnLw">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -282,8 +282,8 @@
             </Pad>
             <Pad Id="VDUATN4GtuCNWvNeVqGR1q" Bounds="95,273,-26,0" ShowValueBox="true" isIOBox="true" Value="&quot;master transformation&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -302,8 +302,8 @@
             </Node>
             <Pad Id="Iu9Yi0TTFTCQdcv5p1jBlR" Bounds="338,220" ShowValueBox="true" isIOBox="true" Value="&quot;texture is the same for all instances&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -318,8 +318,8 @@
             </Pad>
             <Pad Id="RXn3AghXRNEOJjlU08cfuS" Bounds="623,390" ShowValueBox="true" isIOBox="true" Value="&quot;generate 25000 transformations&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -328,8 +328,8 @@
             </Pad>
             <Pad Id="Nm2BvGVJcR2L3G8uEJSLiu" Bounds="621,410" ShowValueBox="true" isIOBox="true" Value="&quot;for the same box&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -343,8 +343,8 @@
             </Pad>
             <Pad Id="E96kpLzDKEvPwqsGCBKowp" Bounds="303,351" ShowValueBox="true" isIOBox="true" Value="&quot;master color gets multiplied&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -353,8 +353,8 @@
             </Pad>
             <Pad Id="A4MrQHaCFtgM6uydJw7bZO" Bounds="303,368" ShowValueBox="true" isIOBox="true" Value="&quot;with instance colors&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -380,8 +380,8 @@
             </Pad>
             <Pad Id="PWB2UYqoBDlP7BsnWFVEHp" Bounds="94,290" ShowValueBox="true" isIOBox="true" Value="&quot;instance transformations are relative to it&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -426,7 +426,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="IOLvY33VWKUOQXW5w8Cwvb">
-          <Canvas Id="CSGEy4dMhTzM6WTBROjVq1">
+          <Canvas Id="CSGEy4dMhTzM6WTBROjVq1" BordersChecked="false">
             <ControlPoint Id="H5q0Phws4dnLyX5iUR8BRx" Bounds="99,800" />
             <Node Bounds="97,755,58,13" Id="MaSnUiJ8LZgMX213h9cysn">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.CoreLib.dll">
@@ -623,8 +623,8 @@
                 </Pad>
                 <Pad Id="ENTsUCabBXuPl5HYRR3UpJ" Bounds="625,284" ShowValueBox="true" isIOBox="true" Value="&quot;10% chance to select next direction&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -632,8 +632,8 @@
                 </Pad>
                 <Pad Id="PnuchulwC9sMV5XkJBCQGQ" Bounds="478,491" ShowValueBox="true" isIOBox="true" Value="&quot;add scaled direction to last position&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -641,8 +641,8 @@
                 </Pad>
                 <Pad Id="H8pTWUkIavEMwccwy6dzqu" Bounds="305,593" ShowValueBox="true" isIOBox="true" Value="&quot;add current transformation to the previous ones&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -651,8 +651,8 @@
                 </Pad>
                 <Pad Id="SuUkFnLGfUYNxLsPtRRf5C" Bounds="301,672" ShowValueBox="true" isIOBox="true" Value="&quot;send current result to mainloop&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -661,8 +661,8 @@
                 </Pad>
                 <Pad Id="DGlllcfhkjONbBW4twGfnx" Bounds="321,249" ShowValueBox="true" isIOBox="true" Value="&quot;reset on first event&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -734,8 +734,8 @@
             <ControlPoint Id="NUM05yAi3KTLX0rpIiBDnF" Bounds="209,-45" />
             <Pad Id="Vo6Whpnqqq0PXJ4jfy7nvp" Bounds="604,96" ShowValueBox="true" isIOBox="true" Value="&quot;6 directions&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -743,8 +743,8 @@
             </Pad>
             <Pad Id="IgAcKQkActrPyG1xNGZWnd" Bounds="227,10" ShowValueBox="true" isIOBox="true" Value="&quot;fire events as fast as possible&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -752,8 +752,8 @@
             </Pad>
             <Pad Id="JCr6mFVKAaaMBvBOZ9u1On" Bounds="226,26" ShowValueBox="true" isIOBox="true" Value="&quot;on a background thread&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -842,7 +842,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="HoGGCmDzZW8LxakSGbudTz">
-          <Canvas Id="Ivwh8ViH9z3NNCN0jImtqd">
+          <Canvas Id="Ivwh8ViH9z3NNCN0jImtqd" BordersChecked="false">
             <Node Bounds="225,542,733,13" Id="TyejMxIE2wUNkVG6tZk6po">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1064,8 +1064,8 @@
             </Node>
             <Pad Id="HDYUktTFuhuOmqdXYvYR2b" Bounds="478,181" ShowValueBox="true" isIOBox="true" Value="&quot;toggle texture path&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -1256,7 +1256,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="R99VKB19MsrMqDKBjnZImc">
-          <Canvas Id="DTlTWKzlVNGOYPNU8aFYTM">
+          <Canvas Id="DTlTWKzlVNGOYPNU8aFYTM" BordersChecked="false">
             <Node Bounds="160,507,596,13" Id="SLx4wB3gbnWOQ5svr6NYtJ">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1465,7 +1465,7 @@
                 <Patch Id="ECMt41g6M1uNhNrgXGr08b" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="McTXwf4GHFBLL8AP6cbR8T" Name="Destroy" ManuallySortedPins="true" />
                 <Node Bounds="975,362,47,13" Id="BP1MwAsmxQXLnOQ88568yB">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Random" />
                     <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -1489,7 +1489,7 @@
                   <Pin Id="NEzAt7vam8oLa3Dp3Y7HAv" Name="Half" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="975,321,14,13" Id="GfFEmi3cRVdOLBdK4JrttP">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="SharpDX.Mathematics.dll">
+                  <p:NodeReference LastCategoryFullName="Adaptive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="- (Negate)" />
                     <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -1507,8 +1507,8 @@
             </Pad>
             <Pad Id="NbffDKPScGKMRljGzc7asD" Bounds="951,446" ShowValueBox="true" isIOBox="true" Value="&quot;Default size is 0.01&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -1517,8 +1517,8 @@
             </Pad>
             <Pad Id="CCXlfNSrvyPL1tXLgv1i3q" Bounds="951,467" ShowValueBox="true" isIOBox="true" Value="&quot;Default Color is white&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -1572,7 +1572,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="HP2vHLVk6iOMtgRWNRFtT0">
-          <Canvas Id="FHbtTGVUEUxP58HWJrZfHU">
+          <Canvas Id="FHbtTGVUEUxP58HWJrZfHU" BordersChecked="false">
             <Node Name="If2" Bounds="236,313,138,213" Id="TkzVWHh5Z7tNg7FKTJWIhP">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
@@ -1743,8 +1743,8 @@
             <ControlPoint Id="F3fg6ZMXMbfQZHI3Dgp64o" Bounds="298,715" />
             <Pad Id="OpWJsmyyhasQLvGGhR1X6T" Bounds="210,777" ShowValueBox="true" isIOBox="true" Value="&quot;reset to slow interval when goal reached&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -1814,7 +1814,7 @@
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <Patch Id="EPp8VE6OZgvNr7Rck4FE4n">
-          <Canvas Id="MAyD5LydGXNQL6j59jBp0h">
+          <Canvas Id="MAyD5LydGXNQL6j59jBp0h" BordersChecked="false">
             <Node Bounds="449,586,67,13" Id="CiSD0j9meEXPOaVy3becxO">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2016,7 +2016,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="QIrFsQxFcekPUjuYz41TIj">
-          <Canvas Id="A8gXgu3vzTwMPJutCaZkGA">
+          <Canvas Id="A8gXgu3vzTwMPJutCaZkGA" BordersChecked="false">
             <Node Bounds="232,574,105,13" Id="JWdTplZhjATLNPghRnAdWa">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2381,7 +2381,7 @@
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <Patch Id="O0KsWIwdtc6PXq0hrbl9hv">
-          <Canvas Id="HshoPMJHiRGQdsPPBCHJ7N">
+          <Canvas Id="HshoPMJHiRGQdsPPBCHJ7N" BordersChecked="false">
             <Pad Id="RdcQfrMlmsXN8L8C7wjZ9n" Comment="Texture Path" Bounds="627,408,-5,-16" ShowValueBox="true" isIOBox="true" Value="&quot;lib\\assets\\images\\halo dot.bmp&quot;">
               <p:ValueBoxSettings>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">String</p:stringtype>
@@ -2496,8 +2496,8 @@
             </Pad>
             <Pad Id="KtzGocRsrSRQckxEm4XiOr" Bounds="312,454,-21,2" ShowValueBox="true" isIOBox="true" Value="&quot;convert single value to spread&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -2505,8 +2505,8 @@
             </Pad>
             <Pad Id="IppkEcGNoZmLNa67iv02ta" Bounds="637,440" ShowValueBox="true" isIOBox="true" Value="&quot;sprites can have a texture&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -2529,8 +2529,8 @@
             </Pad>
             <Pad Id="Mhv1UPmxtpwQMDZRA6cZhD" Bounds="406,266" ShowValueBox="true" isIOBox="true" Value="&quot;generate positions&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -2590,7 +2590,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="VSldbpN9XccNI2RKdp0jsf" IsGeneric="true">
-          <Canvas Id="KiHDVTIrDXgNIRh6nPyFOL">
+          <Canvas Id="KiHDVTIrDXgNIRh6nPyFOL" BordersChecked="false">
             <ControlPoint Id="R18OMjKq6enQB8JzCQKnFx" Bounds="375,149" />
             <Pad Id="UmKvpteXmJ3MCZd81m8Tvm" SlotId="J8UP7yrwUsnQS6QADtiBiw" Bounds="375,243">
               <p:ValueBoxSettings />
@@ -2735,7 +2735,7 @@
           <Link Id="UxuNAriH8V1OvggnaCbkeT" Ids="JKwvNpYhKQiPEJTAXG1X2f,LgN58qv3WKEQYkmglpKHXq" />
         </Patch>
       </Node>
-      <Canvas Id="B7w1hHUAIAEPt4YbVGyJj0" Name="BacteriaUtils" Position="705,521">
+      <Canvas Id="B7w1hHUAIAEPt4YbVGyJj0" Name="BacteriaUtils" Position="705,521" BordersChecked="false">
         <!--
 
     ************************ PerlinForce ************************
@@ -3092,7 +3092,7 @@
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <Patch Id="Aa1HM9dfQ7JPgdBjzgOkba">
-          <Canvas Id="KP5Jpifed7PNxkY2vr3biU">
+          <Canvas Id="KP5Jpifed7PNxkY2vr3biU" BordersChecked="false">
             <Node Bounds="489,798,67,13" Id="SyHnRpJYwdSMovFbtslBnK">
               <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3104,8 +3104,8 @@
             <ControlPoint Id="LdBkBYLCRlnQPQ8Y0DYaLg" Bounds="491,860" />
             <Pad Id="Flo8cssiziTPcTRstTs4Gj" Bounds="554,776" ShowValueBox="true" isIOBox="true" Value="&quot;pass it on to vvvv&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -3242,8 +3242,8 @@
             </Node>
             <Pad Id="TIruGJMmbHyMftXeuSegWY" Bounds="264,335" ShowValueBox="true" isIOBox="true" Value="&quot;recreate on reset&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -3268,8 +3268,8 @@
             </Node>
             <Pad Id="THqIOxUwy7PQFyzeN4fuhQ" Bounds="571,504" ShowValueBox="true" isIOBox="true" Value="&quot;send all mouse events to the UI elements&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -3277,8 +3277,8 @@
             </Pad>
             <Pad Id="L0yZFimr1k3PpCbeXLrTGM" Bounds="503,655" ShowValueBox="true" isIOBox="true" Value="&quot;update visual part of the UI elements&quot;">
               <p:ValueBoxSettings>
-                <p:fontsize p:Type="Int32">9</p:fontsize>
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
               </p:ValueBoxSettings>
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -3326,7 +3326,7 @@
           <Link Id="SNw8RBPELh0MGwHepVjCsS" Ids="JMlnVcLQaewMhZdbHrJ59d,H6wrXKTViVkPNWBijNminY" />
         </Patch>
       </Node>
-      <Canvas Id="VxbSJVdHxqgNQR6AnYijW9" Name="DynamicUIUtils" Position="184,681" DefaultCategory="VVVV.CraftLie">
+      <Canvas Id="VxbSJVdHxqgNQR6AnYijW9" Name="DynamicUIUtils" Position="184,681" DefaultCategory="VVVV.CraftLie" BordersChecked="false">
         <!--
 
     ************************ RectToQuadTransformation ************************
@@ -3696,7 +3696,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="RUxq16XXoYdO9Db7usvf1r">
-            <Canvas Id="PQ79iBAXqB8PJgKR7pXbeJ">
+            <Canvas Id="PQ79iBAXqB8PJgKR7pXbeJ" BordersChecked="false">
               <Node Bounds="354,451,112,13" Id="IgtKK24dvZrPDhdiJ69P4e">
                 <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3885,7 +3885,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="AUA6bEAcnFaMoI7Y5rHyvf">
-            <Canvas Id="MRzOM7qvR2lPwU1ky4tlbU">
+            <Canvas Id="MRzOM7qvR2lPwU1ky4tlbU" BordersChecked="false">
               <Node Bounds="189,580,165,13" Id="IIuKVJM4rrKPjy7Xgdt5Rr">
                 <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4351,7 +4351,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="MeKAu1dFmNBPNUgrKB3uCZ">
-            <Canvas Id="FC8l6HK6Xc0NDCIIIVcJj0">
+            <Canvas Id="FC8l6HK6Xc0NDCIIIVcJj0" BordersChecked="false">
               <Pad Id="VndK6mrEeSlLXmlMjHvA5n" SlotId="AFqssOTSmPyNfptBdOSCrQ" Bounds="399,225">
                 <p:ValueBoxSettings />
               </Pad>
@@ -4663,7 +4663,7 @@
             <Choice Kind="ContainerType, HasMasterPatchFlag, DefinitionFlag" Name="Patch" />
           </p:NodeReference>
           <Patch Id="VnTX5wkc7ZtLm0kSILmp8s">
-            <Canvas Id="NW8VpOU6luZQBpYSipn7od">
+            <Canvas Id="NW8VpOU6luZQBpYSipn7od" BordersChecked="false">
               <Pad Id="AJOitrGcdm8LzgoS6GSiJ3" SlotId="Q5O6p4QLPp6MfEn5fyHZJy" Bounds="39,209">
                 <p:ValueBoxSettings />
               </Pad>
@@ -4982,7 +4982,7 @@
             <Choice Kind="RecordType, HasMasterPatchFlag, DefinitionFlag" Name="Record" />
           </p:NodeReference>
           <Patch Id="T6vzm7gtoakPamLIqIxiPm" IsGeneric="true">
-            <Canvas Id="OcLY9nKjyCgNCycU1eUmOV">
+            <Canvas Id="OcLY9nKjyCgNCycU1eUmOV" BordersChecked="false">
               <Pad Id="S3H324yRD8XMHQN0YEmMbc" SlotId="ChlxE1S5le4L6fDmd92anY" Bounds="464,330">
                 <p:ValueBoxSettings />
               </Pad>
@@ -5107,7 +5107,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="CjI8SMoqOH1OTpwIiOQk6R">
-            <Canvas Id="O4L05Ip8qoCNhJ85BBImud">
+            <Canvas Id="O4L05Ip8qoCNhJ85BBImud" BordersChecked="false">
               <Node Bounds="283,32,68,22" Id="GxBVMrjnoa8LJ3s9xa6oJp">
                 <p:NodeReference LastCategoryFullName="IO.Mouse.MouseDevice" LastSymbolSource="VVVV.Utils.dll">
                   <CategoryReference Kind="Category" Name="MouseDevice" NeedsToBeDirectParent="true" />
@@ -5436,8 +5436,8 @@
         </Node>
         <Pad Id="RGv9WfeGDKGPZoa8ZJdJIu" Bounds="617,-373" ShowValueBox="true" isIOBox="true" Value="&quot;mouse helpers&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
@@ -5445,15 +5445,15 @@
         </Pad>
         <Pad Id="DZwmgUpm9vONu1ejag473G" Bounds="-320,-409" ShowValueBox="true" isIOBox="true" Value="&quot;misc helpers used in several places&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
         </Pad>
       </Canvas>
-      <Canvas Id="DUrdI1ICpBOOarGVOPucoH" Name="UIElementUtils" Position="440,632" DefaultCategory="VVVV.CraftLie">
+      <Canvas Id="DUrdI1ICpBOOarGVOPucoH" Name="UIElementUtils" Position="440,632" DefaultCategory="VVVV.CraftLie" BordersChecked="false">
         <!--
 
     ************************ UIElement ************************
@@ -5465,7 +5465,7 @@
             <Choice Kind="ClassType, HasMasterPatchFlag, DefinitionFlag" Name="Class" />
           </p:NodeReference>
           <Patch Id="QmRY7oqm9uCQSdpCUEGaZO">
-            <Canvas Id="QlVUtH4mKSSPvnq41DRgDD">
+            <Canvas Id="QlVUtH4mKSSPvnq41DRgDD" BordersChecked="false">
               <Pad Id="UvhNgDvzcR7NRENwbDCdI7" SlotId="Gbp9rSYLZf4MZnV85je1Cy" Bounds="-102,271">
                 <p:ValueBoxSettings />
               </Pad>
@@ -5743,7 +5743,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="DmF0UDHH9nDN2YvnBEG122" IsGeneric="true">
-            <Canvas Id="KFLwPq6xGv4LdZL9DK7i4b">
+            <Canvas Id="KFLwPq6xGv4LdZL9DK7i4b" BordersChecked="false">
               <Pad Id="QsyLX4vw6wUNxH4QMbYBnj" SlotId="JJ7uWv4v9wPOpBKgh4B24g" Bounds="455,270">
                 <p:ValueBoxSettings />
               </Pad>
@@ -5900,8 +5900,8 @@
         </Node>
         <Pad Id="KVoM9WKV89ZPtaooqsJayc" Bounds="614,381" ShowValueBox="true" isIOBox="true" Value="&quot;just used to fix the type of an input pin of UIElement&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
@@ -5909,7 +5909,7 @@
           </p:TypeAnnotation>
         </Pad>
       </Canvas>
-      <Canvas Id="PDrEbK71E4gPvDU0BsGkZ5" Name="WindowUtils" Position="645,630" DefaultCategory="VVVV.CraftLie">
+      <Canvas Id="PDrEbK71E4gPvDU0BsGkZ5" Name="WindowUtils" Position="645,630" DefaultCategory="VVVV.CraftLie" BordersChecked="false">
         <!--
 
     ************************ Window ************************
@@ -5921,7 +5921,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="ITqV3wN0MwCNjRTIpYxLdI">
-            <Canvas Id="JwoxcH4zqIgO9PSzRvSztu">
+            <Canvas Id="JwoxcH4zqIgO9PSzRvSztu" BordersChecked="false">
               <Node Bounds="-54,976,491,13" Id="VT7ejDzUZQPNcRjWDvTNLz">
                 <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -6373,8 +6373,8 @@
               </Pad>
               <Pad Id="KbJe5eD0CRRP6qW5s4ngE6" Bounds="462,5" ShowValueBox="true" isIOBox="true" Value="&quot;slight random initial position&quot;">
                 <p:ValueBoxSettings>
-                  <p:fontsize p:Type="Int32">9</p:fontsize>
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                  <p:fontsize p:Type="Int32">9</p:fontsize>
                 </p:ValueBoxSettings>
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -6535,7 +6535,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="G9JOWq8po5kPGpaRwcEscg">
-            <Canvas Id="R2n2hg7v199K99KAq4RozU">
+            <Canvas Id="R2n2hg7v199K99KAq4RozU" BordersChecked="false">
               <ControlPoint Id="TxUVISiIYTuQTLDfyThjor" Bounds="978,444" />
               <Node Bounds="-124,1138,82,22" Id="OgRLGPKQQ9EPs6f4YJEKQo">
                 <p:NodeReference LastCategoryFullName="VVVV.CraftLie.UIElementProperties" LastSymbolSource="VVVV.CraftLie.Girlpower.vl">
@@ -6764,8 +6764,8 @@
               <ControlPoint Id="Mm00dH7faoUMsqgspeIgeq" Bounds="353,309" />
               <Pad Id="QloSKcPZwvCPKu7ZgTMGeS" Bounds="-67,936" ShowValueBox="true" isIOBox="true" Value="&quot;relative to the vvvv patch that &quot;">
                 <p:ValueBoxSettings>
-                  <p:fontsize p:Type="Int32">9</p:fontsize>
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                  <p:fontsize p:Type="Int32">9</p:fontsize>
                 </p:ValueBoxSettings>
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -6774,8 +6774,8 @@
               </Pad>
               <Pad Id="HYiEzWo9yxNMoyFX3SvzzT" Bounds="-70,959" ShowValueBox="true" isIOBox="true" Value="&quot;contains the Renderer (CraftLie)&quot;">
                 <p:ValueBoxSettings>
-                  <p:fontsize p:Type="Int32">9</p:fontsize>
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                  <p:fontsize p:Type="Int32">9</p:fontsize>
                 </p:ValueBoxSettings>
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                   <Choice Kind="TypeFlag" Name="String" />
@@ -6890,7 +6890,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="NYLdgXj1pawNGSszct1Ti9">
-            <Canvas Id="InBMjMdcP5KM4cUEG2A0Qp">
+            <Canvas Id="InBMjMdcP5KM4cUEG2A0Qp" BordersChecked="false">
               <Node Bounds="234,740,578,13" Id="TgWx1IOl0hHOIkb5WH4you">
                 <p:NodeReference LastCategoryFullName="CraftLie" LastSymbolSource="CraftLie.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7293,7 +7293,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="K4Ri2Vw8RQqONs3xw5CfYE">
-            <Canvas Id="OH19PIQKd1TOOSV3cn6bth">
+            <Canvas Id="OH19PIQKd1TOOSV3cn6bth" BordersChecked="false">
               <ControlPoint Id="DM0bkQch7AfPZ1P6TM8xKR" Bounds="520,211" />
               <ControlPoint Id="TRmL3Axd5YyQRlcHALP8zT" Bounds="442,287" />
               <ControlPoint Id="HAZfFfvBscAMk6h03cmTXB" Bounds="629,289" />
@@ -7774,7 +7774,7 @@
             <Choice Kind="ContainerType, HasMasterPatchFlag, DefinitionFlag" Name="Patch" />
           </p:NodeReference>
           <Patch Id="PZWzO3FeD4sNJH9Wf7lPmc">
-            <Canvas Id="LWDzflQPewKMDZ46mbzYMR">
+            <Canvas Id="LWDzflQPewKMDZ46mbzYMR" BordersChecked="false">
               <Pad Id="DEafkMSFBZ8P2pLzt3OXEz" SlotId="Qd1pbZKQX8oNinz7enETMG" Bounds="156,177">
                 <p:ValueBoxSettings />
               </Pad>
@@ -7910,7 +7910,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="OfPUVRIJ8lQPEsc14pyvM7" IsGeneric="true">
-            <Canvas Id="ALvKq4bme06QK0syBSUfSm">
+            <Canvas Id="ALvKq4bme06QK0syBSUfSm" BordersChecked="false">
               <ControlPoint Id="IE5JvDfPz2PNBXuQjTwa7p" Bounds="244,191" />
               <Node Bounds="-248,-17,66,13" Id="DN681kruccMMmNPk7ls5qg">
                 <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
@@ -8304,7 +8304,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="RJtxuYKi9gKPLQe3rBZhIx">
-            <Canvas Id="E4gjkMuoaudLdmqdPDctQg">
+            <Canvas Id="E4gjkMuoaudLdmqdPDctQg" BordersChecked="false">
               <ControlPoint Id="JlCNeF1OUXqM4YnhqS5SjO" Bounds="632,440" />
               <Node Bounds="-43,595,82,22" Id="JqwgaZ7k3ayMRV9jeMF9Ff">
                 <p:NodeReference LastCategoryFullName="VVVV.CraftLie.UIElementProperties" LastSymbolSource="VVVV.CraftLie.Girlpower.vl">
@@ -8455,7 +8455,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="AYeQ9tZ1jRQLVFYdmRPQaU">
-            <Canvas Id="Pb6YfnZXAndO2IuzhaT79n">
+            <Canvas Id="Pb6YfnZXAndO2IuzhaT79n" BordersChecked="false">
               <ControlPoint Id="Md40rbDJnWUOgrLJJtNIyA" Bounds="1321,317" />
               <Node Bounds="-46,977,82,22" Id="Mwt2IFXiitXOKWaGZHum47">
                 <p:NodeReference LastCategoryFullName="VVVV.CraftLie.UIElementProperties" LastSymbolSource="VVVV.CraftLie.Girlpower.vl">
@@ -9036,7 +9036,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="VprsNmQ2SI8NJCgZE1YAvH">
-            <Canvas Id="LsoswncFlMMONb1p0aIJ1o">
+            <Canvas Id="LsoswncFlMMONb1p0aIJ1o" BordersChecked="false">
               <Pad Id="Vlgiyg6N9TBPN6um6c6JcU" SlotId="R2Akvwp5NCIL95NsXJ5Vol" Bounds="311,171">
                 <p:ValueBoxSettings />
               </Pad>
@@ -9496,7 +9496,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="M5bh9SnChcWPKAnQ8yMub4">
-            <Canvas Id="T16GlairNeAPt0AmW8qSKS">
+            <Canvas Id="T16GlairNeAPt0AmW8qSKS" BordersChecked="false">
               <Node Bounds="284,269,29,13" Id="ID1N0CFaqozNN5oB2H8wwP">
                 <p:NodeReference LastCategoryFullName="System.DateTime" LastSymbolSource="CommonLanguageRuntimeLibrary">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -9681,7 +9681,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="ULtTlxgpGkfLbcBsDnijiJ">
-            <Canvas Id="UVd1N5URNTbN0TAU4mXpac">
+            <Canvas Id="UVd1N5URNTbN0TAU4mXpac" BordersChecked="false">
               <Pad Id="K1LMvoQmmZYQbeZm9nmP4H" SlotId="AIQWqyn4NuHLUES5oEKaAm" Bounds="564,311">
                 <p:ValueBoxSettings />
               </Pad>
@@ -10156,7 +10156,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="InMYsRaC5QPLmcMWUKtZFY">
-            <Canvas Id="D2LG1kTLMCIQLVGeBzFeNV">
+            <Canvas Id="D2LG1kTLMCIQLVGeBzFeNV" BordersChecked="false">
               <ControlPoint Id="DUOhTcYVDjiLm47ognVEEu" Bounds="362,266" />
               <ControlPoint Id="EvgU7WG1AGcODeIOerl47s" Bounds="544,423,373,0" />
               <ControlPoint Id="E0vpy8YRqluOLvG1i7I5kF" Bounds="326,416" />
@@ -10292,7 +10292,7 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="MS3bnbUTf2xL9q6QOX5k8R">
-            <Canvas Id="UVyPS5AmflgMWCE9OQhCkt">
+            <Canvas Id="UVyPS5AmflgMWCE9OQhCkt" BordersChecked="false">
               <ControlPoint Id="Bn6FBbNS7HILayQne0nWVk" Bounds="1428,289,-1,0" />
               <Node Bounds="44,1240,82,22" Id="Pa2f04Sf9foNRmCmWD43aj">
                 <p:NodeReference LastCategoryFullName="VVVV.CraftLie.UIElementProperties" LastSymbolSource="VVVV.CraftLie.Girlpower.vl">
@@ -10912,8 +10912,8 @@
         </Node>
         <Pad Id="FZ0z3lqmENHLNIGyWFaF0U" Bounds="-144,208" ShowValueBox="true" isIOBox="true" Value="&quot;th window manager&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
@@ -10921,8 +10921,8 @@
         </Pad>
         <Pad Id="MdorT5ERxC1Lh89zJuJwjz" Bounds="737,198" ShowValueBox="true" isIOBox="true" Value="&quot;generic window&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
@@ -10930,15 +10930,15 @@
         </Pad>
         <Pad Id="UtoBcOHYAooQAKw1jEEqut" Bounds="1494,200" ShowValueBox="true" isIOBox="true" Value="&quot;window content&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
         </Pad>
       </Canvas>
-      <Canvas Id="OH74TJdJJhELJqS76YHQK2" Name="UIElementFactory" Position="440,679">
+      <Canvas Id="OH74TJdJJhELJqS76YHQK2" Name="UIElementFactory" Position="440,679" BordersChecked="false">
         <!--
 
     ************************ CreateWindow ************************
@@ -12887,8 +12887,8 @@
                 </Node>
                 <Pad Id="RrJgDRgYnDSN08qaRPBCqB" Bounds="-428,1288,0,10" ShowValueBox="true" isIOBox="true" Value="&quot;result needs to be 'Object' &quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -12897,8 +12897,8 @@
                 </Pad>
                 <Pad Id="KKWEzBjunRyQXONWODYRXG" Bounds="-428,1306,0,10" ShowValueBox="true" isIOBox="true" Value="&quot;to not get recursive definitions&quot;">
                   <p:ValueBoxSettings>
-                    <p:fontsize p:Type="Int32">9</p:fontsize>
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                    <p:fontsize p:Type="Int32">9</p:fontsize>
                   </p:ValueBoxSettings>
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                     <Choice Kind="TypeFlag" Name="String" />
@@ -12945,8 +12945,8 @@
         </Node>
         <Pad Id="RNKswNmimQaOhsglf9mnnD" Bounds="-442,-19" ShowValueBox="true" isIOBox="true" Value="&quot;in here all possible UIElements are defined&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />
@@ -12955,8 +12955,8 @@
         </Pad>
         <Pad Id="EW987NEX2DPOUV1r4pLfRZ" Bounds="-443,8" ShowValueBox="true" isIOBox="true" Value="&quot;also the factory to create any UIElement kind is setup here&quot;">
           <p:ValueBoxSettings>
-            <p:fontsize p:Type="Int32">9</p:fontsize>
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            <p:fontsize p:Type="Int32">9</p:fontsize>
           </p:ValueBoxSettings>
           <p:TypeAnnotation ReferenceKind="App">
             <Choice Kind="TypeFlag" Name="String" />

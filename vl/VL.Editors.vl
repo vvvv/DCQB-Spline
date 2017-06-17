@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RMDMfKmnIrVPStLdWe8u30" Version="0.53">
+<Document xmlns:p="property" Id="RMDMfKmnIrVPStLdWe8u30" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
   <NugetDependency Id="QXe3JkcIP7ANPfYaJOCbvc" Location="VL.Core" Version="0.36.54-alpha-g0025c9adc6" />
   <NugetDependency Id="VC30lGKgHUyQCAswxdhkx9" Location="VL.CoreLib" Version="0.36.54-alpha-g0025c9adc6" />
   <Patch Id="C2JxqgLHRngQa6nhCBT2eq">
-    <Canvas Id="Q3ELFXSS7MFQW2W6KyqTBr" DefaultCategory="Editors">
-      <Canvas Id="O0SEBvYrZeaMlHydQo07Fj" Name="AdaptiveUtils" Position="844,461" DefaultCategory="Adaptive">
+    <Canvas Id="Q3ELFXSS7MFQW2W6KyqTBr" DefaultCategory="Editors" BordersChecked="false">
+      <Canvas Id="O0SEBvYrZeaMlHydQo07Fj" Name="AdaptiveUtils" Position="844,461" DefaultCategory="Adaptive" BordersChecked="false">
         <!--
 
     ************************ ToXYZ ************************
@@ -151,7 +151,7 @@
             <Pin Id="U7ds7XPhTl8LJnuk4Gs6nY" Name="KeyHovered" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="QHnBpMCFnvPOAQbkK8PCJp">
+          <Canvas Id="QHnBpMCFnvPOAQbkK8PCJp" BordersChecked="false">
             <Pad Id="SibPYjRlbHkMyMOXol6QF7" Comment="Selected" Bounds="1187,509,40,22" ShowValueBox="true" isIOBox="true" Value="true">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -423,7 +423,7 @@
           <Link Id="BkQXLfeHsGZQIBziKtUsXk" Ids="CS3XaI8PwiILaNU0wDZXJp,NCkyGRADIkvLZ0aFsZ08lE" />
         </Patch>
       </Node>
-      <Canvas Id="Esr3aVdbyRLOiQJ7aNsMZ6" Name="Editor2d" Position="836,224" DefaultCategory="Editors.2D">
+      <Canvas Id="Esr3aVdbyRLOiQJ7aNsMZ6" Name="Editor2d" Position="836,224" DefaultCategory="Editors.2D" BordersChecked="false">
         <!--
 
     ************************ EditPoints2d ************************
@@ -564,7 +564,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="Hb65C3Cn9JWMJVWjUnqzcA" Name="Editor2dUtils" Position="837,292" DefaultCategory="Editors.2D">
+      <Canvas Id="Hb65C3Cn9JWMJVWjUnqzcA" Name="Editor2dUtils" Position="837,292" DefaultCategory="Editors.2D" BordersChecked="false">
         <!--
 
     ************************ Scale ************************
@@ -775,7 +775,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="KcqvHmiMH1aPxy3Qh3HnS9" Name="Editor3d" Position="836,189" DefaultCategory="Editors.3D">
+      <Canvas Id="KcqvHmiMH1aPxy3Qh3HnS9" Name="Editor3d" Position="836,189" DefaultCategory="Editors.3D" BordersChecked="false">
         <!--
 
     ************************ EditPoints3d ************************
@@ -921,7 +921,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="QL1HIcFgpV5PyuNVuUYPgx" Name="Editor3dUtils" Position="836,259" DefaultCategory="Editors.3D">
+      <Canvas Id="QL1HIcFgpV5PyuNVuUYPgx" Name="Editor3dUtils" Position="836,259" DefaultCategory="Editors.3D" BordersChecked="false">
         <!--
 
     ************************ ToXYZ ************************
@@ -1127,7 +1127,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="RobZRQSgjP6LBI2ZawOZnp" Name="EditorUtils" Position="839,336" DefaultCategory="Editors">
+      <Canvas Id="RobZRQSgjP6LBI2ZawOZnp" Name="EditorUtils" Position="839,336" DefaultCategory="Editors" BordersChecked="false">
         <!--
 
     ************************ Translate ************************
@@ -3057,7 +3057,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="TnluCbmcHKaQZOi20SgNZI" Name="AdaptiveImplementations" Position="842,420" DefaultCategory="Editors.EditablePoint">
+      <Canvas Id="TnluCbmcHKaQZOi20SgNZI" Name="AdaptiveImplementations" Position="842,420" DefaultCategory="Editors.EditablePoint" BordersChecked="false">
         <!--
 
     ************************ = ************************
@@ -3222,7 +3222,7 @@
             <Pin Id="DSDM96y0H8oMDMuswCZ4ei" Name="Active Axis" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="RHFAhArjDSFOKdXxosEjGp">
+          <Canvas Id="RHFAhArjDSFOKdXxosEjGp" BordersChecked="false">
             <Pad Id="Hf8K9wVozp7LLg1btJeDpj" Comment="Radius" Bounds="299,512" ShowValueBox="true" isIOBox="true" Value="0.0200000033">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -3607,7 +3607,7 @@
             <Pin Id="KLp3pL7LKq2NguJva9df0n" Name="Mouse Buttons" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="FYtMODW3H7TNMO2TGOxvbD">
+          <Canvas Id="FYtMODW3H7TNMO2TGOxvbD" BordersChecked="false">
             <Node Bounds="601,47,49,13" Id="JERIPxIlCRuOT2EH2NHmja">
               <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
@@ -3763,7 +3763,7 @@
             <Pin Id="JB87sci8OPmL2foNoOsEG7" Name="Absolute" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="Cg6GUJp2SBDPMPSbe60d7x">
+          <Canvas Id="Cg6GUJp2SBDPMPSbe60d7x" BordersChecked="false">
             <Pad Id="IY0FWpTYnmjNDRhDctFuSF" Comment="Normal" Bounds="917,223,33,57" ShowValueBox="true" isIOBox="true" Value="new vec(1.0,0.0,0.0)">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
@@ -4483,7 +4483,7 @@
             <Pin Id="ESyMBPuM4KfLutIoCVw14I" Name="Updated" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="BUnU7dqcd5lOpTFVvvvdJe">
+          <Canvas Id="BUnU7dqcd5lOpTFVvvvdJe" BordersChecked="false">
             <Node Bounds="527,559,102,13" Id="TceWToT5N5kLlHo47xrHK0">
               <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="FrameDifference" />
@@ -4759,7 +4759,7 @@
             <Pin Id="AwyuJFAt22mNu1IVtrWFsL" Name="Gizmo Size" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="V6kdnXqeFt7PhfG5kBHtek">
+          <Canvas Id="V6kdnXqeFt7PhfG5kBHtek" BordersChecked="false">
             <Pad Id="KqYMYPqIyc8O49Fcn123w3" Comment="Levels" Bounds="417,772,24,19" ShowValueBox="true" isIOBox="true" Value="50">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -5225,7 +5225,7 @@
             <Pin Id="EofX54UgDNTMpuXUaCubch" Name="Gizmo Size" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="LEXVZc5z9Q1Ldu9ojIkQOU">
+          <Canvas Id="LEXVZc5z9Q1Ldu9ojIkQOU" BordersChecked="false">
             <Pad Id="LArUxPpIXJSMKVqTGmchUW" Comment="Levels" Bounds="375,735,24,19" ShowValueBox="true" isIOBox="true" Value="50">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -5709,7 +5709,7 @@
             <Pin Id="Q2mCSWqJa84POYPZHNoyuU" Name="PointEditor Controls" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="QNjxvNmbQ1RNblr2wSZIa6">
+          <Canvas Id="QNjxvNmbQ1RNblr2wSZIa6" BordersChecked="false">
             <Pad Id="CfZkFOBUWYvOQKRwcLaV8i" Comment="Key Name" Bounds="681,332,59,13" ShowValueBox="true" isIOBox="true" Value="&quot;ControlKey&quot;">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -6254,7 +6254,7 @@
             <Pin Id="GkSNJxdxJ60Oczbn2Ild4N" Name="Hover Previous" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="MbHDQcu20RoPDStZdjVUCk">
+          <Canvas Id="MbHDQcu20RoPDStZdjVUCk" BordersChecked="false">
             <Pad Id="IDLi3GgeZokNGnAdTr3OCk" SlotId="DRneTrmdkH0OLLZsiLUObc" Bounds="975,316" />
             <Pad Id="N8cyXQ791xGNMoggddv8sF" SlotId="ICozfePFNcAPE6wejh5cMj" Bounds="1193,316" />
             <Pad Id="E9KtqmjQBywNlyWctJ7nMm" SlotId="NAm4B3UZybePH3wHMmE6vB" Bounds="1319,315" />
@@ -6436,7 +6436,7 @@
             <Pin Id="JhMVPe8SaVYP6C3XPuH7Xd" Name="GizmoState" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="FCVXPek4YxIOTETkG0B9Xq">
+          <Canvas Id="FCVXPek4YxIOTETkG0B9Xq" BordersChecked="false">
             <Pad Id="SnZ0Niz3ZOIMLZ94FvRClm" SlotId="Pm8uTbQtd9XNLYLprZk6gV" Bounds="312,186" />
             <Pad Id="Ey2DI6ZQ6lSMWIMdv2zRyl" SlotId="BTsOIpdJR8SOZBvhwz5VTQ" Bounds="432,186" />
             <Pad Id="A8opuL2JixpN01IfS0dLj6" SlotId="NdYESiW0CJSOd8P7PkchHb" Bounds="553,186" />
@@ -6566,7 +6566,7 @@
             <Pin Id="Ea1r9uY2z4fOG8CA3pYuik" Name="Gizmo Size" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="G6KQDXWgNT4LOY6arUomgp">
+          <Canvas Id="G6KQDXWgNT4LOY6arUomgp" BordersChecked="false">
             <Node Bounds="234,1032,165,13" Id="HkrfD7iwFbqO0ao5ZkuoG8">
               <p:NodeReference LastCategoryFullName="Editors.2D" LastSymbolSource="VL.Editors.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7170,7 +7170,7 @@
             <Pin Id="UWDis97rT2vNFmtK9OSuIo" Name="Gizmo Size" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="IWqRE9GJ77dLNzYH6gWZsJ">
+          <Canvas Id="IWqRE9GJ77dLNzYH6gWZsJ" BordersChecked="false">
             <Node Bounds="470,1195,145,13" Id="P435CRiRaBrPZ1TQ5NYGmQ">
               <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.Editors.vl">
                 <Choice Kind="OperationNode" Name="EditPoints3d" />
@@ -7645,7 +7645,7 @@
             <Pin Id="Sk6acGSLDuPMV3mZQdSuLE" Name="Hit Position" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="BeOkKqyAc7wK9jwQcTDzQ5">
+          <Canvas Id="BeOkKqyAc7wK9jwQcTDzQ5" BordersChecked="false">
             <Pad Id="OLTkaapQ8dCOj7syzdb0hw" Comment="Index" Bounds="430,616" ShowValueBox="true" isIOBox="true" Value="2">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -7914,7 +7914,7 @@
             <Pin Id="VHLVFc77N9vLofsS2fdbxp" Name="Selection" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="InlotIFotmTQB9iE4DbaAL">
+          <Canvas Id="InlotIFotmTQB9iE4DbaAL" BordersChecked="false">
             <Pad Id="LKi2t0beR3xMmBVi6soXsg" Comment="Scalar" Bounds="416,375" ShowValueBox="true" isIOBox="true" Value="0.499999821">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -8072,7 +8072,7 @@
             <Pin Id="CZyLPSV6IK8LzYTTYqtPMs" Name="Id" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="IGYLemm9rYTQAgrcqUO9bd">
+          <Canvas Id="IGYLemm9rYTQAgrcqUO9bd" BordersChecked="false">
             <Pad Id="V2GImnQH5tUMtyl1AFP6nn" SlotId="OsMa3szfrI6PnLc6x6Xtg5" Bounds="570,215" />
             <Pad Id="GHeLXCyInHUNnL1wTFX4aE" SlotId="N3CCmSooWOMMfezSl3fuYH" Bounds="631,217" />
             <ControlPoint Id="N5MRcCAHyvcOTXA7aUYdbm" Bounds="563,166" />
@@ -8094,7 +8094,7 @@
           <Link Id="NU9c44rGwlVMdGspghzArb" Ids="N5MRcCAHyvcOTXA7aUYdbm,V2GImnQH5tUMtyl1AFP6nn" />
         </Patch>
       </Node>
-      <Canvas Id="G47g3L7uPFyPn3Qms5MBhI" Name="SerializationUtils" Position="841,371" DefaultCategory="Editors">
+      <Canvas Id="G47g3L7uPFyPn3Qms5MBhI" Name="SerializationUtils" Position="841,371" DefaultCategory="Editors" BordersChecked="false">
         <!--
 
     ************************ DeserializeEditablePoints ************************
@@ -8483,7 +8483,7 @@
             <Pin Id="HXoRzXSyGBENYNbFeKlpBz" Name="Hit Position" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="IUl9680cDJnNJPnqK1iiJu">
+          <Canvas Id="IUl9680cDJnNJPnqK1iiJu" BordersChecked="false">
             <Pad Id="TZq3Tx4JmqtP4xHguwdaH7" Comment="Scalar" Bounds="912,347" ShowValueBox="true" isIOBox="true" Value="6.0">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
@@ -8882,7 +8882,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="JIb9AY0K9s3QdvQESBKesm" IsGeneric="true">
-          <Canvas Id="GeJ8JEI86EFOmyN0qmR1Ag">
+          <Canvas Id="GeJ8JEI86EFOmyN0qmR1Ag" BordersChecked="false">
             <Node Bounds="384,167,85,13" Id="HnSw63jXrWpQWAKtQQ1gGo">
               <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="VL.Xml.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -9133,7 +9133,7 @@
           <Choice Kind="ContainerType, HasMasterPatchFlag, DefinitionFlag" Name="Patch" />
         </p:NodeReference>
         <Patch Id="BG8H1O1QDvKP5wTwnW4kvE" IsGeneric="true">
-          <Canvas Id="EkB5zzoAIDNOx0LwzZ3C1p">
+          <Canvas Id="EkB5zzoAIDNOx0LwzZ3C1p" BordersChecked="false">
             <ControlPoint Id="NpIWbiC0rbSNqEDI84wyun" Bounds="381,95" />
             <Node Bounds="305,506,69,13" Id="NMoxmztauDvPYK6Y15G4s8">
               <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="VL.Xml.vl">

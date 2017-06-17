@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" systemname="ModalWindowsView" filename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\ModalWindowsView.v4p" systemname="ModalWindowsView" filename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -31,9 +31,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="4">
-   <BOUNDS type="Box" left="3675" top="465" width="870" height="240">
+   <BOUNDS type="Box" left="3668" top="493" width="870" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="3675" top="465" width="0" height="0">
+   <BOUNDS type="Node" left="3668" top="493" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
    </PIN>
@@ -239,7 +239,7 @@
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Alpha" slicecount="1" values="0.66" visible="1">
+   <PIN pinname="Alpha" slicecount="1" visible="1" values="0.66">
    </PIN>
    <PIN pinname="Input" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
    </PIN>

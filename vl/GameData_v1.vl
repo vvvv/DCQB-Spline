@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HEq10TecnW0OovjWk3GuXW" Version="0.53">
+<Document xmlns:p="property" Id="HEq10TecnW0OovjWk3GuXW" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
   <Patch Id="ITQok360obAPs7MPeSVThh">
-    <Canvas Id="DqMt84eE8AYL8ML7RWdp3T" DefaultCategory="DCQB">
+    <Canvas Id="DqMt84eE8AYL8ML7RWdp3T" DefaultCategory="DCQB" BordersChecked="false">
       <!--
 
     ************************ Dot ************************
@@ -16,7 +16,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="RDl8qnKOJFfPOqRmSsrppC" IsGeneric="true">
-          <Canvas Id="P7kCB0uQUkfQFLI1PvfrLd">
+          <Canvas Id="P7kCB0uQUkfQFLI1PvfrLd" BordersChecked="false">
             <Pad Id="LC5WkdAYxHwNNv74ousx24" SlotId="BDgJGdlPvyzQdtu0LS6Q1b" Bounds="266,273">
               <p:ValueBoxSettings />
             </Pad>
@@ -55,7 +55,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="QLAJcJN8KPuMCDVIHWrkae" IsGeneric="true">
-          <Canvas Id="VmQ9K0aWk22PsuE71DuNXs">
+          <Canvas Id="VmQ9K0aWk22PsuE71DuNXs" BordersChecked="false">
             <ControlPoint Id="BlQAfuxyNOxMRyLtn0rARB" Bounds="294,178" />
             <ControlPoint Id="OiY0x51JsB4QOIVaPnbkPl" Bounds="296,242" />
             <Pad Id="IGx3yzLIcscQOKoKfSD7ue" SlotId="LeA4yjRakeYPER7ZVX4481" Bounds="293,208">
@@ -110,7 +110,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="IoP8mDJb3fTORq2R1gumdD" IsGeneric="true">
-          <Canvas Id="Cwc7pHZf11eMfeVnvJ8Ogh">
+          <Canvas Id="Cwc7pHZf11eMfeVnvJ8Ogh" BordersChecked="false">
             <Pad Id="APoUkjmYfa5PHxpFe9SJfy" SlotId="RgRYxqDVYqyM9UI4xiKoNZ" Bounds="758,232">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="VVVV.Main" LastSymbolSource="VVVV.Main.Game.vl" ReferenceKind="App">
@@ -309,7 +309,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="LQSCLg0DPVMN2HGr1ZgnUd" IsGeneric="true">
-          <Canvas Id="AYQYIhh0jrIOpI3cuAHNiT" />
+          <Canvas Id="AYQYIhh0jrIOpI3cuAHNiT" BordersChecked="false" />
           <Patch Id="MqqkOBoTQ4pOX8BDh0dOL2" Name="Create" />
           <Patch Id="OTvK3o256hELgTVIGZrqFg" Name="Update" />
           <ProcessDefinition Id="R2De1AmGIwQMpDBOrZDwNW">

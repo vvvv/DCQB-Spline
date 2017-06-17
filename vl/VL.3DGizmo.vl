@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="PssCENQaay6PG7RpGcpRVt" Version="0.53">
+<Document xmlns:p="property" Id="PssCENQaay6PG7RpGcpRVt" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
   <Patch Id="Ci3ybl6SqaqNruc6jkTkXF">
-    <Canvas Id="UzeS8rnGy0KPnEECFW3u1v" DefaultCategory="Editors">
+    <Canvas Id="UzeS8rnGy0KPnEECFW3u1v" DefaultCategory="Editors" BordersChecked="false">
       <!--
 
     ************************ GizmoDetector ************************
@@ -26,13 +26,13 @@
             <Pin Id="FPfRjsk7PQJQY9n9hq0XG7" Name="Enable" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="UkFJ6uQyxP5QYHVrIgPqPP">
+          <Canvas Id="UkFJ6uQyxP5QYHVrIgPqPP" BordersChecked="false">
             <ControlPoint Id="GTWmuUwy95ZPsyp3TrdXle" Bounds="877,83" />
             <ControlPoint Id="OILQnIRhbAQMOY9hx5aSi9" Bounds="282,-30" />
             <ControlPoint Id="KRFJZKB8PFnOfSzli3JFB7" Bounds="483,12" />
             <ControlPoint Id="F2nNjP6WRLMQKTvqg3fAJg" Bounds="511,1613" />
             <Node Bounds="187,67,137,22" Id="HGm7jDscetjOIAyZcreYMe">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetEnabledComponents" />
                 <FullNameCategoryReference ID="Editors.3D.GizmoModel" />
@@ -51,7 +51,7 @@
               <Pin Id="NGoIrCu3fZZN0mcjG4N11G" Name="Condition" Kind="InputPin" />
               <Patch Id="TgKi0xb46ngO7igETMwdyT" Name="Then">
                 <Node Bounds="487,322,133,13" Id="Vjzg7Atlqd1P14d4QuIgHY">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="TranslateAxisDetection" />
                   </p:NodeReference>
@@ -63,7 +63,7 @@
                   <Pin Id="Bi5BWi2meUGMI92pAoO2qF" Name="Enabled Axis" Kind="InputPin" />
                 </Node>
                 <Node Bounds="487,270,145,22" Id="H2DCfscrvDsMgWpFTmjU53">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="GetModelData" />
                   </p:NodeReference>
@@ -97,7 +97,7 @@
                   <Pin Id="OkhW77n9EytOxj9c33iiFm" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="513,487,127,22" Id="JqBwn93msyVMsAf8qDDmCi">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="SetActiveComponents" />
                     <CategoryReference Kind="TypeFlag" Name="GizmoModel" NeedsToBeDirectParent="true" />
@@ -115,7 +115,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="436,485,45,13" Id="Aed73FH2JPmLO0bLXEecmO">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -138,7 +138,7 @@
               <Pin Id="Hdfh81NLcOWQRZoY14Bl9i" Name="Condition" Kind="InputPin" />
               <Patch Id="AooDNIqOyrnMyeBwE2Nrcw" Name="Then">
                 <Node Bounds="549,698,120,13" Id="PkY4Nmelw7BPWFWTN6Ce9u">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="ScaleAxisDetection" />
                   </p:NodeReference>
@@ -150,7 +150,7 @@
                   <Pin Id="PkBh9fhUwqRPW046G7kHjm" Name="Enabled Axis" Kind="InputPin" />
                 </Node>
                 <Node Bounds="529,642,145,22" Id="CyUp5o4gXPMPmb4FISU6jz">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="GetModelData" />
                   </p:NodeReference>
@@ -165,7 +165,7 @@
                   <Pin Id="F2ZnJklnvybPTpYlykxren" Name="Enabled Axis" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="510,855,127,22" Id="Rg8OT2BIdQhM9HDUFiaf84">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="SetActiveComponents" />
                     <CategoryReference Kind="TypeFlag" Name="GizmoModel" NeedsToBeDirectParent="true" />
@@ -183,7 +183,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="440,865,45,13" Id="OIBEcIofN76NMdkGxWT398">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -206,7 +206,7 @@
               <Pin Id="TyC3dh4yLKZL6cwH41cQhD" Name="Condition" Kind="InputPin" />
               <Patch Id="A79cdozGoFrLhi4N3C6gUE" Name="Then">
                 <Node Bounds="498,1086,120,13" Id="Pofr3p6PTn7NFS6iMdOjs3">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="RotateAxisDetection" />
                   </p:NodeReference>
@@ -241,7 +241,7 @@
                   <Pin Id="RfRDQr86DdnN0bjBgN5LhE" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="529,1004,145,22" Id="BqlwRMlU3EAP70hDEVDCfm">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="GetModelData" />
                   </p:NodeReference>
@@ -256,7 +256,7 @@
                   <Pin Id="UPwdtoAdKqdPoUFDpM5a0q" Name="Enabled Axis" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="512,1211,127,22" Id="JAn7s2FtfZYP3TsGnMJiNX">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="SetActiveComponents" />
                     <CategoryReference Kind="TypeFlag" Name="GizmoModel" NeedsToBeDirectParent="true" />
@@ -274,7 +274,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="438,1216,45,13" Id="AL1QIrojjXjPYqHomHkhCY">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Switch" />
                   </p:NodeReference>
@@ -305,7 +305,7 @@
               <Pin Id="Ne7hPJGM6VqLS1Wk6ruMTk" Name="Condition" Kind="InputPin" />
               <Patch Id="VNgzm0P2rcSQQtgr16sfsY" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="495,1406,101,13" Id="T2W6k4hDgskLdKzp5ewDET">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="CenterDetection" />
                   </p:NodeReference>
@@ -315,7 +315,7 @@
                   <Pin Id="PYU743ja9y7OIaZUp97Zk2" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="525,1350,145,22" Id="DOw9w2poTDxOohCdfj2xP6">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="TypeFlag" Name="GizmoModel" />
                     <Choice Kind="OperationNode" Name="GetModelData" />
@@ -331,7 +331,7 @@
                   <Pin Id="Sxswff78qo6NaKZekJMW3X" Name="Enabled Axis" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="510,1526,127,22" Id="S3WSnQzWJ1VLsQmLPlvEfa">
-                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="SetActiveComponents" />
                     <CategoryReference Kind="TypeFlag" Name="GizmoModel" NeedsToBeDirectParent="true" />
@@ -349,7 +349,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="436,1533,45,13" Id="PC9MhqUwvsfNPQLBeDLr23">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -392,7 +392,7 @@
               <Pin Id="OCgKZM9JOLXPvRJqaYpIlb" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="491,156,127,22" Id="NcYsrsOyNjILPKZYxxebEe">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="SetActiveComponents" />
                 <CategoryReference Kind="TypeFlag" Name="GizmoModel" NeedsToBeDirectParent="true" />
@@ -574,7 +574,7 @@
             <Pin Id="EWFAhoU4nDqNSxD17vHjfw" Name="Active Axis" Kind="OutputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="S6em7fagqRIQEqjVk80nht">
+          <Canvas Id="S6em7fagqRIQEqjVk80nht" BordersChecked="false">
             <Pad Id="V6h4jdzWxYaOQaimwzOAzJ" SlotId="BBN4M2U0JJSLDFnLIDaMjX" Bounds="416,90">
               <p:ValueBoxSettings />
             </Pad>
@@ -633,7 +633,7 @@
             <Fragment Id="DoRtvaOz2yKNqkI9gF84WR" Patch="GfFdaoECxiSPBl6T47RmvD" />
           </ProcessDefinition>
           <Slot Id="UaoTeATSlMrObe9S69Qu4f" Name="Gizmo Model">
-            <p:TypeAnnotation LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework" ReferenceKind="App">
+            <p:TypeAnnotation LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" ReferenceKind="App">
               <Choice Kind="TypeFlag" Name="GizmoModel" />
             </p:TypeAnnotation>
           </Slot>
@@ -670,7 +670,7 @@
           <Link Id="RqEc4QUlV5TQEC8itlTA9M" Ids="VIyKpwQu8KaO6MrRYwj8z0,QqbrrhwS0DpPZgrX8RoKv1" IsHidden="true" />
         </Patch>
       </Node>
-      <Canvas Id="NLvI4jfjqZZNTPTZHOaJeN" Name="Functions" Position="398,267" DefaultCategory="Editors.3D">
+      <Canvas Id="NLvI4jfjqZZNTPTZHOaJeN" Name="Functions" Position="398,267" DefaultCategory="Editors.3D" BordersChecked="false">
         <!--
 
     ************************ GetAveragePosition ************************
@@ -682,7 +682,7 @@
           </p:NodeReference>
           <Patch Id="IBbJNAsHG9cN7SXj2dcqut" IsGeneric="true">
             <Node Bounds="798,382,102,113" Id="RM4w3eyU11XOm2XnvLoa1D">
-              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="OperationNode" Name="Average (Selector)" />
                 <Choice Kind="RegionFlag" Name="HigherOrderRegion" />
               </p:NodeReference>
@@ -692,7 +692,7 @@
                 <Pin Id="MNxrqxCqy07QO4mIHWQRKp" MergeId="64322" Name="Source" Kind="InputPin" />
                 <Pin Id="I1SljIclp9DLwk1ijzdCts" MergeId="64323" Name="Result" Kind="OutputPin" />
                 <Node Bounds="810,421,78,22" Id="MI1AJ1lu7DmPTd95eIPTLf">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
                     <CategoryReference Kind="Category" Name="EditablePoint" />
                     <Choice Kind="OperationNode" Name="GetPosition" />
                   </p:NodeReference>
@@ -705,7 +705,7 @@
               </Patch>
             </Node>
             <Node Bounds="653,217,207,115" Id="OmZ5839bm6LOMOZwLyrCj3">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Where" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
                 <Choice Kind="RegionFlag" Name="HigherOrderRegion" />
@@ -717,7 +717,7 @@
                 <Pin Id="BIL8xxt1hnROOya4iBbErJ" MergeId="64334" Name="Index" Kind="InputPin" />
                 <Pin Id="AP4Q95ZaQNGO9W5sSFm3fk" MergeId="64335" Name="Result" Kind="OutputPin" />
                 <Node Bounds="665,261,80,22" Id="Q8pWNLTWEkaOl9g4Rqsiyi">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
                     <CategoryReference Kind="Category" Name="EditablePoint" />
                     <Choice Kind="OperationNode" Name="GetSelected" />
                   </p:NodeReference>
@@ -725,7 +725,7 @@
                   <Pin Id="GTtpNd5revPMOvV3dhDRNE" Name="Selected" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="768,262,80,22" Id="RtvOxHZWifBOsCgLn5VBaE">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
                     <Choice Kind="OperationNode" Name="GetHovered" />
                   </p:NodeReference>
                   <Pin Id="HPvwgiGTDj1NuClLdb6La5" Name="Input" Kind="InputPin" />
@@ -779,7 +779,7 @@
           </p:NodeReference>
           <Patch Id="BZnLcx9MlYTLvFViAZlQQp" IsGeneric="true">
             <Node Bounds="985,248,46,22" Id="UMx7gMq6BrMQSyFY1wIS56">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -790,7 +790,7 @@
               <Pin Id="TOpKCpninQLP1scLkPbjDq" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="1044,247,46,22" Id="R0hvwA2DnkzOlNOB0TYmvK">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -801,7 +801,7 @@
               <Pin Id="FVPmMoFPVlsNCLr6Bm4Smo" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="1103,247,46,22" Id="G7I2RIvnCiKPl2vzAqHaHZ">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -896,7 +896,7 @@
                   <Pin Id="JKVW4lwpVL5OIxV5jlT3Hx" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1052,599,63,13" Id="VltPdeMt796LzKVaOiCHy1">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -906,7 +906,7 @@
                   <Pin Id="MNDvMv5gpm6MjyS2DRjjtQ" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1151,597,63,13" Id="T0NCkhCVyM7N3Ezf6Ea1Ky">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -965,7 +965,7 @@
           </p:NodeReference>
           <Patch Id="DpF3DcIO0nuOKvXAwl2hjZ" IsGeneric="true">
             <Node Bounds="1356,245,46,22" Id="J0LMpOlJ41JOco7ixwKjQ8">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -976,7 +976,7 @@
               <Pin Id="NvKJTOtTBfQMhGRL7f5Dmy" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="1415,244,46,22" Id="S4CQ4qBz2ygO0T48kUDTwS">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -987,7 +987,7 @@
               <Pin Id="DnqtG0umfz8L75xyjEhl5V" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="1474,244,46,22" Id="BMBJ5YjSVnmPoiF7ujEq46">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
@@ -1055,7 +1055,7 @@
           </p:NodeReference>
           <Patch Id="BcB50HxLRbhMn2Su5Ciorl" IsGeneric="true">
             <Node Bounds="1763,230,45,13" Id="V4qpvSUdQ0ePwU5kvot2EK">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" />
                 <Choice Kind="OperationNode" Name="Vector (Split)" />
@@ -1073,7 +1073,7 @@
             <Pin Id="LPPtCs5OZeCOS45FkoWfsV" Name="Output" Kind="OutputPin" />
             <Link Id="AbU5zQMmx4nOFukHoEkQP0" Ids="LQZm3oE4HUOMPthRklySZL,LPPtCs5OZeCOS45FkoWfsV" IsHidden="true" />
             <Node Bounds="1762,265,45,13" Id="L3KLXrmB0d7PfpLx1tqLyi">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1099,7 +1099,7 @@
           </p:NodeReference>
           <Patch Id="TW2uweVepITN5R99Y27447" IsGeneric="true">
             <Node Bounds="2244,236,45,13" Id="ADFkNJ7UcTRNYmIOzeMmlc">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" />
                 <Choice Kind="OperationNode" Name="Vector (Split)" />
@@ -1153,7 +1153,7 @@
             <Pin Id="CG55EQQiaSQP4EeNBFThYc" Name="Output" Kind="OutputPin" />
             <Link Id="OP6dwFegvPkLE9CiDvhgSg" Ids="ACfQhxAwz1AOIJEZkvKHy0,CG55EQQiaSQP4EeNBFThYc" IsHidden="true" />
             <Node Bounds="2262,330,45,13" Id="Hl21lUYSuu8PHJCLu5JzwU">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1190,7 +1190,7 @@
                 <Patch Id="Ae3sxGLUiyML9cbJve1e78" Name="Create" />
                 <Patch Id="OX3eTRFlORjNkI6PmDsoD1" Name="Destroy" />
                 <Node Bounds="-40,603,52,22" Id="LboW699jdymQBqbdG21Ox5">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -1200,7 +1200,7 @@
                   <Pin Id="BxAIgqpZuQhPsW0X91zDja" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="8,559,25,13" Id="EMqXWSXwl99PogvvIGCPxN">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="* (Scale)" />
                     <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -1223,7 +1223,7 @@
               <Pin Id="FVeGbO7BlMqPCcM7Vyo9qr" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-179,471,39,13" Id="K8joRzgBv8rOtk5apvvpGv">
-              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Box (Join Center Size)" />
               </p:NodeReference>
@@ -1282,7 +1282,7 @@
             <Link Id="Jx4OFVy8AvBPKpKnNCwTXt" Ids="FVeGbO7BlMqPCcM7Vyo9qr,DcDmAggR1xbQJkI6zpl2bt" />
             <Link Id="EPqkfhbfIX8MR4w8pQDXxU" Ids="BxAIgqpZuQhPsW0X91zDja,VHnCcGe6jSUP5kEMJx2Ygk" />
             <Node Bounds="7,450,45,13" Id="H8vrmq6lvNnNUmc7yrOUUj">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1416,7 +1416,7 @@
                 <Patch Id="BQXO6Yn12htPZr6oKbTYWS" Name="Update" />
                 <Patch Id="CLM79AxjISbMVoTV0sofZ0" Name="Destroy" />
                 <Node Bounds="-515,442,47,13" Id="UUaUbnAJQzZMZiKhrwhllp">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Box (Join Center Size)" />
                   </p:NodeReference>
@@ -1437,7 +1437,7 @@
             <Pin Id="PxBqqWNTYkwNzWSPeAvkGg" Name="Size" Kind="InputPin" />
             <Link Id="LH3XARiWYdUMgNaTzATTR8" Ids="PxBqqWNTYkwNzWSPeAvkGg,UyWMQ6mlAV7OQVfGJ9Opoj" IsHidden="true" />
             <Node Bounds="-576,333,45,13" Id="JRHaNKf00NILm8lMEeLZcS">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1482,7 +1482,7 @@
               <Pin Id="EstRdCF7s8XM01FGNfRAFq" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-358,334,45,13" Id="MQarSpcxT5XN1TRK7zGlv7">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1574,7 +1574,7 @@
                 <Patch Id="NeXdgwnfOhYPF8qumLXrd9" Name="Update" />
                 <Patch Id="KBpadcRRav3O2k9EnqvfgD" Name="Destroy" />
                 <Node Bounds="-1006,321,55,13" Id="V7rEjVtjahGL9hWSLq2wne">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Rotate" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -1637,7 +1637,7 @@
             <Link Id="D6OpvBRAQs0PeCz1ZgEzIF" Ids="FjAvpAOA7PaPrnqJ2qhXgN,UByxSlAjczwLncAdOSpoT3" />
             <Link Id="LJM5YQwKVPkORncKzvWj9r" Ids="KIozRBag36dPr3ZIbE4VGd,CZUu0IFdaSaM8o5DXDkENI" />
             <Node Bounds="-986,208,45,13" Id="LwsE9Mm37lELGTUVwh4u5s">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -1676,7 +1676,7 @@
                 <Patch Id="E3VbnCvHOmhOT45LhXDxg3" Name="Update" ParticipatingElements="KnCwW1WAKDgN8e2hq8zxX6" />
                 <Patch Id="PXvQbfGtJJdPgr0PAVvES6" Name="Destroy" />
                 <Node Bounds="-1559,265,52,22" Id="VImM0MM4cNrPLIJmYi6zp8">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -1713,7 +1713,7 @@
             <Pin Id="D0PQni6lQtjPKKzNmfnndp" Name="Value" Kind="InputPin" />
             <Link Id="N2RUWg2T8x0OZhwQ1agtJj" Ids="D0PQni6lQtjPKKzNmfnndp,UYSjJ4czfUGOVfKPoe9KO0" IsHidden="true" />
             <Node Bounds="-1539,131,135,13" Id="VjzvhkrsfBCPIdI4oCwMm6">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ToSpreadOfAxisVectors" />
               </p:NodeReference>
@@ -1754,7 +1754,7 @@
                 <Patch Id="JfLlHKzT9sYP1CqhFgHpuj" Name="Update" />
                 <Patch Id="It2c1fDdyxBN86bCN45IZq" Name="Destroy" />
                 <Node Bounds="-2143,262,57,22" Id="OysV64bW5J9MhwuIvxDfFU">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="TypeFlag" Name="Box" />
                     <Choice Kind="OperationNode" Name="Transform" />
@@ -1764,7 +1764,7 @@
                   <Pin Id="F7NUVhvvIGWLihVBjiHvRg" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="-2040,263,57,22" Id="UKkbko5iTc0PkCwoP4J5Ks">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="TypeFlag" Name="Box" />
                     <Choice Kind="OperationNode" Name="Transform" />
@@ -1784,7 +1784,7 @@
                   <Pin Id="FJtqUjucTBaQUhOPx4FGfO" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="-2040,183,52,22" Id="BVeNQsF7fquLx8zKh3Ewi3">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -1903,7 +1903,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="748,1034,45,13" Id="PW60sZu2jjrQE03THS50iu">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Concat" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -1913,7 +1913,7 @@
               <Pin Id="EnvOgmrpn1vPLsHMqCpegx" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="938,1104,40,22" Id="V7eC3U78f4tMfQ33KjkqHJ">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Except" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -1939,7 +1939,7 @@
               <Pin Id="PxvTelJ8kbXMX3d8fjFSUM" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="974,1042,52,13" Id="KV2wNsuzy7oQFOXurLG7Y0">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="ToSpread" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -1947,7 +1947,7 @@
               <Pin Id="DraTNaohLVKMQksWF2l7mi" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="686,997,52,13" Id="TaNCWMwXYjjP1wvFzvUtsL">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="ToSpread" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -1955,7 +1955,7 @@
               <Pin Id="TQX6oWeMKBnPFIBE47OeNc" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="767,996,52,13" Id="MnqrB0bT6EVQbXqf6R6KHm">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="ToSpread" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -1963,7 +1963,7 @@
               <Pin Id="VEs1UvHf1qvPvzTMpMLMtV" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="847,996,52,13" Id="NCj4YfCo7moLem4Hv8eKKI">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="ToSpread" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -1991,7 +1991,7 @@
                   <Pin Id="SuklNZP0UlXODID4vaW6T2" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="935,1404,43,13" Id="Rwwg6T5lcyyPfJtfpn05Q4">
-                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="OperationNode" Name="Abs" />
                     <FullNameCategoryReference ID="Math" />
                   </p:NodeReference>
@@ -2008,7 +2008,7 @@
                   <Pin Id="KQEAfVVxdUQOmBT56lg1iH" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="935,1480,63,13" Id="Ly1Ssj034RcQF2V7Jug4Fh">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="PjSXDX0NE1uLe3xHDpUcPH" Name="Condition" Kind="InputPin" />
@@ -2017,7 +2017,7 @@
                   <Pin Id="HnfptWYSHqVLutn9Y17NQE" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1077,1489,63,13" Id="GDbvFZbHtrWLSEfZCq5aKc">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="SVZ6tUsqZsKPQk8Fdxfk8R" Name="Condition" Kind="InputPin" />
@@ -2106,7 +2106,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="1835,1563,40,13" Id="VL6b8QCKeKaNegDZrbEk2y">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Repeat" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2115,7 +2115,7 @@
               <Pin Id="AOOplWLFtAFMmOGr0Iwd3O" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="2215,1657,65,22" Id="FkaxSTK6e3POzhdzD2L0Bp">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="SetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2126,7 +2126,7 @@
               <Pin Id="GKbwIyftfzmQS3HXoE3GYr" Name="Apply" Kind="ApplyPin" />
             </Node>
             <Node Bounds="1870,1527,37,22" Id="ArelfW9zBz4QMlkQ0mkEHC">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll" LastPackageId="VL.Core">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll">
                 <Choice Kind="OperationNode" Name="Count" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -2172,7 +2172,7 @@
                   <Pin Id="IcMxOKo4JO6OHpetxLjtdY" Name="Point" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2087,1293,65,13" Id="PyolD5fGlPqLbZOX6rTIEG">
-                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="OperationNode" Name="Distance" />
                     <CategoryReference Kind="Category" Name="Math" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
@@ -2190,7 +2190,7 @@
                   <Pin Id="Rf35kAFw5dGNF5nQqaK7qd" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2060,1428,63,13" Id="MWMssZ93nwNOCqy3uvEm2M">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="RgNVsFu99WoL20hfn4VJIN" Name="Condition" Kind="InputPin" />
@@ -2199,7 +2199,7 @@
                   <Pin Id="D8RpjQlcqcrPyuxBxPXoI9" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2257,1438,63,13" Id="ERvIjMhmwSHOIqfbvDQT6f">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="KRcl2oxvFnpQOgddNjBg6u" Name="Condition" Kind="InputPin" />
@@ -2236,7 +2236,7 @@
             <ControlPoint Id="H46V60dIzzMMk8FgQfV6i0" Bounds="2218,1858" />
             <ControlPoint Id="GudiLg9xo0APuhCEjyBxWC" Bounds="2056,1862" />
             <Node Bounds="2216,1713,73,13" Id="TLLgwzksBcBNKUNzc2Zk9G">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ToVector3" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
@@ -2294,7 +2294,7 @@
             <ControlPoint Id="CviPgkyqzbbNvyVjQJf6nF" Bounds="2234,928" />
             <Link Id="RcNUuCuJI25OrCQcl2O4N8" Ids="Tes7aiqSIqzLdzmacma7aP,CviPgkyqzbbNvyVjQJf6nF" IsHidden="true" />
             <Node Bounds="2101,1129,117,13" Id="D2RaKVbUGFHQFzjvzJbMwv">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
                   <p:OuterCategoryReference Kind="Category" Name="Editors" NeedsToBeDirectParent="true" />
@@ -2336,7 +2336,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="3507,1484,41,22" Id="ICtc4T3pRqJOhOe5pkv9hH">
-              <p:NodeReference LastCategoryFullName="Primitive.Float32" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Primitive.Float32" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Length" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -2360,7 +2360,7 @@
               <Pin Id="GZ6gtGAR6q1NKIPU1ajyQf" Name="Max Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="2750,1679,40,13" Id="J3bah2ySRQTPlY1qPHfMCX">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Repeat" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2369,7 +2369,7 @@
               <Pin Id="TZqhFPJqCt0QUHPGj4ZJtd" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="2785,1642,37,22" Id="VI7WNxHPHMmONdNkgJodkj">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll" LastPackageId="VL.Core">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll">
                 <Choice Kind="OperationNode" Name="Count" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -2377,7 +2377,7 @@
               <Pin Id="Q1XVq2TtwGJOmyx2k1pTib" Name="Count" Kind="OutputPin" />
             </Node>
             <Node Bounds="2846,1747,65,22" Id="Hhn0TO61V1kNSinIo2pek7">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="SetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2428,7 +2428,7 @@
                   <Pin Id="CnzM0wTRcp6Lmto7UHZsMw" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3078,1504,63,13" Id="TWtGvErHj11Le0F0XXmpw4">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="DAWa8KEoMaMPhCVB36vBFk" Name="Condition" Kind="InputPin" />
@@ -2437,7 +2437,7 @@
                   <Pin Id="MSMVTzQntgqLG1Otzotje6" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2957,1501,63,13" Id="UdZIQEH3y26OmMrbKiVIn6">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="CNAI1r5qymwOk7O6QSoCS8" Name="Condition" Kind="InputPin" />
@@ -2463,7 +2463,7 @@
                   <Pin Id="GreDub3vXmfMu6PtFxE98b" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3059,1314,65,13" Id="OuD4fFHh945Le8mZPgGra6">
-                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="OperationNode" Name="Distance" />
                     <CategoryReference Kind="Category" Name="Math" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
@@ -2565,7 +2565,7 @@
             <ControlPoint Id="H8YGRRhM970NFjGEWECKJF" Bounds="2701,1827" />
             <ControlPoint Id="L2G4sQGDk3dOm0yKaMH8Cf" Bounds="2882,896" />
             <Node Bounds="2846,1791,73,13" Id="G5J9rn2rVCLP1yL4R0xGfg">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ToVector3" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
@@ -2650,7 +2650,7 @@
             <ControlPoint Id="V0n9toBqjJNMeeXhVmVSTW" Bounds="3018,845" />
             <Link Id="BJUBPPxNx3sLnNV4nyF3WI" Ids="KDM8zXRGwT0MrK42Zl15FS,V0n9toBqjJNMeeXhVmVSTW" IsHidden="true" />
             <Node Bounds="3013,879,117,13" Id="RGnLJplg1WzMgT1EvFEqee">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
                   <p:OuterCategoryReference Kind="Category" Name="Editors" NeedsToBeDirectParent="true" />
@@ -2724,7 +2724,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="4161,1466,65,22" Id="LDKKQ3Qf3BFPZXFhHqyAoE">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="SetSlice" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2744,7 +2744,7 @@
               <Pin Id="RJlGdkZmAp2QcMM1qhG6Fp" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="4122,1428,40,13" Id="VxbKgAE7TfNNGCKyUTTJX2">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Repeat" />
                 <FullNameCategoryReference ID="Collections.Spread" />
               </p:NodeReference>
@@ -2753,7 +2753,7 @@
               <Pin Id="I7xbhPMS5V8OojMqUQ6EU4" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="4157,1391,37,22" Id="S2RF9hkHIauNCPbHq6f0QA">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll" LastPackageId="VL.Core">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Core.dll">
                 <Choice Kind="OperationNode" Name="Count" />
                 <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
               </p:NodeReference>
@@ -2790,7 +2790,7 @@
                   <Pin Id="LOrBXOLJ0bEPBUkI8efheG" Name="Point" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3815,1096,65,13" Id="LLRC1249TkmOegao6qFZDM">
-                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="OperationNode" Name="Distance" />
                     <CategoryReference Kind="Category" Name="Math" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
@@ -2808,7 +2808,7 @@
                   <Pin Id="Ozhkf2XuekXN4jdn2QyKLd" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="3755,1215,63,13" Id="SXwTq9DUCZ6P67Cin25VkJ">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="OWXCVg5Eb6bMd3lyntNYrz" Name="Condition" Kind="InputPin" />
@@ -2817,7 +2817,7 @@
                   <Pin Id="GJGqTe7g04zMKVG9dIZk16" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="4075,1253,63,13" Id="Fm1x9ZNE3yEM57urqIEIvN">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
                   <Pin Id="CtJKRnFU3FgNXHgg2p40Zp" Name="Condition" Kind="InputPin" />
@@ -2853,7 +2853,7 @@
             <ControlPoint Id="HK3Jb4ycY3bMUsZyLv6dDh" Bounds="3879,1661" />
             <ControlPoint Id="H6lZUUFT2C7PT4ORciSNdZ" Bounds="3698,1659" />
             <Node Bounds="4160,1516,73,13" Id="PmJLe7D10mdOZ6YyJW7OsM">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ToVector3" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
@@ -2911,7 +2911,7 @@
             <Pin Id="F96cNlw9DWrMkaleMWoGrV" Name="Enabled Axis" Kind="InputPin" />
             <ControlPoint Id="R9YS9L7VzGYOMPMiNIOav7" Bounds="3866,887" />
             <Node Bounds="3865,922,117,13" Id="KzCGt5ch9i5OPFovOLxZBU">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
                   <p:OuterCategoryReference Kind="Category" Name="Editors" NeedsToBeDirectParent="true" />
@@ -2951,7 +2951,7 @@
             <ControlPoint Id="MQ8S9JSVzDrLzZoGJcYGnn" Bounds="4509,1496" />
             <ControlPoint Id="P3bspEP7LqYP9wkzBlimTJ" Bounds="4356,1494" />
             <Node Bounds="4409,1335,65,13" Id="QthLt9xKUhZObMLnLa5n2V">
-              <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Distance" />
                 <CategoryReference Kind="Category" Name="Math" NeedsToBeDirectParent="true" />
@@ -2970,7 +2970,7 @@
               <Pin Id="NmIqNNg5tDDNLHybVVFTN1" Name="Position" Kind="OutputPin" />
             </Node>
             <Node Bounds="4359,1422,63,13" Id="Fp653RsA7B2M0Ub3MjyBWo">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Switch" />
               </p:NodeReference>
@@ -3050,7 +3050,7 @@
               <Pin Id="BDFLKCvH0lKL486sEuQG6d" Name="Size" Kind="OutputPin" />
             </Node>
             <Node Bounds="1876,591,25,13" Id="HSEtaYkd0EvPg0fvaBPlJg">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="/ (Scale)" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -3108,7 +3108,7 @@
                 <Patch Id="CQM3EliLqMJMXlbEfPG5kF" Name="Update" />
                 <Patch Id="PzuT82gsHwzO7msEJB0JcJ" Name="Destroy" />
                 <Node Bounds="2572,276,52,22" Id="LCaoagYW1NAMfwwS0iI0zS">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -3118,7 +3118,7 @@
                   <Pin Id="A16F1e5jYahNHFv8u4TuCH" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="2699,277,52,22" Id="IeJee2si4g1Qcxn0IG93WU">
-                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -3138,7 +3138,7 @@
                   <Pin Id="IUX7NOAKcZWMSaRBahJYJR" Name="Transformation" Kind="InputPin" />
                 </Node>
                 <Node Bounds="2860,247,68,13" Id="BYQNwY21BZEMly6bAdupGI">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -3189,7 +3189,7 @@
             <Pin Id="DQ034dBBlPnOvFyclVfjuy" Name="Rotation" Kind="OutputPin" />
             <Link Id="AaSV3AclcxiNd57xba9IzF" Ids="I1UjeyIqr0NLBEV9rwCao8,DQ034dBBlPnOvFyclVfjuy" IsHidden="true" />
             <Node Bounds="2957,288,52,22" Id="Dkuy83JARFeOvqG1GfapqG">
-              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Translate" />
                 <CategoryReference Kind="TypeFlag" Name="Box" NeedsToBeDirectParent="true" />
@@ -3257,7 +3257,7 @@
             <Link Id="KhfwIbADcJgMk1xPHfC8Gx" Ids="OP4HrlsuCV9Pbq50ofYH4s,S7io4xhPryANcLF84zXMAH" />
             <Link Id="A5y0W8QRKTLQZXuJYIRANT" Ids="T9HbSwKQmjcMoAy8SzHLMR,BxEQERSc4NmOJJpAf1A8lV" />
             <Node Bounds="4987,1663,25,13" Id="QMHAi36yY2fOy1ylSY1txm">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="* (Scale)" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -3412,7 +3412,7 @@
               <Pin Id="ACMGDjGTRUCP1rg1y5YR9I" Name="Point" Kind="OutputPin" />
             </Node>
             <Node Bounds="5646,1743,45,13" Id="HMU0pq6e1sXOSl2dkUEuQ0">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Switch" />
               </p:NodeReference>
@@ -3460,7 +3460,7 @@
           </p:NodeReference>
           <Patch Id="BTh3BMhbsp3OAgxhxt96HR" IsGeneric="true">
             <Node Bounds="5970,1590,122,13" Id="MlI96BrCJK2NTA3Ycd1G4C">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ClosestPointOnALine" />
               </p:NodeReference>
@@ -3523,7 +3523,7 @@
             <Link Id="QcBgIBXRoUCOywNDXvWuv0" Ids="MExRPwjU5OrO95sX34w9AF,O7LQv3FdG5TNZuyVjU24vf" />
             <Link Id="EpbPIgVLSjQP9SDJChHsRH" Ids="SJVoU2jM861OC7U3JoB1BD,CyF37xEtVYyLNWGoqoT5tC" />
             <Node Bounds="6113,1501,57,13" Id="S4nGlNVkbtrNa31A40Xi5x">
-              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToVector3" />
                 <CategoryReference Kind="TypeFlag" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -3586,7 +3586,7 @@
             <Pin Id="Kv9389s7gABLmDTdclDUO4" Name="Pick Size" Kind="InputPin" />
             <Link Id="NdIkxNQJK49LZrkRSGcGq4" Ids="Kv9389s7gABLmDTdclDUO4,MQNZecvr67FNR6h5uThY7v" IsHidden="true" />
             <Node Bounds="-627,802,47,13" Id="Vrau9hXJd8JOTSgXOLz9bW">
-              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Box" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Box (Join Center Size)" />
               </p:NodeReference>
@@ -3641,7 +3641,7 @@
               <Pin Id="HjlYJqZpC5uPLXUyEo7rJi" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="6440,1441,57,13" Id="JnBjxlcpLnXO4LuEI6EJ1m">
-              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ToVector3" />
                 <CategoryReference Kind="TypeFlag" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -3709,7 +3709,7 @@
           </p:NodeReference>
           <Patch Id="A6P1TFbHxzPM8uyhmsrxzB" IsGeneric="true">
             <Node Bounds="1899,230,45,13" Id="ISMOx0FdYf4PVumC3CWu0C">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" />
                 <Choice Kind="OperationNode" Name="Vector (Split)" />
@@ -3727,7 +3727,7 @@
             <Pin Id="R3vouDgrFF6PHDwNh9k1L6" Name="Output" Kind="OutputPin" />
             <Link Id="RvgTu1z4HqvPcXJaGkyz6R" Ids="Dkhz2gF01HXLfEIBno46pT,R3vouDgrFF6PHDwNh9k1L6" IsHidden="true" />
             <Node Bounds="1898,302,45,13" Id="NuHNt4COQCiL3zOqagR73x">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -3812,7 +3812,7 @@
                 <Patch Id="TO5KFIJOxM1Oi3IOCOtBhi" Name="Update" />
                 <Patch Id="EDDZRKj6s8yLIEBaNjS3va" Name="Destroy" />
                 <Node Bounds="5058,1115,68,13" Id="G9HezW64j9ZM9BHsBjIyX0">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -3824,7 +3824,7 @@
                   <Pin Id="GhC9YDTPTdePzKQgIrZasG" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="5157,1115,68,13" Id="VhLiZXX01A8QPQnC3SXc0r">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -3836,7 +3836,7 @@
                   <Pin Id="Asf3zZs6Ht5QAxYOrzD9WW" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="5310,1115,87,13" Id="KIVbqQX8vxbO2xMW6MKoAs">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="UniformScale" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -3854,7 +3854,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="5408,1115,68,13" Id="BACgCbLB9jWNd4i6K4AGEg">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Translate" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -3888,7 +3888,7 @@
                   <Pin Id="B3feEs1IlhpOmQZkOf9IMx" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="5157,1167,49,13" Id="UYlgqlR2fOgPGtu80HoHE1">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                       <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -3927,7 +3927,7 @@
                   <Pin Id="SIGoj1ktAqkNneF5yswI7L" Name="Size" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="5057,1167,49,13" Id="Tvngh5mD41pP0AJHf4PLxW">
-                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Scale" />
                     <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -4143,7 +4143,7 @@
           </p:NodeReference>
           <Patch Id="V0lg6M3OubBNuOt3Hlz9kM" IsGeneric="true" ManuallySortedPins="true">
             <Node Bounds="279,475,45,13" Id="I8XVDAOXtE5LFCWw7PHrdL">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Switch" />
               </p:NodeReference>
@@ -4165,7 +4165,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="391,364,45,13" Id="MonH2UwtiLCMwCitnoh1kz">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Switch" />
               </p:NodeReference>
@@ -4265,7 +4265,7 @@
               <Pin Id="AeKZcfkMmZoPaZNdqpwDSD" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="6817,1478,57,13" Id="AjWiSPwY2fHLZl8lTQoc0d">
-              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToVector3" />
                 <CategoryReference Kind="TypeFlag" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -4420,14 +4420,14 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="T5bJrzx6KlCOTueBk36OFR">
-          <Canvas Id="QZ3XzSyNXZhLmssRJuSRQR">
+          <Canvas Id="QZ3XzSyNXZhLmssRJuSRQR" BordersChecked="false">
             <ControlPoint Id="Pv8NsiHyRQAMTUptIpBFgE" Bounds="-6,-99" />
             <ControlPoint Id="T6G5K2MHd57LJWUl5fuHaw" Bounds="653,-108" />
             <ControlPoint Id="EPb9INrCKbZMW4BTYRPcU7" Bounds="-359,906" />
             <ControlPoint Id="HrbOhnDUAFhMnZ9daC9vxH" Bounds="496,910" />
             <ControlPoint Id="UdboUvF2u00NAfVsQenJqi" Bounds="69,907" />
             <Node Bounds="-198,-9,129,22" Id="JiZ3R5YtwogPeCuIIeicRs">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetActiveComponents" />
               </p:NodeReference>
@@ -4441,7 +4441,7 @@
             <ControlPoint Id="TeXV64ujvDCPOuAXb83u2c" Bounds="-195,-99" />
             <ControlPoint Id="MVwAfPjte2ZLTo5Mxg8DVw" Bounds="381,-100" />
             <Node Bounds="-41,-9,145,22" Id="D2qAXdCATb5NlbkpAoINog">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="GizmoModel" />
                 <Choice Kind="OperationNode" Name="GetModelData" />
@@ -4464,7 +4464,7 @@
               <Pin Id="DtbyQ0MFDpvN0F5QyEEgqj" Name="Condition" Kind="InputPin" />
               <Patch Id="DGAD3pHeZBENtLReaLCO5T" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="-259,205,97,13" Id="LtQH7eT6osfPr5e0NEhJKm">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="MoveAlongAxis" />
                   </p:NodeReference>
@@ -4507,7 +4507,7 @@
               <Pin Id="SHj3EyjWTygO1Z1QgS5n87" Name="Condition" Kind="InputPin" />
               <Patch Id="LUtH28KsE3iOQLbaFhPYdJ" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="68,841,63,13" Id="AnX5e4OjdU6POSAHukdfcr">
-                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Switch" />
                   </p:NodeReference>
@@ -4517,7 +4517,7 @@
                   <Pin Id="TtTgjAPIKTSO8haNbGJ1r4" Name="True" Kind="InputPin" />
                 </Node>
                 <Node Bounds="126,811,25,13" Id="JftHRhm0M8xMEJMaQH8FML">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="* (Scale)" />
                     <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -4555,7 +4555,7 @@
               <Pin Id="IadvurPyyayM6UQ4tQ12Ee" Name="Condition" Kind="InputPin" />
               <Patch Id="NpKVxrzDlFFOHQaWRglddd" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="495,312,25,13" Id="Efvqjid93MhM4FPGrcE74I">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="* (Scale)" />
                     <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -4575,7 +4575,7 @@
                   <Pin Id="FKk6fRdXPBVN5bFK8qIxOz" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="514,193,45,13" Id="L4E7IFlUe2xNF4w8EfDkRe">
-                  <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Vector (Split)" />
                     <CategoryReference Kind="TypeFlag" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -4596,7 +4596,7 @@
                   <Pin Id="LFEL4zkH86kQK4K8AD7Toj" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="494,359,45,13" Id="NQxmXED2woRLb9I6jrWiPJ">
-                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+                  <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Vector (Split)" />
                     <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -4640,7 +4640,7 @@
               <Pin Id="BEanwkCCeTsMxfDr3zED5y" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-243,357,45,13" Id="TpPPs4acRgGOcKBA9JrAsv">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -4651,7 +4651,7 @@
               <Pin Id="JX3IWWre3H8NfjLZTpFIlG" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="75,207,66,13" Id="EBEqr7Pb5k5PeDPNi4OkcN">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
@@ -4679,7 +4679,7 @@
               <Pin Id="Tm7VZfD66AYLGxsBuug5N3" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-207,455,45,13" Id="G3hP6TZ96x7ObDS0b0JgLR">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Switch" />
               </p:NodeReference>
@@ -4689,7 +4689,7 @@
               <Pin Id="ROWm1UNEypoLzUBjYllLGl" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-360,841,45,13" Id="TrRpTx0O6J6LOwA4vI3rTb">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Switch" />
               </p:NodeReference>
@@ -4708,7 +4708,7 @@
               <Pin Id="SlCp9C79Rj9LLWpNjzsxzu" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-44,353,45,13" Id="Q6jjlxblvisQTtWZeCx0n2">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -4754,7 +4754,7 @@
               <Pin Id="LrrDc6TYqIDNFNzWYbDmnR" Name="Condition" Kind="InputPin" />
               <Patch Id="A6wJNdzxjUiMTszAl31UXR" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="-69,205,127,13" Id="VZCmsaQdBioQc8RbQ5pqHm">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="MoveInViewProjection" />
                   </p:NodeReference>
@@ -4776,7 +4776,7 @@
               <Pin Id="P4J5nSMmzgsOhPVAMF2JAy" Name="Condition" Kind="InputPin" />
               <Patch Id="OWpoY1KFHJpOldUjIoTZMR" Name="Then" ManuallySortedPins="true">
                 <Node Bounds="197,203,101,13" Id="RcdLHkAHXODO3eaH7poVRA">
-                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+                  <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="OffsetAlongAxis" />
                   </p:NodeReference>
@@ -4799,7 +4799,7 @@
               <Pin Id="ET0OAuuIGeRNJiQgJqASOv" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="99,643,25,13" Id="VwbqZedoNIZOhFFtTRN7d5">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
                 <Choice Kind="OperationCallFlag" Name="* (Scale)" />
@@ -4809,7 +4809,7 @@
               <Pin Id="OWX362BB8x1QHsPrWhkuHp" Name="Scalar" Kind="InputPin" />
             </Node>
             <Node Bounds="207,356,45,13" Id="IpE8U3kzUuTMGH1ciqPypa">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -4830,7 +4830,7 @@
               <Pin Id="CKREJGbCFx2LB7r3gr3GXM" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-207,507,67,13" Id="DsJFDokCztkLyVi01IpDC4">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Quantize" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -4841,7 +4841,7 @@
             </Node>
             <ControlPoint Id="A51iIJEaea1MyyYqGmrErX" Bounds="129,-96" />
             <Node Bounds="186,514,67,13" Id="KGDebsULkCWLEUdGXaKchO">
-              <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Quantize" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -4851,7 +4851,7 @@
               <Pin Id="O0y3APdwAWGOgCMpgDZYR9" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="495,593,67,13" Id="HWUobweEcmmNS3t5FFJlph">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Quantize" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -4873,7 +4873,7 @@
             </Node>
             <ControlPoint Id="FOtHYEggpTOOlYSh0DatTx" Bounds="218,-100" />
             <Node Bounds="515,522,45,13" Id="Lm1xezx7LqaMrQiJ1AuROx">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -4911,7 +4911,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="495,630,25,13" Id="N5tRkz1KhfkL2t78Aa0I9u">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="* (Scale)" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -5069,9 +5069,9 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="OJKg5migJjKPwSrjjin90k">
-          <Canvas Id="CxYhINTIEN6LsTEL55KVkC">
+          <Canvas Id="CxYhINTIEN6LsTEL55KVkC" BordersChecked="false">
             <Node Bounds="-730,459,95,13" Id="DK3vfqkK4rKOA7RrNf5xBi">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="GizmoDetector" />
               </p:NodeReference>
@@ -5081,7 +5081,7 @@
               <Pin Id="DrZycotDzseQLL0YcKOntZ" Name="Gizmo" Kind="OutputPin" />
             </Node>
             <Node Bounds="-167,181,76,13" Id="Ub9N4qtT1pIP1GuCewQ0Za">
-              <p:NodeReference LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="OperationNode" Name="GetPickRay" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" IsGlobal="true" />
               </p:NodeReference>
@@ -5093,7 +5093,7 @@
             <ControlPoint Id="UELt7PUQO1SLvHVV2v83r9" Bounds="84,-49" />
             <ControlPoint Id="D5Jx4mH3rI0NMByxR6Eyi3" Bounds="523,1302" />
             <Node Bounds="-575,797,184,13" Id="MEMOUhZaYRpLyut4h9jE9m">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="GizmoOffsetter" />
               </p:NodeReference>
@@ -5116,7 +5116,7 @@
             <ControlPoint Id="FGN2PNon7pNMFGPvIj3msb" Bounds="-482,1313" />
             <ControlPoint Id="JLoJPOlKRjHMyinHYSAJuV" Bounds="-782,-44" />
             <Node Bounds="-656,122,50,13" Id="LbFo2eu1tO9L5wDbixo3Ol">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="Changed" />
               </p:NodeReference>
@@ -5125,7 +5125,7 @@
               <Pin Id="BCpk1db2aymPzXbqX4LoNt" Name="Unchanged" Kind="OutputPin" />
             </Node>
             <Node Bounds="-603,122,50,13" Id="DjgtYGNeHzzMEhx21eeqaM">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="Changed" />
               </p:NodeReference>
@@ -5134,7 +5134,7 @@
               <Pin Id="OEYsCDoJx6eNMGJIzSHDM7" Name="Unchanged" Kind="OutputPin" />
             </Node>
             <Node Bounds="-752,1273,145,22" Id="SndzscuohElOQUUCyeB4wi">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoState" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoState" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="GizmoState" />
                 <Choice Kind="OperationNode" Name="Join" />
@@ -5161,7 +5161,7 @@
             </Node>
             <ControlPoint Id="SgKM89YVZflPfHL2dswAAR" Bounds="-161,-49" />
             <Node Bounds="-162,-28,185,22" Id="JOvCy8uhoLsQAsgmLS1h51">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoControlsState" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoControlsState" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="GizmoControlsState" />
                 <Choice Kind="OperationNode" Name="Split" />
@@ -5187,7 +5187,7 @@
               <Pin Id="AEPzxzJY92RL2Vt2W1V8bQ" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-538,601,61,22" Id="ONjdjwa6SpHNaSTNOVFzfX">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="IsActive" />
               </p:NodeReference>
@@ -5195,7 +5195,7 @@
               <Pin Id="BRkE0U3lyHBLnshjtCIK3v" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="-517,757,45,13" Id="Q6qtq8cunw9LDA4zA5YTYY">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -5216,7 +5216,7 @@
             </Node>
             <ControlPoint Id="MhDEikRUmVrLcoqgA9Fb7u" Bounds="-386,-50" />
             <Node Bounds="-691,292,125,13" Id="V3GuivY99ZQNSdD4QGBJ1f">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="GizmoModel" />
               </p:NodeReference>
@@ -5230,7 +5230,7 @@
               <Pin Id="BMQanHPnfVWL6oFCZtrtt6" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="-584,525,45,13" Id="E2esYLcEsu4MXlTtfl4thL">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="S+H" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -5241,7 +5241,7 @@
               <Pin Id="Lj66qojCM3fQDCzQ6zwpCn" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="-485,161,66,13" Id="DmIKJv99GguQLWEMT4K1yX">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="TogEdge" />
               </p:NodeReference>
@@ -5261,7 +5261,7 @@
               <Pin Id="FrP04OsNRF1QUIKTmiwkIk" Name="Input 3" Kind="InputPin" />
             </Node>
             <Node Bounds="-58,909,129,22" Id="BrtIfBOafEmO7RwLG8SG0K">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoModel" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetActiveComponents" />
               </p:NodeReference>
@@ -5277,7 +5277,7 @@
             <ControlPoint Id="NCUeraWjISAM6Lor6MQ0RF" Bounds="227,1308" />
             <ControlPoint Id="H08BeuCJ325Op3WXDBAoBG" Bounds="329,1300" />
             <Node Bounds="-547,121,50,13" Id="IZwV27qC7RNQDWzPU3HC0U">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="Changed" />
               </p:NodeReference>
@@ -5286,7 +5286,7 @@
               <Pin Id="GonghgjEiWiPt66K168PFZ" Name="Unchanged" Kind="OutputPin" />
             </Node>
             <Node Bounds="-689,361,45,13" Id="MBmTYsX8x5sP1tBO2Csnrs">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Switch" />
               </p:NodeReference>
@@ -5318,7 +5318,7 @@
               <Pin Id="FCmAYTZQ0TmNmUjycVW3c1" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-538,705,62,13" Id="INxiA1lA9O9Mzq3B1GU8LT">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="FlipFlop" />
               </p:NodeReference>
@@ -5327,7 +5327,7 @@
               <Pin Id="GkFnelrVX35Lx0livp8IRX" Name="State" Kind="OutputPin" />
             </Node>
             <Node Bounds="-611,246,160,13" Id="CXwVpwYfxueMF7g4Utjn3E">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ActiveComponentsController" />
               </p:NodeReference>
@@ -5337,7 +5337,7 @@
               <Pin Id="PnelWkalDRhPzrGAqC7iXS" Name="Visible" Kind="OutputPin" />
             </Node>
             <Node Bounds="-75,27,57,13" Id="NH2Cpb9DWJrNJfbw7d3gYS">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Toggle" />
               </p:NodeReference>
@@ -5412,7 +5412,7 @@
               <Pin Id="KriB2ofXI1dPtPuffXcySe" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-270,1226,63,13" Id="Cty6Z7CtICYQcEWgfEkE0n">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="OperationNode" Name="Switch" />
               </p:NodeReference>
               <Pin Id="P7Uc7YRiY2NPQ9mBeEjg7m" Name="Condition" Kind="InputPin" />
@@ -5449,7 +5449,7 @@
             </Node>
             <ControlPoint Id="GxwuJBqSBY8MO0TyUDY2AF" Bounds="-267,1299" />
             <Node Bounds="-675,875,45,13" Id="ITGRB4MUZUoOR5UKa7Q26A">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Switch" />
               </p:NodeReference>
@@ -5459,7 +5459,7 @@
               <Pin Id="Bj8dg2ZlYf3N8IjCY8jGxv" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-87,502,25,13" Id="VSqkgn2UywDMjXJ58707Aq">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="* (Scale)" />
                 <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
@@ -5469,7 +5469,7 @@
               <Pin Id="GsfBMrFqyJ3QH9ofKGjJcw" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="24,181,108,13" Id="CtrtPBGY3GyPFS6eWvkuPr">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="RotationStepScale" />
               </p:NodeReference>
@@ -5639,11 +5639,11 @@
           <Choice Kind="RecordType, HasMasterPatchFlag, DefinitionFlag" Name="Record" />
         </p:NodeReference>
         <Patch Id="VzQWWcRIrwkNtosQlSAfXs">
-          <Canvas Id="CcLhzYb7db5MXCxKnzaG6G">
+          <Canvas Id="CcLhzYb7db5MXCxKnzaG6G" BordersChecked="false">
             <ControlPoint Id="QSfLfbREC3lLil8LXMK32p" Bounds="1157,-120" />
             <ControlPoint Id="MrbowtT3CJ4MJLsltV17qQ" Bounds="827,-111" />
             <Node Bounds="607,83,92,13" Id="Mbb5ATeIDe9OIBhpOQfnCE">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetScaleBoxes" />
               </p:NodeReference>
@@ -5652,7 +5652,7 @@
               <Pin Id="JPgwSjDA81tOMFZe9uGvYW" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="464,82,121,13" Id="KBizr2DsSfwPAlZHKoYZFM">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetTranslationBoxes" />
               </p:NodeReference>
@@ -5661,7 +5661,7 @@
               <Pin Id="LDYfkM7aQEyNlmZgBdCap9" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="709,81,110,13" Id="Nj3LcUjbQ4ZLlaFnEkE0Ui">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetRotationPlanes" />
               </p:NodeReference>
@@ -5751,7 +5751,7 @@
               <p:ValueBoxSettings />
             </Pad>
             <Node Bounds="721,225,85,13" Id="I7cTXyc3wGQMCYXnZ5nryv">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Translate" />
                 <CategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true">
@@ -5799,7 +5799,7 @@
             <ControlPoint Id="OsBibQQ0W01M6k8bkA4pIS" Bounds="2380,143" />
             <ControlPoint Id="R5ERKTyfVh0LxMZm4R9BMC" Bounds="2494,136" />
             <Node Bounds="885,82,89,13" Id="BjFkAudtutHNH07PZxswvD">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetCenterBox" />
               </p:NodeReference>
@@ -5811,7 +5811,7 @@
             </Pad>
             <ControlPoint Id="JmWZkIWBHWDMH9e4Eq0ofj" Bounds="948,370" />
             <Node Bounds="1084,449,68,13" Id="EAsYdMK20cFQKIsn69ucbs">
-              <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Translate" />
                 <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -5823,7 +5823,7 @@
               <Pin Id="K8InKrPRMY5MSv2atNWff2" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="1084,501,49,13" Id="QsxqG3j8CupNo7RGrURzwK">
-              <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
                   <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
@@ -5929,7 +5929,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="2596,94,46,22" Id="LB8DnlvTlsTP2smssaM3Oc">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="GetSlice" />
                 <CategoryReference Kind="TypeFlag" Name="Spread" NeedsToBeDirectParent="true" />
@@ -5940,7 +5940,7 @@
               <Pin Id="NZAR0MKsKUEPdawKplqXiV" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="2730,48,65,13" Id="NWfSrLaMqhGMBmE94usfE1">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Cons" />
               </p:NodeReference>
@@ -6015,7 +6015,7 @@
               <p:ValueBoxSettings />
             </Pad>
             <Node Bounds="764,530,85,13" Id="J4TEaydg5y3PibLRInNV6T">
-              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetMatrices" />
               </p:NodeReference>
@@ -6059,7 +6059,7 @@
             </Pad>
             <ControlPoint Id="O8FQnXBX8x6PtqEOgLjjR8" Bounds="2136,142" />
             <Node Bounds="1608,223,43,13" Id="CFrCtWjMCcsPIs14qQcdcB">
-              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="3D.Vector3" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="Vector3" />
                 <Choice Kind="OperationCallFlag" Name="Any" />
@@ -6333,10 +6333,10 @@
           <Choice Kind="RecordType, HasMasterPatchFlag, DefinitionFlag" Name="Record" />
         </p:NodeReference>
         <Patch Id="RRUiLBWIdZJOqeLoJEPd9o" IsGeneric="true">
-          <Canvas Id="JmKfAZFIGsZPnkqHP08i8p">
+          <Canvas Id="JmKfAZFIGsZPnkqHP08i8p" BordersChecked="false">
             <ControlPoint Id="R2C0Gypxl7bO7kHNFAU8Hq" Bounds="729,32" />
             <Node Bounds="637,436,70,13" Id="M4bW0CXuf6EPkwZMYDSco1">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
@@ -6351,7 +6351,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="927,439,70,13" Id="UUrYkmpdWALN2Wt1PmforU">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
@@ -6367,7 +6367,7 @@
             </Pad>
             <ControlPoint Id="CIqbgfcjT0UMYoLkGDZwRa" Bounds="463,33" />
             <Node Bounds="461,441,125,13" Id="MclQ45zlvr4Mk1comGHi4r">
-              <p:NodeReference LastCategoryFullName="IO.Mouse" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Mouse" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="MouseState" />
               </p:NodeReference>
@@ -6381,7 +6381,7 @@
               <Pin Id="TacNeENc5xUOKjnuJLgEpw" Name="Right Pressed" Kind="OutputPin" />
             </Node>
             <Node Bounds="442,691,225,22" Id="RQWmKG6DbGhMUV85cSA9nr">
-              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoControlsState" LastSymbolSource="VL.3DGizmo.vl" LastPackageId="VL.EditingFramework">
+              <p:NodeReference LastCategoryFullName="Editors.3D.GizmoControlsState" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="TypeFlag" Name="GizmoControlsState" />
                 <Choice Kind="OperationNode" Name="Join" />
@@ -6401,7 +6401,7 @@
             </Node>
             <ControlPoint Id="RASsDnsqQPYLHSWrx5a7O2" Bounds="444,760" />
             <Node Bounds="727,69,92,13" Id="Fpw0CT5FVOFOH0QQUPKGW7">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="KeyboardState" />
               </p:NodeReference>
@@ -6409,7 +6409,7 @@
               <Pin Id="Tcp8mB4WUoQLzSPrf5rcyI" Name="Pressed Keys" Kind="OutputPin" />
             </Node>
             <Node Bounds="927,471,66,13" Id="TG5ZDR0c6gnNk2vNbFpPMo">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
@@ -6459,7 +6459,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="-350,319,70,13" Id="Gn8LhmuRzIyLErKCt8ycpx">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="KUhbOJ1ehW2MgLa1kOJIbQ" Name="Keys" Kind="InputPin" />
@@ -6467,7 +6467,7 @@
               <Pin Id="Asvwlr2tY57PxekTxzWN8C" Name="Is Down" Kind="OutputPin" />
             </Node>
             <Node Bounds="-226,319,70,13" Id="UE3zO3KY0e6PGwnqXDNUVi">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="F9yqR5TymYYQaIgPwPcbFr" Name="Keys" Kind="InputPin" />
@@ -6475,7 +6475,7 @@
               <Pin Id="BgxCVrNpYrUOF4vtVsHIu6" Name="Is Down" Kind="OutputPin" />
             </Node>
             <Node Bounds="-107,318,70,13" Id="QGMmmSY0Q1TNcRTBNYCwY2">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="KvG5ucPlGtJNwcevgNR4RP" Name="Keys" Kind="InputPin" />
@@ -6483,7 +6483,7 @@
               <Pin Id="HtNP9neYm8vQbXL9gaXUKi" Name="Is Down" Kind="OutputPin" />
             </Node>
             <Node Bounds="11,320,70,13" Id="Hh86yb6z66rPdmGcDn6vjS">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="HuIkKl6H7x0MyDqdSQ57h6" Name="Keys" Kind="InputPin" />
@@ -6538,7 +6538,7 @@
               <Pin Id="PmUC1IPKiYIPJm3MwpwZHX" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="-350,346,66,13" Id="FMX1skX1L7EPehKm47WIw2">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="OyTxwOnQDfPPq6j6LE6I7G" Name="Value" Kind="InputPin" />
@@ -6546,7 +6546,7 @@
               <Pin Id="KFhu8imf56yL6a0zffElOS" Name="Down Edge" Kind="OutputPin" />
             </Node>
             <Node Bounds="-226,347,66,13" Id="Ojn2MkINQF4MqUhLFUvN5M">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="JylrR7g6hycLIpWDXLEDP8" Name="Value" Kind="InputPin" />
@@ -6554,7 +6554,7 @@
               <Pin Id="Hor54LmRCBCP7PCQpnMFyt" Name="Down Edge" Kind="OutputPin" />
             </Node>
             <Node Bounds="-106,347,66,13" Id="SyfxHY9IRydOxlQ1FX3wbz">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="VNloSxqrL7kOEhvMKQNcXg" Name="Value" Kind="InputPin" />
@@ -6562,7 +6562,7 @@
               <Pin Id="THQoZfr5naTOM66xpIamuu" Name="Down Edge" Kind="OutputPin" />
             </Node>
             <Node Bounds="12,347,66,13" Id="QZtjVIdVzrvPdpLnZvL77m">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="GjcGRwwyFnMQdMnClmD0sq" Name="Value" Kind="InputPin" />
@@ -6597,7 +6597,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="303,314,70,13" Id="FvqRQIj7sgEL37238flltC">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="JI3ZV2XcQnAQHyVMrdGpPL" Name="Keys" Kind="InputPin" />
@@ -6605,7 +6605,7 @@
               <Pin Id="TnfOkJe1te9Lxx8XCbPYxh" Name="Is Down" Kind="OutputPin" />
             </Node>
             <Node Bounds="155,315,70,13" Id="NCuiBDkmLZeNppiUYxSnJ2">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
               <Pin Id="FtVJJpFijgdPKq19jAG2EV" Name="Keys" Kind="InputPin" />
@@ -6631,7 +6631,7 @@
               <Pin Id="DWZTj4yHTkYQBXYyaqgzHm" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="303,341,66,13" Id="HdFg3fEOv9UL8RpWxlWO3U">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="FqBg4dVXj9FMRvTq9jK0Zf" Name="Value" Kind="InputPin" />
@@ -6639,7 +6639,7 @@
               <Pin Id="Bao8Bv44AAtLHW7pF45ajK" Name="Down Edge" Kind="OutputPin" />
             </Node>
             <Node Bounds="155,343,66,13" Id="Q8l0vVHMhGdP6YxJQVbqKN">
-              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ProcessNode" Name="TogEdge" />
               </p:NodeReference>
               <Pin Id="JWxoNAg3QrdPm9ahga8MIY" Name="Value" Kind="InputPin" />
@@ -6647,7 +6647,7 @@
               <Pin Id="T7awoMWgQp8N2vW1IzhsHq" Name="Down Edge" Kind="OutputPin" />
             </Node>
             <Node Bounds="782,437,70,13" Id="K5Vm6a7Pl6sMeU4kFDoQUV">
-              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+              <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="KeyMatch" />
               </p:NodeReference>
@@ -6784,7 +6784,7 @@
           <Choice Kind="RecordType, HasMasterPatchFlag, DefinitionFlag" Name="Record" />
         </p:NodeReference>
         <Patch Id="EE2QMlMH73hPInYjZnf8w5" IsGeneric="true">
-          <Canvas Id="Uh91g7CiXPgNxzOCjedPmP">
+          <Canvas Id="Uh91g7CiXPgNxzOCjedPmP" BordersChecked="false">
             <Pad Id="G3RpPBAqU2MOAqRNqMoZUz" SlotId="DXrjAnTpX3OOVH5PRlppPB" Bounds="334,256">
               <p:ValueBoxSettings />
             </Pad>

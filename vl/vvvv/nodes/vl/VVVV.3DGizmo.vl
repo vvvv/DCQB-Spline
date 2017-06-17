@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="DiN9R4Ht4KtL5T7keRoj7D" Version="0.53">
+<Document xmlns:p="property" Id="DiN9R4Ht4KtL5T7keRoj7D" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
   <Patch Id="IWJNbYgFVP1PNopd8UaYaf">
-    <Canvas Id="RJUgN11FitOO3wINpwQ3kx" DefaultCategory="Main">
+    <Canvas Id="RJUgN11FitOO3wINpwQ3kx" DefaultCategory="Main" BordersChecked="false">
       <!--
 
     ************************ Gizmo (3d Internal) ************************
@@ -36,7 +36,7 @@
             <Pin Id="DuPculG32HvL03md1iBDCH" Name="Enabled" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="SAxdIhml70tNoMwEkJZ9uZ">
+          <Canvas Id="SAxdIhml70tNoMwEkJZ9uZ" BordersChecked="false">
             <ControlPoint Id="I6zD1hl6lS0NwP2ckROGi6" Bounds="96,92" />
             <ControlPoint Id="AeqctiAaX81MJDd5AehuQk" Bounds="168,325" />
             <ControlPoint Id="MNT1eYYBwlgMjRznx9DE3F" Bounds="620,326" />
@@ -117,7 +117,7 @@
           <Link Id="DJKpi53fF9YMpzw2GXbAWP" Ids="DuPculG32HvL03md1iBDCH,D5Fwi6nepYMPpgT63387Jb" IsHidden="true" />
         </Patch>
       </Node>
-      <Canvas Id="PCjsWxTEVrdMwiWcUVLg9p" Name="GizmoState" Position="409,183" DefaultCategory="VVVV.EditingFramework">
+      <Canvas Id="PCjsWxTEVrdMwiWcUVLg9p" Name="GizmoState" Position="409,183" DefaultCategory="VVVV.EditingFramework" BordersChecked="false">
         <!--
 
     ************************ GizmoState (Split Internal) ************************
@@ -301,7 +301,7 @@
           <Choice Kind="ClassType, HasMasterPatchFlag, DefinitionFlag" Name="Class" />
         </p:NodeReference>
         <Patch Id="JjjIxMCIhIxNo7tuFVyDel">
-          <Canvas Id="AJo89OKbcbJQG9ta6ixHFl">
+          <Canvas Id="AJo89OKbcbJQG9ta6ixHFl" BordersChecked="false">
             <Node Bounds="813,164,95,13" Id="Szv9LCdIAoINMRdIARxmVu">
               <p:NodeReference LastCategoryFullName="Editors.3D" LastSymbolSource="VL.3DGizmo.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />

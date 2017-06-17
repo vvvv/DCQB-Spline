@@ -69,11 +69,11 @@
    </PIN>
    </NODE>
    <NODE id="4" componentmode="InAWindow" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="3521" top="2865" width="100" height="100">
+   <BOUNDS type="Node" left="3514" top="2998" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="3521" top="2865" width="4800" height="3600">
+   <BOUNDS type="Box" left="3514" top="2998" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="4020" top="7380" width="7125" height="6765">
+   <BOUNDS type="Window" left="2541" top="7469" width="7119" height="6762">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -132,14 +132,14 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="9723" top="5880" width="7378" height="6104">
+   <BOUNDS type="Window" left="819" top="6454" width="7378" height="6104">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="PlayView" filename="PlayView.v4p" componentmode="Hidden" id="8" nodename="PlayView.v4p">
-   <BOUNDS type="Node" left="5404" top="2877" width="100" height="100">
+   <BOUNDS type="Node" left="5383" top="3017" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5404" top="2877" width="4800" height="3600">
+   <BOUNDS type="Box" left="5383" top="3017" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="16149" top="7686" width="8995" height="5999">
    </BOUNDS>

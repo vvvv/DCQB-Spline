@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.53">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.54">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
@@ -11,7 +11,7 @@
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
   <NugetDependency Id="Q18ZLENm9gzPhBnFnztPMP" Location="VL.Core" Version="0.35.21" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
-    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV">
+    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV" BordersChecked="false">
       <!--
 
     ************************ Main ************************
@@ -26,7 +26,7 @@
         <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
           <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update" />
-          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi">
+          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" BordersChecked="false">
             <Node Bounds="272,350,248,13" Id="Eshoy4vNxSZN1e4jWMPI2l">
               <p:NodeReference LastCategoryFullName="DCQB" LastSymbolSource="Main.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -233,7 +233,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="BiBXs1S5W0ZOAcdXv6rrAo">
-          <Canvas Id="JV6zbO9vjHsLctbPmPJWgA">
+          <Canvas Id="JV6zbO9vjHsLctbPmPJWgA" BordersChecked="false">
             <Node Bounds="363,331,212,22" Id="OARxMSU2vf2M1yqKGcaRfO">
               <p:NodeReference LastCategoryFullName="DCQB.MainMachineState" LastSymbolSource="Main.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -469,7 +469,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="RjojiEmG88aLSDhVB63Hfo" IsGeneric="true">
-          <Canvas Id="EnhhLbrCEj6MCcHnkt5yGq">
+          <Canvas Id="EnhhLbrCEj6MCcHnkt5yGq" BordersChecked="false">
             <Pad Id="OlvhyFYBZpeNZn2P6mZQUf" SlotId="FgfjvfmAY6VQA8bqXC761f" Bounds="620,272">
               <p:ValueBoxSettings />
             </Pad>
@@ -674,7 +674,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="TluXuHQd7VGMhSgZcutqgT" IsGeneric="true">
-          <Canvas Id="PRZCTPrnUXIQVKSiBMtD4y">
+          <Canvas Id="PRZCTPrnUXIQVKSiBMtD4y" BordersChecked="false">
             <Node Bounds="310,519,63,13" Id="J7rWgbWzjquPtqPSUPKsPo">
               <p:NodeReference LastCategoryFullName="XML" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -871,7 +871,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="Pnzj9JJntvzMGSUaDMjmZ6" IsGeneric="true">
-          <Canvas Id="PVcfEUKF9cTLqRkuaLWbQ6">
+          <Canvas Id="PVcfEUKF9cTLqRkuaLWbQ6" BordersChecked="false">
             <Node Bounds="464,491,65,13" Id="DkvaF5VLlS6M1iF3tzF8Sg">
               <p:NodeReference LastCategoryFullName="XML" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1062,7 +1062,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="AYEgA5v9dYgMI7wjzI2uFi" IsGeneric="true">
-          <Canvas Id="NB7MUA2PBzJMiYkf2YnZew">
+          <Canvas Id="NB7MUA2PBzJMiYkf2YnZew" BordersChecked="false">
             <ControlPoint Id="EhMB6KPUSk6PwaJVfhYfny" Bounds="294,607" />
             <ControlPoint Id="E8sjkVQv6pDL7AhGaqoqQA" Bounds="309,249" />
             <Node Bounds="307,278,105,22" Id="TsZSmjwGnwUNkLAAjnyGKM">
@@ -1157,7 +1157,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="GyR7VnQoj6XMsSud7xUz39" IsGeneric="true">
-          <Canvas Id="QWoHVyhrxJbPVKCVc1R5Xl">
+          <Canvas Id="QWoHVyhrxJbPVKCVc1R5Xl" BordersChecked="false">
             <ControlPoint Id="VFOC188AWBuLSckWzbjfFT" Bounds="252,153" />
             <ControlPoint Id="VJQjJ0EWkL9OxuhHMWuDI8" Bounds="277,183" />
             <Node Name="If2" Bounds="240,215,141,149" Id="HVxcp4jXp9qN1xWw9YkVHF">
@@ -1312,7 +1312,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="VP7yYEZaQPpM20SDBUr1ng" IsGeneric="true">
-          <Canvas Id="RFoxXeSrlvIPLvaAjXHKaj">
+          <Canvas Id="RFoxXeSrlvIPLvaAjXHKaj" BordersChecked="false">
             <ControlPoint Id="MZX8OOQmOSjNCTQFXJ0jbo" Bounds="287,196" />
             <ControlPoint Id="VqON7x8sbNuQWK5BHYbPAJ" Bounds="288,290" />
             <Pad Id="QDcNBOdfD3QLuo2KKQhzvz" SlotId="C0QxRFnKTsNMVPGGZv4ism" Bounds="286,244">
