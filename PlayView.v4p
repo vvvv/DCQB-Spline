@@ -11,6 +11,16 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|">
+   </PIN>
+   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|">
+   </PIN>
+   <PIN pinname="Enable FX" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Enable Points" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="5">
    <BOUNDS type="Box" left="1540" top="707" width="693" height="210">
@@ -46,4 +56,6 @@
    </LINK>
    <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="8" dstpinname="Input">
    </LINK>
+   <PACK Name="vvvv-Message" Version="2.9.9">
+   </PACK>
    </PATCH>

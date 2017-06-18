@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="644" scrolly="0">
+   <PATCH nodename="C:\dev\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="644" scrolly="-360">
    <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3315" top="2640" width="100" height="100">
    </BOUNDS>
@@ -23,7 +23,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Dot (Game Split)" filename="vl\VLGameProject.vl" nodename="Quad (Game Split)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="5265" top="2610" width="100" height="100">
+   <BOUNDS type="Node" left="5573" top="2582" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -311,7 +311,7 @@
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Select" visible="1" slicecount="1" values="10">
+   <PIN pinname="Select" visible="1" slicecount="16" values="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -324,4 +324,6 @@
    </LINK>
    <LINK srcnodeid="8" srcpinname="Dots" dstnodeid="2" dstpinname="Input">
    </LINK>
+   <PACK Name="vvvv-Message" Version="2.9.9">
+   </PACK>
    </PATCH>
