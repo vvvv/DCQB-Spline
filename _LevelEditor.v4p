@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_LevelEditor.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
    <BOUNDS type="Window" left="315" top="1666" width="7959" height="9583">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -164,7 +164,7 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
-   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="InAWindow" id="443">
+   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="Hidden" id="443">
    <BOUNDS type="Node" left="1086" top="4366" width="1425" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="1751" width="5451" height="5230">

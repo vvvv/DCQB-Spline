@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="644" scrolly="-360">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="644" scrolly="-360">
    <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3315" top="2640" width="100" height="100">
    </BOUNDS>
@@ -71,7 +71,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Point (DX9 2d)" filename="%VVVV%\lib\nodes\modules\EX9\Point (DX9 2d).v4p" nodename="Point (DX9 2d)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="7305" top="5925" width="100" height="100">
+   <BOUNDS type="Node" left="7305" top="6360" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -223,9 +223,9 @@
    <NODE id="17" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="5353" top="7482" width="765" height="315">
+   <BOUNDS type="Box" left="5278" top="8142" width="765" height="315">
    </BOUNDS>
-   <BOUNDS type="Node" left="5353" top="7482" width="750" height="240">
+   <BOUNDS type="Node" left="5278" top="8142" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
@@ -241,6 +241,8 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4755" top="800" width="750" height="240">
    </BOUNDS>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="18" srcpinname="Output Node" dstnodeid="8" dstpinname="Input">
    </LINK>
@@ -284,24 +286,24 @@
    </LINK>
    <LINK srcnodeid="12" srcpinname="PositionXY" dstnodeid="7" dstpinname="Input 2XY">
    </LINK>
-   <BOUNDS type="Window" left="2895" top="4125" width="9390" height="8790">
+   <BOUNDS type="Window" left="2385" top="3960" width="13650" height="10815">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="22">
-   <BOUNDS type="Node" left="5370" top="6960" width="100" height="100">
+   <BOUNDS type="Node" left="5295" top="7620" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Layer 1" visible="1">
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 2" visible="1">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
-   </LINK>
-   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 2">
-   </LINK>
    <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="17" dstpinname="Input Node">
    </LINK>
    <NODE systemname="Select (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Select (Value)" componentmode="Hidden" id="23">
@@ -311,7 +313,7 @@
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Select" visible="1" slicecount="16" values="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10">
+   <PIN pinname="Select" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -326,4 +328,10 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
+   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 3">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 2">
+   </LINK>
    </PATCH>

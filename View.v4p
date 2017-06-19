@@ -1,7 +1,7 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="2621" top="3825" width="100" height="100">
+   <BOUNDS type="Node" left="3341" top="4665" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
@@ -15,9 +15,9 @@
    </PIN>
    </NODE>
    <NODE id="1" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="2441" top="2355" width="480" height="480">
+   <BOUNDS type="Box" left="2021" top="2265" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="2441" top="2355" width="0" height="0">
+   <BOUNDS type="Node" left="2021" top="2265" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -43,17 +43,19 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
    </NODE>
    <NODE id="3" systemname="MainState (Game Split)" filename="vl\VLGameProject.vl" nodename="MainState (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Input" slicecount="1" visible="1" pintype="Input" values="||">
    </PIN>
-   <BOUNDS type="Node" left="2216" top="1500" width="100" height="100">
+   <BOUNDS type="Node" left="2216" top="1500" width="4260" height="270">
    </BOUNDS>
    <PIN pinname="MainMenu" visible="1" pintype="Output">
    </PIN>
    <PIN pinname="LevelEditor" visible="1" pintype="Output">
    </PIN>
-   <BOUNDS type="Box" left="371" top="-2175" width="2400" height="1800">
+   <BOUNDS type="Box" left="371" top="0" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
@@ -67,8 +69,14 @@
    </PIN>
    <PIN pinname="PlayState" visible="1">
    </PIN>
+   <PIN pinname="LevelEditor Enabled" visible="1">
+   </PIN>
+   <PIN pinname="MainMenu Enabled" visible="1">
+   </PIN>
+   <PIN pinname="Play Enabled" visible="1">
+   </PIN>
    </NODE>
-   <NODE id="4" componentmode="InAWindow" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
+   <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="3514" top="2998" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="3514" top="2998" width="4800" height="3600">
@@ -90,6 +98,8 @@
    <PIN pinname="Patch" pintype="Output" visible="-1">
    </PIN>
    <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
@@ -123,16 +133,16 @@
    <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="2621" top="4425" width="750" height="240">
+   <BOUNDS type="Box" left="3341" top="5265" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2621" top="4425" width="750" height="240">
+   <BOUNDS type="Node" left="3341" top="5265" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="7" dstpinname="Input Node">
    </LINK>
    <LINK srcnodeid="3" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="819" top="6454" width="7378" height="6104">
+   <BOUNDS type="Window" left="810" top="6450" width="9930" height="8730">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -147,9 +157,17 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="PlayState" dstnodeid="8" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="8" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 3">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="MainMenu Enabled" dstnodeid="4" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Play Enabled" dstnodeid="8" dstpinname="Enabled">
    </LINK>
    </PATCH>

@@ -237,19 +237,11 @@
    </PIN>
    <PIN pinname="Layer 1" visible="1">
    </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="44" srcpinname="Layer" dstnodeid="9" dstpinname="Input Node">
    </LINK>
-   <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="282" top="4797" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="150" top="2377" width="7075" height="4840">
-   </BOUNDS>
-   <BOUNDS type="Window" left="4260" top="3825" width="9525" height="8475">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="82">
    <BOUNDS type="Box" left="7260" top="2085" width="570" height="390">
    </BOUNDS>
@@ -381,7 +373,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="2085" top="4770" width="7150" height="7597">
    </BOUNDS>
-   <BOUNDS type="Window" left="2895" top="4125" width="9390" height="8790">
+   <BOUNDS type="Window" left="2385" top="3960" width="13650" height="10815">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -401,8 +393,6 @@
    <LINK srcnodeid="16" srcpinname="Level" dstnodeid="105" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="85" srcpinname="Output Node" dstnodeid="105" dstpinname="View" hiddenwhenlocked="1">
-   </LINK>
-   <LINK srcnodeid="81" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="105" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
    </LINK>
@@ -425,5 +415,37 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="16" srcpinname="Editing" dstnodeid="106" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="107">
+   <BOUNDS type="Node" left="465" top="5730" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="333" top="3310" width="7075" height="4840">
+   </BOUNDS>
+   <BOUNDS type="Window" left="4260" top="3825" width="12810" height="8475">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="108">
+   <BOUNDS type="Box" left="13440" top="1470" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13440" top="1470" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="108" srcpinname="Y Output Value" dstnodeid="44" dstpinname="Enabled">
    </LINK>
    </PATCH>
