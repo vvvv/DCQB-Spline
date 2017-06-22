@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HEq10TecnW0OovjWk3GuXW" Version="0.54">
+<Document xmlns:p="property" Id="HEq10TecnW0OovjWk3GuXW" Version="0.55">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
@@ -16,7 +16,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="RDl8qnKOJFfPOqRmSsrppC" IsGeneric="true">
-          <Canvas Id="P7kCB0uQUkfQFLI1PvfrLd" BordersChecked="false">
+          <Canvas Id="P7kCB0uQUkfQFLI1PvfrLd">
             <Pad Id="LC5WkdAYxHwNNv74ousx24" SlotId="BDgJGdlPvyzQdtu0LS6Q1b" Bounds="266,273">
               <p:ValueBoxSettings />
             </Pad>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RMDMfKmnIrVPStLdWe8u30" Version="0.54">
+<Document xmlns:p="property" Id="RMDMfKmnIrVPStLdWe8u30" Version="0.55">
   <p:NodeReference>
     <Choice Kind="Document" />
   </p:NodeReference>
@@ -151,7 +151,7 @@
             <Pin Id="U7ds7XPhTl8LJnuk4Gs6nY" Name="KeyHovered" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="QHnBpMCFnvPOAQbkK8PCJp" BordersChecked="false">
+          <Canvas Id="QHnBpMCFnvPOAQbkK8PCJp">
             <Pad Id="SibPYjRlbHkMyMOXol6QF7" Comment="Selected" Bounds="1187,509,40,22" ShowValueBox="true" isIOBox="true" Value="true">
               <p:ValueBoxSettings />
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
