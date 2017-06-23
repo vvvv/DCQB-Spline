@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3341" top="4665" width="100" height="100">
    </BOUNDS>
@@ -11,7 +11,7 @@
    </PIN>
    <PIN pinname="Layer Template Count" slicecount="1" values="3">
    </PIN>
-   <PIN pinname="Layer 3" visible="1">
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <NODE id="1" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
@@ -142,7 +142,7 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="810" top="6450" width="9930" height="8730">
+   <BOUNDS type="Window" left="819" top="6454" width="7378" height="6104">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -170,4 +170,6 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="Play Enabled" dstnodeid="8" dstpinname="Enabled">
    </LINK>
+   <PACK Name="vvvv-Message" Version="2.9.9">
+   </PACK>
    </PATCH>

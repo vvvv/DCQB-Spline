@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="16149" top="7686" width="8995" height="5999">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -34,22 +34,14 @@
    <PIN pinname="Output Node" visible="1">
    </PIN>
    </NODE>
-   <NODE nodename="IOBox (Node)" componentmode="InABox" id="6">
-   <BOUNDS type="Box" left="1982" top="4309" width="693" height="210">
-   </BOUNDS>
-   <BOUNDS type="Node" left="1982" top="4309" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
-   </PIN>
-   <PIN pinname="Input Node" visible="1">
-   </PIN>
-   </NODE>
    <NODE systemname="Playing (Game Split)" filename="vl\VLGameProject.vl" nodename="Playing (Game Split)" componentmode="Hidden" id="8">
    <BOUNDS type="Node" left="1484" top="1421" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Level" visible="1">
    </PIN>
    <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="UI" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
@@ -58,26 +50,10 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
-   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="9">
-   <BOUNDS type="Node" left="1965" top="3480" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Layer 1" visible="1">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Enabled" visible="1">
-   </PIN>
-   <PIN pinname="Layer 2" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="9" dstpinname="Layer 1">
-   </LINK>
-   <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="6" dstpinname="Input Node">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
-   <BOUNDS type="Box" left="6210" top="765" width="480" height="480">
+   <BOUNDS type="Box" left="5314" top="5539" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="6210" top="765" width="0" height="0">
+   <BOUNDS type="Node" left="5314" top="5539" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -91,15 +67,131 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="9" dstpinname="Enabled">
-   </LINK>
    <NODE systemname="Cursor (DX9)" filename="%VVVV%\lib\packs\VL.EditingFramework.0.54.18-g67c687b0d9\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="5070" top="2790" width="100" height="100">
+   <BOUNDS type="Node" left="3096" top="3770" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="9" dstpinname="Layer 2">
+   <NODE id="22" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   <BOUNDS type="Box" left="2914" top="6336" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2914" top="6336" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="2914" top="5701" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="5">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 5" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="22" dstpinname="Input Node">
+   </LINK>
+   <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="20">
+   <BOUNDS type="Node" left="5015" top="3156" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="17" nodename="TopMenu.v4p">
+   <BOUNDS type="Node" left="4440" top="3616" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4440" top="3616" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Highlight Color" visible="1" slicecount="1" values="|0.00165,0.88363,0.97997,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="17" dstpinname="Transform">
+   </LINK>
+   <NODE systemname="ModalWindowsView" filename="ModalWindowsView.v4p" componentmode="Hidden" id="16" nodename="ModalWindowsView.v4p">
+   <BOUNDS type="Node" left="5764" top="3567" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5764" top="3567" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
+   </LINK>
+   <LINK srcnodeid="16" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 5">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 2">
+   </LINK>
+   <NODE id="15" systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="3935" top="2729" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" pintype="Input" values="||">
+   </PIN>
+   <PIN pinname="Left Menu" visible="1" pintype="Output">
+   </PIN>
+   <BOUNDS type="Box" left="0" top="0" width="2240" height="1680">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="5600" height="4200">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output">
+   </PIN>
+   <PIN pinname="Modal Window" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Modal Window Bin Size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Left Menu Bin Size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Top Menu" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Top Menu Bin Size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Right Menu" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Right Menu Bin Size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="UI" dstnodeid="15" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Modal Window" dstnodeid="16" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Top Menu" dstnodeid="17" dstpinname="Input">
    </LINK>
    </PATCH>
