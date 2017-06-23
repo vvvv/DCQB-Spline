@@ -34,20 +34,6 @@
    <PIN pinname="X Input Value" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView.v4p">
-   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
-   </BOUNDS>
-   <BOUNDS type="Node" left="1170" top="2991" width="1335" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="836" top="6" width="7885" height="5970">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
-   </PIN>
-   </NODE>
    <NODE id="3" systemname="MainState (Game Split)" filename="vl\VLGameProject.vl" nodename="MainState (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Input" slicecount="1" visible="1" pintype="Input" values="||">
    </PIN>
@@ -108,8 +94,6 @@
    <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="3" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
-   </LINK>
    <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="View">
    </PIN>
@@ -118,10 +102,6 @@
    <BOUNDS type="Node" left="4980" top="620" width="750" height="240">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
-   </LINK>
-   <LINK srcnodeid="1" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Show Points">
-   </LINK>
    <NODE id="6" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
@@ -131,8 +111,6 @@
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="3" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
    </LINK>
@@ -170,8 +148,6 @@
    </LINK>
    <LINK srcnodeid="8" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 3">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
-   </LINK>
    <LINK srcnodeid="3" srcpinname="MainMenu Enabled" dstnodeid="4" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="3" srcpinname="Play Enabled" dstnodeid="8" dstpinname="Enabled">
@@ -195,5 +171,29 @@
    <LINK srcnodeid="3" srcpinname="HighScore" dstnodeid="9" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
+   </LINK>
+   <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
+   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1170" top="2991" width="1335" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="836" top="6" width="7885" height="5970">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Show Points">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
    </LINK>
    </PATCH>
