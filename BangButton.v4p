@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" systemname="BangButton" filename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" scrollx="435" scrolly="300">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" systemname="BangButton" filename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" filename="" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3675" top="8895" width="100" height="100">
    </BOUNDS>
@@ -109,7 +109,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="9">
-   <BOUNDS type="Node" left="10020" top="3285" width="100" height="100">
+   <BOUNDS type="Node" left="10080" top="3210" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -302,10 +302,24 @@
    </LINK>
    <LINK srcnodeid="2" srcpinname="Color Output" dstnodeid="1" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="810" top="1035" width="12645" height="9105">
+   <BOUNDS type="Window" left="810" top="1035" width="12645" height="11340">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
-   <LINK srcnodeid="9" srcpinname="Y" dstnodeid="11" dstpinname="ScaleXY">
+   <NODE systemname="Vector (2d Join)" nodename="Vector (2d Join)" componentmode="Hidden" id="22">
+   <BOUNDS type="Node" left="10905" top="4545" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="XY" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Y" dstnodeid="22" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y" dstnodeid="22" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="22" srcpinname="XY" dstnodeid="11" dstpinname="ScaleXY">
    </LINK>
    </PATCH>

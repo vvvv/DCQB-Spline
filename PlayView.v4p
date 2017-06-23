@@ -1,11 +1,11 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="16149" top="7686" width="8995" height="5999">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="5700" top="3090" width="8985" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="LevelView" filename="LevelView.v4p" nodename="LevelView.v4p" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="1953" top="2667" width="100" height="100">
+   <BOUNDS type="Node" left="1008" top="3477" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -23,9 +23,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="5">
-   <BOUNDS type="Box" left="1540" top="707" width="693" height="210">
+   <BOUNDS type="Box" left="1330" top="842" width="693" height="210">
    </BOUNDS>
-   <BOUNDS type="Node" left="1540" top="707" width="0" height="0">
+   <BOUNDS type="Node" left="1330" top="842" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
    </PIN>
@@ -35,7 +35,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Playing (Game Split)" filename="vl\VLGameProject.vl" nodename="Playing (Game Split)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="1484" top="1421" width="100" height="100">
+   <BOUNDS type="Node" left="1379" top="1616" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Level" visible="1">
    </PIN>
@@ -51,9 +51,9 @@
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
-   <BOUNDS type="Box" left="5314" top="5539" width="480" height="480">
+   <BOUNDS type="Box" left="7849" top="4144" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="5314" top="5539" width="0" height="0">
+   <BOUNDS type="Node" left="7849" top="4144" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -71,7 +71,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Cursor (DX9)" filename="%VVVV%\lib\packs\VL.EditingFramework.0.54.18-g67c687b0d9\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="3096" top="3770" width="100" height="100">
+   <BOUNDS type="Node" left="6441" top="4235" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -79,9 +79,9 @@
    <NODE id="22" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="2914" top="6336" width="750" height="240">
+   <BOUNDS type="Box" left="2899" top="7791" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2914" top="6336" width="750" height="240">
+   <BOUNDS type="Node" left="2899" top="7791" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
@@ -109,15 +109,15 @@
    <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="22" dstpinname="Input Node">
    </LINK>
    <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="20">
-   <BOUNDS type="Node" left="5015" top="3156" width="100" height="100">
+   <BOUNDS type="Node" left="3650" top="3846" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="17" nodename="TopMenu.v4p">
-   <BOUNDS type="Node" left="4440" top="3616" width="100" height="100">
+   <BOUNDS type="Node" left="3075" top="4306" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="4440" top="3616" width="4800" height="3600">
+   <BOUNDS type="Box" left="3075" top="4306" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
    </BOUNDS>
@@ -133,9 +133,9 @@
    <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="17" dstpinname="Transform">
    </LINK>
    <NODE systemname="ModalWindowsView" filename="ModalWindowsView.v4p" componentmode="Hidden" id="16" nodename="ModalWindowsView.v4p">
-   <BOUNDS type="Node" left="5764" top="3567" width="100" height="100">
+   <BOUNDS type="Node" left="4399" top="4257" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5764" top="3567" width="4800" height="3600">
+   <BOUNDS type="Box" left="4399" top="4257" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
    </BOUNDS>
@@ -144,24 +144,18 @@
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 5">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Enabled">
    </LINK>
-   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 2">
-   </LINK>
    <NODE id="15" systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="3935" top="2729" width="100" height="100">
+   <BOUNDS type="Node" left="2570" top="3419" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" pintype="Input" values="||">
    </PIN>
    <PIN pinname="Left Menu" visible="1" pintype="Output">
    </PIN>
-   <BOUNDS type="Box" left="0" top="0" width="2240" height="1680">
+   <BOUNDS type="Box" left="0" top="690" width="2240" height="1680">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="5600" height="4200">
    </BOUNDS>
@@ -193,5 +187,11 @@
    <LINK srcnodeid="15" srcpinname="Modal Window" dstnodeid="16" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="15" srcpinname="Top Menu" dstnodeid="17" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 5">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="16" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
    </LINK>
    </PATCH>

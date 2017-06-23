@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3341" top="4665" width="100" height="100">
    </BOUNDS>
@@ -9,9 +9,11 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Layer Template Count" slicecount="1" values="3">
+   <PIN pinname="Layer Template Count" slicecount="1" values="4">
    </PIN>
    <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <NODE id="1" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
@@ -43,7 +45,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Enabled" visible="1">
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE id="3" systemname="MainState (Game Split)" filename="vl\VLGameProject.vl" nodename="MainState (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
@@ -75,6 +77,10 @@
    </PIN>
    <PIN pinname="Play Enabled" visible="1">
    </PIN>
+   <PIN pinname="HighScore" visible="1">
+   </PIN>
+   <PIN pinname="HighScore Enabled" visible="1">
+   </PIN>
    </NODE>
    <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="3514" top="2998" width="100" height="100">
@@ -99,7 +105,7 @@
    </PIN>
    <PIN pinname="ID" pintype="Output" visible="-1">
    </PIN>
-   <PIN pinname="Enabled" visible="1">
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
@@ -142,7 +148,7 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="819" top="6454" width="7378" height="6104">
+   <BOUNDS type="Window" left="810" top="6450" width="11835" height="8730">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -151,13 +157,13 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5383" top="3017" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="16149" top="7686" width="8995" height="5999">
+   <BOUNDS type="Window" left="5700" top="3090" width="8985" height="8895">
    </BOUNDS>
-   <PIN pinname="Input" visible="1">
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Enabled" visible="1">
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="PlayState" dstnodeid="8" dstpinname="Input">
@@ -172,4 +178,22 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
+   <NODE systemname="HighscoreView" filename="HighscoreView.v4p" nodename="HighscoreView.v4p" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="6600" top="3030" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="1680" top="5985" width="17715" height="13410">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="HighScore Enabled" dstnodeid="9" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="HighScore" dstnodeid="9" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
+   </LINK>
    </PATCH>
