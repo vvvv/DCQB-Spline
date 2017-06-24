@@ -1,1 +1,189 @@
-{"FsPickler":"2.0.0","type":"Game.Level","value":{"Circles":{"array":{"array":[{"Center":{"Point":{"Position":{"X":0.332334131,"Y":0.319482774},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":0.332334131,"Y":0.319482774},"SelectionModifier":0,"Id":1,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":-0.2003577,"Y":-0.00261071324},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":-0.2003577,"Y":-0.00261071324},"SelectionModifier":0,"Id":2,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":-0.442966,"Y":-0.5311134},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":-0.442966,"Y":-0.5311134},"SelectionModifier":0,"Id":3,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":-0.498182952,"Y":-0.8058071},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":-0.498182952,"Y":-0.8058071},"SelectionModifier":0,"Id":4,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":0.09437217,"Y":-0.779616356},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":0.09437217,"Y":-0.779616356},"SelectionModifier":0,"Id":5,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":0.484508663,"Y":-0.655365},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":0.484508663,"Y":-0.655365},"SelectionModifier":0,"Id":6,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":0.667634,"Y":-0.435535371},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":0.667634,"Y":-0.435535371},"SelectionModifier":0,"Id":7,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":0.818911552,"Y":-0.0914546251},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":0.818911552,"Y":-0.0914546251},"SelectionModifier":0,"Id":8,"KeyHovered":false}},"Size":0.2},{"Center":{"Point":{"Position":{"X":-0.224106967,"Y":0.3290887},"Locked":false,"Selected":false,"Hovered":false,"ProjectedPosition":{"X":-0.224106967,"Y":0.3290887},"SelectionModifier":0,"Id":10,"KeyHovered":false}},"Size":0.2}]}},"Dots":{"array":{"array":[]}}}}
+{
+  "FsPickler": "2.0.0",
+  "type": "Game.XLevel",
+  "value": {
+    "Circles": {
+      "array": {
+        "array": [
+          {
+            "Position": {
+              "X": -0.0856190249,
+              "Y": 0.21361059
+            },
+            "Id": 0,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": 0.256858021,
+              "Y": 0.311909258
+            },
+            "Id": 1,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": 0.280133158,
+              "Y": -0.00189035921
+            },
+            "Id": 2,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": -0.2950953,
+              "Y": 0.028355388
+            },
+            "Id": 0,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": 0.8653367,
+              "Y": -0.765595436
+            },
+            "Id": 1,
+            "Size": 0.2,
+            "TentacleCount": 7
+          }
+        ]
+      }
+    },
+    "Dots": {
+      "array": {
+        "array": [
+          {
+            "Position": {
+              "X": 0.4014964,
+              "Y": -0.241965979
+            },
+            "Id": 3,
+            "Size": 0.05,
+            "Seed": 972
+          },
+          {
+            "Position": {
+              "X": -0.0440562777,
+              "Y": -0.3383743
+            },
+            "Id": 4,
+            "Size": 0.05,
+            "Seed": 371
+          },
+          {
+            "Position": {
+              "X": 0.7024107,
+              "Y": 0.396975428
+            },
+            "Id": 1,
+            "Size": 0.05,
+            "Seed": 67
+          },
+          {
+            "Position": {
+              "X": -0.408145964,
+              "Y": 0.44234404
+            },
+            "Id": 2,
+            "Size": 0.05,
+            "Seed": 866
+          },
+          {
+            "Position": {
+              "X": -0.7306729,
+              "Y": -0.5935728
+            },
+            "Id": 0,
+            "Size": 0.05,
+            "Seed": 157
+          },
+          {
+            "Position": {
+              "X": -0.602659643,
+              "Y": -0.618147433
+            },
+            "Id": 1,
+            "Size": 0.05,
+            "Seed": 783
+          },
+          {
+            "Position": {
+              "X": -0.459683776,
+              "Y": -0.637051046
+            },
+            "Id": 2,
+            "Size": 0.05,
+            "Seed": 225
+          },
+          {
+            "Position": {
+              "X": -0.321695447,
+              "Y": -0.652173936
+            },
+            "Id": 3,
+            "Size": 0.05,
+            "Seed": 88
+          },
+          {
+            "Position": {
+              "X": -0.5261842,
+              "Y": -0.187145561
+            },
+            "Id": 4,
+            "Size": 0.05,
+            "Seed": 611
+          },
+          {
+            "Position": {
+              "X": -0.825436,
+              "Y": -0.391304344
+            },
+            "Id": 5,
+            "Size": 0.05,
+            "Seed": 108
+          },
+          {
+            "Position": {
+              "X": 0.376558751,
+              "Y": 0.15689981
+            },
+            "Id": 0,
+            "Size": 0.05,
+            "Seed": 0
+          },
+          {
+            "Position": {
+              "X": -0.0606813766,
+              "Y": 0.487712651
+            },
+            "Id": 1,
+            "Size": 0.05,
+            "Seed": 675
+          },
+          {
+            "Position": {
+              "X": 0.36325866,
+              "Y": 0.595463157
+            },
+            "Id": 2,
+            "Size": 0.05,
+            "Seed": 678
+          },
+          {
+            "Position": {
+              "X": 0.6475479,
+              "Y": -0.345935732
+            },
+            "Id": 3,
+            "Size": 0.05,
+            "Seed": 383
+          }
+        ]
+      }
+    }
+  }
+}

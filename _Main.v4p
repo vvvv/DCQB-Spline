@@ -135,7 +135,7 @@
    <LINK srcnodeid="504" srcpinname="View" dstnodeid="46" dstpinname="View">
    </LINK>
    <NODE systemname="PerfMeter (Debug)" filename="%VVVV%\lib\nodes\modules\Debug\PerfMeter (Debug).v4p" nodename="PerfMeter (Debug)" componentmode="Hidden" id="531">
-   <BOUNDS type="Node" left="3976" top="4725" width="100" height="100">
+   <BOUNDS type="Node" left="3969" top="4725" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -160,21 +160,21 @@
    <LINKPOINT x="1148" y="5544">
    </LINKPOINT>
    </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="541" dstpinname="Keyboard Device">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="542" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="541" dstpinname="View">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="542" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="541" dstpinname="Camera Zoom">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="542" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="541" dstpinname="Camera Idle">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="542" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="541" dstpinname="Camera State">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="542" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="541" dstpinname="Mouse Device">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="542" dstpinname="Mouse Device">
    </LINK>
-   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="541" dstpinname="Directory">
+   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="542" dstpinname="Directory">
    </LINK>
-   <NODE id="541" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <NODE id="542" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="1095" top="2910" width="1365" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="750" top="450" width="2400" height="1800">
@@ -182,14 +182,14 @@
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="541" srcpinname="State" dstnodeid="443" dstpinname="Input">
+   <LINK srcnodeid="542" srcpinname="State" dstnodeid="443" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="541" dstpinname="Mouse">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="542" dstpinname="Mouse">
    </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="541" dstpinname="Keyboard">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="542" dstpinname="Keyboard">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="541" dstpinname="Camera">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="542" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="541" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
+   <LINK srcnodeid="542" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
    </LINK>
    </PATCH>

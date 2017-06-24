@@ -1,1 +1,81 @@
-{"FsPickler":"2.0.0","type":"Game.Level","value":{"Circles":{"array":{"array":[]}},"Quads":{"array":{"array":[]}}}}
+{
+  "FsPickler": "2.0.0",
+  "type": "Game.XLevel",
+  "value": {
+    "Circles": {
+      "array": {
+        "array": [
+          {
+            "Position": {
+              "X": -0.369908243,
+              "Y": 0.190926269
+            },
+            "Id": 0,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": -0.00581854675,
+              "Y": 0.2268431
+            },
+            "Id": 1,
+            "Size": 0.2,
+            "TentacleCount": 7
+          },
+          {
+            "Position": {
+              "X": -0.0490438081,
+              "Y": -0.07372401
+            },
+            "Id": 0,
+            "Size": 0.2,
+            "TentacleCount": 7
+          }
+        ]
+      }
+    },
+    "Dots": {
+      "array": {
+        "array": [
+          {
+            "Position": {
+              "X": 0.863674164,
+              "Y": -0.510396957
+            },
+            "Id": 2,
+            "Size": 0.05,
+            "Seed": 450
+          },
+          {
+            "Position": {
+              "X": 0.373233736,
+              "Y": -0.682419658
+            },
+            "Id": 3,
+            "Size": 0.05,
+            "Seed": 658
+          },
+          {
+            "Position": {
+              "X": -0.225269869,
+              "Y": -0.652173936
+            },
+            "Id": 4,
+            "Size": 0.05,
+            "Seed": 228
+          },
+          {
+            "Position": {
+              "X": -0.6076472,
+              "Y": -0.448015124
+            },
+            "Id": 5,
+            "Size": 0.05,
+            "Seed": 343
+          }
+        ]
+      }
+    }
+  }
+}

@@ -25,6 +25,8 @@
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
+   <PIN pinname="Inner Radius" slicecount="1" values="0.89">
+   </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="3">
    <BOUNDS type="Node" left="8656" top="5103" width="100" height="100">
@@ -55,7 +57,7 @@
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Switch" visible="1" slicecount="1" values="0">
+   <PIN pinname="Switch" visible="1" slicecount="100" values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -309,7 +311,7 @@
    </BOUNDS>
    <PIN pinname="Inputs per Curve" visible="1" slicecount="1" values="-1">
    </PIN>
-   <PIN pinname="ControlXY" visible="1">
+   <PIN pinname="ControlXY" visible="1" slicecount="126" values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    </PIN>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -373,7 +375,7 @@
    <NODE systemname="CAR (Spreads)" nodename="CAR (Spreads)" componentmode="Hidden" id="30">
    <BOUNDS type="Node" left="6888" top="2961" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="35" values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+   <PIN pinname="Input" visible="1" slicecount="21" values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    </PIN>
    <PIN pinname="First Slice" visible="1">
    </PIN>
@@ -413,9 +415,13 @@
    </PIN>
    <PIN pinname="Output Bin Size" visible="1">
    </PIN>
+   <PIN pinname="Caught" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Output" dstnodeid="3" dstpinname="Transform">
    </LINK>
    <LINK srcnodeid="8" srcpinname="Dots" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Caught" dstnodeid="5" dstpinname="Switch">
    </LINK>
    </PATCH>

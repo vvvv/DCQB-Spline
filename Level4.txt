@@ -1,1 +1,0 @@
-{"FsPickler":"2.0.0","type":"Game.Level","value":{"Circles":{"array":{"array":[]}},"Quads":{"array":{"array":[]}}}}
