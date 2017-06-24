@@ -1,27 +1,9 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="5700" top="3090" width="8985" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
-   <NODE systemname="LevelView" filename="LevelView.v4p" nodename="LevelView.v4p" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="1008" top="3477" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|">
-   </PIN>
-   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|">
-   </PIN>
-   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|">
-   </PIN>
-   <PIN pinname="Enable FX" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Enable Points" slicecount="1" values="0">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="5">
    <BOUNDS type="Box" left="1330" top="842" width="693" height="210">
    </BOUNDS>
@@ -44,8 +26,6 @@
    <PIN pinname="UI" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="8" dstpinname="Input">
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
@@ -144,8 +124,6 @@
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
-   </LINK>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Enabled">
    </LINK>
    <NODE id="15" systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
@@ -193,5 +171,27 @@
    <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="16" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
+   </LINK>
+   <NODE systemname="PlayLevelView" filename="PlayLevelView.v4p" nodename="PlayLevelView.v4p" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="1008" top="3477" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|">
+   </PIN>
+   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|">
+   </PIN>
+   <PIN pinname="Enable FX" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Enable Points" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
    </PATCH>
