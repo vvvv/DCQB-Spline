@@ -1,7 +1,7 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="532" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="1020" scrolly="3510">
    <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="3315" top="2640" width="100" height="100">
+   <BOUNDS type="Node" left="3255" top="2610" width="795" height="270">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -31,7 +31,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="7669" top="5012" width="100" height="100">
+   <BOUNDS type="Node" left="3334" top="7712" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
@@ -43,7 +43,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="4">
-   <BOUNDS type="Node" left="4080" top="4350" width="100" height="100">
+   <BOUNDS type="Node" left="4020" top="4455" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -55,7 +55,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="5">
-   <BOUNDS type="Node" left="8322" top="4388" width="100" height="100">
+   <BOUNDS type="Node" left="7827" top="7013" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -67,7 +67,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Point (DX9 2d)" filename="%VVVV%\lib\nodes\modules\EX9\Point (DX9 2d).v4p" nodename="Point (DX9 2d)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="8593" top="6409" width="100" height="100">
+   <BOUNDS type="Node" left="7048" top="9049" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -83,7 +83,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Level (Game Split)" filename="vl\VLGameProject.vl" nodename="Level (Game Split)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="4740" top="1740" width="100" height="100">
+   <BOUNDS type="Node" left="4710" top="1635" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -95,19 +95,19 @@
    </PIN>
    </NODE>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="9">
-   <BOUNDS type="Node" left="4185" top="5565" width="100" height="100">
+   <BOUNDS type="Node" left="3090" top="8175" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1">
    </PIN>
-   <PIN pinname="Layer 2" visible="1">
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="ObjectFX" filename="ObjectFX.v4p" nodename="ObjectFX.v4p" componentmode="Hidden" id="10">
-   <BOUNDS type="Node" left="4183" top="6337" width="0" height="0">
+   <BOUNDS type="Node" left="3088" top="8947" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="2700" top="3145" width="5605" height="6385">
+   <BOUNDS type="Box" left="1605" top="5755" width="5605" height="6385">
    </BOUNDS>
    <BOUNDS type="Window" left="5445" top="10215" width="9225" height="6900">
    </BOUNDS>
@@ -137,7 +137,7 @@
    </PIN>
    </NODE>
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="vl\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="7947" top="3338" width="100" height="100">
+   <BOUNDS type="Node" left="7452" top="5963" width="100" height="100">
    </BOUNDS>
    <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
@@ -147,7 +147,7 @@
    </PIN>
    </NODE>
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="vl\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="13">
-   <BOUNDS type="Node" left="3960" top="3420" width="100" height="100">
+   <BOUNDS type="Node" left="3630" top="3555" width="100" height="100">
    </BOUNDS>
    <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
@@ -205,23 +205,21 @@
    <NODE id="17" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="5278" top="8142" width="765" height="315">
+   <BOUNDS type="Box" left="6853" top="11277" width="765" height="315">
    </BOUNDS>
-   <BOUNDS type="Node" left="5278" top="8142" width="750" height="240">
+   <BOUNDS type="Node" left="6853" top="11277" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="9" dstpinname="Layer 1">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="9" dstpinname="Layer 2">
-   </LINK>
    <NODE id="18" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="4755" top="800" width="750" height="240">
+   <BOUNDS type="Box" left="4725" top="695" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4755" top="800" width="750" height="240">
+   <BOUNDS type="Node" left="4725" top="695" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -258,12 +256,12 @@
    </NODE>
    <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Enabled">
    </LINK>
-   <BOUNDS type="Window" left="2385" top="3960" width="13650" height="10815">
+   <BOUNDS type="Window" left="285" top="1290" width="13650" height="10815">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="22">
-   <BOUNDS type="Node" left="5295" top="7620" width="100" height="100">
+   <BOUNDS type="Node" left="6870" top="10755" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
@@ -271,21 +269,21 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Layer Template Count" slicecount="1" values="7">
+   <PIN pinname="Layer Template Count" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 7" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer 5" visible="1">
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="17" dstpinname="Input Node">
    </LINK>
    <NODE systemname="Select (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Select (Value)" componentmode="Hidden" id="23">
-   <BOUNDS type="Node" left="8307" top="3878" width="100" height="100">
+   <BOUNDS type="Node" left="7812" top="6503" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="8307" top="3878" width="3000" height="3000">
+   <BOUNDS type="Box" left="7812" top="6503" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
@@ -300,8 +298,6 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
-   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 3">
-   </LINK>
    <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 2">
@@ -309,7 +305,7 @@
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="1" dstpinname="Transform">
    </LINK>
    <NODE systemname="DotFlock (Game Split)" filename="vl\VLGameProject.vl" nodename="Dot (Game Split)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="7820" top="2575" width="100" height="100">
+   <BOUNDS type="Node" left="5180" top="5305" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -329,9 +325,9 @@
    <LINK srcnodeid="8" srcpinname="Dots" dstnodeid="2" dstpinname="Input">
    </LINK>
    <NODE systemname="Cons (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Cons (Spreads)" componentmode="Hidden" id="31">
-   <BOUNDS type="Node" left="5642" top="6034" width="100" height="100">
+   <BOUNDS type="Node" left="7037" top="8404" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5642" top="6034" width="1400" height="1400">
+   <BOUNDS type="Box" left="7037" top="8404" width="1400" height="1400">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
    </PIN>
@@ -347,9 +343,9 @@
    <LINK srcnodeid="31" srcpinname="Output" dstnodeid="6" dstpinname="XY">
    </LINK>
    <NODE systemname="Text (EX9)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Text (EX9)" componentmode="Hidden" id="32">
-   <BOUNDS type="Node" left="5229" top="4732" width="100" height="100">
+   <BOUNDS type="Node" left="10209" top="6082" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5229" top="4732" width="1400" height="1400">
+   <BOUNDS type="Box" left="10209" top="6082" width="1400" height="1400">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -358,10 +354,8 @@
    <PIN pinname="Transform" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="32" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 5">
-   </LINK>
    <NODE systemname="AsString (Value)" nodename="AsString (Value)" componentmode="Hidden" id="33">
-   <BOUNDS type="Node" left="5845" top="3822" width="100" height="100">
+   <BOUNDS type="Node" left="10510" top="4572" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -374,8 +368,22 @@
    </LINK>
    <LINK srcnodeid="33" srcpinname="Output" dstnodeid="32" dstpinname="Text">
    </LINK>
-   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="32" dstpinname="Transform">
-   <LINKPOINT x="3563" y="4802">
-   </LINKPOINT>
+   <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="34">
+   <BOUNDS type="Node" left="10365" top="5475" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" slicecount="1" values="0.37">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="34" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="34" srcpinname="Transform Out" dstnodeid="32" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Layer" dstnodeid="9" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="32" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 3">
    </LINK>
    </PATCH>

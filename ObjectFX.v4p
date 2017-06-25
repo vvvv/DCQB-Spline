@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ObjectFX.v4p" systemname="ObjectFX" filename="C:\Work\VL Game Project\DCQB-Spline\ObjectFX.v4p">
    <NODE id="0" systemname="RenderTarget (EX9.Texture Source)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\Source\RenderTarget\RenderTarget (EX9.Texture Source).v4p" nodename="RenderTarget (EX9.Texture Source)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Aspect Ratio" visible="1" pintype="Input" slicecount="1" values="||">
@@ -165,7 +165,7 @@
    </PIN>
    </NODE>
    <NODE id="5" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="0.25">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="0.08">
    </PIN>
    <BOUNDS type="Box" left="1665" top="3045" width="795" height="240">
    </BOUNDS>
@@ -350,7 +350,7 @@
    </NODE>
    <LINK srcnodeid="7" srcpinname="Input Value" dstnodeid="2" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="5445" top="10215" width="9225" height="6900">
+   <BOUNDS type="Window" left="1455" top="1455" width="9225" height="6900">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -401,5 +401,25 @@
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="11" srcpinname="Output" dstnodeid="10" dstpinname="Input Node">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="13">
+   <BOUNDS type="Box" left="1665" top="1065" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1665" top="1065" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1024">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="13" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Width">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Height">
    </LINK>
    </PATCH>

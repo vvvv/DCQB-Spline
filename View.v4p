@@ -1,7 +1,7 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="2115" scrolly="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="3341" top="4665" width="100" height="100">
+   <BOUNDS type="Node" left="2471" top="5130" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
@@ -19,9 +19,9 @@
    </PIN>
    </NODE>
    <NODE id="1" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="2021" top="2265" width="480" height="480">
+   <BOUNDS type="Box" left="1151" top="2730" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="2021" top="2265" width="0" height="0">
+   <BOUNDS type="Node" left="1151" top="2730" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
@@ -37,11 +37,11 @@
    </PIN>
    </NODE>
    <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="3514" top="2998" width="100" height="100">
+   <BOUNDS type="Node" left="2644" top="3463" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="3514" top="2998" width="4800" height="3600">
+   <BOUNDS type="Box" left="2644" top="3463" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="2541" top="7469" width="7119" height="6762">
+   <BOUNDS type="Window" left="-435" top="585" width="14280" height="8220">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -65,17 +65,17 @@
    <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="View">
    </PIN>
-   <BOUNDS type="Box" left="4980" top="620" width="750" height="240">
+   <BOUNDS type="Box" left="4080" top="860" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4980" top="620" width="750" height="240">
+   <BOUNDS type="Node" left="4080" top="860" width="750" height="240">
    </BOUNDS>
    </NODE>
    <NODE id="6" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="2220" top="485" width="750" height="240">
+   <BOUNDS type="Box" left="1350" top="950" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2220" top="485" width="750" height="240">
+   <BOUNDS type="Node" left="1350" top="950" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
@@ -83,23 +83,23 @@
    <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="3341" top="5265" width="750" height="240">
+   <BOUNDS type="Box" left="2471" top="5730" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="3341" top="5265" width="750" height="240">
+   <BOUNDS type="Node" left="2471" top="5730" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="7" dstpinname="Input Node">
    </LINK>
-   <BOUNDS type="Window" left="570" top="1365" width="8385" height="8310">
+   <BOUNDS type="Window" left="1845" top="705" width="9600" height="9465">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="PlayView" filename="PlayView.v4p" componentmode="Hidden" id="8" nodename="PlayView.v4p">
-   <BOUNDS type="Node" left="5383" top="3017" width="100" height="100">
+   <BOUNDS type="Node" left="4513" top="3482" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5383" top="3017" width="4800" height="3600">
+   <BOUNDS type="Box" left="4513" top="3482" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="5700" top="3090" width="8985" height="8895">
+   <BOUNDS type="Window" left="825" top="645" width="9810" height="8895">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -113,7 +113,7 @@
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
    <NODE systemname="HighscoreView" filename="HighscoreView.v4p" nodename="HighscoreView.v4p" componentmode="Hidden" id="9">
-   <BOUNDS type="Node" left="6600" top="3030" width="100" height="100">
+   <BOUNDS type="Node" left="5730" top="3495" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -121,7 +121,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="1680" top="5985" width="17715" height="13410">
+   <BOUNDS type="Window" left="1695" top="1305" width="17715" height="11700">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
@@ -129,9 +129,9 @@
    <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
    <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
    </BOUNDS>
-   <BOUNDS type="Node" left="1170" top="2991" width="1335" height="270">
+   <BOUNDS type="Node" left="300" top="3456" width="1335" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="836" top="6" width="7885" height="5970">
+   <BOUNDS type="Box" left="0" top="471" width="7885" height="5970">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -147,11 +147,11 @@
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
    <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="Hidden" id="10" nodename="AboutView.v4p">
-   <BOUNDS type="Node" left="8145" top="3030" width="100" height="100">
+   <BOUNDS type="Node" left="7275" top="3495" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="8145" top="3030" width="4800" height="3600">
+   <BOUNDS type="Box" left="7275" top="3495" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="8745" top="5070" width="9000" height="6000">
+   <BOUNDS type="Window" left="1275" top="750" width="17610" height="9465">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -163,9 +163,9 @@
    <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 5">
    </LINK>
    <NODE id="11" systemname="MainState (Game Split)" filename="vl\VLGameProject.vl" nodename="MainState (Game Split)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="2216" top="1500" width="4260" height="270">
+   <BOUNDS type="Node" left="1346" top="1965" width="4260" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="371" top="0" width="2400" height="1800">
+   <BOUNDS type="Box" left="0" top="465" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
@@ -192,4 +192,12 @@
    </LINK>
    <LINK srcnodeid="11" srcpinname="About" dstnodeid="10" dstpinname="Input">
    </LINK>
+   <NODE systemname="Constants" filename="Constants.v4p" componentmode="Hidden" id="12" nodename="Constants.v4p">
+   <BOUNDS type="Node" left="6585" top="1035" width="2190" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6585" top="1035" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="2025" top="3495" width="11460" height="6000">
+   </BOUNDS>
+   </NODE>
    </PATCH>
