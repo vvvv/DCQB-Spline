@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\dev\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
    <BOUNDS type="Window" left="0" top="119" width="6258" height="7420">
    </BOUNDS>
@@ -160,21 +160,21 @@
    <LINKPOINT x="1148" y="5544">
    </LINKPOINT>
    </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="543" dstpinname="Keyboard Device">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="544" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="543" dstpinname="View">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="544" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="543" dstpinname="Camera Zoom">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="544" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="543" dstpinname="Camera Idle">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="544" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="543" dstpinname="Camera State">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="544" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="543" dstpinname="Mouse Device">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="544" dstpinname="Mouse Device">
    </LINK>
-   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="543" dstpinname="Directory">
+   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="544" dstpinname="Directory">
    </LINK>
-   <NODE id="543" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <NODE id="544" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="1095" top="2910" width="1365" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="750" top="450" width="2400" height="1800">
@@ -182,14 +182,14 @@
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="543" srcpinname="State" dstnodeid="443" dstpinname="Input">
+   <LINK srcnodeid="544" srcpinname="State" dstnodeid="443" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="543" dstpinname="Mouse">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="544" dstpinname="Mouse">
    </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="543" dstpinname="Keyboard">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="544" dstpinname="Keyboard">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="543" dstpinname="Camera">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="544" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="543" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
+   <LINK srcnodeid="544" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
    </LINK>
    </PATCH>

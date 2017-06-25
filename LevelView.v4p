@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\dev\DCQB-Spline\LevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="532" scrolly="0">
    <NODE systemname="Circle (Game Split)" filename="vl\VLGameProject.vl" nodename="Circle (Game Split)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3315" top="2640" width="100" height="100">
@@ -13,9 +13,11 @@
    </PIN>
    <PIN pinname="Tentacles Bin Size" visible="1">
    </PIN>
+   <PIN pinname="Tentacle Count" visible="1">
+   </PIN>
    </NODE>
    <NODE systemname="GridSegment (DX9)" nodename="GridSegment (DX9)" componentmode="Hidden" id="1">
-   <BOUNDS type="Node" left="3150" top="5040" width="100" height="100">
+   <BOUNDS type="Node" left="3094" top="4984" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
@@ -25,9 +27,11 @@
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
+   <PIN pinname="Inner Radius" slicecount="1" values="0.81">
+   </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="6612" top="5012" width="100" height="100">
+   <BOUNDS type="Node" left="7669" top="5012" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
@@ -51,7 +55,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Switch (Color Input)" nodename="Switch (Color Input)" componentmode="Hidden" id="5">
-   <BOUNDS type="Node" left="7265" top="4388" width="100" height="100">
+   <BOUNDS type="Node" left="8322" top="4388" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -133,7 +137,7 @@
    </PIN>
    </NODE>
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="vl\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="6890" top="3338" width="100" height="100">
+   <BOUNDS type="Node" left="7947" top="3338" width="100" height="100">
    </BOUNDS>
    <PIN pinname="EditablePoint" visible="1" slicecount="1" values="||">
    </PIN>
@@ -273,17 +277,19 @@
    </PIN>
    <PIN pinname="Layer 7" visible="1" slicecount="1" values="||">
    </PIN>
+   <PIN pinname="Layer 5" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="17" dstpinname="Input Node">
    </LINK>
    <NODE systemname="Select (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Select (Value)" componentmode="Hidden" id="23">
-   <BOUNDS type="Node" left="7250" top="3878" width="100" height="100">
+   <BOUNDS type="Node" left="8307" top="3878" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="7250" top="3878" width="3000" height="3000">
+   <BOUNDS type="Box" left="8307" top="3878" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Select" visible="1" slicecount="14" values="10,10,10,10,10,10,10,10,10,10,10,10,10,10">
+   <PIN pinname="Select" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -303,7 +309,7 @@
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="1" dstpinname="Transform">
    </LINK>
    <NODE systemname="DotFlock (Game Split)" filename="vl\VLGameProject.vl" nodename="Dot (Game Split)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="6763" top="2575" width="100" height="100">
+   <BOUNDS type="Node" left="7820" top="2575" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -327,9 +333,9 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5642" top="6034" width="1400" height="1400">
    </BOUNDS>
-   <PIN pinname="Input 1" visible="1">
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Input 2" visible="1">
+   <PIN pinname="Input 2" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -339,5 +345,37 @@
    <LINK srcnodeid="12" srcpinname="PositionXY" dstnodeid="31" dstpinname="Input 2">
    </LINK>
    <LINK srcnodeid="31" srcpinname="Output" dstnodeid="6" dstpinname="XY">
+   </LINK>
+   <NODE systemname="Text (EX9)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Text (EX9)" componentmode="Hidden" id="32">
+   <BOUNDS type="Node" left="5229" top="4732" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5229" top="4732" width="1400" height="1400">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="32" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 5">
+   </LINK>
+   <NODE systemname="AsString (Value)" nodename="AsString (Value)" componentmode="Hidden" id="33">
+   <BOUNDS type="Node" left="5845" top="3822" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="SubType" slicecount="1" values="|Integer (MinInt .. MaxInt)|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Tentacle Count" dstnodeid="33" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="33" srcpinname="Output" dstnodeid="32" dstpinname="Text">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="32" dstpinname="Transform">
+   <LINKPOINT x="3563" y="4802">
+   </LINKPOINT>
    </LINK>
    </PATCH>

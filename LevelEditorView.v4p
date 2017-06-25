@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\dev\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2820" top="6495" width="2340" height="270">
@@ -416,18 +416,6 @@
    </NODE>
    <LINK srcnodeid="16" srcpinname="Editing" dstnodeid="106" dstpinname="Y Input Value">
    </LINK>
-   <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="107">
-   <BOUNDS type="Node" left="465" top="5730" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="333" top="3310" width="7075" height="4840">
-   </BOUNDS>
-   <BOUNDS type="Window" left="4260" top="3825" width="12810" height="8475">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="108">
    <BOUNDS type="Box" left="13440" top="1470" width="480" height="480">
    </BOUNDS>
@@ -450,4 +438,16 @@
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
+   <NODE systemname="BackgroundView" filename="BackgroundView.v4p" nodename="BackgroundView.v4p" componentmode="Hidden" id="107">
+   <BOUNDS type="Node" left="465" top="5730" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="333" top="3310" width="7075" height="4840">
+   </BOUNDS>
+   <BOUNDS type="Window" left="4260" top="3825" width="12810" height="8475">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
+   </LINK>
    </PATCH>

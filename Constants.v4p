@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p">
    <BOUNDS type="Window" left="15585" top="5430" width="9000" height="6000">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -105,15 +105,19 @@
    </BOUNDS>
    <BOUNDS type="Node" left="900" top="3315" width="0" height="0">
    </BOUNDS>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.14746,0.17234,0.18715,1.00000|">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="10" dstpinname="Color Input">
-   </LINK>
    <NODE nodename="S (Color)" id="11">
    <BOUNDS type="Node" left="630" top="3945" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Send String" slicecount="1" values="|Background Color|">
    </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="9" srcpinname="Output" dstnodeid="11" dstpinname="Input Value">
+   <LINK srcnodeid="10" srcpinname="Color Output" dstnodeid="11" dstpinname="Input Value">
    </LINK>
    </PATCH>
