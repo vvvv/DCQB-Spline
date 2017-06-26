@@ -2659,8 +2659,8 @@
                     </Node>
                     <Pad Id="Q4SdxMEyXpLM1dDN370OLP" Bounds="2770,1025,327,22" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; better get the hovered point closest to the camera&quot;">
                       <p:ValueBoxSettings>
-                        <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                         <p:fontsize p:Type="Int32">9</p:fontsize>
+                        <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                       </p:ValueBoxSettings>
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                         <Choice Kind="TypeFlag" Name="String" />
@@ -6566,7 +6566,7 @@
             <Pin Id="Ea1r9uY2z4fOG8CA3pYuik" Name="Gizmo Size" Kind="InputPin" />
             <p:Info />
           </Patch>
-          <Canvas Id="G6KQDXWgNT4LOY6arUomgp" BordersChecked="false">
+          <Canvas Id="G6KQDXWgNT4LOY6arUomgp">
             <Node Bounds="234,1032,165,13" Id="HkrfD7iwFbqO0ao5ZkuoG8">
               <p:NodeReference LastCategoryFullName="Editors.2D" LastSymbolSource="VL.Editors.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7005,6 +7005,12 @@
               <Pin Id="A8kO7KrdF5kOV6eBor2ors" Name="Output" Kind="OutputPin" />
               <Pin Id="IhxYsKLC5ALM2pHCTJY8yJ" Name="Elements Count" Kind="OutputPin" />
             </Node>
+            <Pad Id="GPk1EnD2BlwOP3yoihbHBN" Comment="Default" Bounds="1210,204,29,35" ShowValueBox="true" isIOBox="true" Value="new vec(1000.0,1000.0)">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+                <CategoryReference Kind="Category" Name="2D" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="Fqmk1Hin0uMM2tZOYsTTO9" Ids="TLlEE5ALxYmOSLpgJCdxMy,J8v1VsjjvmAM9zjCR7SUuO" IsHidden="true" />
           <Link Id="BzBm2IWIOemNuEq4d4apXY" Ids="HFCWfOTK0OxPlLExnj3RzB,V4NjtjT7ixiOPEFfhOfPYh" IsHidden="true" />
@@ -7127,6 +7133,7 @@
           <Link Id="BZLHoStGzO5QFMKZLtmo71" Ids="GIFDHHWljhkMLBTejAF2Ua,PpihNdE5rEHMO3V1b8P6Tz" />
           <Link Id="AVcnzIXGnVRQKpqGzL8VHY" Ids="A8kO7KrdF5kOV6eBor2ors,QXa8DGhd6ydPs6em35cTOF" />
           <Link Id="JM3ko9pVuukLiREdGZdwQf" Ids="GIFDHHWljhkMLBTejAF2Ua,VKqw0F5jalON1XEsBO2Xqe" />
+          <Link Id="STfZyuaulFJQOvJk3RZJJS" Ids="GPk1EnD2BlwOP3yoihbHBN,PMLlTqc08uQPzE9wYgNGcc" />
         </Patch>
       </Node>
       <!--
@@ -8789,8 +8796,8 @@
           </Node>
           <Pad Id="GFs8byE8kYPNbRQSXGU2WK" Bounds="2679,954,327,22" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; better get the hovered point closest to the camera&quot;">
             <p:ValueBoxSettings>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
               <Choice Kind="TypeFlag" Name="String" />

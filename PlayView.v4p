@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="825" top="645" width="9810" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -21,7 +21,7 @@
    </BOUNDS>
    <PIN pinname="Level" visible="1">
    </PIN>
-   <PIN pinname="Input" visible="1">
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="UI" visible="1">
    </PIN>
@@ -35,7 +35,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="9214" top="3334" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -206,4 +206,8 @@
    </NODE>
    <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
+   <NODE systemname="BangButton (Game Split)" filename="..\DCQB-Spline - Copy\vl\VLGameProject.vl" nodename="BangButton (Game Split)" componentmode="Hidden" id="40">
+   <BOUNDS type="Node" left="5355" top="2240" width="100" height="100">
+   </BOUNDS>
+   </NODE>
    </PATCH>

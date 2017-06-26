@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
    <BOUNDS type="Window" left="285" top="300" width="6255" height="7410">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1095" top="5925" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="6525" top="315" width="9825" height="8715">
+   <BOUNDS type="Window" left="10171" top="2009" width="9821" height="8715">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
