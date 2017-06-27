@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50debug35.7.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\ModalWindowsView.v4p" systemname="ModalWindowsView" filename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" systemname="ModalWindowsView" filename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="-315" top="345" width="13275" height="11400">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -291,7 +291,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4425" top="4515" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.29285,0.29285,0.29285,1.00000|">
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00997,0.63879,0.69442,1.00000|">
    </PIN>
    <PIN pinname="Color Output" visible="1">
    </PIN>

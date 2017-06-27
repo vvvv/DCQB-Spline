@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" systemname="AboutView" filename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" scrollx="3120" scrolly="555">
-   <BOUNDS type="Window" left="1275" top="750" width="17610" height="9465">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" systemname="AboutView" filename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" scrollx="3120" scrolly="-360">
+   <BOUNDS type="Window" left="-7755" top="1605" width="17610" height="9465">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -121,7 +121,7 @@
    </PIN>
    <PIN pinname="Transform" visible="1">
    </PIN>
-   <PIN pinname="Text Rendering Mode" slicecount="1" values="MultiLine">
+   <PIN pinname="Text Rendering Mode" slicecount="1" values="MultiLineWordWrap">
    </PIN>
    <PIN pinname="Normalize" slicecount="1" values="Width">
    </PIN>
@@ -129,13 +129,17 @@
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
+   <PIN pinname="Width [px] (Multiline Mode)" slicecount="1" values="1691">
+   </PIN>
+   <PIN pinname="Horizontal Align" slicecount="1" values="Left">
+   </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="11">
    <BOUNDS type="Box" left="13425" top="1260" width="2130" height="2835">
    </BOUNDS>
    <BOUNDS type="Node" left="13425" top="1260" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="|Developed by:&cr;&lf;Sebastian Gregor&cr;&lf;Anton Mezhiborskiy&cr;&lf;&cr;&lf;Design by:&cr;&lf;Eva Offenberg&cr;&lf;&cr;&lf;Icons by:&cr;&lf;......|">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|DEVELOPED BY&cr;&lf;&cr;&lf;Sebastian Gregor&cr;&lf;Anton Mezhiborskiy&cr;&lf;&cr;&lf;&cr;&lf;ICON&cr;&lf;&cr;&lf;Laymik, UA&cr;&lf;https://thenounproject.com/term/jellyfish/1072467/|">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="vvvv">
    </PIN>
@@ -169,7 +173,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="12135" top="2475" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="0.34,0.34">
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="0.5,0.5">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -189,7 +193,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="11235" top="2460" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="0,0">
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="-0.16,0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>

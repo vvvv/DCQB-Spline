@@ -9,7 +9,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="645" top="675" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.86429,0.72182,0.48536,1.00000|">
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.53845,0.53266,0.53143,1.00000|">
    </PIN>
    <PIN pinname="Color Output" visible="1">
    </PIN>

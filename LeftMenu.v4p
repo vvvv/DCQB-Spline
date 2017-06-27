@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LeftMenu.v4p" systemname="LeftMenu" filename="C:\Work\VL Game Project\DCQB-Spline\LeftMenu.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="5475" top="6540" width="12270" height="9210">
+   <BOUNDS type="Window" left="0" top="2385" width="12270" height="9210">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -189,7 +189,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="7455" top="2820" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.35">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.69">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>

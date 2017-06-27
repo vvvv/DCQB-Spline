@@ -115,7 +115,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3885" top="5430" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.81465,0.81465,0.81465,1.00000|">
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.73902,0.73902,0.73902,1.00000|">
    </PIN>
    <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
    </PIN>
@@ -250,7 +250,7 @@
    </NODE>
    <LINK srcnodeid="7" srcpinname="Output" dstnodeid="6" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="8760" top="3600" width="7815" height="9570">
+   <BOUNDS type="Window" left="1830" top="1350" width="7815" height="9570">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -305,23 +305,31 @@
    </BOUNDS>
    <BOUNDS type="Box" left="3885" top="6060" width="3000" height="3000">
    </BOUNDS>
-   <PIN pinname="Input 2" visible="1">
+   <PIN pinname="Input 2" visible="1" slicecount="1" values="|0.53845,0.53266,0.53143,1.00000|">
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="23">
-   <BOUNDS type="Node" left="4410" top="5445" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input Value" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="23" srcpinname="Input Value" dstnodeid="22" dstpinname="Input 2">
-   </LINK>
    <LINK srcnodeid="11" srcpinname="Color Output" dstnodeid="22" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="22" srcpinname="Output" dstnodeid="5" dstpinname="Color">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="24" systemname="IOBox (Color)">
+   <BOUNDS type="Box" left="4320" top="5415" width="420" height="375">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4320" top="5415" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="24" srcpinname="Color Output" dstnodeid="22" dstpinname="Input 2">
    </LINK>
    </PATCH>

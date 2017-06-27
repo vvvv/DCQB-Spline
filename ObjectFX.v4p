@@ -139,7 +139,7 @@
    </PIN>
    <BOUNDS type="Box" left="30" top="-4125" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="12360" top="4800" width="11160" height="9900">
+   <BOUNDS type="Window" left="11925" top="4770" width="11160" height="9900">
    </BOUNDS>
    <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
    </PIN>
@@ -165,7 +165,7 @@
    </PIN>
    </NODE>
    <NODE id="5" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="0.08">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="0.1">
    </PIN>
    <BOUNDS type="Box" left="1665" top="3045" width="795" height="240">
    </BOUNDS>
@@ -243,7 +243,7 @@
    </PIN>
    </NODE>
    <NODE id="6" systemname="Glow (EX9.Texture Filter)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\Filter\Glow\Glow (EX9.Texture Filter).v4p" nodename="Glow (EX9.Texture Filter)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
-   <PIN pinname="GlowAmount" slicecount="1" pintype="Input" visible="1" values="1">
+   <PIN pinname="GlowAmount" slicecount="1" pintype="Input" visible="1" values="7">
    </PIN>
    <BOUNDS type="Node" left="1515" top="4065" width="100" height="100">
    </BOUNDS>
@@ -261,7 +261,7 @@
    </PIN>
    <PIN pinname="GlowShape" pintype="Input" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="GlowRadius" pintype="Input" visible="1" slicecount="1" values="1">
+   <PIN pinname="GlowRadius" pintype="Input" visible="1" slicecount="1" values="7">
    </PIN>
    <PIN pinname="GlowSaturation" pintype="Input" visible="1" slicecount="1" values="1">
    </PIN>
@@ -336,8 +336,6 @@
    </LINK>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="6" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="6" srcpinname="Output" dstnodeid="1" dstpinname="Texture">
-   </LINK>
    <NODE id="10" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
@@ -350,7 +348,7 @@
    </NODE>
    <LINK srcnodeid="7" srcpinname="Input Value" dstnodeid="2" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="1455" top="1455" width="9225" height="6900">
+   <BOUNDS type="Window" left="5445" top="10215" width="9225" height="6900">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -398,8 +396,6 @@
    </LINK>
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Enabled">
    </LINK>
-   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Enabled">
-   </LINK>
    <LINK srcnodeid="11" srcpinname="Output" dstnodeid="10" dstpinname="Input Node">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="13">
@@ -407,7 +403,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1665" top="1065" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1024">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="2048">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -421,5 +417,41 @@
    <LINK srcnodeid="13" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Width">
    </LINK>
    <LINK srcnodeid="13" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Height">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14">
+   <BOUNDS type="Box" left="2445" top="3450" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2445" top="3450" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="15">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="6" dstpinname="GlowAmount">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="15">
+   <BOUNDS type="Box" left="2970" top="2565" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2970" top="2565" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Output" dstnodeid="1" dstpinname="Texture">
    </LINK>
    </PATCH>

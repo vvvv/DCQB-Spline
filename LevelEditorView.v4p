@@ -58,7 +58,7 @@
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="2" dstpinname="Selection">
    </LINK>
-   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
+   <BOUNDS type="Window" left="2370" top="975" width="14280" height="9045">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -333,7 +333,7 @@
    </PIN>
    <BOUNDS type="Box" left="6450" top="4770">
    </BOUNDS>
-   <BOUNDS type="Window" left="7410" top="6615" width="12300" height="7860">
+   <BOUNDS type="Window" left="-555" top="2190" width="12300" height="7860">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="103" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
@@ -435,7 +435,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="333" top="3310" width="7075" height="4840">
    </BOUNDS>
-   <BOUNDS type="Window" left="4260" top="3825" width="12810" height="8475">
+   <BOUNDS type="Window" left="-195" top="1365" width="12810" height="8475">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

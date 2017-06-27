@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="6900" top="3285" width="0" height="0">
@@ -17,7 +17,7 @@
    </PIN>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Hightlight Color" visible="1">
+   <PIN pinname="Hightlight Color" visible="1" slicecount="1" values="|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
    </NODE>
    <NODE id="2" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
@@ -58,7 +58,7 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="360" top="1410" width="12300" height="7860">
+   <BOUNDS type="Window" left="-555" top="2190" width="12300" height="7860">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -112,8 +112,6 @@
    <PIN pinname="Color Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="0" dstpinname="Hightlight Color">
-   </LINK>
    <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="6" nodename="TopMenu.v4p">
    <BOUNDS type="Node" left="4470" top="3285" width="100" height="100">
    </BOUNDS>
@@ -167,13 +165,13 @@
    </BOUNDS>
    <BOUNDS type="Box" left="2940" top="3285" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="5475" top="6540" width="12270" height="9210">
+   <BOUNDS type="Window" left="0" top="2385" width="12270" height="9210">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    <PIN pinname="Input" visible="1">
    </PIN>
-   <PIN pinname="Hightlight Color" visible="1">
+   <PIN pinname="Hightlight Color" visible="1" slicecount="1" values="|1.00000,0.99478,0.99526,1.00000|">
    </PIN>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
@@ -188,8 +186,18 @@
    </LINK>
    <LINK srcnodeid="39" srcpinname="Left Menu" dstnodeid="40" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="40" dstpinname="Hightlight Color">
-   </LINK>
    <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="40" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="35" srcpinname="Color Output" dstnodeid="0" dstpinname="Hightlight Color">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="42">
+   <BOUNDS type="Box" left="3840" top="2640" width="555" height="375">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3840" top="2640" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.20052,0.74708,0.11785,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="42" srcpinname="Color Output" dstnodeid="40" dstpinname="Hightlight Color">
    </LINK>
    </PATCH>

@@ -121,13 +121,13 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="1695" top="1305" width="17715" height="11700">
+   <BOUNDS type="Window" left="-4500" top="1155" width="17715" height="11700">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
    </LINK>
    <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
-   <BOUNDS type="Window" left="1530" top="2430" width="14280" height="12780">
+   <BOUNDS type="Window" left="2370" top="975" width="14280" height="9045">
    </BOUNDS>
    <BOUNDS type="Node" left="300" top="3456" width="1335" height="270">
    </BOUNDS>
@@ -151,7 +151,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7275" top="3495" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="1275" top="750" width="17610" height="9465">
+   <BOUNDS type="Window" left="-7755" top="1605" width="17610" height="9465">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

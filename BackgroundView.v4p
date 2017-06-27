@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p" systemname="BackgroundView" filename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p">
    <NODE systemname="FullscreenQuad (DX9)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\FullscreenQuad (DX9).v4p" nodename="FullscreenQuad (DX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="450" top="2985" width="100" height="100">
@@ -104,8 +104,6 @@
    </LINK>
    <LINK srcnodeid="5" srcpinname="Transform Out" dstnodeid="7" dstpinname="Transform">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="7" dstpinname="Color">
-   </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Resolution X">
    </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Resolution Y">
@@ -114,7 +112,7 @@
    </LINK>
    <LINK srcnodeid="4" srcpinname="Output String" dstnodeid="3" dstpinname="Input">
    </LINK>
-   <BOUNDS type="Window" left="4260" top="3825" width="12810" height="8475">
+   <BOUNDS type="Window" left="-195" top="1365" width="12810" height="8475">
    </BOUNDS>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="12">
    <BOUNDS type="Node" left="3075" top="5055" width="100" height="100">
@@ -255,7 +253,7 @@
    </PIN>
    <PIN pinname="Input" slicecount="1" values="|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
-   <PIN pinname="Alpha" slicecount="1" values="0.1">
+   <PIN pinname="Alpha" slicecount="1" values="0.5">
    </PIN>
    </NODE>
    <LINK srcnodeid="21" srcpinname="Output" dstnodeid="14" dstpinname="Color">
@@ -279,5 +277,17 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="22" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Enabled">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="23">
+   <BOUNDS type="Box" left="4935" top="3180" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4935" top="3180" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.24535,0.27969,0.32524,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Color Output" dstnodeid="7" dstpinname="Color">
    </LINK>
    </PATCH>

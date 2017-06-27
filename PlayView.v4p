@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="825" top="645" width="9810" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -117,7 +117,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5764" top="3447" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="1320" top="2145" width="13275" height="11400">
+   <BOUNDS type="Window" left="-315" top="345" width="13275" height="11400">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -175,17 +175,17 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|">
+   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|" visible="1">
    </PIN>
-   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|">
+   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|" visible="1">
    </PIN>
-   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|">
+   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|" visible="1">
    </PIN>
-   <PIN pinname="Enable FX" slicecount="1" values="0">
+   <PIN pinname="Enable FX" slicecount="1" values="0" visible="1">
    </PIN>
    <PIN pinname="Enable Points" slicecount="1" values="0">
    </PIN>
-   <BOUNDS type="Window" left="0" top="480" width="11115" height="10815">
+   <BOUNDS type="Window" left="1515" top="1125" width="11115" height="10815">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
@@ -206,8 +206,66 @@
    </NODE>
    <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
-   <NODE systemname="BangButton (Game Split)" filename="..\DCQB-Spline - Copy\vl\VLGameProject.vl" nodename="BangButton (Game Split)" componentmode="Hidden" id="40">
-   <BOUNDS type="Node" left="5355" top="2240" width="100" height="100">
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="41">
+   <BOUNDS type="Box" left="1995" top="1665" width="420" height="345">
    </BOUNDS>
+   <BOUNDS type="Node" left="1995" top="1665" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
    </NODE>
+   <LINK srcnodeid="41" srcpinname="Color Output" dstnodeid="0" dstpinname="Circle">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="42">
+   <BOUNDS type="Box" left="3285" top="1875" width="405" height="390">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3285" top="1875" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.21403,0.46281,0.10979,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="42" srcpinname="Color Output" dstnodeid="0" dstpinname="Highlight">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="43">
+   <BOUNDS type="Box" left="4065" top="1845" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4065" top="1845" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="43" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Enable FX">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="44">
+   <BOUNDS type="Box" left="2715" top="1785" width="285" height="360">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2715" top="1785" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00000,0.55600,0.59582,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="44" srcpinname="Color Output" dstnodeid="0" dstpinname="Quad">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="45">
+   <BOUNDS type="Box" left="5580" top="2310" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5580" top="2310" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.97997,0.97997,0.97997,1.00000|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="45" srcpinname="Color Output" dstnodeid="17" dstpinname="Highlight Color">
+   </LINK>
    </PATCH>

@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="3930" scrolly="0">
    <NODE nodename="Group (EX9)" id="0" systemname="Group (EX9)">
    <BOUNDS type="Node" left="13410" top="5655" width="0" height="0">
    </BOUNDS>
@@ -34,7 +34,7 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="1695" top="1305" width="17715" height="11700">
+   <BOUNDS type="Window" left="-4500" top="1155" width="17715" height="11700">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -88,8 +88,6 @@
    </LINK>
    <LINK srcnodeid="60" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
-   <LINK srcnodeid="33" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
-   </LINK>
    <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
    </LINK>
    <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="61">
@@ -107,7 +105,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="12985" top="180" width="7825" height="7510">
    </BOUNDS>
-   <BOUNDS type="Window" left="8760" top="3600" width="7815" height="9570">
+   <BOUNDS type="Window" left="1830" top="1350" width="7815" height="9570">
    </BOUNDS>
    <PIN pinname="Input" slicecount="1" values="||">
    </PIN>
@@ -230,6 +228,8 @@
    <PIN pinname="Horizontal Align" slicecount="1" values="Left">
    </PIN>
    <PIN pinname="Color" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" slicecount="1" values="1">
    </PIN>
    </NODE>
    <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="74">
@@ -419,5 +419,7 @@
    <LINK srcnodeid="76" srcpinname="Layer" dstnodeid="63" dstpinname="Layer 3">
    </LINK>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="63" dstpinname="Layer 4">
+   </LINK>
+   <LINK srcnodeid="33" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
    </LINK>
    </PATCH>
