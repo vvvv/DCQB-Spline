@@ -175,13 +175,13 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Circle" slicecount="1" values="|1.00000,0.61216,0.00000,1.00000|" visible="1">
+   <PIN pinname="Circle" slicecount="1" visible="1" values="|1.00000,0.61216,0.00000,1.00000|">
    </PIN>
-   <PIN pinname="Quad" slicecount="1" values="|0.00000,0.62294,0.71469,1.00000|" visible="1">
+   <PIN pinname="Quad" slicecount="1" visible="1" values="|0.00000,0.62294,0.71469,1.00000|">
    </PIN>
-   <PIN pinname="Highlight" slicecount="1" values="|0.96385,0.00000,0.45846,1.00000|" visible="1">
+   <PIN pinname="Highlight" slicecount="1" visible="1" values="|0.96385,0.00000,0.45846,1.00000|">
    </PIN>
-   <PIN pinname="Enable FX" slicecount="1" values="0" visible="1">
+   <PIN pinname="Enable FX" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Enable Points" slicecount="1" values="0">
    </PIN>
@@ -231,7 +231,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4065" top="1845" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -241,7 +241,7 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Toggle">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
