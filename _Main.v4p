@@ -125,7 +125,7 @@
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Enabled" slicecount="1" values="0" visible="1">
+   <PIN pinname="Enabled" slicecount="1" visible="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="532">
@@ -142,7 +142,7 @@
    </LINK>
    <LINK srcnodeid="532" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
    </LINK>
-   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="InAWindow" id="562">
+   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="Hidden" id="562">
    <BOUNDS type="Node" left="1086" top="4366" width="1425" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="1751" width="5451" height="5230">
