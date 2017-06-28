@@ -1,0 +1,30 @@
+{
+  "FsPickler": "2.0.0",
+  "type": "VL.Lib.Collections.Spread`1[Game.Score]",
+  "value": {
+    "array": {
+      "array": [
+        {
+          "Name": "test\r\n",
+          "Score": 14
+        },
+        {
+          "Name": "sunburn",
+          "Score": 35
+        },
+        {
+          "Name": "master\r\n",
+          "Score": 26
+        },
+        {
+          "Name": "sea lion",
+          "Score": 23
+        },
+        {
+          "Name": "dfdf",
+          "Score": 95
+        }
+      ]
+    }
+  }
+}

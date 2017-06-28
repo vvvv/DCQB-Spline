@@ -1,0 +1,16 @@
+{
+  "FsPickler": "2.0.0",
+  "type": "Game.XLevel",
+  "value": {
+    "Circles": {
+      "array": {
+        "array": []
+      }
+    },
+    "Dots": {
+      "array": {
+        "array": []
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="7" locked="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="4" locked="0">
    <BOUNDS type="Window" left="285" top="300" width="6255" height="7410">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -125,7 +125,7 @@
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Enabled" slicecount="1" values="0">
+   <PIN pinname="Enabled" slicecount="1" values="0" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="532">
@@ -142,7 +142,7 @@
    </LINK>
    <LINK srcnodeid="532" srcpinname="Layer" dstnodeid="46" dstpinname="Layers">
    </LINK>
-   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="Hidden" id="562">
+   <NODE systemname="View" filename="View.v4p" nodename="View.v4p" componentmode="InAWindow" id="562">
    <BOUNDS type="Node" left="1086" top="4366" width="1425" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="1751" width="5451" height="5230">
@@ -185,5 +185,25 @@
    <LINK srcnodeid="568" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
    </LINK>
    <LINK srcnodeid="568" srcpinname="State" dstnodeid="562" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="569">
+   <BOUNDS type="Box" left="4809" top="3731" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4809" top="3731" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="569" srcpinname="Y Output Value" dstnodeid="531" dstpinname="Enabled">
    </LINK>
    </PATCH>
