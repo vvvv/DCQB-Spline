@@ -371,6 +371,8 @@
    </PIN>
    <PIN pinname="Enable FX" slicecount="1" values="0">
    </PIN>
+   <PIN pinname="Evaluate" visible="1" pintype="Input" slicecount="1" values="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="21" srcpinname="Color Output" dstnodeid="105" dstpinname="Circle" hiddenwhenlocked="1">
    </LINK>
@@ -425,6 +427,8 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="108" srcpinname="Y Output Value" dstnodeid="44" dstpinname="Enabled">
    </LINK>
@@ -441,5 +445,7 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="108" srcpinname="Y Output Value" dstnodeid="105" dstpinname="Evaluate">
    </LINK>
    </PATCH>

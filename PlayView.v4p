@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="825" top="645" width="9810" height="8895">
+   <BOUNDS type="Window" left="825" top="645" width="12630" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -31,9 +31,9 @@
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
-   <BOUNDS type="Box" left="9214" top="3334" width="480" height="480">
+   <BOUNDS type="Box" left="9619" top="289" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="9214" top="3334" width="0" height="0">
+   <BOUNDS type="Node" left="9619" top="289" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -201,8 +201,10 @@
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="0" width="4405" height="6595">
    </BOUNDS>
-   <BOUNDS type="Window" left="-1" top="-1" width="4405" height="6595">
+   <BOUNDS type="Window" left="14565" top="1515" width="4395" height="6585">
    </BOUNDS>
+   <PIN pinname="Evaluate" slicecount="1" visible="1" pintype="Input" values="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
@@ -267,5 +269,7 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="45" srcpinname="Color Output" dstnodeid="17" dstpinname="Highlight Color">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="39" dstpinname="Evaluate">
    </LINK>
    </PATCH>
