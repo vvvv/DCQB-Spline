@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayLevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="2790" scrolly="1215">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\PlayLevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="2268" scrolly="637">
    <NODE systemname="GridSegment (DX9)" nodename="GridSegment (DX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="3165" top="7470" width="100" height="100">
    </BOUNDS>
@@ -187,9 +187,9 @@
    <NODE id="18" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Input">
    </PIN>
-   <BOUNDS type="Box" left="4755" top="800" width="750" height="240">
+   <BOUNDS type="Box" left="4727" top="772" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4755" top="800" width="750" height="240">
+   <BOUNDS type="Node" left="4727" top="772" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -224,7 +224,7 @@
    </LINK>
    <LINK srcnodeid="13" srcpinname="PositionXY" dstnodeid="7" dstpinname="Input 1XY">
    </LINK>
-   <BOUNDS type="Window" left="1515" top="1125" width="11115" height="10815">
+   <BOUNDS type="Window" left="392" top="476" width="15603" height="11221">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -359,7 +359,7 @@
    <LINK srcnodeid="29" srcpinname="Y Output Value" dstnodeid="25" dstpinname="BinSize">
    </LINK>
    <NODE systemname="PlayLevel (Game Split)" filename="vl\VLGameProject.vl" nodename="PlayLevel (Game Split)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="4740" top="1740" width="100" height="100">
+   <BOUNDS type="Node" left="4712" top="1348" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -373,7 +373,7 @@
    <LINK srcnodeid="18" srcpinname="Output Node" dstnodeid="8" dstpinname="Input">
    </LINK>
    <NODE systemname="Dot (Game Split)" filename="vl\VLGameProject.vl" nodename="Dot (Game Split)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="9538" top="3976" width="100" height="100">
+   <BOUNDS type="Node" left="9132" top="4088" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -497,5 +497,27 @@
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="1" dstpinname="Color">
    </LINK>
    <LINK srcnodeid="34" srcpinname="Color Output" dstnodeid="25" dstpinname="Color">
+   </LINK>
+   <NODE systemname="BadQuad (Game Split)" filename="vl\VLGameProject.vl" nodename="BadQuad (Game Split)" componentmode="Hidden" id="39">
+   <BOUNDS type="Node" left="14091" top="4949" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Quads" dstnodeid="39" dstpinname="Input">
+   </LINK>
+   <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="40">
+   <BOUNDS type="Node" left="13909" top="9338" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="39" srcpinname="Output" dstnodeid="40" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="40" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 4">
    </LINK>
    </PATCH>

@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\dev\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="7" scrolly="7">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2471" top="5130" width="100" height="100">
    </BOUNDS>
@@ -137,7 +137,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
@@ -169,6 +169,8 @@
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
+   <PIN pinname="LevelEditor Enabled" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="11" dstpinname="Input">
    </LINK>
@@ -185,8 +187,6 @@
    <LINK srcnodeid="11" srcpinname="HighScore" dstnodeid="9" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="11" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="11" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="11" srcpinname="About Enabled" dstnodeid="10" dstpinname="Enabled">
    </LINK>

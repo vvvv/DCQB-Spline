@@ -23,6 +23,10 @@
         {
           "Name": "dfdf",
           "Score": 95
+        },
+        {
+          "Name": "Looser",
+          "Score": 34
         }
       ]
     }
