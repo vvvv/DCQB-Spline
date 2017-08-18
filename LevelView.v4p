@@ -66,22 +66,6 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="Point (DX9 2d)" filename="%VVVV%\lib\nodes\modules\EX9\Point (DX9 2d).v4p" nodename="Point (DX9 2d)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="7048" top="9244" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="XY" visible="1">
-   </PIN>
-   <PIN pinname="Type" slicecount="1" values="Circle">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Color" slicecount="1" visible="1" values="|0.00000,0.00000,0.00000,1.00000|">
-   </PIN>
-   <PIN pinname="SizeXY" slicecount="2" values="0.06,0.06" visible="1">
-   </PIN>
-   <PIN pinname="Enabled" visible="1">
-   </PIN>
-   </NODE>
    <NODE systemname="Level (Game Split)" filename="vl\VLGameProject.vl" nodename="Level (Game Split)" componentmode="Hidden" id="8">
    <BOUNDS type="Node" left="4710" top="1635" width="100" height="100">
    </BOUNDS>
@@ -256,8 +240,6 @@
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Enabled">
-   </LINK>
    <BOUNDS type="Window" left="14010" top="2160" width="13650" height="10815">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -267,7 +249,7 @@
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer 2" visible="1">
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -289,7 +271,7 @@
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Select" visible="1" slicecount="21" values="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10">
+   <PIN pinname="Select" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -301,8 +283,6 @@
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
    <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
-   </LINK>
-   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="1" dstpinname="Transform">
    </LINK>
@@ -339,8 +319,6 @@
    <LINK srcnodeid="13" srcpinname="PositionXY" dstnodeid="31" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="12" srcpinname="PositionXY" dstnodeid="31" dstpinname="Input 2">
-   </LINK>
-   <LINK srcnodeid="31" srcpinname="Output" dstnodeid="6" dstpinname="XY">
    </LINK>
    <NODE systemname="Text (EX9)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Text (EX9)" componentmode="Hidden" id="32">
    <BOUNDS type="Node" left="10209" top="6082" width="100" height="100">
@@ -408,8 +386,6 @@
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.33956,0.72879,0.08001,1.00000|">
    </PIN>
    </NODE>
-   <LINK srcnodeid="36" srcpinname="Color Output" dstnodeid="6" dstpinname="Color">
-   </LINK>
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="37">
    <BOUNDS type="Node" left="10380" top="5580" width="100" height="100">
    </BOUNDS>
@@ -434,6 +410,36 @@
    </NODE>
    <LINK srcnodeid="38" srcpinname="Color Output" dstnodeid="32" dstpinname="Color">
    </LINK>
-   <LINK srcnodeid="8" srcpinname="Pick Size" dstnodeid="6" dstpinname="SizeXY">
+   <NODE systemname="Point (DX9 2d)" filename="%VVVV%\lib\nodes\modules\EX9\Point (DX9 2d).v4p" nodename="Point (DX9 2d)" componentmode="Hidden" id="39">
+   <BOUNDS type="Node" left="7048" top="9244" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Type" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="39" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="39" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="31" srcpinname="Output" dstnodeid="39" dstpinname="XY">
+   </LINK>
+   <LINK srcnodeid="36" srcpinname="Color Output" dstnodeid="39" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Pick Size" dstnodeid="39" dstpinname="SizeXY">
+   </LINK>
+   <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="40">
+   <BOUNDS type="Box" left="7950" top="8745" width="855" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="7950" top="8745" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input Enum" slicecount="1" visible="1" values="Circle">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="Circle">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="40" srcpinname="Output Enum" dstnodeid="39" dstpinname="Type">
    </LINK>
    </PATCH>
