@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="2550" scrolly="285">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2820" top="6495" width="2340" height="270">
    </BOUNDS>
@@ -303,7 +303,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="2085" top="4770" width="7150" height="7597">
    </BOUNDS>
-   <BOUNDS type="Window" left="285" top="1290" width="13650" height="10815">
+   <BOUNDS type="Window" left="14010" top="2160" width="13650" height="10815">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

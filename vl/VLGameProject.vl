@@ -543,6 +543,7 @@
               <Pin Id="OZXB8ycijgFNRJsqMIKkXw" Name="Output" Kind="StateOutputPin" />
               <Pin Id="VF0bn9boVoxQPraEdZQvOm" Name="Circles" Kind="OutputPin" />
               <Pin Id="HqNH2gVQLFONfbvi3YFrCM" Name="Dot Flocks" Kind="OutputPin" />
+              <Pin Id="Tfzer4B5yKKOST9CYPMfdf" Name="Pick Size" Kind="OutputPin" />
             </Node>
             <Node Bounds="148,756,46,22" Id="N8VeIBIpdkGP65g8vR0uo8">
               <p:NodeReference LastCategoryFullName="Game.Level" LastSymbolSource="VLGameProject.vl">
@@ -554,6 +555,7 @@
               <Pin Id="SFyFBVHGfrJMPuxtQy3a34" Name="Output" Kind="StateOutputPin" />
               <Pin Id="B0h4hqftNKnOypxygxfTXy" Name="Circles" Kind="InputPin" />
               <Pin Id="MusinmAiTlWPwCvlOqIbjo" Name="Dot Flocks" Kind="InputPin" />
+              <Pin Id="T6lQlTRnqQJO2G4pd2GWxw" Name="Pick Size" Kind="InputPin" />
             </Node>
             <ControlPoint Id="OujERULUuPYNvI6K5sxmTv" Bounds="105,109" />
             <ControlPoint Id="VxfGsvu0TruPaWoLnTA6mE" Bounds="111,821" />
@@ -2338,7 +2340,7 @@
     ************************ Level (Split) ************************
 
 -->
-        <Node Name="Level (Split)" Bounds="942,1125,121,125" Id="E49xwoNwEzOPEWsszR7rkW">
+        <Node Name="Level (Split)" Bounds="942,1125,189,125" Id="E49xwoNwEzOPEWsszR7rkW">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
@@ -2354,6 +2356,7 @@
               <Pin Id="J7CIycbqRbVNLORVm8HF1H" Name="Output" Kind="StateOutputPin" />
               <Pin Id="HBpSkEbzkt2PIaxrgm5aK0" Name="Circles" Kind="OutputPin" />
               <Pin Id="IBmIuIth3RFN8TYkSOjzRK" Name="Dot Flocks" Kind="OutputPin" />
+              <Pin Id="Hym1Vj3utqMLuLneo0xKgZ" Name="Pick Size" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="C457yyILak8NPth1PHmHSi" Bounds="965,1141" />
             <Link Id="UrzNr5q0mKqNlnUxRDjPce" Ids="C457yyILak8NPth1PHmHSi,Tm5QU1DmJgIPr67G4TEdJb" />
@@ -2367,6 +2370,10 @@
             <Link Id="A9jU1euLXtENu6FiZiERrQ" Ids="IBmIuIth3RFN8TYkSOjzRK,APKecatdoQgOcASQyNoxLG" />
             <Pin Id="KyU9bvpQVSlOTrld0rBX7S" Name="Dots" Kind="OutputPin" />
             <Link Id="NeAPa5Ri1fUMg9iwqEcNvH" Ids="APKecatdoQgOcASQyNoxLG,KyU9bvpQVSlOTrld0rBX7S" IsHidden="true" />
+            <ControlPoint Id="F5QiMy83QqbLpb4TOZOuWA" Bounds="1070,1228" />
+            <Link Id="FtRwhIeD7BOQIoifUdRFSw" Ids="Hym1Vj3utqMLuLneo0xKgZ,F5QiMy83QqbLpb4TOZOuWA" />
+            <Pin Id="UZKqRyshqYXMLTJZNxy47P" Name="Pick Size" Kind="OutputPin" />
+            <Link Id="Q9gNziU78pAOxhH81LqRlX" Ids="F5QiMy83QqbLpb4TOZOuWA,UZKqRyshqYXMLTJZNxy47P" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -2374,13 +2381,13 @@
     ************************ Id (Split ObjectKind) ************************
 
 -->
-        <Node Name="Id (Split ObjectKind)" Bounds="1104,1063,128,126" Id="LJX9S19wWiJMf7xDsRqGpv">
+        <Node Name="Id (Split ObjectKind)" Bounds="1184,1118,128,126" Id="LJX9S19wWiJMf7xDsRqGpv">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <Patch Id="Grl3Wpr4QVcMKTwPJ5GVQo">
-            <Node Bounds="1135,1110,48,22" Id="B1zih8ln8nNLZIDU7c2gsP">
+            <Node Bounds="1215,1165,48,22" Id="B1zih8ln8nNLZIDU7c2gsP">
               <p:NodeReference LastCategoryFullName="Game.ObjectKind" LastSymbolSource="VLGameProject.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -2390,14 +2397,14 @@
               <Pin Id="B08200w4ZVTPPMaHEGhYeN" Name="IsCircle" Kind="OutputPin" />
               <Pin Id="CIb3aUbqcxaLbwFRbtuFiW" Name="IsDot" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="L0r5vaQ3q7QLY75HJ9xpQz" Bounds="1137,1079" />
+            <ControlPoint Id="L0r5vaQ3q7QLY75HJ9xpQz" Bounds="1217,1134" />
             <Link Id="Akrm7MMmf1fPsCLAVp9MnX" Ids="L0r5vaQ3q7QLY75HJ9xpQz,OzguOAtoqCUMELWQSSmkJ1" />
             <Pin Id="U885O5DOvUSOvMkv69Rg4f" Name="Input" Kind="InputPin" />
             <Link Id="UzxRn7sxAuPMzT7HIuEQPF" Ids="U885O5DOvUSOvMkv69Rg4f,L0r5vaQ3q7QLY75HJ9xpQz" IsHidden="true" />
-            <ControlPoint Id="VX5gHqSms2VQJ7UVa7zV6A" Bounds="1195,1170" />
+            <ControlPoint Id="VX5gHqSms2VQJ7UVa7zV6A" Bounds="1275,1225" />
             <Pin Id="Tqg9GpMYYhPNXOhI09xPQJ" Name="Dot" Kind="OutputPin" />
             <Link Id="MNMX0fZLR6bPLzoVpZDXnV" Ids="VX5gHqSms2VQJ7UVa7zV6A,Tqg9GpMYYhPNXOhI09xPQJ" IsHidden="true" />
-            <ControlPoint Id="NYwPJDOiBQuO9YkBZJGqSz" Bounds="1118,1168" />
+            <ControlPoint Id="NYwPJDOiBQuO9YkBZJGqSz" Bounds="1198,1223" />
             <Link Id="J5TqnV83MUQN0cpG0fFgdK" Ids="B08200w4ZVTPPMaHEGhYeN,NYwPJDOiBQuO9YkBZJGqSz" />
             <Pin Id="Dx3NveBKoF3PpyJPu1m3kl" Name="Circle" Kind="OutputPin" />
             <Link Id="VkuTowwM8NSPatyeBkvY6O" Ids="NYwPJDOiBQuO9YkBZJGqSz,Dx3NveBKoF3PpyJPu1m3kl" IsHidden="true" />
@@ -2409,16 +2416,16 @@
     ************************ Action (Split) ************************
 
 -->
-        <Node Name="Action (Split)" Bounds="1300,1064,88,114" Id="G8XzjWr70pxNXmXqOcXmQY">
+        <Node Name="Action (Split)" Bounds="1380,1119,88,114" Id="G8XzjWr70pxNXmXqOcXmQY">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <Patch Id="ArFxyCO3IZwL9crU9eteK3">
-            <ControlPoint Id="N3yhX1lDcILPEhzh7IMdaG" Bounds="1314,1080" />
+            <ControlPoint Id="N3yhX1lDcILPEhzh7IMdaG" Bounds="1394,1135" />
             <Pin Id="S37DcBiiq2aNuimUcgkNJE" Name="Input" Kind="InputPin" />
             <Link Id="AxhhuwdJpt8PSuFtLIA227" Ids="S37DcBiiq2aNuimUcgkNJE,N3yhX1lDcILPEhzh7IMdaG" IsHidden="true" />
-            <Node Bounds="1313,1107,63,22" Id="II074r47Pd8LgQ4b7BvVFj">
+            <Node Bounds="1393,1162,63,22" Id="II074r47Pd8LgQ4b7BvVFj">
               <p:NodeReference LastCategoryFullName="Game.ActionKind" LastSymbolSource="VLGameProject.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetField" />
@@ -2428,7 +2435,7 @@
               <Pin Id="SZ7MXfyvl6mMNXot8AtjAu" Name="Result" Kind="OutputPin" />
             </Node>
             <Link Id="Vgo5H9mMk2JOAXBaX8D3yA" Ids="N3yhX1lDcILPEhzh7IMdaG,ApjhxQFSuIdM4L5X1rUPmX" />
-            <ControlPoint Id="SnxYkY9etXiNzEJdCPBamO" Bounds="1316,1159" />
+            <ControlPoint Id="SnxYkY9etXiNzEJdCPBamO" Bounds="1396,1214" />
             <Link Id="HgOQS76iG3mNJD5AiNCNbP" Ids="SZ7MXfyvl6mMNXot8AtjAu,SnxYkY9etXiNzEJdCPBamO" />
             <Pin Id="H0oxsJRzVIvOlz5sCawSKX" Name="Text" Kind="OutputPin" />
             <Link Id="K9y7dsrmns9QNELkmI1Zoy" Ids="SnxYkY9etXiNzEJdCPBamO,H0oxsJRzVIvOlz5sCawSKX" IsHidden="true" />
@@ -3602,7 +3609,7 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="RP6zOECJEH1PMs1hdZ6ABJ" Comment="Pick Size" Bounds="618,433,33,19" ShowValueBox="true" isIOBox="true" Value="0.02">
+            <Pad Id="RP6zOECJEH1PMs1hdZ6ABJ" Comment="Pick Size" Bounds="618,433,33,19" ShowValueBox="true" isIOBox="true" Value="0.12">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Float32" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -3669,6 +3676,7 @@
               <Pin Id="AtDnpx6KSInOCtsUvukj8r" Name="Output" Kind="StateOutputPin" />
               <Pin Id="OvkPW4miIkgOVIhbK4iApX" Name="Circles" Kind="OutputPin" />
               <Pin Id="ATIw8OZYVoyOVmwayfPNsS" Name="Dot Flocks" Kind="OutputPin" />
+              <Pin Id="KsRyItcFbDuOzBNpq4wuwJ" Name="Pick Size" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="FYqc1WhK5ddM42P8vTewIa" Bounds="511,40" />
             <Node Bounds="936,88,125,22" Id="TlsgvxNWYI8OOoUKm3wTPe">
@@ -3773,6 +3781,7 @@
               <Pin Id="QQbb0a7rjdcMTvoOWSHS3h" Name="Circles" Kind="InputPin" />
               <Pin Id="Q0u4Qh25JjqMkkHS4lvPNQ" Name="Dot Flocks" Kind="InputPin" />
               <Pin Id="KYrfOcuzCvVLFrNqBFzl64" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="UQ8L87Qvp99PyuAhbDqz1K" Name="Pick Size" Kind="InputPin" />
             </Node>
             <Node Bounds="372,789,42,13" Id="GZAEH48ffiFLPb5Jn9EO4p">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.DevLib.dll">
@@ -3810,7 +3819,7 @@
               <Pin Id="HOLF0vmuX3OOpHdv2HUsui" Name="Input" Kind="StateInputPin" />
               <Pin Id="CyEUYTB5TpsMAsOceonPCZ" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="LDhiZGOfvRIPE6CXvjJdiF" Bounds="372,919" />
+            <ControlPoint Id="LDhiZGOfvRIPE6CXvjJdiF" Bounds="374,916" />
             <Node Bounds="1006,382,53,13" Id="Crf00J4u3apPXi0Kzdjdr6">
               <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -4015,6 +4024,7 @@
           <Link Id="UqITyoguotuNfmOVvwjESV" Ids="KUg1M29l113PFei6yQWN1l,JBlOAZfCm5cMx8dIhW54zx,DS0Q7ZwEazFOoOG89PAQB2" />
           <Link Id="K2fgHJbzRJhOsENYrH7YyD" Ids="TZR1n9INFewMLEyKIcg9m8,UboYzUd3vRZOd369ZLpOUh" />
           <Link Id="NykDXMKMr8VMySFIwvblyO" Ids="SzuFlH0ztMjPU0fLJSQjbv,H4buMMc7UjOPcH3viugUcW" />
+          <Link Id="Fx3IsrWBbw8LroVfOQ10qZ" Ids="RP6zOECJEH1PMs1hdZ6ABJ,UQ8L87Qvp99PyuAhbDqz1K" />
         </Patch>
       </Node>
       <!--
@@ -4313,6 +4323,7 @@
                   <Pin Id="OE4PBTdVr6LPdrbX9uLYJl" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="KpKOzfJzRdqLcch0mScDSZ" Name="Circles" Kind="OutputPin" />
                   <Pin Id="OVJzPcYUEjaNmFEx85hX73" Name="Dot Flocks" Kind="OutputPin" />
+                  <Pin Id="UGpruGpv2ZDNEkRTloXtYO" Name="Pick Size" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="322,598,46,22" Id="KnrCATWGlghNn5eOhponFL">
                   <p:NodeReference LastCategoryFullName="Game.Level" LastSymbolSource="VLGameProject.vl">
@@ -4324,6 +4335,7 @@
                   <Pin Id="FV7r8KqwthuP4qnbOfFyVn" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="RFNupGO42T2MrKztorW39H" Name="Circles" Kind="InputPin" />
                   <Pin Id="RWuwBWcDHpbOPDC6noLOt8" Name="Dot Flocks" Kind="InputPin" />
+                  <Pin Id="TiF1T4021ntODEvzahZuXS" Name="Pick Size" Kind="InputPin" />
                 </Node>
                 <Node Bounds="550,599,25,13" Id="DjZpo2a2xgXNpEdRzcQYKq">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CommonLanguageRuntimeLibrary">
@@ -4432,6 +4444,11 @@
             <ControlPoint Id="T2tJbzMdywrPDKSyrbUI1N" Bounds="352,323" />
             <ControlPoint Id="JIm7WC5MY1gNl2idHSxDvj" Bounds="434,322" />
             <ControlPoint Id="FzhVq7R7nDgNe9prVyv4Jb" Bounds="287,233" />
+            <Pad Id="N2hfo8kOJNoO8JMHiY2cNU" SlotId="KRIPuI9T8tzLMI6y3PQTAR" Bounds="528,279">
+              <p:ValueBoxSettings />
+            </Pad>
+            <ControlPoint Id="ALEoS27xa1pMqg2f25ozT1" Bounds="528,242" />
+            <ControlPoint Id="PWMufSX0GorMbDvv9mlMFa" Bounds="526,316" />
           </Canvas>
           <Patch Id="VHiDdxClJzsQGPxgWxLn51" Name="Create" />
           <Patch Id="Hw92QQAPlyVLSKJEMb46MS" Name="Update" />
@@ -4474,16 +4491,27 @@
           <Patch Id="FZwGtRYiwUfLHRa8H5JjMs" Name="Split">
             <Pin Id="AWh61l66F84OxsY1VeSRKY" Name="Circles" Kind="OutputPin" />
             <Pin Id="Mp6B1ykTk32OlrhQ5e9ckQ" Name="Dot Flocks" Kind="OutputPin" />
+            <Pin Id="G89ElreydGtOv9bxlUmtw0" Name="Pick Size" Kind="OutputPin" />
           </Patch>
           <Patch Id="PsNacewaHsbNUlYyWOp8Qs" Name="Join">
             <Pin Id="KhzfhLpnTyjNrYhW1JC63l" Name="Circles" Kind="InputPin" />
             <Pin Id="Bwml9Wg75qUMBW8WVatB4n" Name="Dot Flocks" Kind="InputPin" />
+            <Pin Id="ILB0KRu3SrIMWKEWzli93z" Name="Pick Size" Kind="InputPin" />
           </Patch>
           <Link Id="CJr3ZU5Lcy8LGGlKIhEh2Z" Ids="FzhVq7R7nDgNe9prVyv4Jb,CVpF0Y93NvbNr8AYItuRer" />
           <Link Id="VgPYb66EpbgN1DmVMtkGBh" Ids="Iwpuna8FVHnLpamCBszSq5,FzhVq7R7nDgNe9prVyv4Jb" IsHidden="true" />
           <Patch Id="HHvTpJqKF2yMvdUelTyDMG" Name="SetCircles">
             <Pin Id="Iwpuna8FVHnLpamCBszSq5" Name="Circles" Kind="InputPin" />
           </Patch>
+          <Link Id="M3hBD6oUWdIPhtufd7spFo" Ids="ALEoS27xa1pMqg2f25ozT1,N2hfo8kOJNoO8JMHiY2cNU" />
+          <Link Id="GjrXY23jR5jLb03T1Msi8T" Ids="ILB0KRu3SrIMWKEWzli93z,ALEoS27xa1pMqg2f25ozT1" IsHidden="true" />
+          <Link Id="B6M8jwsqbPGO7GsD83tn3Z" Ids="N2hfo8kOJNoO8JMHiY2cNU,PWMufSX0GorMbDvv9mlMFa" />
+          <Link Id="H48xnJ6ZcHnPf1QxEriauS" Ids="PWMufSX0GorMbDvv9mlMFa,G89ElreydGtOv9bxlUmtw0" IsHidden="true" />
+          <Slot Id="KRIPuI9T8tzLMI6y3PQTAR" Name="Pick Size">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary" ReferenceKind="App">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Slot>
         </Patch>
       </Node>
       <!--
@@ -4613,6 +4641,7 @@
                   <Pin Id="ViEW8OVqz6vOLOlWlLa9BE" Name="Circles" Kind="InputPin" />
                   <Pin Id="BhZAKaxtvLAMXBY9Fc8mot" Name="Dot Flocks" Kind="InputPin" />
                   <Pin Id="QnPHT2sjyzAMklJJikhSKy" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="IS4Psekn2fjPRNakoR0WY3" Name="Pick Size" Kind="InputPin" />
                 </Node>
                 <Node Name="ForEach2" Bounds="426,492,109,139" Id="OGM3pllQCyxLfbt4dgPLL4">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
@@ -4842,6 +4871,7 @@
               <Pin Id="LnpvLG2aChqLoV8VVxDXhC" Name="Input" Kind="StateInputPin" />
               <Pin Id="CWq9PJF7rc6NfRaoyx5HWi" Name="Circles" Kind="OutputPin" />
               <Pin Id="NBHBjb887S6Pfwq6YLFKfj" Name="Dot Flocks" Kind="OutputPin" />
+              <Pin Id="QifAuHNL8d8NFyeTromAtG" Name="Pick Size" Kind="OutputPin" />
             </Node>
             <Node Bounds="359,352,45,22" Id="LcJSvjUC39dPVbqMlPGcD2">
               <p:NodeReference LastCategoryFullName="Game.XLevel" LastSymbolSource="VLGameProject.vl">
