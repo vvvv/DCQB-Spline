@@ -5196,7 +5196,7 @@
               <Pin Id="NCMBbexmrRaNndrxeX92Rw" Name="Messages" Kind="OutputPin" />
               <Pin Id="DtBPBsNXBkzLWFqMMYK8ob" Name="Active" Kind="OutputPin" />
             </Node>
-            <Pad Id="H6zkCrmV9rLPu8GsAbXUht" Comment="Group Position" Bounds="15,203,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.7)">
+            <Pad Id="H6zkCrmV9rLPu8GsAbXUht" Comment="Group Position" Bounds="15,203,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.85)">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Vector2" />
                 <CategoryReference Kind="Category" Name="2D" />
@@ -11000,7 +11000,7 @@
               <Pin Id="CTFGRmMCszPNEkXZ8RUZuF" Name="Messages" Kind="OutputPin" />
               <Pin Id="R5nWkJEzCf9OtHCrZKyvdL" Name="Active" Kind="OutputPin" />
             </Node>
-            <Pad Id="MXJmXmwFuXpQUqExs2MdDg" Comment="Group Position" Bounds="231,498,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.7)">
+            <Pad Id="MXJmXmwFuXpQUqExs2MdDg" Comment="Group Position" Bounds="231,498,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.85)">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Vector2" />
                 <CategoryReference Kind="Category" Name="2D" />
@@ -14052,7 +14052,7 @@
               <Pin Id="O5dnucjraCMMovK8aVfs56" Name="Messages" Kind="OutputPin" />
               <Pin Id="HQ7Tqmm3K2nMTgAG44htMo" Name="Active" Kind="OutputPin" />
             </Node>
-            <Pad Id="FugmVXEkt2FLo83ag0ttp7" Comment="Group Position" Bounds="1034,11,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.7)">
+            <Pad Id="FugmVXEkt2FLo83ag0ttp7" Comment="Group Position" Bounds="1034,11,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.85)">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Vector2" />
                 <CategoryReference Kind="Category" Name="2D" />
@@ -14129,7 +14129,7 @@
               <Pin Id="UpWwdqqCnREPPqtsTKjZQw" Name="Messages" Kind="OutputPin" />
               <Pin Id="Quj9cnGJIenQWQKGCH48lp" Name="Active" Kind="OutputPin" />
             </Node>
-            <Pad Id="Tw0hXtd7pEQNdvvk13hAB0" Comment="Group Position" Bounds="1699,25,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.4,-0.8)">
+            <Pad Id="Tw0hXtd7pEQNdvvk13hAB0" Comment="Group Position" Bounds="1699,25,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.3,-0.8)">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Vector2" />
                 <CategoryReference Kind="Category" Name="2D" />
@@ -16249,7 +16249,7 @@
               <Pin Id="KFPeJXWvafbNYTjVAs8GBd" Name="Messages" Kind="OutputPin" />
               <Pin Id="DaRyOhQ5IzyN1xsXQkbgna" Name="Active" Kind="OutputPin" />
             </Node>
-            <Pad Id="QFqGG7lzvTVO49ruxKULvm" Comment="Group Position" Bounds="751,581,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.7)">
+            <Pad Id="QFqGG7lzvTVO49ruxKULvm" Comment="Group Position" Bounds="751,581,38,38" ShowValueBox="true" isIOBox="true" Value="new vec(-0.9,0.85)">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" ReferenceKind="App">
                 <Choice Kind="TypeFlag" Name="Vector2" />
                 <CategoryReference Kind="Category" Name="2D" />

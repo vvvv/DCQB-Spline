@@ -1,21 +1,21 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.7.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" systemname="TopMenu" filename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" scrollx="255" scrolly="720">
-   <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" systemname="TopMenu" filename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" scrollx="210" scrolly="0">
+   <BOUNDS type="Window" left="4530" top="1995" width="12840" height="11700">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="7">
-   <BOUNDS type="Box" left="5400" top="3405" width="795" height="240">
+   <BOUNDS type="Box" left="4860" top="5460" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="5400" top="3405" width="0" height="0">
+   <BOUNDS type="Node" left="4860" top="5460" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="8">
-   <BOUNDS type="Box" left="885" top="1410" width="795" height="240">
+   <BOUNDS type="Box" left="4260" top="1260" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="885" top="1410" width="0" height="0">
+   <BOUNDS type="Node" left="4260" top="1260" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
    </PIN>
@@ -23,9 +23,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="13">
-   <BOUNDS type="Box" left="10260" top="945" width="570" height="360">
+   <BOUNDS type="Box" left="6555" top="1215" width="570" height="360">
    </BOUNDS>
-   <BOUNDS type="Node" left="10260" top="945" width="0" height="0">
+   <BOUNDS type="Node" left="6555" top="1215" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00165,0.88363,0.97997,1.00000|">
    </PIN>
@@ -47,11 +47,11 @@
    </PIN>
    </NODE>
    <NODE systemname="BangButton" filename="BangButton.v4p" nodename="BangButton.v4p" componentmode="Hidden" id="55">
-   <BOUNDS type="Node" left="5382" top="2695" width="0" height="0">
+   <BOUNDS type="Node" left="4842" top="4750" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="0" top="0" width="12645" height="9595">
+   <BOUNDS type="Box" left="0" top="2085" width="12645" height="9595">
    </BOUNDS>
-   <BOUNDS type="Window" left="-1" top="-1" width="12645" height="9595">
+   <BOUNDS type="Window" left="2550" top="2520" width="14310" height="9585">
    </BOUNDS>
    <PIN pinname="Transform" visible="1">
    </PIN>

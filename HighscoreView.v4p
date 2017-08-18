@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="3930" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="1680" scrolly="0">
    <NODE nodename="Group (EX9)" id="0" systemname="Group (EX9)">
    <BOUNDS type="Node" left="13410" top="5655" width="0" height="0">
    </BOUNDS>
@@ -34,7 +34,7 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="-4500" top="1155" width="17715" height="11700">
+   <BOUNDS type="Window" left="15375" top="2580" width="17715" height="11700">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -179,7 +179,7 @@
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="TranslateX" visible="1">
+   <PIN pinname="TranslateX" visible="1" slicecount="1" values="-0.7">
    </PIN>
    <PIN pinname="TranslateY" visible="1">
    </PIN>
@@ -197,15 +197,15 @@
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="68" srcpinname="Y Output Value" dstnodeid="67" dstpinname="TranslateX">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="69">
    <BOUNDS type="Box" left="4200" top="3780" width="795" height="240">
    </BOUNDS>
    <BOUNDS type="Node" left="4200" top="3780" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.713">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.865">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -421,5 +421,7 @@
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="63" dstpinname="Layer 4">
    </LINK>
    <LINK srcnodeid="33" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="68" srcpinname="Y Output Value" dstnodeid="67" dstpinname="TranslateX">
    </LINK>
    </PATCH>

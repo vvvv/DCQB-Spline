@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="825" top="645" width="12630" height="8895">
    </BOUNDS>
@@ -51,7 +51,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Cursor (DX9)" filename="%VVVV%\lib\packs\VL.EditingFramework.0.54.18-g67c687b0d9\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="7806" top="3425" width="100" height="100">
+   <BOUNDS type="Node" left="7686" top="3890" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -77,7 +77,7 @@
    </PIN>
    <PIN pinname="Layer Template Count" slicecount="1" values="6">
    </PIN>
-   <PIN pinname="Layer 3" visible="1">
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
@@ -89,17 +89,17 @@
    <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="22" dstpinname="Input Node">
    </LINK>
    <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="20">
-   <BOUNDS type="Node" left="5015" top="3036" width="100" height="100">
+   <BOUNDS type="Node" left="4880" top="3141" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="TopMenu" filename="TopMenu.v4p" componentmode="Hidden" id="17" nodename="TopMenu.v4p">
-   <BOUNDS type="Node" left="4440" top="3496" width="100" height="100">
+   <BOUNDS type="Node" left="4440" top="3841" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="4440" top="3496" width="4800" height="3600">
+   <BOUNDS type="Box" left="4440" top="3841" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
+   <BOUNDS type="Window" left="4530" top="1995" width="12840" height="11700">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -110,12 +110,10 @@
    <PIN pinname="Highlight Color" visible="1" slicecount="1" values="|0.00165,0.88363,0.97997,1.00000|">
    </PIN>
    </NODE>
-   <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="17" dstpinname="Transform">
-   </LINK>
    <NODE systemname="ModalWindowsView" filename="ModalWindowsView.v4p" componentmode="Hidden" id="16" nodename="ModalWindowsView.v4p">
-   <BOUNDS type="Node" left="5764" top="3447" width="100" height="100">
+   <BOUNDS type="Node" left="5734" top="3822" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5764" top="3447" width="4800" height="3600">
+   <BOUNDS type="Box" left="5734" top="3822" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="-315" top="345" width="13275" height="11400">
    </BOUNDS>
@@ -191,8 +189,6 @@
    <LINK srcnodeid="8" srcpinname="Level" dstnodeid="0" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 2">
-   </LINK>
-   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
    </LINK>
    <LINK srcnodeid="16" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 4">
    </LINK>
@@ -271,5 +267,9 @@
    <LINK srcnodeid="45" srcpinname="Color Output" dstnodeid="17" dstpinname="Highlight Color">
    </LINK>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="39" dstpinname="Evaluate">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 3">
+   </LINK>
+   <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="17" dstpinname="Transform">
    </LINK>
    </PATCH>
