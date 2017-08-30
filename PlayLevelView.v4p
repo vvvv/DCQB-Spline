@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\dev\DCQB-Spline\PlayLevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="2268" scrolly="637">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayLevelView.v4p" systemname="LevelView" filename="C:\Work\VL Game Project\DCQB-Spline\LevelView.v4p" scrollx="2250" scrolly="0">
    <NODE systemname="GridSegment (DX9)" nodename="GridSegment (DX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="3165" top="7470" width="100" height="100">
    </BOUNDS>
@@ -92,38 +92,6 @@
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="ObjectFX" filename="ObjectFX.v4p" nodename="ObjectFX.v4p" componentmode="Hidden" id="10">
-   <BOUNDS type="Node" left="4333" top="9262" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="2850" top="6070" width="5605" height="6385">
-   </BOUNDS>
-   <BOUNDS type="Window" left="1455" top="1455" width="9225" height="6900">
-   </BOUNDS>
-   <PIN pinname="Enabled" visible="1">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="11" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="11235" top="675" width="480" height="480">
-   </BOUNDS>
-   <BOUNDS type="Node" left="11235" top="675" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
-   </PIN>
-   <PIN pinname="Behavior" slicecount="1" values="Toggle">
-   </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Enable FX|">
-   </PIN>
-   </NODE>
    <NODE systemname="EditablePoint (EditingFramework Split 2d)" filename="vl\vvvv\nodes\vl\VVVV.Editors.vl" nodename="EditablePoint (EditingFramework Split 2d)" componentmode="Hidden" id="13">
    <BOUNDS type="Node" left="3990" top="4845" width="100" height="100">
    </BOUNDS>
@@ -159,20 +127,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="15" srcpinname="Color Output" dstnodeid="4" dstpinname="Input 2">
-   </LINK>
-   <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="10" dstpinname="Layers">
-   </LINK>
-   <NODE id="16" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
-   <PIN pinname="Descriptive Name" slicecount="1" values="View">
-   </PIN>
-   <BOUNDS type="Box" left="5880" top="740" width="750" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="5880" top="740" width="750" height="240">
-   </BOUNDS>
-   </NODE>
-   <LINK srcnodeid="16" srcpinname="Output Node" dstnodeid="10" dstpinname="View">
-   </LINK>
-   <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="10" dstpinname="Enabled">
    </LINK>
    <NODE id="17" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
@@ -224,7 +178,7 @@
    </LINK>
    <LINK srcnodeid="13" srcpinname="PositionXY" dstnodeid="7" dstpinname="Input 1XY">
    </LINK>
-   <BOUNDS type="Window" left="392" top="476" width="15603" height="11221">
+   <BOUNDS type="Window" left="1995" top="5490" width="11115" height="12570">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -245,13 +199,13 @@
    </PIN>
    <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="22" srcpinname="Layer" dstnodeid="17" dstpinname="Input Node">
    </LINK>
    <PACK Name="vvvv-Message" Version="2.9.9">
    </PACK>
-   <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
-   </LINK>
    <NODE systemname="xyZ (3d XY)" nodename="xyZ (3d XY)" componentmode="Hidden" id="26">
    <BOUNDS type="Node" left="6326" top="6179" width="100" height="100">
    </BOUNDS>
@@ -274,6 +228,8 @@
    <PIN pinname="Width" slicecount="1" values="2">
    </PIN>
    <PIN pinname="BinSize" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="26" srcpinname="XYZ" dstnodeid="25" dstpinname="VerticesXYZ">
@@ -329,7 +285,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="7856" top="4568" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="28">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="10">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -519,5 +475,31 @@
    <LINK srcnodeid="39" srcpinname="Output" dstnodeid="40" dstpinname="Transform">
    </LINK>
    <LINK srcnodeid="40" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 4">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="41">
+   <BOUNDS type="Box" left="12420" top="555" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="12420" top="555" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="22" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="25" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="22" dstpinname="Layer 1">
    </LINK>
    </PATCH>

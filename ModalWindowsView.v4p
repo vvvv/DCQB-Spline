@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" systemname="ModalWindowsView" filename="C:\Work\VL Game Project\DCQB-Spline\ModalWindowsView.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="-315" top="345" width="13275" height="11400">
+   <BOUNDS type="Window" left="1275" top="495" width="13275" height="11400">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -229,6 +229,8 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="23" dstpinname="Layer 2">
    </LINK>
@@ -317,6 +319,8 @@
    </BOUNDS>
    <PIN pinname="Position Bin Size" visible="1">
    </PIN>
+   <PIN pinname="Window Id Bin Size" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="4" srcpinname="Output Node" dstnodeid="39" dstpinname="Input">
    </LINK>
@@ -379,5 +383,7 @@
    <LINK srcnodeid="40" srcpinname="Position Out" dstnodeid="42" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="42" srcpinname="Output" dstnodeid="25" dstpinname="Alpha">
+   </LINK>
+   <LINK srcnodeid="39" srcpinname="Window Id Bin Size" dstnodeid="23" dstpinname="Enabled">
    </LINK>
    </PATCH>

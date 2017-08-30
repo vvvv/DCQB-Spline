@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ObjectFX.v4p" systemname="ObjectFX" filename="C:\Work\VL Game Project\DCQB-Spline\ObjectFX.v4p">
    <NODE id="0" systemname="RenderTarget (EX9.Texture Source)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\Source\RenderTarget\RenderTarget (EX9.Texture Source).v4p" nodename="RenderTarget (EX9.Texture Source)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Aspect Ratio" visible="1" pintype="Input" slicecount="1" values="||">
@@ -432,26 +432,8 @@
    </NODE>
    <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="6" dstpinname="GlowAmount">
    </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="15">
-   <BOUNDS type="Box" left="2970" top="2565" width="480" height="480">
-   </BOUNDS>
-   <BOUNDS type="Node" left="2970" top="2565" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
-   </PIN>
-   <PIN pinname="Behavior" slicecount="1" values="Toggle">
-   </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Enabled">
-   </LINK>
    <LINK srcnodeid="6" srcpinname="Output" dstnodeid="1" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Enabled">
    </LINK>
    </PATCH>
