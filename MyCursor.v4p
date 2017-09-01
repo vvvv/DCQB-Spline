@@ -1,0 +1,127 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\MyCursor.v4p" systemname="MyCursor" filename="C:\Work\VL Game Project\DCQB-Spline\MyCursor.v4p" scrollx="135" scrolly="0">
+   <BOUNDS type="Window" left="13860" top="7200" width="12720" height="6750">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE systemname="Mouse (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="4125" top="435" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4125" top="435" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="PositionXY" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="GridSegment (DX9)" nodename="GridSegment (DX9)" componentmode="Hidden" id="7">
+   <BOUNDS type="Node" left="3930" top="4200" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Resolution X" slicecount="1" values="50">
+   </PIN>
+   <PIN pinname="Color" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Transform (Transform 2d Vector)" nodename="Transform (Transform 2d Vector)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="4065" top="2235" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="TranslateXY" visible="1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXY" visible="1" slicecount="2" values="1,1">
+   </PIN>
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="PositionXY" dstnodeid="6" dstpinname="TranslateXY">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="5">
+   <BOUNDS type="Box" left="4440" top="1485" width="795" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4440" top="1485" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="0.07,0.07">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="6" dstpinname="ScaleXY">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="3">
+   <BOUNDS type="Box" left="3600" top="1440" width="795" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3600" top="1440" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="PositionXY" dstnodeid="3" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="9">
+   <BOUNDS type="Node" left="7575" top="585" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7575" top="585" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Aspect Ratio|">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="11">
+   <BOUNDS type="Box" left="3930" top="4680" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3930" top="4680" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="11" dstpinname="Input Node">
+   </LINK>
+   <NODE systemname="AdjustAspectRatio (Transform)" filename="AdjustAspectRatio (Transform).v4p" nodename="AdjustAspectRatio (Transform).v4p" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="4080" top="3060" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="AspectRatio" visible="1" slicecount="2" values="1,1">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="18765" top="10380" width="3105" height="3720">
+   </BOUNDS>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="13" dstpinname="AspectRatio">
+   </LINK>
+   <NODE systemname="SetAlpha (Color)" nodename="SetAlpha (Color)" componentmode="Hidden" id="16">
+   <BOUNDS type="Node" left="4890" top="3720" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" slicecount="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Alpha" slicecount="1" values="0.71">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Output" dstnodeid="7" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Transform Out" dstnodeid="13" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Transform Out" dstnodeid="7" dstpinname="Transform">
+   </LINK>
+   </PATCH>

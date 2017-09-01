@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HeadlineImage.v4p" systemname="HeadlineImage" filename="C:\Work\VL Game Project\DCQB-Spline\HeadlineImage.v4p">
    <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2790" top="1995" width="100" height="100">
@@ -31,7 +31,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" filename="" nodename="Quad (DX9)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="2460" top="3825" width="100" height="100">
+   <BOUNDS type="Node" left="2475" top="4980" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Texture" visible="1">
    </PIN>
@@ -59,6 +59,8 @@
    </PIN>
    <PIN pinname="TranslateY" visible="1">
    </PIN>
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
+   </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="5" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="1845" top="2490" width="795" height="240">
@@ -74,16 +76,14 @@
    </NODE>
    <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="4" dstpinname="TranslateY">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Texture Out" dstnodeid="2" dstpinname="Texture">
    </LINK>
    <NODE id="6" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="2460" top="4425" width="750" height="240">
+   <BOUNDS type="Box" left="2475" top="5580" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2460" top="4425" width="750" height="240">
+   <BOUNDS type="Node" left="2475" top="5580" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="6" dstpinname="Input Node">
@@ -96,8 +96,46 @@
    </LINK>
    <LINK srcnodeid="1" srcpinname="Output String" dstnodeid="0" dstpinname="Filename">
    </LINK>
-   <BOUNDS type="Window" left="3930" top="2475" width="4380" height="5415">
+   <BOUNDS type="Window" left="2985" top="5475" width="5895" height="8145">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
+   <NODE systemname="AdjustAspectRatio (Transform)" filename="AdjustAspectRatio (Transform).v4p" nodename="AdjustAspectRatio (Transform).v4p" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="2625" top="4035" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1068" top="2170" width="3115" height="3730">
+   </BOUNDS>
+   <BOUNDS type="Window" left="-1" top="-1" width="3115" height="3730">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   <PIN pinname="AspectRatio" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="9" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="10">
+   <BOUNDS type="Box" left="4125" top="660" width="795" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4125" top="660" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="1,1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="AspectRatio">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="9" dstpinname="AspectRatio">
+   </LINK>
    </PATCH>

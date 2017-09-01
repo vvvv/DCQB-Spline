@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\JellyfishImage.v4p" systemname="JellyfishImage" filename="C:\Work\VL Game Project\DCQB-Spline\JellyfishImage.v4p" scrollx="75" scrolly="0">
    <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2775" top="1290" width="100" height="100">
@@ -31,7 +31,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" filename="" nodename="Quad (DX9)" componentmode="Hidden" id="2">
-   <BOUNDS type="Node" left="1935" top="4635" width="100" height="100">
+   <BOUNDS type="Node" left="1920" top="6660" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Texture" visible="1">
    </PIN>
@@ -132,16 +132,14 @@
    </LINK>
    <LINK srcnodeid="7" srcpinname="Output" dstnodeid="4" dstpinname="TranslateY">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Texture Out" dstnodeid="2" dstpinname="Texture">
    </LINK>
    <NODE id="10" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="1935" top="5235" width="750" height="240">
+   <BOUNDS type="Box" left="1920" top="7260" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="1935" top="5235" width="750" height="240">
+   <BOUNDS type="Node" left="1920" top="7260" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="10" dstpinname="Input Node">
@@ -154,7 +152,7 @@
    </LINK>
    <LINK srcnodeid="1" srcpinname="Output String" dstnodeid="0" dstpinname="Filename">
    </LINK>
-   <BOUNDS type="Window" left="5355" top="1440" width="5280" height="7860">
+   <BOUNDS type="Window" left="5355" top="1440" width="7860" height="12015">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -186,16 +184,40 @@
    </NODE>
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="11" dstpinname="Alpha">
    </LINK>
-   <NODE nodename="IOBox (Node)" componentmode="InABox" id="13">
-   <BOUNDS type="Box" left="15" top="1185" width="795" height="240">
+   <NODE systemname="AdjustAspectRatio (Transform)" filename="AdjustAspectRatio (Transform).v4p" nodename="AdjustAspectRatio (Transform).v4p" componentmode="Hidden" id="16">
+   <BOUNDS type="Node" left="2100" top="5355" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Node" left="15" top="1185" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
+   <PIN pinname="Transform In" visible="1">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="|Transform In|">
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="AspectRatio" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="8520" top="7185" width="7350" height="6630">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Transform Out" dstnodeid="16" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="16" srcpinname="Transform Out" dstnodeid="2" dstpinname="Transform">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17">
+   <BOUNDS type="Box" left="6555" top="900" width="795" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6555" top="900" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="1,1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="AspectRatio">
    </PIN>
    </NODE>
-   <LINK srcnodeid="13" srcpinname="Output Node" dstnodeid="4" dstpinname="Transform In">
+   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="16" dstpinname="AspectRatio">
    </LINK>
    </PATCH>

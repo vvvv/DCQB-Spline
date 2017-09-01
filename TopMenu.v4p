@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" systemname="TopMenu" filename="C:\Work\VL Game Project\DCQB-Spline\TopMenu.v4p" scrollx="210" scrolly="0">
-   <BOUNDS type="Window" left="4530" top="1995" width="12840" height="11700">
+   <BOUNDS type="Window" left="3165" top="420" width="12840" height="11700">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -34,18 +34,6 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="|Highlight Color|">
    </PIN>
    </NODE>
-   <NODE nodename="IOBox (Node)" componentmode="InABox" id="52">
-   <BOUNDS type="Box" left="5385" top="1185" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="5385" top="1185" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
-   </PIN>
-   <PIN pinname="Output Node" visible="1">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Transform">
-   </PIN>
-   </NODE>
    <NODE systemname="BangButton" filename="BangButton.v4p" nodename="BangButton.v4p" componentmode="Hidden" id="55">
    <BOUNDS type="Node" left="4842" top="4750" width="0" height="0">
    </BOUNDS>
@@ -57,6 +45,8 @@
    </PIN>
    <PIN pinname="Color" visible="1">
    </PIN>
+   <PIN pinname="AspectRatio" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="55" srcpinname="Layer" dstnodeid="7" dstpinname="Input Node">
    </LINK>
@@ -64,10 +54,26 @@
    </LINK>
    <LINK srcnodeid="8" srcpinname="Output Node" dstnodeid="55" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="52" srcpinname="Output Node" dstnodeid="55" dstpinname="Transform - Transform In 2 - Transform In">
-   </LINK>
-   <LINK srcnodeid="52" srcpinname="Output Node" dstnodeid="55" dstpinname="Transform">
-   </LINK>
    <LINK srcnodeid="13" srcpinname="Color Output" dstnodeid="55" dstpinname="Color">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="56">
+   <BOUNDS type="Box" left="8160" top="1125" width="795" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8160" top="1125" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="2" visible="1" values="1,1">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="AspectRatio">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="56" srcpinname="Y Output Value" dstnodeid="55" dstpinname="AspectRatio">
    </LINK>
    </PATCH>
