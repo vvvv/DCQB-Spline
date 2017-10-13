@@ -427,9 +427,9 @@
    <LINK srcnodeid="8" srcpinname="Pick Size" dstnodeid="39" dstpinname="SizeXY">
    </LINK>
    <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="40">
-   <BOUNDS type="Box" left="7950" top="8745" width="855" height="240">
+   <BOUNDS type="Box" left="7875" top="8475" width="855" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="7950" top="8745" width="0" height="0">
+   <BOUNDS type="Node" left="7875" top="8475" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Enum" slicecount="1" visible="1" values="Circle">
    </PIN>

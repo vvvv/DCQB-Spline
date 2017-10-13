@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="15" scrolly="0" locked="0">
-   <BOUNDS type="Window" left="285" top="300" width="6255" height="8910">
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="0" locked="0">
+   <BOUNDS type="Window" left="270" top="450" width="6255" height="8910">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1095" top="6060" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="5625" top="915" width="20610" height="3930">
+   <BOUNDS type="Window" left="6360" top="360" width="12465" height="7935">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -175,7 +175,7 @@
    </PIN>
    </NODE>
    <NODE nodename="S (Value)" id="582">
-   <BOUNDS type="Node" left="1095" top="6660" width="0" height="0">
+   <BOUNDS type="Node" left="1095" top="6630" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Send String" slicecount="1" values="|Window Handle|">
    </PIN>
@@ -202,32 +202,6 @@
    </NODE>
    <LINK srcnodeid="583" srcpinname="Input Value" dstnodeid="584" dstpinname="Handle">
    </LINK>
-   <NODE systemname="Divide (Value)" nodename="Divide (Value)" componentmode="Hidden" id="585">
-   <BOUNDS type="Node" left="5565" top="1470" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input 2" visible="1">
-   </PIN>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="586">
-   <BOUNDS type="Node" left="5535" top="1095" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="XY" visible="1">
-   </PIN>
-   <PIN pinname="X" visible="1">
-   </PIN>
-   <PIN pinname="Y" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="584" srcpinname="SizeXY" dstnodeid="586" dstpinname="XY">
-   </LINK>
-   <LINK srcnodeid="586" srcpinname="X" dstnodeid="585" dstpinname="Input 2">
-   </LINK>
-   <LINK srcnodeid="586" srcpinname="Y" dstnodeid="585" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="590" dstpinname="Keyboard Device">
    </LINK>
    <LINK srcnodeid="56" srcpinname="View" dstnodeid="590" dstpinname="View">
@@ -250,8 +224,6 @@
    </LINK>
    <LINK srcnodeid="590" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="585" srcpinname="Output" dstnodeid="590" dstpinname="Aspect Ratio">
-   </LINK>
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="632" dstpinname="Keyboard Device">
    </LINK>
    <LINK srcnodeid="56" srcpinname="View" dstnodeid="632" dstpinname="View">
@@ -271,8 +243,6 @@
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="632" dstpinname="Keyboard">
    </LINK>
    <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="632" dstpinname="Camera">
-   </LINK>
-   <LINK srcnodeid="585" srcpinname="Output" dstnodeid="632" dstpinname="Aspect Ratio">
    </LINK>
    <LINK srcnodeid="562" srcpinname="Layer" dstnodeid="532" dstpinname="Layer 1">
    </LINK>
@@ -296,8 +266,6 @@
    </LINK>
    <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="644" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="585" srcpinname="Output" dstnodeid="644" dstpinname="Aspect Ratio">
-   </LINK>
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="659" dstpinname="Keyboard Device">
    </LINK>
    <LINK srcnodeid="56" srcpinname="View" dstnodeid="659" dstpinname="View">
@@ -317,8 +285,6 @@
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="659" dstpinname="Keyboard">
    </LINK>
    <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="659" dstpinname="Camera">
-   </LINK>
-   <LINK srcnodeid="585" srcpinname="Output" dstnodeid="659" dstpinname="Aspect Ratio">
    </LINK>
    <LINK srcnodeid="43" srcpinname="Device" dstnodeid="685" dstpinname="Keyboard Device">
    </LINK>
@@ -341,6 +307,8 @@
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
+   <PIN pinname="Window SizeXY" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="42" srcpinname="Device" dstnodeid="685" dstpinname="Mouse">
    </LINK>
@@ -348,8 +316,8 @@
    </LINK>
    <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="685" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="585" srcpinname="Output" dstnodeid="685" dstpinname="Aspect Ratio">
-   </LINK>
    <LINK srcnodeid="685" srcpinname="State" dstnodeid="562" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="584" srcpinname="SizeXY" dstnodeid="685" dstpinname="Window SizeXY">
    </LINK>
    </PATCH>

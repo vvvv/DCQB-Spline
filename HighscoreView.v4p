@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="1680" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.9.dtd" >
+   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" systemname="HighscoreView" filename="C:\Work\VL Game Project\DCQB-Spline\HighscoreView.v4p" scrollx="11655" scrolly="0">
    <NODE nodename="Group (EX9)" id="0" systemname="Group (EX9)">
    <BOUNDS type="Node" left="13410" top="5655" width="0" height="0">
    </BOUNDS>
@@ -13,14 +13,8 @@
    </PIN>
    <PIN pinname="Layer 3" visible="1">
    </PIN>
-   <PIN pinname="Layer 4" visible="1">
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="Cursor (DX9)" filename="%VVVV%\lib\packs\VL.EditingFramework.0.54.18-g67c687b0d9\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="1">
-   <BOUNDS type="Node" left="18525" top="3690" width="100" height="100">
-   </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
@@ -36,7 +30,7 @@
    </NODE>
    <BOUNDS type="Window" left="15375" top="2580" width="17715" height="11700">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="35.9.0">
    </PACK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="9">
    <BOUNDS type="Box" left="13350" top="480" width="795" height="240">
@@ -87,8 +81,6 @@
    <LINK srcnodeid="33" srcpinname="Layer" dstnodeid="60" dstpinname="Layer 4">
    </LINK>
    <LINK srcnodeid="60" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
-   </LINK>
-   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
    </LINK>
    <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="61">
    <BOUNDS type="Node" left="14625" top="3375" width="100" height="100">

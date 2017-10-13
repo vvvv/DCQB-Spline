@@ -64,7 +64,7 @@
    </NODE>
    <LINK srcnodeid="29" srcpinname="Output Node" dstnodeid="26" dstpinname="Input">
    </LINK>
-   <NODE systemname="BangButton" filename="BangButton.v4p" nodename="BangButton.v4p" componentmode="InAWindow" id="30">
+   <NODE systemname="BangButton" filename="BangButton.v4p" nodename="BangButton.v4p" componentmode="Hidden" id="30">
    <BOUNDS type="Node" left="10560" top="4140" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="9150" top="3360" width="12645" height="9595">
