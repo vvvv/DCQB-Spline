@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="15">
-   <BOUNDS type="Window" left="10425" top="5055" width="12630" height="8895">
+   <BOUNDS type="Window" left="15225" top="3045" width="12630" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -35,7 +35,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="9619" top="289" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -105,11 +105,13 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5734" top="3822" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="1275" top="495" width="13275" height="11400">
+   <BOUNDS type="Window" left="14820" top="2370" width="13275" height="11400">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="AspectRatio" visible="1" slicecount="2" values="1,1">
    </PIN>
    </NODE>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Enabled">
@@ -275,5 +277,7 @@
    <LINK srcnodeid="47" srcpinname="Y Output Value" dstnodeid="0" dstpinname="AspectRatio">
    </LINK>
    <LINK srcnodeid="47" srcpinname="Y Output Value" dstnodeid="17" dstpinname="AspectRatio">
+   </LINK>
+   <LINK srcnodeid="47" srcpinname="Y Output Value" dstnodeid="16" dstpinname="AspectRatio">
    </LINK>
    </PATCH>
