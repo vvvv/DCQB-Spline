@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\MainMenuView.v4p" systemname="MainMenuView" filename="C:\Work\VL Game Project\DCQB-Spline\MainMenuView.v4p" scrollx="3375" scrolly="0">
-   <BOUNDS type="Window" left="10365" top="3885" width="25500" height="11310">
+   <PATCH nodename="C:\Work\DCQB-Spline\MainMenuView.v4p" systemname="MainMenuView" filename="C:\Work\VL Game Project\DCQB-Spline\MainMenuView.v4p" scrollx="3375" scrolly="0">
+   <BOUNDS type="Window" left="16275" top="2625" width="25500" height="11310">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -69,7 +69,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9150" top="3360" width="12645" height="9595">
    </BOUNDS>
-   <BOUNDS type="Window" left="11715" top="4650" width="12645" height="9585">
+   <BOUNDS type="Window" left="17520" top="3345" width="12645" height="9585">
    </BOUNDS>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
