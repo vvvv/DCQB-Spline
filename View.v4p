@@ -154,12 +154,12 @@
    </LINK>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
-   <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="InAWindow" id="10" nodename="AboutView.v4p">
+   <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="Hidden" id="10" nodename="AboutView.v4p">
    <BOUNDS type="Node" left="7275" top="3495" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="7275" top="3495" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="9450" top="3990" width="17610" height="9465">
+   <BOUNDS type="Window" left="8280" top="5940" width="17610" height="9465">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

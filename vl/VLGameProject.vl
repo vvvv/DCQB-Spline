@@ -10388,7 +10388,6 @@
                   <Pin Id="LgYDQZXGeqJQSFyTXz1BSb" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="JmJzywzISQ1OyGtC6u0jmM" Name="All Caught Dots" Kind="OutputPin" />
                   <Pin Id="SzlMrcL0kacMUQhwz0aScP" Name="Free Dots" Kind="OutputPin" />
-                  <Pin Id="L4DmfBQ2un1Onsw52lL24W" Name="Aspect Ratio" Kind="InputPin" />
                 </Node>
               </Patch>
             </Node>
@@ -10727,7 +10726,6 @@
               <Pin Id="RC0Jm7la1JfL1eNKxvlNq6" Name="Count" Kind="OutputPin" />
             </Node>
             <Pad Id="UfB0mACOAU4P6LY6VJVZlV" Comment="Count" Bounds="-340,1382,16,18" ShowValueBox="true" isIOBox="true" />
-            <ControlPoint Id="OcW5MZpA9aaPR7aICTOHwF" Bounds="521,74" />
           </Canvas>
           <Patch Id="K4izCQptLMONgQDmW5hJNj" Name="Create">
             <Pin Id="EvSLT36P90wLPwEQGxDcw4" Name="Level" Kind="InputPin" />
@@ -10740,7 +10738,6 @@
           <Patch Id="F4qA4nux2EEPJY6lfQR8FN" Name="Update" ParticipatingElements="UiEuNuBoRThLe1d5ayowG2">
             <Pin Id="FSrzdYt3MmFO9Iu5B8b7uD" Name="Level" Kind="OutputPin" />
             <Pin Id="UlSnDWXF9W2MuUTnuM7WJw" Name="Console" Kind="InputPin" />
-            <Pin Id="LHHIxQrahjxO2DNZHqePyh" Name="Aspect Ratio" Kind="InputPin" />
           </Patch>
           <Link Id="CF8caUSC4iWLMuLolf2XVY" Ids="EvSLT36P90wLPwEQGxDcw4,Srp75rXFPmyQRLHC9OyL4p" IsHidden="true" />
           <Link Id="HqntOVEm8tHL7WRXj6VLtB" Ids="SdqvKPrjuP7OxqC90FXSP8,DeYgD7Y6R5mQElSGvEDkeR" />
@@ -10822,8 +10819,6 @@
           <Link Id="EG1M7QO2pTULsgBInz6pVS" Ids="Ck2WNVYs3oCPtO1fce5wOs,GHGKAT7iomxMRZXN7BI7XO" />
           <Link Id="SuTM9X9O5joPFRsZ2ivBVe" Ids="VBc2tL98K7LP8nMSRb3cQX,LwulmNvOb1qOnbUJRwYiPw" />
           <Link Id="VtViuwH9eseLGdVWfD7gNZ" Ids="LwulmNvOb1qOnbUJRwYiPw,GslOmW48rVnPoFPb4vEdoz" />
-          <Link Id="OwgdG33NLQUQK2EMeP52i0" Ids="LHHIxQrahjxO2DNZHqePyh,OcW5MZpA9aaPR7aICTOHwF" IsHidden="true" />
-          <Link Id="InXo9ZUQgYSOznreHC7euw" Ids="OcW5MZpA9aaPR7aICTOHwF,L4DmfBQ2un1Onsw52lL24W" />
         </Patch>
       </Node>
       <!--
@@ -10956,7 +10951,6 @@
                   </p:NodeReference>
                   <Pin Id="Bb7Iger5yy9OnMM9mMlDg6" Name="Level" Kind="InputPin" />
                   <Pin Id="B8AjbLxWjWuMyp1vYdokD7" Name="Console" Kind="InputPin" />
-                  <Pin Id="UVd2yqpNADhLECn0ZUl7xZ" Name="Aspect Ratio" Kind="InputPin" />
                   <Pin Id="ArpeZK6GieSMRJ2BXul2kM" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Rg3kToCKQObQbofd5YAuU8" Name="Level" Kind="OutputPin" />
                 </Node>
@@ -11286,7 +11280,6 @@
           <Link Id="F8EkULh39eRPAKBBnWwFLL" Ids="O87BJ3Vk7BRPY5l9InxFV7,UqkfKNhvg9EMgw2kFMv19O" />
           <Link Id="T9Z3WLoKVZVLO9Fh1RhVdi" Ids="OyFsg0B5SdqOsaqlryfl58,UJIbHwBgsmXO9FPoVWsPDT" IsHidden="true" />
           <Link Id="B6M3TPkYNJNNtVGuaXd3I1" Ids="UJIbHwBgsmXO9FPoVWsPDT,TxINsah3XiXOaliGZ9VjLR" />
-          <Link Id="NLGPTipB8X7MgnP7ZmyNSq" Ids="UJIbHwBgsmXO9FPoVWsPDT,UVd2yqpNADhLECn0ZUl7xZ" />
         </Patch>
       </Node>
       <Canvas Id="RCnENnxwCyyQAEjRc5GEFV" Name="Notifications" Position="113,-157" DefaultCategory="Game.Notifications">
@@ -12603,27 +12596,6 @@
               </p:NodeReference>
               <Pin Id="BI7kypjrUbvN9glBn2ZKAa" Name="Empty" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="OhJlUWBiQqjQbGNSdgf7KQ" Bounds="883,114" />
-            <Node Bounds="310,307,-15,13" Id="CRqjVGsrJLKMMyIzoLjgSc">
-              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="*" />
-                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="QC2GEE65ielOYpce89S8P0" Name="Input" Kind="InputPin" />
-              <Pin Id="PfJ9ObodLL6NrvRAWJqiuT" Name="Input 2" Kind="InputPin" />
-              <Pin Id="IzfoeSLQKTOMERjOqR8az3" Name="Output" Kind="OutputPin" />
-            </Node>
-            <Node Bounds="479,284,25,13" Id="NGvN9MUk0InODq2iBCiVM9">
-              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="*" />
-                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="LpNZ7c7rNADPaUBQOgPOOX" Name="Input" Kind="InputPin" />
-              <Pin Id="AEhMA0gbWyyMS6MuqFvDXX" Name="Input 2" Kind="InputPin" />
-              <Pin Id="U8e3jdjB8CUOcRJZ1oLcIk" Name="Output" Kind="OutputPin" />
-            </Node>
           </Canvas>
           <Patch Id="Aq4p3mR6mYhONAyBGcIYPn" Name="Create">
             <Pin Id="CwY23NjLsfaOtcsYlJjKnM" Name="Initial Root" Kind="InputPin" />
@@ -12635,7 +12607,6 @@
             <Pin Id="VbFkkbwtKozMqYQbPKm6BK" Name="Free Dots" Kind="OutputPin" />
             <Pin Id="LtpRIKKPjeLMkWxluqM0nB" Name="Offset Position" Kind="InputPin" />
             <Pin Id="V3DiMYxepW0LGnzyGEOOPQ" Name="Grabbed Dots" Kind="OutputPin" />
-            <Pin Id="EgZafgzl6TDNc938hMALxg" Name="Aspect Ratio" Kind="InputPin" />
           </Patch>
           <ProcessDefinition Id="ES10apIkaEgQaR9yGnbFzN">
             <Fragment Id="AUmbfsAgmpJLBwX64PmnP3" Patch="Aq4p3mR6mYhONAyBGcIYPn" Enabled="true" />
@@ -12748,20 +12719,15 @@
           <Link Id="Gast9UuQaVuQPT0tqkEAYY" Ids="F2Edq4yPEGUN3QemchXFAQ,HfvR09R9GZbLW0FC2Z7xI5" />
           <Link Id="Gp6EeBrQXu5OOSdzntebDX" Ids="HfvR09R9GZbLW0FC2Z7xI5,BSe5J8t90upPkvzOwAP00c" />
           <Link Id="MhyQC7IZqgCLK6dD2xjmk8" Ids="RxJ1C53YNCFORxOtOzZCFR,AePcFY7aWPxPEs8VkM701x" />
-          <Link Id="By0YRY7UWnzNk8v7Sfpb8P" Ids="EgZafgzl6TDNc938hMALxg,OhJlUWBiQqjQbGNSdgf7KQ" IsHidden="true" />
           <Link Id="RKSjEbd7KY8PpjeGwOzWH1" Ids="TG395vmOArLObE0SJJWlcd,PDsljm6tRyrOEXf9WvONLV" />
-          <Link Id="UlXf2iBij1qQHc8dbrA8TX" Ids="Rjw70x1V7WHO9TxQ2qsTWM,QC2GEE65ielOYpce89S8P0" />
-          <Link Id="KmKLShaIBxoMwr193sggQ3" Ids="OhJlUWBiQqjQbGNSdgf7KQ,PfJ9ObodLL6NrvRAWJqiuT" />
-          <Link Id="Bt76p9HYPkGOkBvvchSEyc" Ids="C7bRudRHKxGQSevydik2ne,LpNZ7c7rNADPaUBQOgPOOX" />
-          <Link Id="AEAtpoUcUcKPQE9nsbxvLK" Ids="OhJlUWBiQqjQbGNSdgf7KQ,AEhMA0gbWyyMS6MuqFvDXX" />
           <Link Id="RX1HFAdSaDnNgJ7bhgh6nm" Ids="FdzM7w5JH2INIgs6Job67J,D16gFs7sOhJPf2RJnAhtzJ" />
           <Link Id="I598SrcwVbFOMzHj6orubG" Ids="Jj0jh9a3uSlLNH8pdMnZNo,RBqN41cqBpAQBauZatz2uy" />
           <Link Id="N69ggQ2Zfl7M1WkgrWp5D3" Ids="C7bRudRHKxGQSevydik2ne,SYqsj5evP94PfIzwAG7uPR" />
-          <Link Id="MoHljhxEvGMO6MqjMqPkAq" Ids="U8e3jdjB8CUOcRJZ1oLcIk,K9HTkDIS5FhMZ8Zr1P6BmL" />
-          <Link Id="SYk3YNAtBDTNSpZi3F8W2F" Ids="IzfoeSLQKTOMERjOqR8az3,MN8TaqMQi40L0nhjIHgy1M" />
-          <Link Id="NRIytYPe7pvO5Fmbe5KG2B" Ids="IzfoeSLQKTOMERjOqR8az3,EVQP4SUzgceQJkJ52wHGBu" />
           <Link Id="Ogse1WEFQzYOWupA0rKv3A" Ids="KpKFbaEFpS1L0B90RApHXD,T88Od6K6PqWNAY3raR1tVf" />
           <Link Id="O90AK1gEXRNM5fQHDbnOFz" Ids="BS4lQG2X0IgQKiDNkR4mCw,Is9m6F84BFtLh5wHmGIF8U" />
+          <Link Id="G4jUYWjQe5LNhGx90Kn24g" Ids="Rjw70x1V7WHO9TxQ2qsTWM,EVQP4SUzgceQJkJ52wHGBu" />
+          <Link Id="Mbb3RObyyFpNOIV3BQSzZV" Ids="Rjw70x1V7WHO9TxQ2qsTWM,MN8TaqMQi40L0nhjIHgy1M" />
+          <Link Id="GsFxC4l9ql8NZ080FqWruv" Ids="C7bRudRHKxGQSevydik2ne,K9HTkDIS5FhMZ8Zr1P6BmL" />
         </Patch>
       </Node>
       <!--
@@ -15527,7 +15493,6 @@
                   </p:NodeReference>
                   <Pin Id="P0sm1Fwap5ELB2RpzeZBe9" Name="Input" Kind="StateInputPin" />
                   <Pin Id="Bhpua6Thwx8MCYRTgSLAUU" Name="Offset Position" Kind="InputPin" />
-                  <Pin Id="GhuIbabbrNbQNQgTsrrKFj" Name="Aspect Ratio" Kind="InputPin" />
                   <Pin Id="L7mcsPrddtKMgfM4CSHkNl" Name="Free Dots" Kind="InputPin" />
                   <Pin Id="GF9jkoSvSDdPwtTDOJ622d" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="TQiMxsZz2C9MfAR4B1aaBL" Name="Free Dots" Kind="OutputPin" />
@@ -16008,16 +15973,6 @@
                   <Pin Id="L38XzhmZbEuPoLyFEEHMNb" Name="Size" Kind="OutputPin" />
                   <Pin Id="Lr2lcXDBSl6Nqck6QtKV83" Name="Caught" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="1231,1536,31,13" Id="TDciJ1NRR6NORAVZ9W3kxH">
-                  <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="*" />
-                    <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
-                  </p:NodeReference>
-                  <Pin Id="Iut7xrvuRdZNiJb7V76qxf" Name="Input" Kind="InputPin" />
-                  <Pin Id="EsETYrRYnuROOOzX2NYa49" Name="Input 2" Kind="InputPin" />
-                  <Pin Id="DgXPc9D0LLBPP7r7wFIOEe" Name="Output" Kind="OutputPin" />
-                </Node>
               </Patch>
             </Node>
             <Pad Id="JJxWdcbJSYHQPmJF0hLgd8" Comment="Filter Time" Bounds="1298,1447,35,18" ShowValueBox="true" isIOBox="true" Value="16.789999">
@@ -16129,7 +16084,6 @@
                 </Node>
               </Patch>
             </Node>
-            <ControlPoint Id="KOM4nYIrUEVNXTZbymsMzw" Bounds="1320,45" />
           </Canvas>
           <Patch Id="LjFxw0NX2JkMZ1tFpQ5WhY" Name="Create">
             <Pin Id="M5YhfESYOcgOOQ39pRdi2s" Name="Position" Kind="InputPin" />
@@ -16140,7 +16094,6 @@
             <Pin Id="S4KV7oIxRgFOePPiEHWQkY" Name="All Caught Dots" Kind="OutputPin" />
             <Pin Id="FPPM9HNNZt0Nc9fE90pi31" Name="Free Dots" Kind="OutputPin" />
             <Pin Id="BTdOtpYjO35Oykp4p92Ia2" Name="Free Dots" Kind="InputPin" />
-            <Pin Id="KAyc1gjxXIUQADOi5ENgXl" Name="Aspect Ratio" Kind="InputPin" />
           </Patch>
           <ProcessDefinition Id="SXZLFYeSfHMOI28pgvcvKM" IsHidden="true">
             <Fragment Id="VK0Y7iOD3lsLtz68ceMjYC" Patch="LjFxw0NX2JkMZ1tFpQ5WhY" Enabled="true" />
@@ -16307,17 +16260,13 @@
           <Link Id="BKZeIzfTEJTMy9VZWT1Xgb" Ids="F4UZWAK2R6IOWT1FsMJEMo,Rabb7wuYmWCPIihtnmyTEw" />
           <Link Id="NSWmlIErgO9OV4PjcfFgbA" Ids="TwqniEGiitQMnIXn6JKDX6,FP1PFGTiqKUNirJSjDsn4o" />
           <Link Id="UmrXUoQJ2AyLNHcImfFzZH" Ids="FP1PFGTiqKUNirJSjDsn4o,JgYreuxBuqjNpRHk61OyvL" />
-          <Link Id="HcfhqDR6D7WNUhjBwEukiE" Ids="KOM4nYIrUEVNXTZbymsMzw,EsETYrRYnuROOOzX2NYa49" />
-          <Link Id="LMtb7esvdEUMbQ8lcEGrJ6" Ids="KAyc1gjxXIUQADOi5ENgXl,KOM4nYIrUEVNXTZbymsMzw" IsHidden="true" />
-          <Link Id="Gu33yLueqIhLKwAQwAM5Rw" Ids="KOM4nYIrUEVNXTZbymsMzw,GhuIbabbrNbQNQgTsrrKFj" />
           <Link Id="Vu4BczNHfx9OPah2913wTd" Ids="Ak7MdSA17pdL4UYOkorQ5d,EELfWfJtsmXPU4xcZikymG" />
           <Link Id="Pw0YSjOLUiWP4DzyDnfLA8" Ids="Ep0dbHTFb3bOketIClVb10,PvauKNDNxP3PAbRkSxdeLl" />
           <Link Id="QqE9vcVx5DpN5tDaK4myB9" Ids="FGYV3bdyExzQU7tYhHng5k,EzABkzNCXUxOyHj4LNtAWc" />
-          <Link Id="To1yNr4mDlWLn5sNIEqcEW" Ids="BoR7MlURuQcNO1NxFuMAt9,Iut7xrvuRdZNiJb7V76qxf" />
-          <Link Id="G7LaOtftMf1L7VVUDK00hn" Ids="DgXPc9D0LLBPP7r7wFIOEe,FWuDpMQypUeQE4wUYOKNlY" />
           <Link Id="BuaDbzqO3eaOahuNWS5pwT" Ids="RXY50dxrmEjQOCsjX4lbRq,B1FHJlL7VD9QSmaGDBCCgm" />
           <Link Id="ND5qfuUhYPJOglcdW6YMn5" Ids="F72CgasuVktObqOwu9FUPI,KEdYFx6uWXSMcWDnhfvxqi" />
           <Link Id="SIAPYwnGIzHP5x80xu9nJd" Ids="F72CgasuVktObqOwu9FUPI,IvBPLuUcDeWO5mRPpv3Lt3" />
+          <Link Id="Bb0gkUSUT5xMii64VsTI4R" Ids="BoR7MlURuQcNO1NxFuMAt9,FWuDpMQypUeQE4wUYOKNlY" />
         </Patch>
       </Node>
       <!--
