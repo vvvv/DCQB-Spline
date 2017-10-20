@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" systemname="BangButton" filename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" scrollx="0" scrolly="390">
+   <PATCH nodename="C:\Work\DCQB-Spline\BangButton.v4p" systemname="BangButton" filename="C:\Work\VL Game Project\DCQB-Spline\BangButton.v4p" scrollx="15" scrolly="390">
    <NODE systemname="Group (EX9)" filename="" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="3705" top="10020" width="100" height="100">
    </BOUNDS>
@@ -162,7 +162,7 @@
    </LINK>
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="10" dstpinname="XYZ">
    </LINK>
-   <BOUNDS type="Window" left="4815" top="4785" width="14310" height="9585">
+   <BOUNDS type="Window" left="12075" top="2985" width="14310" height="9585">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -312,26 +312,30 @@
    </LINK>
    <LINK srcnodeid="10" srcpinname="Transform Out" dstnodeid="32" dstpinname="Transform In">
    </LINK>
-   <NODE systemname="AdjustAspectRatio (Transform)" filename="AdjustAspectRatio (Transform).v4p" nodename="AdjustAspectRatio (Transform).v4p" componentmode="Hidden" id="35">
-   <BOUNDS type="Node" left="4050" top="4770" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Window" left="18765" top="10380" width="6270" height="4995">
-   </BOUNDS>
-   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Transform Out" visible="1">
-   </PIN>
-   <PIN pinname="AspectRatio" visible="1" slicecount="2" values="1,1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="33" srcpinname="Y Output Value" dstnodeid="35" dstpinname="AspectRatio">
-   </LINK>
-   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="35" dstpinname="Transform In">
-   </LINK>
    <LINK srcnodeid="5" srcpinname="XYZ" dstnodeid="4" dstpinname="VerticesXYZ">
    </LINK>
    <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
-   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="6" dstpinname="Transform">
+   <NODE systemname="Multiply (Transform)" nodename="Multiply (Transform)" componentmode="Hidden" id="37">
+   <BOUNDS type="Node" left="4035" top="6630" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform In 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Transform In 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="WithinNormalizedProjection (Transform)" nodename="WithinNormalizedProjection (Transform)" componentmode="Hidden" id="38">
+   <BOUNDS type="Node" left="4035" top="5565" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="38" srcpinname="Transform Out" dstnodeid="37" dstpinname="Transform In 1">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="37" dstpinname="Transform In 2">
+   </LINK>
+   <LINK srcnodeid="37" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform">
    </LINK>
    </PATCH>

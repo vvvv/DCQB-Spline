@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\JellyfishImage.v4p" systemname="JellyfishImage" filename="C:\Work\VL Game Project\DCQB-Spline\JellyfishImage.v4p" scrollx="75" scrolly="0">
+   <PATCH nodename="C:\Work\DCQB-Spline\JellyfishImage.v4p" systemname="JellyfishImage" filename="C:\Work\VL Game Project\DCQB-Spline\JellyfishImage.v4p" scrollx="75" scrolly="0">
    <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2775" top="1290" width="100" height="100">
    </BOUNDS>
@@ -43,7 +43,7 @@
    </PIN>
    </NODE>
    <NODE systemname="AspectRatio (Transform)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="2100" top="4110" width="100" height="100">
+   <BOUNDS type="Node" left="2115" top="4200" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Aspect Width" visible="1">
    </PIN>
@@ -64,6 +64,8 @@
    <PIN pinname="TranslateY" visible="1">
    </PIN>
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="TranslateX" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="LFO (Animation)" nodename="LFO (Animation)" componentmode="Hidden" id="5">
@@ -152,7 +154,7 @@
    </LINK>
    <LINK srcnodeid="1" srcpinname="Output String" dstnodeid="0" dstpinname="Filename">
    </LINK>
-   <BOUNDS type="Window" left="5355" top="1440" width="7860" height="12015">
+   <BOUNDS type="Window" left="4680" top="7230" width="9075" height="7860">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>

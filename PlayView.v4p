@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="15">
-   <BOUNDS type="Window" left="15225" top="3045" width="12630" height="8895">
+   <PATCH nodename="C:\Work\DCQB-Spline\PlayView.v4p" systemname="PlayView" filename="C:\dev\DCQB-Spline\PlayView.v4p" scrollx="0" scrolly="15">
+   <BOUNDS type="Window" left="10920" top="5205" width="12630" height="8895">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -105,7 +105,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5734" top="3822" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="14820" top="2370" width="13275" height="11400">
+   <BOUNDS type="Window" left="8355" top="6870" width="13275" height="11400">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

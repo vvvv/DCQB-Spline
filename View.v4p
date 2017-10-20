@@ -1,7 +1,7 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="7" scrolly="7">
+   <PATCH nodename="C:\Work\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="7" scrolly="7">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
-   <BOUNDS type="Node" left="2471" top="5130" width="100" height="100">
+   <BOUNDS type="Node" left="2426" top="4875" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
@@ -43,7 +43,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="2584" top="3463" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="13905" top="3195" width="25500" height="11310">
+   <BOUNDS type="Window" left="7770" top="3900" width="25500" height="11310">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -87,14 +87,14 @@
    <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="2471" top="5730" width="750" height="240">
+   <BOUNDS type="Box" left="2426" top="5475" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2471" top="5730" width="750" height="240">
+   <BOUNDS type="Node" left="2426" top="5475" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="12825" top="4515" width="15465" height="9465">
+   <BOUNDS type="Window" left="5955" top="8205" width="15465" height="9465">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -103,7 +103,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4513" top="3482" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="15225" top="3045" width="12630" height="8895">
+   <BOUNDS type="Window" left="10920" top="5205" width="12630" height="8895">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -127,8 +127,10 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="15375" top="2580" width="17715" height="11700">
+   <BOUNDS type="Window" left="6420" top="7215" width="17715" height="11700">
    </BOUNDS>
+   <PIN pinname="AspectRatio" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
    </LINK>
@@ -152,18 +154,20 @@
    </LINK>
    <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
-   <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="Hidden" id="10" nodename="AboutView.v4p">
+   <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="InAWindow" id="10" nodename="AboutView.v4p">
    <BOUNDS type="Node" left="7275" top="3495" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="7275" top="3495" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="-7755" top="1605" width="17610" height="9465">
+   <BOUNDS type="Window" left="9450" top="3990" width="17610" height="9465">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="AspectRatio" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 5">
@@ -215,9 +219,9 @@
    <LINK srcnodeid="11" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
    </LINK>
    <NODE systemname="MyCursor" filename="MyCursor.v4p" componentmode="Hidden" id="15" nodename="MyCursor.v4p">
-   <BOUNDS type="Node" left="8760" top="3480" width="100" height="100">
+   <BOUNDS type="Node" left="8865" top="3510" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="8760" top="3480" width="4800" height="3600">
+   <BOUNDS type="Box" left="8865" top="3510" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="13860" top="7200" width="12720" height="6750">
    </BOUNDS>
@@ -233,5 +237,9 @@
    <LINK srcnodeid="11" srcpinname="Aspect RatioXY" dstnodeid="15" dstpinname="Aspect Ratio">
    </LINK>
    <LINK srcnodeid="11" srcpinname="Aspect RatioXY" dstnodeid="8" dstpinname="Aspect Ratio">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Aspect RatioXY" dstnodeid="9" dstpinname="AspectRatio">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Aspect RatioXY" dstnodeid="10" dstpinname="AspectRatio">
    </LINK>
    </PATCH>

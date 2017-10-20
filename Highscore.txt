@@ -27,6 +27,10 @@
         {
           "Name": "Looser",
           "Score": 34
+        },
+        {
+          "Name": "sdfsdf",
+          "Score": 7
         }
       ]
     }
