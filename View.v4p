@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="7" scrolly="7">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\View.v4p" systemname="View" filename="C:\Work\VL Game Project\DCQB-Spline\View.v4p" scrollx="7" scrolly="7">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2471" top="5130" width="100" height="100">
    </BOUNDS>
@@ -36,32 +36,6 @@
    <PIN pinname="X Input Value" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="2644" top="3463" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="2644" top="3463" width="4800" height="3600">
-   </BOUNDS>
-   <BOUNDS type="Window" left="-435" top="585" width="14280" height="8220">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Window Handle" pintype="Output" visible="-1">
-   </PIN>
-   <PIN pinname="Patch" pintype="Output" visible="-1">
-   </PIN>
-   <PIN pinname="ID" pintype="Output" visible="-1">
-   </PIN>
-   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
-   </PIN>
-   </NODE>
    <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="View">
    </PIN>
@@ -78,8 +52,6 @@
    <BOUNDS type="Node" left="1350" top="950" width="750" height="240">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
-   </LINK>
    <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
@@ -90,16 +62,16 @@
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="17445" top="1350" width="9600" height="9465">
+   <BOUNDS type="Window" left="18945" top="4620" width="9600" height="9465">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
-   <NODE systemname="PlayView" filename="PlayView.v4p" componentmode="Hidden" id="8" nodename="PlayView.v4p">
+   <NODE systemname="PlayView" filename="PlayView.v4p" componentmode="InAWindow" id="8" nodename="PlayView.v4p">
    <BOUNDS type="Node" left="4513" top="3482" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="4513" top="3482" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="825" top="645" width="12630" height="8895">
+   <BOUNDS type="Window" left="11715" top="1215" width="12630" height="8895">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
@@ -125,26 +97,6 @@
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
-   </LINK>
-   <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
-   <BOUNDS type="Window" left="14775" top="1755" width="14280" height="9045">
-   </BOUNDS>
-   <BOUNDS type="Node" left="300" top="3456" width="1335" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="0" top="471" width="7885" height="5970">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
-   </LINK>
-   <LINK srcnodeid="1" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Show Points">
-   </LINK>
-   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
    </LINK>
    <NODE systemname="AboutView" filename="AboutView.v4p" componentmode="Hidden" id="10" nodename="AboutView.v4p">
    <BOUNDS type="Node" left="7275" top="3495" width="100" height="100">
@@ -174,19 +126,13 @@
    </NODE>
    <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="11" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="11" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="11" srcpinname="PlayState" dstnodeid="8" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="11" srcpinname="MainMenu Enabled" dstnodeid="4" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="11" srcpinname="Play Enabled" dstnodeid="8" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="11" srcpinname="HighScore Enabled" dstnodeid="9" dstpinname="Enabled">
    </LINK>
    <LINK srcnodeid="11" srcpinname="HighScore" dstnodeid="9" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="11" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="11" srcpinname="About Enabled" dstnodeid="10" dstpinname="Enabled">
    </LINK>
@@ -202,6 +148,60 @@
    </NODE>
    <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="7" dstpinname="Input Node">
    </LINK>
+   <NODE id="4" componentmode="Hidden" systemname="MainMenuView" filename="MainMenuView.v4p" nodename="MainMenuView.v4p" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="2644" top="3463" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2644" top="3463" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="15240" top="3480" width="14280" height="8220">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="MainMenu Enabled" dstnodeid="4" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="MainMenu" dstnodeid="4" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
+   </LINK>
+   <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
+   <BOUNDS type="Window" left="14775" top="1755" width="14280" height="9045">
+   </BOUNDS>
+   <BOUNDS type="Node" left="300" top="3456" width="1335" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="471" width="7885" height="5970">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1" slicecount="1" values="1">
+   </PIN>
+   </NODE>
    <LINK srcnodeid="11" srcpinname="LevelEditor Enabled" dstnodeid="2" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="LevelEditor" dstnodeid="2" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Show Points">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output Node" dstnodeid="2" dstpinname="View">
    </LINK>
    </PATCH>

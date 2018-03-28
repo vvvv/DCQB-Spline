@@ -1,10 +1,10 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="4" locked="0">
-   <BOUNDS type="Window" left="285" top="300" width="6255" height="8910">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="4" locked="0">
+   <BOUNDS type="Window" left="285" top="300" width="6255" height="10470">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
-   <NODE systemname="Mouse (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="42">
+   <NODE systemname="MOUSE (DEVICES WINDOW)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="42">
    <BOUNDS type="Node" left="1113" top="455" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="1113" top="455" width="3000" height="3000">
@@ -20,12 +20,12 @@
    <PIN pinname="Device" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="46">
+   <NODE systemname="RENDERER (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="46">
    <BOUNDS type="Node" left="1095" top="5160" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="1095" top="5160" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="6360" top="285" width="8580" height="8910">
+   <BOUNDS type="Window" left="3135" top="1140" width="11505" height="7320">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -41,9 +41,15 @@
    </PIN>
    <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24X8">
    </PIN>
+   <PIN pinname="Auto Aspect Ratio" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Evaluate" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Cursor" slicecount="1" values="1">
+   </PIN>
    </NODE>
    <NODE systemname="Camera (Transform 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\Camera (Transform 2d).v4p" nodename="Camera (Transform 2d)" componentmode="Hidden" id="56">
-   <BOUNDS type="Node" left="3283" top="1699" width="100" height="100">
+   <BOUNDS type="Node" left="3763" top="1399" width="100" height="100">
    </BOUNDS>
    <PIN pinname="View" visible="1">
    </PIN>
@@ -55,13 +61,13 @@
    </PIN>
    <PIN pinname="Minimum Zoom" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="3283" top="1699">
+   <BOUNDS type="Box" left="3763" top="1399">
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="380">
-   <BOUNDS type="Box" left="3613" top="1309" width="795" height="240">
+   <BOUNDS type="Box" left="4093" top="1009" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="3613" top="1309" width="0" height="0">
+   <BOUNDS type="Node" left="4093" top="1009" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.01">
    </PIN>
@@ -123,7 +129,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="0" top="986" width="5451" height="5230">
    </BOUNDS>
-   <BOUNDS type="Window" left="17445" top="1350" width="9600" height="9465">
+   <BOUNDS type="Window" left="18945" top="4620" width="9600" height="9465">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="504" srcpinname="View" dstnodeid="562" dstpinname="View">
@@ -150,35 +156,35 @@
    </NODE>
    <LINK srcnodeid="569" srcpinname="Y Output Value" dstnodeid="531" dstpinname="Enabled">
    </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="572">
-   <BOUNDS type="Node" left="3915" top="5070" width="2655" height="270">
+   <NODE systemname="ProjectionBounds (Join)" filename="ProjectionBounds (Join).v4p" nodename="ProjectionBounds (Join).v4p" componentmode="Hidden" id="588">
+   <BOUNDS type="Node" left="1867" top="5802" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="3915" top="5070" width="1920" height="495">
+   <BOUNDS type="Box" left="32" top="3307" width="3670" height="4990">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Make sure the Renderer&apos;s window is a square &gt;|">
-   </PIN>
-   <PIN pinname="Output String" visible="0">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   <BOUNDS type="Window" left="2685" top="6570" width="6225" height="4980">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="579" dstpinname="Keyboard Device">
+   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Width" dstnodeid="588" dstpinname="Width">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="View" dstnodeid="579" dstpinname="View">
+   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Height" dstnodeid="588" dstpinname="Height">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="579" dstpinname="Camera Zoom">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="589" dstpinname="Keyboard Device">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="579" dstpinname="Camera Idle">
+   <LINK srcnodeid="56" srcpinname="View" dstnodeid="589" dstpinname="View">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="579" dstpinname="Camera State">
+   <LINK srcnodeid="56" srcpinname="Zoom" dstnodeid="589" dstpinname="Camera Zoom">
    </LINK>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="579" dstpinname="Mouse Device">
+   <LINK srcnodeid="56" srcpinname="Idle" dstnodeid="589" dstpinname="Camera Idle">
    </LINK>
-   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="579" dstpinname="Directory">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="589" dstpinname="Camera State">
    </LINK>
-   <NODE id="579" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="589" dstpinname="Mouse Device">
+   </LINK>
+   <LINK srcnodeid="381" srcpinname="Output String" dstnodeid="589" dstpinname="Directory">
+   </LINK>
+   <NODE id="589" systemname="Main (Game)" filename="vl\VLGameProject.vl" nodename="Main (Game)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="1095" top="2145" width="1365" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="750" top="0" width="2400" height="1800">
@@ -186,30 +192,24 @@
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="579" dstpinname="Mouse">
+   <LINK srcnodeid="42" srcpinname="Device" dstnodeid="589" dstpinname="Mouse">
    </LINK>
-   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="579" dstpinname="Keyboard">
+   <LINK srcnodeid="43" srcpinname="Device" dstnodeid="589" dstpinname="Keyboard">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="579" dstpinname="Camera">
+   <LINK srcnodeid="56" srcpinname="Camera State" dstnodeid="589" dstpinname="Camera">
    </LINK>
-   <LINK srcnodeid="579" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
+   <LINK srcnodeid="589" srcpinname="Camera" dstnodeid="504" dstpinname="Camera State">
    </LINK>
-   <LINK srcnodeid="579" srcpinname="State" dstnodeid="562" dstpinname="Input">
+   <LINK srcnodeid="589" srcpinname="State" dstnodeid="562" dstpinname="Input">
    </LINK>
-   <NODE systemname="AspectRatio (Transform)" nodename="AspectRatio (Transform)" componentmode="Hidden" id="580">
-   <BOUNDS type="Node" left="2730" top="5145" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Aspect Width" visible="1">
-   </PIN>
-   <PIN pinname="Aspect Height" visible="1">
-   </PIN>
-   <PIN pinname="Transform Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Width" dstnodeid="580" dstpinname="Aspect Width">
-   </LINK>
-   <LINK srcnodeid="46" srcpinname="Actual Backbuffer Height" dstnodeid="580" dstpinname="Aspect Height">
-   </LINK>
-   <LINK srcnodeid="580" srcpinname="Transform Out" dstnodeid="46" dstpinname="Aspect Ratio">
+   <LINK srcnodeid="588" srcpinname="Output" dstnodeid="589" dstpinname="Projection Bounds">
+   <LINKPOINT x="3225" y="6891">
+   </LINKPOINT>
+   <LINKPOINT x="5520" y="5502">
+   </LINKPOINT>
+   <LINKPOINT x="5100" y="768">
+   </LINKPOINT>
+   <LINKPOINT x="2685" y="1404">
+   </LINKPOINT>
    </LINK>
    </PATCH>

@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="6900" top="3285" width="0" height="0">
    </BOUNDS>
@@ -58,9 +58,9 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="-555" top="2190" width="12300" height="7860">
+   <BOUNDS type="Window" left="13425" top="3975" width="12300" height="7860">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="7">
    <BOUNDS type="Node" left="3840" top="4845" width="100" height="100">
