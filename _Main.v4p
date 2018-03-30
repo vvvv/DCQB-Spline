@@ -5,17 +5,17 @@
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="MOUSE (DEVICES WINDOW)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Mouse (Devices Window)" componentmode="Hidden" id="42">
-   <BOUNDS type="Node" left="1113" top="455" width="100" height="100">
+   <BOUNDS type="Node" left="183" top="830" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1113" top="455" width="3000" height="3000">
+   <BOUNDS type="Box" left="183" top="830" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Device" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Keyboard (Devices Window)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Keyboard (Devices Window)" componentmode="Hidden" id="43">
-   <BOUNDS type="Node" left="2676" top="446" width="100" height="100">
+   <BOUNDS type="Node" left="1746" top="821" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2676" top="446" width="3000" height="3000">
+   <BOUNDS type="Box" left="1746" top="821" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Device" visible="1">
    </PIN>
@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1095" top="5160" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="3135" top="1140" width="11505" height="7320">
+   <BOUNDS type="Window" left="6465" top="420" width="8700" height="7095">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -49,7 +49,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Camera (Transform 2d)" filename="..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\Camera (Transform 2d).v4p" nodename="Camera (Transform 2d)" componentmode="Hidden" id="56">
-   <BOUNDS type="Node" left="3763" top="1399" width="100" height="100">
+   <BOUNDS type="Node" left="2773" top="814" width="100" height="100">
    </BOUNDS>
    <PIN pinname="View" visible="1">
    </PIN>
@@ -61,13 +61,13 @@
    </PIN>
    <PIN pinname="Minimum Zoom" visible="1">
    </PIN>
-   <BOUNDS type="Box" left="3763" top="1399">
+   <BOUNDS type="Box" left="2773" top="814">
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="380">
-   <BOUNDS type="Box" left="4093" top="1009" width="795" height="240">
+   <BOUNDS type="Box" left="3103" top="424" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4093" top="1009" width="0" height="0">
+   <BOUNDS type="Node" left="3103" top="424" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.01">
    </PIN>
@@ -156,14 +156,14 @@
    </NODE>
    <LINK srcnodeid="569" srcpinname="Y Output Value" dstnodeid="531" dstpinname="Enabled">
    </LINK>
-   <NODE systemname="ProjectionBounds (Join)" filename="ProjectionBounds (Join).v4p" nodename="ProjectionBounds (Join).v4p" componentmode="Hidden" id="588">
-   <BOUNDS type="Node" left="1867" top="5802" width="0" height="0">
+   <NODE systemname="ProjectionBounds (Join)" filename="ProjectionBounds (Join).v4p" nodename="ProjectionBounds (Join).v4p" componentmode="InAWindow" id="588">
+   <BOUNDS type="Node" left="2287" top="5787" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="32" top="3307" width="3670" height="4990">
+   <BOUNDS type="Box" left="452" top="3292" width="3670" height="4990">
    </BOUNDS>
-   <BOUNDS type="Window" left="2685" top="6570" width="6225" height="4980">
+   <BOUNDS type="Window" left="2685" top="6570" width="6225" height="8175">
    </BOUNDS>
-   <PIN pinname="Output" visible="1">
+   <PIN pinname="Output" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="46" srcpinname="Actual Backbuffer Width" dstnodeid="588" dstpinname="Width">
@@ -202,14 +202,10 @@
    </LINK>
    <LINK srcnodeid="589" srcpinname="State" dstnodeid="562" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="588" srcpinname="Output" dstnodeid="589" dstpinname="Projection Bounds">
-   <LINKPOINT x="3225" y="6891">
+   <LINK srcnodeid="588" srcpinname="Output" dstnodeid="589" dstpinname="Projection Bounds" linkstyle="Bezier">
+   <LINKPOINT x="5965" y="8105">
    </LINKPOINT>
-   <LINKPOINT x="5520" y="5502">
-   </LINKPOINT>
-   <LINKPOINT x="5100" y="768">
-   </LINKPOINT>
-   <LINKPOINT x="2685" y="1404">
+   <LINKPOINT x="5450" y="175">
    </LINKPOINT>
    </LINK>
    </PATCH>
