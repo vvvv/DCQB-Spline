@@ -1,8 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" systemname="AboutView" filename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" scrollx="3120" scrolly="-360">
-   <BOUNDS type="Window" left="-7755" top="1605" width="17610" height="9465">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\AboutView.v4p" systemname="AboutView" filename="C:\Work\VL Game Project\DCQB-Spline\AboutView.v4p" scrollx="1395" scrolly="0">
+   <BOUNDS type="Window" left="10125" top="2385" width="17610" height="9465">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="6135" top="7200" width="2925" height="270">
@@ -15,13 +15,13 @@
    </PIN>
    <PIN pinname="Layer 1" visible="1">
    </PIN>
-   <PIN pinname="Layer Template Count" slicecount="1" values="5">
+   <PIN pinname="Layer Template Count" slicecount="1" values="4">
    </PIN>
    <PIN pinname="Layer 3" visible="1">
    </PIN>
    <PIN pinname="Layer 4" visible="1">
    </PIN>
-   <PIN pinname="Layer 5" visible="1">
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="1">
@@ -57,7 +57,7 @@
    <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Enabled" hiddenwhenlocked="1">
    </LINK>
    <NODE systemname="BangButton" filename="BangButton.v4p" nodename="BangButton.v4p" componentmode="Hidden" id="4">
-   <BOUNDS type="Node" left="7260" top="4245" width="100" height="100">
+   <BOUNDS type="Node" left="7575" top="4680" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -69,9 +69,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="6">
-   <BOUNDS type="Box" left="7275" top="2775" width="795" height="240">
+   <BOUNDS type="Box" left="7590" top="3210" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="7275" top="2775" width="0" height="0">
+   <BOUNDS type="Node" left="7590" top="3210" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" visible="1" values="||">
    </PIN>
@@ -81,7 +81,7 @@
    <LINK srcnodeid="6" srcpinname="Output Node" dstnodeid="4" dstpinname="Input">
    </LINK>
    <NODE systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="7785" top="3345" width="100" height="100">
+   <BOUNDS type="Node" left="8100" top="3780" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -89,7 +89,7 @@
    <LINK srcnodeid="7" srcpinname="Transform Out" dstnodeid="4" dstpinname="Transform">
    </LINK>
    <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="8">
-   <BOUNDS type="Node" left="9105" top="3330" width="100" height="100">
+   <BOUNDS type="Node" left="9420" top="3765" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Receive String" slicecount="1" values="|Menu Highlight Color|">
    </PIN>
@@ -148,12 +148,6 @@
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
    <PIN pinname="Output String" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="Cursor (DX9)" filename="..\..\vvvv-private\public-vl\VL.EditingFramework\vvvv\nodes\modules\DX9\Cursor (DX9).v4p" nodename="Cursor (DX9)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="17415" top="4395" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Transform (Transform 2d Vector)" nodename="Transform (Transform 2d Vector)" componentmode="Hidden" id="13">
@@ -352,6 +346,6 @@
    </LINK>
    <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 4">
    </LINK>
-   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 5">
-   </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
    </PATCH>

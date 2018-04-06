@@ -1,8 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\LeftMenu.v4p" systemname="LeftMenu" filename="C:\Work\VL Game Project\DCQB-Spline\LeftMenu.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\LeftMenu.v4p" systemname="LeftMenu" filename="C:\Work\VL Game Project\DCQB-Spline\LeftMenu.v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="0" top="2385" width="12270" height="9210">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE id="13" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
@@ -318,4 +318,6 @@
    </NODE>
    <LINK srcnodeid="51" srcpinname="Y Output Value" dstnodeid="49" dstpinname="Input 2">
    </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
    </PATCH>

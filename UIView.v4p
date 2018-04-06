@@ -1,11 +1,11 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\UIView.v4p" systemname="UIView" filename="C:\Work\VL Game Project\DCQB-Spline\UIView.v4p" scrollx="0" scrolly="0">
    <NODE systemname="RightMenu" filename="RightMenu.v4p" nodename="RightMenu.v4p" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="6900" top="3285" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="6900" top="3285" width="6255" height="6970">
    </BOUNDS>
-   <BOUNDS type="Window" left="2115" top="2205" width="10815" height="10800">
+   <BOUNDS type="Window" left="6225" top="3495" width="13965" height="10800">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -51,19 +51,19 @@
    <NODE id="5" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <BOUNDS type="Box" left="3840" top="5480" width="750" height="240">
+   <BOUNDS type="Box" left="4155" top="6320" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="3840" top="5480" width="750" height="240">
+   <BOUNDS type="Node" left="4155" top="6320" width="750" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="-555" top="2190" width="12300" height="7860">
+   <BOUNDS type="Window" left="10020" top="3015" width="18780" height="7860">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="3840" top="4845" width="100" height="100">
+   <BOUNDS type="Node" left="4155" top="5685" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
    </PIN>
@@ -71,13 +71,15 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Layer Template Count" slicecount="1" values="5">
+   <PIN pinname="Layer Template Count" slicecount="1" values="6">
    </PIN>
    <PIN pinname="Layer 3" visible="1">
    </PIN>
    <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer 5" visible="1">
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 6" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="5" dstpinname="Input Node">
@@ -95,7 +97,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="870" top="3285" width="9450" height="6295">
    </BOUNDS>
-   <BOUNDS type="Window" left="10275" top="5490" width="9450" height="10215">
+   <BOUNDS type="Window" left="2175" top="9405" width="9450" height="10215">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -144,12 +146,14 @@
    <PIN pinname="Input" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="34" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
-   </LINK>
    <NODE systemname="UI (Game Split)" filename="vl\VLGameProject.vl" nodename="UI (Game Split)" componentmode="Hidden" id="39">
    <BOUNDS type="Node" left="3825" top="1530" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Left Menu" visible="1">
+   </PIN>
+   <PIN pinname="Right Menu" visible="1">
+   </PIN>
+   <PIN pinname="Top Menu" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Output Node" dstnodeid="39" dstpinname="Input">
@@ -199,5 +203,29 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="42" srcpinname="Color Output" dstnodeid="40" dstpinname="Hightlight Color">
+   </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
+   <LINK srcnodeid="34" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
+   </LINK>
+   <NODE systemname="Helptext" filename="Helptext.v4p" nodename="Helptext.v4p" componentmode="Hidden" id="56">
+   <BOUNDS type="Node" left="10800" top="3285" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="10800" top="3285" width="5842" height="7108">
+   </BOUNDS>
+   <BOUNDS type="Window" left="20520" top="5640" width="8280" height="9255">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Transform In" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="56" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 6">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="56" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="39" srcpinname="Top Menu" dstnodeid="56" dstpinname="Input">
    </LINK>
    </PATCH>
