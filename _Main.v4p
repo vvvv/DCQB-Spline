@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
    <PATCH nodename="C:\Work\VL-Game-Project\_Main.v4p" systemname="GameState" filename="C:\Work\VL Game Project\GameState.v4p" scrollx="0" scrolly="4" locked="0">
-   <BOUNDS type="Window" left="450" top="690" width="6255" height="8280">
+   <BOUNDS type="Window" left="555" top="765" width="6255" height="8280">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1290" top="6180" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="6600" top="735" width="8805" height="6030">
+   <BOUNDS type="Window" left="6645" top="795" width="10080" height="6480">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -129,7 +129,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="195" top="776" width="5451" height="5230">
    </BOUNDS>
-   <BOUNDS type="Window" left="6270" top="1410" width="9600" height="9465">
+   <BOUNDS type="Window" left="17040" top="1635" width="9600" height="9465">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="504" srcpinname="View" dstnodeid="562" dstpinname="View">

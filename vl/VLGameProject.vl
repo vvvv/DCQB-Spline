@@ -2829,7 +2829,7 @@
     ************************ BangButton (Split) ************************
 
 -->
-        <Node Name="BangButton (Split)" Bounds="-156,679,758,476" Id="EKAtzExchgaNaG9TglUPNv">
+        <Node Name="BangButton (Split)" Bounds="-156,679,812,476" Id="EKAtzExchgaNaG9TglUPNv">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
@@ -2989,6 +2989,10 @@
             <Pin Id="EhtvqnsYePKM9SvhQwB9YU" Name="Output" Kind="OutputPin" />
             <Pin Id="E8rMw66SThtQUbt1aRfIkE" Name="Text" Kind="OutputPin" />
             <Pin Id="NyQUIoSD925MH1C8XvKvot" Name="Hovered" Kind="OutputPin" />
+            <ControlPoint Id="RYx9OkNykUmNNcsxnTp4j1" Bounds="615,1130" />
+            <Link Id="U5Bfm1018u5PkfuaNocbKb" Ids="Gfblxb9UJvsMOLrMSNYmXi,RYx9OkNykUmNNcsxnTp4j1" />
+            <Pin Id="QmrEw2nuzd9MbHDtr8GdyW" Name="Rect" Kind="OutputPin" Bounds="580,1093" />
+            <Link Id="MYlwI4tHrtZMUEe8VaGoZ2" Ids="RYx9OkNykUmNNcsxnTp4j1,QmrEw2nuzd9MbHDtr8GdyW" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -3132,23 +3136,23 @@
     ************************ RadioButton (Split Value) ************************
 
 -->
-        <Node Name="RadioButton (Split Value)" Bounds="-179,418,407,195" Id="PvyH5qlNpymP7tGuyd2eAL">
+        <Node Name="RadioButton (Split Value)" Bounds="-213,418,457,196" Id="PvyH5qlNpymP7tGuyd2eAL">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <Patch Id="M8lVMNUGWpSLvIcOUFeQqo" ManuallySortedPins="true">
-            <ControlPoint Id="Mj9eOEmIQgqPFofQ64zFJK" Bounds="-97,594" />
-            <ControlPoint Id="LHVhyi3S5gGQUoikFV3dD4" Bounds="186,591" />
-            <ControlPoint Id="JTHCN6PISqmMCbSOUTVpLr" Bounds="49,592" />
-            <ControlPoint Id="Gd8kI1sYt6lPY1IYOjFAaj" Bounds="123,591" />
-            <ControlPoint Id="TYbV5wcIu29QDA9oU3ZgHY" Bounds="-7,434" />
+            <ControlPoint Id="Mj9eOEmIQgqPFofQ64zFJK" Bounds="-131,594" />
+            <ControlPoint Id="LHVhyi3S5gGQUoikFV3dD4" Bounds="152,591" />
+            <ControlPoint Id="JTHCN6PISqmMCbSOUTVpLr" Bounds="15,592" />
+            <ControlPoint Id="Gd8kI1sYt6lPY1IYOjFAaj" Bounds="89,591" />
+            <ControlPoint Id="TYbV5wcIu29QDA9oU3ZgHY" Bounds="-41,434" />
             <Link Id="IBaZHM18ZXlOt34O5gRP0z" Ids="Mj9eOEmIQgqPFofQ64zFJK,PSFYB7tXnPPN1Qrh0DNibQ" IsHidden="true" />
             <Link Id="V1OsC8IYcliMwgZMi4WXrg" Ids="LHVhyi3S5gGQUoikFV3dD4,GqvG2O9vULwMBoPhPZmOou" IsHidden="true" />
             <Link Id="BR1MAbk7m4VNLVzZvdHjfW" Ids="JTHCN6PISqmMCbSOUTVpLr,FMAkW72aRWEP0ufVooBch3" IsHidden="true" />
             <Link Id="EecYdwR2fRKNNobm14MzJV" Ids="Gd8kI1sYt6lPY1IYOjFAaj,AVg9ARTYnL4Mz9hpZ0l8sQ" IsHidden="true" />
             <Link Id="MgkFSBtGztWOdl9jv6LeIv" Ids="LWk2hCoWSA3NP7y8nAkewR,TYbV5wcIu29QDA9oU3ZgHY" IsHidden="true" />
-            <Node Bounds="-9,473,105,22" Id="Js4SSlsghNBLB9JkvKCSUH">
+            <Node Bounds="-43,473,105,22" Id="Js4SSlsghNBLB9JkvKCSUH">
               <p:NodeReference LastCategoryFullName="Game.RadioButton" LastSymbolSource="VLGameProject.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -3166,7 +3170,7 @@
             <Link Id="UIQVSKsS5OOPgTjDhZsxJZ" Ids="H7FU3FyjuacNbr4DMQqiJI,JTHCN6PISqmMCbSOUTVpLr" />
             <Link Id="LhucaqdKSBAP1gUxatdxCx" Ids="CtzdiGNDak3P6x5JLEwQt0,Gd8kI1sYt6lPY1IYOjFAaj" />
             <Link Id="UjpHsugiE74LKexbb5VOQp" Ids="SQkZ02t2sweN8mgwjWWF5E,LHVhyi3S5gGQUoikFV3dD4" />
-            <Node Bounds="-99,542,134,13" Id="LeCBwA8qOhmNCq2ZmrcLQ8">
+            <Node Bounds="-133,542,134,13" Id="LeCBwA8qOhmNCq2ZmrcLQ8">
               <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToQuadTransformation" />
@@ -3176,10 +3180,10 @@
             </Node>
             <Link Id="FcDKUdgxiUNNk81bkFCqH6" Ids="KaYTpgYeGxGLEyOl2mecOO,R4G77GixvSbN6jMgLtjgnD" />
             <Link Id="N7qdvS34CrkLEGsWdWlBY1" Ids="AI7rPXmFiEpMkLgkcI7RPd,Mj9eOEmIQgqPFofQ64zFJK" />
-            <ControlPoint Id="CHH66fIhOtYQTWouzGofeI" Bounds="-9,592" />
+            <ControlPoint Id="CHH66fIhOtYQTWouzGofeI" Bounds="-43,592" />
             <Link Id="FPn5TfI5EyEOMXvOIdwK9C" Ids="LB3PYTIIGofOSZJSyizeIQ,CHH66fIhOtYQTWouzGofeI" />
             <Link Id="HFrwwdSqcXbLV3dyaeZcnu" Ids="CHH66fIhOtYQTWouzGofeI,APRE9OwJz66OMNz0CspKwq" IsHidden="true" />
-            <Node Bounds="-166,534,44,22" Id="A7MGAzXoYU5QEl3XSpHgzn">
+            <Node Bounds="-200,534,44,22" Id="A7MGAzXoYU5QEl3XSpHgzn">
               <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="SharpDX.Mathematics.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Center" />
@@ -3189,7 +3193,7 @@
               <Pin Id="FsBuVlchkmvMKT3t3PxtpV" Name="Center" Kind="OutputPin" />
             </Node>
             <Link Id="C3HF65IidjNQWrqbQH3Rwp" Ids="KaYTpgYeGxGLEyOl2mecOO,BU5zUcbmpM2OIeP0xEcR10" />
-            <ControlPoint Id="RjjF5UmdQaDPe0qYWVqD3j" Bounds="-165,595" />
+            <ControlPoint Id="RjjF5UmdQaDPe0qYWVqD3j" Bounds="-199,595" />
             <Link Id="HVuKBccAQjHNb9ONXnqeii" Ids="FsBuVlchkmvMKT3t3PxtpV,RjjF5UmdQaDPe0qYWVqD3j" />
             <Link Id="IMkqGa9prT7OPB8j4C9Bfn" Ids="RjjF5UmdQaDPe0qYWVqD3j,UwajUzwRtpPMCnozUd4Ejs" IsHidden="true" />
             <Pin Id="LWk2hCoWSA3NP7y8nAkewR" Name="Input" Kind="InputPin" />
@@ -3203,6 +3207,10 @@
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
+            <ControlPoint Id="PriOX01fTefMehnjPmhZoO" Bounds="203,590" />
+            <Link Id="DhFy9O6FD69NCf5iI4jOAh" Ids="KaYTpgYeGxGLEyOl2mecOO,PriOX01fTefMehnjPmhZoO" />
+            <Pin Id="EEGWG6QeNkPQYNuUbFUX9L" Name="Rect" Kind="OutputPin" Bounds="197,559" />
+            <Link Id="HKO2BNfP07bQIqo2R2bG5Z" Ids="PriOX01fTefMehnjPmhZoO,EEGWG6QeNkPQYNuUbFUX9L" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -3902,7 +3910,7 @@
     ************************ Rectangle (Split) ************************
 
 -->
-        <Node Name="Rectangle (Split)" Bounds="748,709,174,97" Id="J2d6VP6jCebOTFve6L4PNs">
+        <Node Name="Rectangle (Split)" Bounds="748,709,264,97" Id="J2d6VP6jCebOTFve6L4PNs">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
             <Choice Kind="OperationDefinition" Name="Operation" />
@@ -3929,6 +3937,26 @@
             <Link Id="LKaHkNgRYSsMzroaaQEDtX" Ids="JN3MdQWXQ2HPXOvdpMNna8,IPerdCpiEA3LdwPz3RHiam" />
             <Pin Id="SNJmecEZjuhPKdzDO0qR0p" Name="Size" Kind="OutputPin" Bounds="879,781" />
             <Link Id="IehFYPMkXwNLXIMN8bXiY1" Ids="IPerdCpiEA3LdwPz3RHiam,SNJmecEZjuhPKdzDO0qR0p" IsHidden="true" />
+            <Node Bounds="929,748,65,13" Id="DEKS7YT1wFRLFCUcxz2Gfy">
+              <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="VL.CoreLib.vl" LastDependency="VLGameProject.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Rectangle (Split Left Right Top Bottom)" />
+              </p:NodeReference>
+              <Pin Id="NlArDGhGMLJONNpgIevN9a" Name="Input" Kind="InputPin" />
+              <Pin Id="JXsMw1CDsdxNIna16KfXfb" Name="Left" Kind="OutputPin" />
+              <Pin Id="Rhsuev3fClyLv9ilbcmWgo" Name="Right" Kind="OutputPin" />
+              <Pin Id="H6WXwr8LRKOMvGNzvcvWZ5" Name="Top" Kind="OutputPin" />
+              <Pin Id="R1XtiW94QoGMxGZ1CM7Vj9" Name="Bottom" Kind="OutputPin" />
+            </Node>
+            <Link Id="Oo2VSk9GjGgMkbzgzRzGkQ" Ids="IyDXLjQibU4LdapEQzdOmN,NlArDGhGMLJONNpgIevN9a" />
+            <ControlPoint Id="CFkZw5oX9VSQUm93QO1xX6" Bounds="930,787" />
+            <Link Id="MKaOtop1qWkQGQK1na7tqv" Ids="JXsMw1CDsdxNIna16KfXfb,CFkZw5oX9VSQUm93QO1xX6" />
+            <Pin Id="RURjlFcYWX7NC2Z3ZlIh8O" Name="Left" Kind="OutputPin" Bounds="933,788" />
+            <Link Id="EMm2lPaTo2vPzlEGnbbpuD" Ids="CFkZw5oX9VSQUm93QO1xX6,RURjlFcYWX7NC2Z3ZlIh8O" IsHidden="true" />
+            <ControlPoint Id="K6qtlIUAfwvNl5VBpxGW9d" Bounds="973,785" />
+            <Link Id="B7mAInLD4n9QDC3nlKOnSs" Ids="H6WXwr8LRKOMvGNzvcvWZ5,K6qtlIUAfwvNl5VBpxGW9d" />
+            <Pin Id="GtB0SO771cYMgz9JfWCKOI" Name="Top" Kind="OutputPin" Bounds="973,785" />
+            <Link Id="KJGxika8RHYPwCPOgnLTJJ" Ids="K6qtlIUAfwvNl5VBpxGW9d,GtB0SO771cYMgz9JfWCKOI" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>

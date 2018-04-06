@@ -170,7 +170,7 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="SizeXY" dstnodeid="9" dstpinname="XY">
    </LINK>
-   <BOUNDS type="Window" left="15315" top="1350" width="12645" height="11340">
+   <BOUNDS type="Window" left="810" top="1035" width="12645" height="9105">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>

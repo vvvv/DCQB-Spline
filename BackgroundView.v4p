@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
-   <PATCH nodename="C:\Work\VL-Game-Project\BackgroundView.v4p" systemname="BackgroundView" filename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p" scrollx="15" scrolly="0">
+   <PATCH nodename="C:\Work\VL-Game-Project\BackgroundView.v4p" systemname="BackgroundView" filename="C:\Work\VL Game Project\DCQB-Spline\BackgroundView.v4p" scrollx="15" scrolly="-1800">
    <NODE systemname="FullscreenQuad (DX9)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\misc\FullscreenQuad (DX9).v4p" nodename="FullscreenQuad (DX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="450" top="2985" width="100" height="100">
    </BOUNDS>
@@ -33,7 +33,7 @@
    </PIN>
    </NODE>
    <NODE systemname="UniformScale (Transform)" nodename="UniformScale (Transform)" componentmode="Hidden" id="5">
-   <BOUNDS type="Node" left="3600" top="2550" width="100" height="100">
+   <BOUNDS type="Node" left="3585" top="3435" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -79,7 +79,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3465" top="1500" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="42">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="43">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -195,5 +195,15 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="28" srcpinname="Y Output Value" dstnodeid="5" dstpinname="XYZ">
+   </LINK>
+   <NODE systemname="Axis (DX9)" filename="%VVVV%\lib\nodes\modules\EX9\Axis (DX9).v4p" nodename="Axis (DX9)" componentmode="Hidden" id="29">
+   <BOUNDS type="Node" left="5955" top="4365" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="0.16">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="29" srcpinname="Layer" dstnodeid="12" dstpinname="Layer 3">
    </LINK>
    </PATCH>

@@ -116,7 +116,7 @@
    </LINK>
    <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="6225" top="3495" width="14265" height="10800">
+   <BOUNDS type="Window" left="6225" top="3495" width="13965" height="10800">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
@@ -485,7 +485,7 @@
    </PIN>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="XYZ" slicecount="1" values="0.81" visible="1">
+   <PIN pinname="XYZ" slicecount="1" visible="1" values="0.81">
    </PIN>
    </NODE>
    <LINK srcnodeid="20" srcpinname="Transform Out" dstnodeid="51" dstpinname="Transform In">

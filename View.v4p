@@ -62,7 +62,7 @@
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="6270" top="1410" width="9600" height="9465">
+   <BOUNDS type="Window" left="17040" top="1635" width="9600" height="9465">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
@@ -181,7 +181,7 @@
    <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="0" dstpinname="Layer 2">
    </LINK>
    <NODE id="2" componentmode="Hidden" systemname="LevelEditorView" filename="LevelEditorView.v4p" nodename="LevelEditorView">
-   <BOUNDS type="Window" left="3675" top="4290" width="14280" height="9045">
+   <BOUNDS type="Window" left="10950" top="2145" width="16290" height="10425">
    </BOUNDS>
    <BOUNDS type="Node" left="300" top="3456" width="1335" height="270">
    </BOUNDS>
