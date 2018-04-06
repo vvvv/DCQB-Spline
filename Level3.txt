@@ -4,7 +4,20 @@
   <Circle X="-0,5773501" Y="-0,02751482" Id="7" Size="0,2" TentacleCount="7"></Circle>
   <Circle X="-0,272347" Y="0,2253684" Id="9" Size="0,2" TentacleCount="7"></Circle>
   <Circle X="1,017381" Y="-0,1495963" Id="0" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-0,2083149" Y="-0,6487035" Id="7" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-0,653168" Y="-0,7276815" Id="8" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-0,6244678" Y="-0,4763879" Id="9" Size="0,2" TentacleCount="7"></Circle>
   <Dot X="0,1647507" Y="0,01952277" Id="3" Size="0,05" Seed="504"></Dot>
   <Dot X="-0,09076393" Y="-0,3611497" Id="4" Size="0,05" Seed="736"></Dot>
   <Dot X="0,5185875" Y="-0,333948" Id="5" Size="0,05" Seed="837"></Dot>
+  <Dot X="-0,298003" Y="-0,1317566" Id="10" Size="0,05" Seed="345"></Dot>
+  <Dot X="-0,2764779" Y="0,03696914" Id="11" Size="0,05" Seed="217"></Dot>
+  <Dot X="-0,3123531" Y="-0,113807" Id="12" Size="0,05" Seed="318"></Dot>
+  <Dot X="-0,2154899" Y="-0,0599584" Id="13" Size="0,05" Seed="690"></Dot>
+  <Dot X="-0,2334276" Y="0,0226095" Id="14" Size="0,05" Seed="834"></Dot>
+  <Dot X="-0,1701519" Y="0,01389023" Id="15" Size="0,05" Seed="855"></Dot>
+  <Dot X="-0,4881418" Y="-0,04559878" Id="16" Size="0,05" Seed="79"></Dot>
+  <Dot X="-0,4020413" Y="-0,03482904" Id="17" Size="0,05" Seed="25"></Dot>
+  <Dot X="-0,3876911" Y="0,1087673" Id="18" Size="0,05" Seed="497"></Dot>
+  <Dot X="-0,4917294" Y="0,1087673" Id="19" Size="0,05" Seed="375"></Dot>
 </Level>

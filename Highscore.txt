@@ -1,22 +1,5 @@
-{
-  "FsPickler": "4.0.0",
-  "type": "VL.Lib.Collections.Spread`1[Game.Score]",
-  "value": {
-    "array": {
-      "array": [
-        {
-          "Name": "Anton\r\n",
-          "Score": 0
-        },
-        {
-          "Name": "Anton2\r\n",
-          "Score": 0
-        },
-        {
-          "Name": "Anton3\r\n",
-          "Score": 22
-        }
-      ]
-    }
-  }
-}
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Score>
+  <Player Name="Tester">42</Player>
+</Score>

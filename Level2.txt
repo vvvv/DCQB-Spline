@@ -4,9 +4,13 @@
   <Circle X="0,5706551" Y="-0,05840069" Id="4" Size="0,2" TentacleCount="7"></Circle>
   <Circle X="0,387653" Y="-0,6688083" Id="5" Size="0,2" TentacleCount="7"></Circle>
   <Circle X="-0,13521" Y="-0,1456018" Id="6" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-1,187443" Y="0,739129" Id="5" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-1,509489" Y="0,08498929" Id="6" Size="0,2" TentacleCount="7"></Circle>
   <Dot X="-0,09163801" Y="0,3776047" Id="10" Size="0,05" Seed="626"></Dot>
   <Dot X="0,7797997" Y="0,4386455" Id="11" Size="0,05" Seed="395"></Dot>
   <Dot X="0,8582292" Y="-0,2153626" Id="12" Size="0,05" Seed="39"></Dot>
   <Dot X="-0,1613529" Y="-0,5380067" Id="13" Size="0,05" Seed="597"></Dot>
   <Dot X="-0,823646" Y="0,03752051" Id="14" Size="0,05" Seed="884"></Dot>
+  <Dot X="-0,7224348" Y="-0,5100138" Id="3" Size="0,05" Seed="783"></Dot>
+  <Dot X="-1,025185" Y="-0,188128" Id="4" Size="0,05" Seed="353"></Dot>
 </Level>

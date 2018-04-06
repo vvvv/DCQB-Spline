@@ -25,7 +25,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1290" top="6180" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="6645" top="795" width="10080" height="6480">
+   <BOUNDS type="Window" left="6630" top="780" width="9555" height="7365">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
@@ -210,4 +210,10 @@
    <LINKPOINT x="6015" y="150">
    </LINKPOINT>
    </LINK>
+   <NODE systemname="KeyMatch (Keyboard)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="KeyMatch (Keyboard)" componentmode="Hidden" id="619">
+   <BOUNDS type="Node" left="4035" top="4920" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4035" top="4920" width="3000" height="3000">
+   </BOUNDS>
+   </NODE>
    </PATCH>

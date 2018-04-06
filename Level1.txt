@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
 <Level>
-  <Circle X="0,507653" Y="-0,1846316" Id="9" Size="0,2" TentacleCount="7"></Circle>
-  <Circle X="0,0618484" Y="-0,154" Id="1" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="0,327653" Y="-0,3246316" Id="9" Size="0,2" TentacleCount="15"></Circle>
+  <Circle X="-0,4581516" Y="-0,184" Id="1" Size="0,2" TentacleCount="11"></Circle>
   <Dot X="0,922245" Y="0,4461699" Id="1" Size="0,05" Seed="227"></Dot>
   <Dot X="-0,592347" Y="0,1302488" Id="2" Size="0,05" Seed="538"></Dot>
   <Dot X="-0,2111942" Y="-0,5943218" Id="3" Size="0,05" Seed="657"></Dot>
@@ -10,4 +10,7 @@
   <Dot X="-0,03876221" Y="0,635453" Id="5" Size="0,05" Seed="988"></Dot>
   <Dot X="0,4125674" Y="0,376" Id="0" Size="0,05" Seed="466"></Dot>
   <Dot X="-0,2399158" Y="0,312" Id="2" Size="0,05" Seed="229"></Dot>
+  <Dot X="1,289592" Y="-0,175505" Id="0" Size="0,05" Seed="467"></Dot>
+  <Dot X="1,106681" Y="-0,3964071" Id="1" Size="0,05" Seed="544"></Dot>
+  <Dot X="0,6430946" Y="0,1211348" Id="2" Size="0,05" Seed="94"></Dot>
 </Level>
