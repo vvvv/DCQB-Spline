@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
-   <PATCH nodename="C:\Work\VL-Game-Project\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="3780" scrolly="180">
+   <PATCH nodename="C:\Work\VL-Game-Project\LevelEditorView.v4p" systemname="LevelEditorView" filename="C:\Work\VL Game Project\LevelEditorView.v4p" scrollx="0" scrolly="735">
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="2820" top="6495" width="2340" height="270">
    </BOUNDS>
@@ -13,7 +13,7 @@
    </PIN>
    <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer 4" visible="1">
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
    </PIN>
@@ -38,7 +38,7 @@
    <PIN pinname="Input Node" visible="1">
    </PIN>
    </NODE>
-   <BOUNDS type="Window" left="14775" top="1755" width="14280" height="9045">
+   <BOUNDS type="Window" left="3675" top="4290" width="14280" height="9045">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
@@ -149,7 +149,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Layer 1" visible="1">
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Enabled" visible="1">
    </PIN>
@@ -189,7 +189,7 @@
    </BOUNDS>
    <PIN pinname="Input Value" visible="1">
    </PIN>
-   <PIN pinname="Receive String" slicecount="1" values="|Quad Color|">
+   <PIN pinname="Receive String" slicecount="1" values="|Dot Color|">
    </PIN>
    </NODE>
    <LINK srcnodeid="95" srcpinname="Input Value" dstnodeid="20" dstpinname="Color Input">
@@ -247,11 +247,9 @@
    </PIN>
    <BOUNDS type="Box" left="6450" top="4770">
    </BOUNDS>
-   <BOUNDS type="Window" left="13425" top="3975" width="12300" height="7860">
+   <BOUNDS type="Window" left="1740" top="3705" width="12300" height="7860">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="103" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
-   </LINK>
    <LINK srcnodeid="16" srcpinname="UI" dstnodeid="103" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="21" srcpinname="Color Output" dstnodeid="103" dstpinname="Circles" hiddenwhenlocked="1">
@@ -272,14 +270,12 @@
    </NODE>
    <LINK srcnodeid="16" srcpinname="GizmoState" dstnodeid="104" dstpinname="Gizmo State">
    </LINK>
-   <LINK srcnodeid="104" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 4">
-   </LINK>
    <NODE systemname="LevelView" filename="LevelView.v4p" nodename="LevelView.v4p" componentmode="Hidden" id="105">
    <BOUNDS type="Node" left="2085" top="4770" width="2535" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="2085" top="4770" width="7150" height="7597">
    </BOUNDS>
-   <BOUNDS type="Window" left="14010" top="2160" width="13650" height="10815">
+   <BOUNDS type="Window" left="4890" top="1650" width="13650" height="10815">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -292,7 +288,7 @@
    </LINK>
    <LINK srcnodeid="24" srcpinname="Color Output" dstnodeid="105" dstpinname="Highlight" hiddenwhenlocked="1">
    </LINK>
-   <LINK srcnodeid="20" srcpinname="Color Output" dstnodeid="105" dstpinname="Quad" hiddenwhenlocked="1">
+   <LINK srcnodeid="20" srcpinname="Color Output" dstnodeid="105" dstpinname="Dot" hiddenwhenlocked="1">
    </LINK>
    <LINK srcnodeid="102" srcpinname="Y Output Value" dstnodeid="105" dstpinname="Enable Points" hiddenwhenlocked="1">
    </LINK>
@@ -301,10 +297,6 @@
    <LINK srcnodeid="16" srcpinname="Level" dstnodeid="105" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="85" srcpinname="Output Node" dstnodeid="105" dstpinname="View" hiddenwhenlocked="1">
-   </LINK>
-   <LINK srcnodeid="105" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
-   </LINK>
-   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 1">
    </LINK>
    <LINK srcnodeid="36" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 2">
    </LINK>
@@ -337,13 +329,11 @@
    </BOUNDS>
    <BOUNDS type="Box" left="333" top="3310" width="7075" height="4840">
    </BOUNDS>
-   <BOUNDS type="Window" left="-195" top="1365" width="12810" height="8475">
+   <BOUNDS type="Window" left="16725" top="2820" width="12810" height="8475">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
-   </LINK>
    <LINK srcnodeid="108" srcpinname="Y Output Value" dstnodeid="105" dstpinname="Evaluate">
    </LINK>
    <NODE id="38" systemname="WithinProjection (Transform)" nodename="WithinProjection (Transform)" componentmode="Hidden">
@@ -455,5 +445,17 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="119" srcpinname="Y Output Value" dstnodeid="110" dstpinname="XYZ">
+   </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
+   <LINK srcnodeid="1" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="105" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="104" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 4">
+   </LINK>
+   <LINK srcnodeid="103" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 5">
+   </LINK>
+   <LINK srcnodeid="107" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
    </LINK>
    </PATCH>

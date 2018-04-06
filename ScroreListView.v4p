@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\ScroreListView.v4p" systemname="ScroreListView" filename="C:\Work\VL Game Project\DCQB-Spline\ScroreListView.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\ScroreListView.v4p" systemname="ScroreListView" filename="C:\Work\VL Game Project\DCQB-Spline\ScroreListView.v4p">
    <NODE systemname="I (Spreads)" nodename="I (Spreads)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="3495" top="1650" width="100" height="100">
    </BOUNDS>
@@ -171,15 +171,17 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="15" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1500" top="2340" width="795" height="240">
+   <BOUNDS type="Box" left="1560" top="480" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="1500" top="2340" width="0" height="0">
+   <BOUNDS type="Node" left="1560" top="480" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.43">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="X">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="16" systemname="IOBox (Value Advanced)">
@@ -250,9 +252,9 @@
    </NODE>
    <LINK srcnodeid="7" srcpinname="Output" dstnodeid="6" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="1830" top="1350" width="7815" height="9570">
+   <BOUNDS type="Window" left="14460" top="930" width="7815" height="9570">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <LINK srcnodeid="13" srcpinname="OutputXY" dstnodeid="12" dstpinname="TranslateXY">
    </LINK>
@@ -332,4 +334,6 @@
    </NODE>
    <LINK srcnodeid="24" srcpinname="Color Output" dstnodeid="22" dstpinname="Input 2">
    </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
    </PATCH>

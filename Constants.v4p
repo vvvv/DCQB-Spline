@@ -1,19 +1,9 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.8.dtd" >
-   <PATCH nodename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta36.dtd" >
+   <PATCH nodename="C:\Work\VL-Game-Project\Constants.v4p" systemname="Constants" filename="C:\Work\VL Game Project\DCQB-Spline\Constants.v4p">
    <BOUNDS type="Window" left="2025" top="3495" width="11460" height="6000">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="36.0.0">
    </PACK>
-   <NODE nodename="IOBox (Color)" componentmode="InABox" id="3">
-   <BOUNDS type="Box" left="645" top="675" width="435" height="375">
-   </BOUNDS>
-   <BOUNDS type="Node" left="645" top="675" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.53845,0.53266,0.53143,1.00000|">
-   </PIN>
-   <PIN pinname="Color Output" visible="1">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="2">
    <BOUNDS type="Box" left="2175" top="615" width="390" height="345">
    </BOUNDS>
@@ -49,13 +39,13 @@
    </BOUNDS>
    <PIN pinname="Send String" slicecount="1" values="|Circle Color|">
    </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="3" srcpinname="Color Output" dstnodeid="4" dstpinname="Input Value">
-   </LINK>
    <NODE nodename="S (Color)" id="5">
    <BOUNDS type="Node" left="2160" top="1755" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Send String" slicecount="1" values="|Quad Color|">
+   <PIN pinname="Send String" slicecount="1" values="|Dot Color|">
    </PIN>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Color Output" dstnodeid="5" dstpinname="Input Value">
@@ -152,4 +142,18 @@
    </NODE>
    <LINK srcnodeid="13" srcpinname="Output" dstnodeid="14" dstpinname="Input Value">
    </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="15">
+   <BOUNDS type="Box" left="645" top="675" width="375" height="360">
+   </BOUNDS>
+   <BOUNDS type="Node" left="645" top="675" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.33956,0.72879,0.08001,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Color Output" dstnodeid="4" dstpinname="Input Value">
+   </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
    </PATCH>

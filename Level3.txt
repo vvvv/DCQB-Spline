@@ -1,16 +1,10 @@
-{
-  "FsPickler": "2.0.0",
-  "type": "Game.XLevel",
-  "value": {
-    "Circles": {
-      "array": {
-        "array": []
-      }
-    },
-    "Dots": {
-      "array": {
-        "array": []
-      }
-    }
-  }
-}
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Level>
+  <Circle X="-0,5773501" Y="-0,02751482" Id="7" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="-0,272347" Y="0,2253684" Id="9" Size="0,2" TentacleCount="7"></Circle>
+  <Circle X="1,017381" Y="-0,1495963" Id="0" Size="0,2" TentacleCount="7"></Circle>
+  <Dot X="0,1647507" Y="0,01952277" Id="3" Size="0,05" Seed="504"></Dot>
+  <Dot X="-0,09076393" Y="-0,3611497" Id="4" Size="0,05" Seed="736"></Dot>
+  <Dot X="0,5185875" Y="-0,333948" Id="5" Size="0,05" Seed="837"></Dot>
+</Level>

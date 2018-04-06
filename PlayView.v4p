@@ -266,4 +266,6 @@
    </NODE>
    <LINK srcnodeid="46" srcpinname="Layer" dstnodeid="21" dstpinname="Layer 1">
    </LINK>
+   <PACK Name="dx11" Version="1.2">
+   </PACK>
    </PATCH>
