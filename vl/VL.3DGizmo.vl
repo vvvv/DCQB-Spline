@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" Id="PssCENQaay6PG7RpGcpRVt" Version="0.79">
   <Patch Id="Ci3ybl6SqaqNruc6jkTkXF">
-    <Canvas Id="UzeS8rnGy0KPnEECFW3u1v" DefaultCategory="Editors" BordersChecked="false">
+    <Canvas Id="UzeS8rnGy0KPnEECFW3u1v" DefaultCategory="Editors">
       <!--
 
     ************************ GizmoDetector ************************
@@ -665,101 +665,6 @@
       <Canvas Id="NLvI4jfjqZZNTPTZHOaJeN" Name="Functions" Position="398,267" DefaultCategory="Editors.3D">
         <!--
 
-    ************************ GetAveragePosition ************************
-
--->
-        <Node Name="GetAveragePosition" Bounds="605,176,307,357" Id="U7BdRjWY3BnNbUjMfUUoPG">
-          <p:NodeReference>
-            <Choice Kind="OperationDefinition" Name="Operation" />
-          </p:NodeReference>
-          <Patch Id="IBbJNAsHG9cN7SXj2dcqut" IsGeneric="true" ManuallySortedPins="true">
-            <Node Bounds="798,382,102,113" Id="RM4w3eyU11XOm2XnvLoa1D">
-              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl">
-                <Choice Kind="OperationNode" Name="Average (Selector)" />
-                <Choice Kind="RegionFlag" Name="HigherOrderRegion" />
-              </p:NodeReference>
-              <Pin Id="QI1f7Q8ZFEHQd89ympDK77" Name="Input" Kind="InputPin" />
-              <Pin Id="QJM39GoyxKvNxoCMEblIX8" Name="Result" Kind="OutputPin" />
-              <Patch Id="BgxVYuXP5oCLPXIT4z3Hpp" Name="Selector" IsGeneric="true">
-                <Pin Id="MNxrqxCqy07QO4mIHWQRKp" MergeId="64322" Name="Source" Kind="InputPin" />
-                <Pin Id="I1SljIclp9DLwk1ijzdCts" MergeId="64323" Name="Result" Kind="OutputPin" />
-                <Node Bounds="810,421,78,22" Id="MI1AJ1lu7DmPTd95eIPTLf">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
-                    <CategoryReference Kind="Category" Name="EditablePoint" />
-                    <Choice Kind="OperationNode" Name="GetPosition" />
-                  </p:NodeReference>
-                  <Pin Id="MQ9zcS8qS27QMstOHsIZ4b" Name="Input" Kind="InputPin" />
-                  <Pin Id="PaLbYtwuALqLelWfeD7CCx" Name="Position" Kind="OutputPin" />
-                </Node>
-                <ControlPoint Id="B0DPT1uUpscNfNVH8Vt2eK" Bounds="814,388" />
-                <ControlPoint Id="Er9tREXrHgNL5wGF2cf3vA" Bounds="814,486" />
-              </Patch>
-            </Node>
-            <Node Bounds="653,217,207,115" Id="OmZ5839bm6LOMOZwLyrCj3">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.CoreLib.dll">
-                <Choice Kind="OperationNode" Name="Where" />
-                <CategoryReference Kind="Category" Name="Spread" NeedsToBeDirectParent="true" />
-                <Choice Kind="RegionFlag" Name="HigherOrderRegion" />
-              </p:NodeReference>
-              <Pin Id="EorKTA6T9fQOE7bmWFgEcv" Name="Input" Kind="InputPin" />
-              <Pin Id="SyOkGjUT4CjP1cxFxGgS8C" Name="Output" Kind="OutputPin" />
-              <Patch Id="VpAtnCE9GgRPjjJEiGPWno" Name="Predicate" IsGeneric="true">
-                <Pin Id="OP3LOw7SuexP50LkHGEgEf" MergeId="64333" Name="Source" Kind="InputPin" />
-                <Pin Id="BIL8xxt1hnROOya4iBbErJ" MergeId="64334" Name="Index" Kind="InputPin" />
-                <Pin Id="AP4Q95ZaQNGO9W5sSFm3fk" MergeId="64335" Name="Result" Kind="OutputPin" />
-                <Node Bounds="665,261,80,22" Id="Q8pWNLTWEkaOl9g4Rqsiyi">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
-                    <CategoryReference Kind="Category" Name="EditablePoint" />
-                    <Choice Kind="OperationNode" Name="GetSelected" />
-                  </p:NodeReference>
-                  <Pin Id="LKAMPKh1z0DLKmTUVzsVcL" Name="Input" Kind="InputPin" />
-                  <Pin Id="GTtpNd5revPMOvV3dhDRNE" Name="Selected" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="768,262,80,22" Id="RtvOxHZWifBOsCgLn5VBaE">
-                  <p:NodeReference LastCategoryFullName="Editors.EditablePoint" LastSymbolSource="VL.Editors.vl">
-                    <Choice Kind="OperationNode" Name="GetHovered" />
-                  </p:NodeReference>
-                  <Pin Id="HPvwgiGTDj1NuClLdb6La5" Name="Input" Kind="InputPin" />
-                  <Pin Id="BCN4yHdNgTsPoxEYM8LOrm" Name="Hovered" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="666,298,25,13" Id="HGTG9MDEI3JM59ELC042p3">
-                  <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CommonLanguageRuntimeLibrary">
-                    <Choice Kind="OperationNode" Name="OR" />
-                  </p:NodeReference>
-                  <Pin Id="JRPPA0S5arkLpLiG7KoxKI" Name="Input" Kind="InputPin" />
-                  <Pin Id="Iz8yr5aEL1hLj8bjywZqRC" Name="Input 2" Kind="InputPin" />
-                  <Pin Id="UdhS3OfBLVkNQV0CcfvQ4b" Name="Output" Kind="OutputPin" />
-                </Node>
-                <ControlPoint Id="LgIB6OSCyRTN1YawBrULqb" Bounds="666,224" />
-                <ControlPoint Id="RYpbAC2aCvQLYluT7prYp2" Bounds="745,223" />
-                <ControlPoint Id="NBBaMN8tm1mMy6rovT0q4S" Bounds="665,323" />
-              </Patch>
-            </Node>
-            <Link Id="Az0KDeE30QRPKhPFbaZ4JK" Ids="MNxrqxCqy07QO4mIHWQRKp,B0DPT1uUpscNfNVH8Vt2eK" IsHidden="true" />
-            <Link Id="NdFKGfZuJu6PzK3npqCfwW" Ids="Er9tREXrHgNL5wGF2cf3vA,I1SljIclp9DLwk1ijzdCts" IsHidden="true" />
-            <Link Id="RqEdsF7XHBbNHsvRR4voN4" Ids="OP3LOw7SuexP50LkHGEgEf,LgIB6OSCyRTN1YawBrULqb" IsHidden="true" />
-            <Link Id="OZj4oAceCBzQLtzbHKUkGl" Ids="BIL8xxt1hnROOya4iBbErJ,RYpbAC2aCvQLYluT7prYp2" IsHidden="true" />
-            <Link Id="LxFT5Fl6YaCNgXKfq3ga49" Ids="NBBaMN8tm1mMy6rovT0q4S,AP4Q95ZaQNGO9W5sSFm3fk" IsHidden="true" />
-            <Link Id="PMBp8dGHHZPPlUhyYasWRq" Ids="SyOkGjUT4CjP1cxFxGgS8C,QI1f7Q8ZFEHQd89ympDK77" />
-            <Link Id="DydZZFMj24XPFivjG8lOCF" Ids="B0DPT1uUpscNfNVH8Vt2eK,MQ9zcS8qS27QMstOHsIZ4b" />
-            <Link Id="IQM6k202cAGPxZaKLYC5Cs" Ids="PaLbYtwuALqLelWfeD7CCx,Er9tREXrHgNL5wGF2cf3vA" />
-            <Link Id="VAGsgyw8Vx9LWUNo7eJfww" Ids="LgIB6OSCyRTN1YawBrULqb,LKAMPKh1z0DLKmTUVzsVcL" />
-            <Link Id="AV6PUBaIqxINuiEfJJBWw4" Ids="GTtpNd5revPMOvV3dhDRNE,JRPPA0S5arkLpLiG7KoxKI" />
-            <Link Id="N5thJ9McLliNY6VIZWQZCX" Ids="LgIB6OSCyRTN1YawBrULqb,HPvwgiGTDj1NuClLdb6La5" />
-            <Link Id="GlFfqxvkJrEPqmCZX3K2p4" Ids="BCN4yHdNgTsPoxEYM8LOrm,Iz8yr5aEL1hLj8bjywZqRC" />
-            <Link Id="LhcAVEB1a4hMQai2Qa1CHJ" Ids="UdhS3OfBLVkNQV0CcfvQ4b,NBBaMN8tm1mMy6rovT0q4S" />
-            <ControlPoint Id="B7pQPTFgy9FN4POuN0QnnK" Bounds="658,192" />
-            <Link Id="SW59NgYrKqLN72roY5Uz7E" Ids="B7pQPTFgy9FN4POuN0QnnK,EorKTA6T9fQOE7bmWFgEcv" />
-            <Pin Id="Pamrcr3EP4TQa1vBiDsA78" Name="Input" Kind="InputPin" />
-            <Link Id="M9XnQY5s78pLEJRL7iPw4f" Ids="Pamrcr3EP4TQa1vBiDsA78,B7pQPTFgy9FN4POuN0QnnK" IsHidden="true" />
-            <ControlPoint Id="TxmlRSlgZ19LbFK8MuNCDT" Bounds="802,514" />
-            <Link Id="SOLmwRDhfHWOO6yFZLcfua" Ids="QJM39GoyxKvNxoCMEblIX8,TxmlRSlgZ19LbFK8MuNCDT" />
-            <Pin Id="EOV6ZZqBWRUNRTyJwpfnxT" Name="Result" Kind="OutputPin" />
-            <Link Id="EsrEqzDUQR7LvcV6NzEhFd" Ids="TxmlRSlgZ19LbFK8MuNCDT,EOV6ZZqBWRUNRTyJwpfnxT" IsHidden="true" />
-          </Patch>
-        </Node>
-        <!--
-
     ************************ ToVector3 ************************
 
 -->
@@ -859,7 +764,7 @@
           </p:NodeReference>
           <Patch Id="AzbJTXnoRKKPLpGH9ZX5ZQ" IsGeneric="true" ManuallySortedPins="true">
             <Node Bounds="1040,480,210,193" Id="RMxrGVp82mxNL1p7mz3Ofn">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               </p:NodeReference>
@@ -1729,7 +1634,7 @@
           </p:NodeReference>
           <Patch Id="LvMGkk80pdDQBODHkI1fOu" IsGeneric="true" ManuallySortedPins="true">
             <Node Bounds="-2155,116,292,208" Id="QYEjBIJk1qTQFxdnoxWtIk">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               </p:NodeReference>
@@ -1856,41 +1761,41 @@
           <Patch Id="RxVMMBjshdTMrckQCO8f5X" IsGeneric="true" ManuallySortedPins="true">
             <Pad Id="MnBD6l83ZjGM1m3JU7ol9h" Comment="Normal" Bounds="673,916,33,57" ShowValueBox="true" isIOBox="true" Value="new vec(1.0,0.0,0.0)">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="SharpDX.Mathematics.dll">
+              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector3" />
                 <CategoryReference Kind="Category" Name="3D" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="HqRsUJrO3qYLqzcOXGE2MS" Comment="Normal" Bounds="753,914,33,57" ShowValueBox="true" isIOBox="true" Value="new vec(0.0,1.0,0.0)">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="SharpDX.Mathematics.dll">
+              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector3" />
                 <CategoryReference Kind="Category" Name="3D" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="IHAF0CGAC8WNPyxtM5I42O" Comment="Normal" Bounds="835,914,33,57" ShowValueBox="true" isIOBox="true" Value="new vec(0.0,0.0,1.0)">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="SharpDX.Mathematics.dll">
+              <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector3" />
                 <CategoryReference Kind="Category" Name="3D" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="UhcI3d0fsybL7xuGQjCC6D" Comment="Proj" Bounds="1001,1257,33,19" ShowValueBox="true" isIOBox="true" Value="0.0">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="Lf44RgKeDZ3NVcSK0XkYbi" Comment="Constant" Bounds="977,1100,466,-46" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; exclude the plane defined by the normal of mousebutton pressed xyz from possible planes to drag on&quot;">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="QHuvgV9XfwvO3XJykTev6q" Comment="Constant" Bounds="1181,1419,362,14" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; of the two possible planes choose the one which more faces the camera&quot;">
               <p:ValueBoxSettings />
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CommonLanguageRuntimeLibrary">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -1963,7 +1868,7 @@
               <Pin Id="SmlNw2LpenyQYapExKUyAZ" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="923,1296,280,234" Id="HkG2NAItxRTLTk3heeg2PD">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               </p:NodeReference>
               <ControlPoint Id="Ce1dUCDtLtrMKDmA7cFq6u" Bounds="960,1302" Name="Input" Alignment="Top" />
@@ -3090,7 +2995,7 @@
           </p:NodeReference>
           <Patch Id="H0C8pRvXNsOOk985goTGqs" IsGeneric="true" ManuallySortedPins="true">
             <Node Bounds="2560,193,380,162" Id="U7V4ThXScu4MX14PAAi5De">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               </p:NodeReference>
@@ -3794,7 +3699,7 @@
           </p:NodeReference>
           <Patch Id="Txy9Nk1lFDUPNNM8UAxb3D" IsGeneric="true" ManuallySortedPins="true">
             <Node Bounds="5045,992,458,227" Id="VclsVGsRgMlOMs7GTeH1cQ">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               </p:NodeReference>
@@ -6932,5 +6837,4 @@
   <NugetDependency Id="HUeDghWvFQQPlHmlBz7XYG" Location="VL.Core" Version="0.38.1159-g6ca14eede7" />
   <NugetDependency Id="BeE9yBwqn6MMXnuchw1MuS" Location="VL.CoreLib" Version="0.38.1159-g6ca14eede7" />
   <NugetDependency Id="HeOE1yb6REuLhjSlDNas12" Location="VL.CoreLib.VVVV" Version="0.38.1159-g6ca14eede7" />
-  <NugetDependency Id="CazGhA7MIz5NQxpqJZJkhx" Location="VL.EditingFramework" Version="0.39.44-gb411b986d8" />
 </Document>
