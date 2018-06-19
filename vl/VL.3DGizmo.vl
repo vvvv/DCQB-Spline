@@ -6236,12 +6236,12 @@
 
 -->
       <Node Name="GizmoControls" Category="Editors.3D" Bounds="401,313" Id="UFEls057VuUOouTbqxbSo4">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
-          <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
-          <Choice Kind="RecordType, HasMasterPatchFlag, DefinitionFlag" Name="Record" />
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="RRUiLBWIdZJOqeLoJEPd9o" IsGeneric="true">
-          <Canvas Id="JmKfAZFIGsZPnkqHP08i8p" BordersChecked="false">
+          <Canvas Id="JmKfAZFIGsZPnkqHP08i8p">
             <ControlPoint Id="R2C0Gypxl7bO7kHNFAU8Hq" Bounds="729,32" />
             <Node Bounds="637,436,70,13" Id="M4bW0CXuf6EPkwZMYDSco1">
               <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="VL.CoreLib.vl">
